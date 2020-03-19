@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="src/css/main.css" />
+    <title>Frequently Asked Questions - NikGApps</title>
+  </head>
+  <body>
+    <nav class="vm__header headroom">
+      <header class="wrap">
+        <h1 class="branding">
+          <a href="index.html">NikGApps</a>
+        </h1>
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"
+          ><span class="navicon"></span
+        ></label>
+        <ul class="menu">
+          <li>
+            <a href="project.html"><i class="fa fa-info-circle"></i> About</a>
+          </li>
+          <li>
+            <a href="downloads.html"
+              ><i class="fa fa-download"></i> Downloads</a
+            >
+          </li>
+          <li>
+            <a href="announcements.html"
+              ><i class="fa fa-bullhorn"></i> Announcements</a
+            >
+          </li>
+          <li>
+            <a href="faqs.html"><i class="fa fa-question-circle"></i> FAQs</a>
+          </li>
+          <li>
+            <a href="team.html"><i class="fa fa-users"></i> Team</a>
+          </li>
+        </ul>
+      </header>
+    </nav>
+
+    <div class="page__header">
+      <h1 class="page__title">
+        Frequently Asked Questions
+      </h1>
+    </div>
+
+    <section class="faqs__inner wrap">
+      <div class="faqs__container">
+        <div class="faq__item">
+          <h4>What is the difference between OpenGapps and NikGApps?</h4>
+          <ul>
+            <li>
+              NikGApps comes with prebuilt YouTube Vanced and Lawnchair
+              launcher.
+            </li>
+            <li>
+              NikGApps packages are created from the apks present in my personal
+              device.
+            </li>
+            <li>
+			NikGApps follows a different partition mounting mechanism.</li>
+            <li>
+              NikGApps has it's own set of definition of packages defined
+              keeping users feedback in mind.
+            </li>
+            <li>
+              NikGApps installs all its applications and whitelist permissions
+              in /product partition whereas OpenGapps stores it in /system
+              partition.
+            </li>
+            <li>
+              NikGApps has it's own implementation of install configuration
+              (defined in nikgapps.config and debloater.config).
+            </li>
+          </ul>
+        </div>
+        <div class="faq__item">
+          <h4>The installation failed?</h4>
+          <p>It could be because of sevaral reasons</p>
+          <ul>
+            <li>
+              In case of "Busybox setup failed. Aborting..." error, Push the
+              package to /sdcard and try flashing again.
+            </li>
+            <li>
+			Make sure the downloaded file is not corrupted.</li>
+            <li>
+			Make sure zip file opens properly in File Explorer.</li>
+            <li>
+              Try mounting system manually in recovery before flashing the zip
+            </li>
+            <li>
+              If you are on <code>A/B</code> device, make sure you follow the
+              procedure (Flash the rom, twrp, reboot to recovery, flash rom,
+              twrp, reboot to recovery, flash gapps).
+            </li>
+          </ul>
+        </div>
+        <div class="faq__item">
+          <h4>How to use nikgapps.config?</h4>
+          <ul>
+            <li>
+              Nikgapps.config is placed in <code>/sdcard/NikGApps</code> folder
+              automatically after first install with all the packages enabled
+              for installation.
+            </li>
+            <li>
+              If you want to configure the intallation with your very first
+              installation, extract nikgapps.config from the gapps zip and place
+              it to <code>/sdcard/NikGapps</code> folder.
+            </li>
+            <li>
+              Edit the file and set 0 against the package that you want to skip,
+              save the file, flash the gapps.
+            </li>
+            <li>
+              For e.g. if you want to skip YouTube during the installation, the
+              config should read <code>YouTube=0</code>.
+            </li>
+            <li>
+              All the lines starting # in config file are comments. Adding
+              comments (#) in front of Package name will not skip it's
+              installation. i.e. <code># YouTube=0</code> will not skip the
+              intallation.
+            </li>
+            <li>
+              'files' Package in nikgapps.config is not GoogleFiles. it is a
+              package of set of important files for gapps installations. Never
+              skip that
+            </li>
+          </ul>
+        </div>
+        <div class="faq__item">
+          <h4>How to use debloater.config?</h4>
+          <ul>
+            <li>
+              Debloater recognizes full path as well as folder names that you
+              want to delete in priv-app or app folder.
+            </li>
+            <li>
+              (Recommended) You can Just enter the name of the folder you want
+              to delete. For e.g. YouTube. This would remove the YouTube folder
+              wherever it is located in <code>/system/app</code>,
+              <code>/system/priv-app</code>, <code>/system/product/app</code>,
+              <code>/system/product/priv-app</code>.
+            </li>
+            <li>
+              If you want to delete a specific file/folder you can enter full
+              path. For e.g. <code>/system/app/YouTube</code>.
+            </li>
+            <li>
+            However, the above one wouldn't work in case of SAR device since the
+            partition path you're looking for can be
+            <code>/system_root/system/app/YouTube</code> or
+            <code>/system/system/app/YouTube</code>(Use the Folder method).
+			</li>
+          </ul>
+        </div>
+        <div class="faq__item">
+          <h4>Is Addon Package compatible with Android 9 and 10 both?</h4>
+          <p>
+			<ul>
+			<li>
+            Bromite and Bromite webview doesn't work well with Android 10 yet.
+            Rest all works!
+			</li>
+			</ul>
+          </p>
+        </div>
+        <div class="faq__item">
+          <h4>
+            Why are Pixel Launcher and Lawnchair Launcher missing in Q packages?
+          </h4>
+          <ul>
+            <li>
+              Pixel Launcher requires overlay changes which are not part of
+              gapps yet.
+            </li>
+            <li>
+              Lawnchair is in alpha status, it will be added back once it is
+              stable enough.
+            </li>
+          </ul>
+        </div>
+        <div class="faq__item">
+          <h4>How to report an issue?</h4>
+          <p>
+		  <ul>
+            <li>
+            Check <code>/sdcard/NikGApps/logs</code> folder after gapps
+            installation, it will have logs file present, share it in Telegram
+            group
+			</li>
+          </ul>
+          </p>
+        </div>
+        <div class="faq__item">
+          <h4>Can I buy you a cup of coffee?</h4>
+          <p>
+		  <ul>
+            <li>
+            Sure! :) Just find the Donate button!
+			</li>
+          </ul>
+          </p>
+        </div>
+        <div class="faq__item">
+          <h4>Where's my cat?</h4>
+          <p>
+		  <ul>
+            <li>
+            Sitting somewhere in the corner and rooting her device? ;)
+			</li>
+          </ul>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer__inner wrap">
+        <span class="disclaimer"
+          ><strong>Android</strong> is a Trademark of Google Inc.</span
+        >
+        <span class="copyright">
+          Copyright NikGApps - 2019.
+        </span>
+      </div>
+    </footer>
+
+    <!-- Scripts  -->
+  </body>
+</html>
