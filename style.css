@@ -18,7 +18,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	font-family: 'Nunito', sans-serif;
-	background: linear-gradient(90deg, rgba(84, 150, 255, .60), rgba(135, 57, 229, .60)),
+	background: linear-gradient(90deg, rgba(84, 150, 255, .55), rgba(135, 57, 229, .55)),
 				url(hero.jpg) center bottom;
 	background-size: cover;
 	color: #fff;
