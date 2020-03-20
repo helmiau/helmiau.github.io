@@ -17,7 +17,7 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	font-family: 'Source Code Pro', monospace;
+	font-family: 'Nunito', sans-serif;
 	background: linear-gradient(90deg, rgba(84, 150, 255, .78), rgba(135, 57, 229, .85)),
 				url(hero.jpg) center bottom;
 	background-size: cover;
@@ -42,7 +42,7 @@ body {
 .profile__info h1 {
 	font-size: 30px;
 	display: inline-block;
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Nunito', sans-serif;
 	font-weight: 600;
 	position: relative;
 }
