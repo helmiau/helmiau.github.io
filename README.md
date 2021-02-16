@@ -1,3 +1,2 @@
-# helmiau.github.io
-Helmi Amirudin Weblite
-https://helmiau.github.io
+# Helmi Amirudin Weblite (Landing Page)
+https://helmiau.github.io or https://helmiau.my.id
