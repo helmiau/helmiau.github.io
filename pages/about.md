@@ -5,7 +5,9 @@ permalink: /about/
 weight: 3
 ---
 
-<img src="{{ site.author.image }}" alt="{{ site.title }}" style="float:left; display:block; width:60%; margin-left:auto; margin-right:auto; ! important;">
+<div style="center; display:flex; width:60%; margin-left:auto; margin-right:auto; ! important;" >
+<img src="{{ site.author.image }}" alt="{{ site.title }}">
+</div>
 
 Hi I am <b>{{ site.author.name }}</b> :wave:,<br>
 I am a college student of Imam Syafi'i Islamic College. I learn more about Islamic religion, currently I have a hobby and take a job as graphic designer, C# & Bash script shell coder. Contact me below if you need a graphic designer or something else.
