@@ -5,14 +5,14 @@ permalink: /about/
 weight: 3
 ---
 
-{% include landing.html %}
-
 ## **About Me**
+<img src="{{ site.author.image }}" alt="{{ site.title }}" class="circle-image wow animated zoomIn" data-wow-delay=".1s">
 
 Hi I am **{{ site.author.name }}** :wave:,<br>
 I am a college student of Imam Syafi'i Islamic College. I learn more about Islamic religion, currently I have a hobby and take a job as graphic designer, C# & Bash script shell coder. Contact me below if you need a graphic designer or something else.
 
 {% include social.html %}
+
 
 I use GitHub Pages template theme <a href="https://github.com/YoussefRaafatNasry/portfolYOU">portfolYOU</a>
 
@@ -28,7 +28,7 @@ I use GitHub Pages template theme <a href="https://github.com/YoussefRaafatNasry
 {% include about/skills.html title="Other Skills" source=site.data.other-skills %}
 </div>
 
-## **My Scholarship & Job Timeline**
+
 
 <div class="row">
 {% include about/timeline.html %}
