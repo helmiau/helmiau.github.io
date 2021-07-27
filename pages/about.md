@@ -27,7 +27,8 @@ I am a college student of Imam Syafi'i Islamic College. I learn more about Islam
     {%- endif -%}
   {% endfor %}
 </div>
-
+<br>
+<br>
 ### **My Skills**
 
 <div class="row">
