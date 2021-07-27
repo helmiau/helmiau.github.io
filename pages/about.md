@@ -6,7 +6,7 @@ weight: 3
 ---
 
 <div class="row">
-<img src="{{ site.author.image }}" alt="{{ site.title }}" class="circle-image wow animated zoomIn" data-wow-delay=".1s" style="float:left; ! important;">
+<img src="{{ site.author.image }}" alt="{{ site.title }}" style="float:left; ! important;">
 
 <span style="float:right; ! important;">
 Hi I am <b>{{ site.author.name }}</b> :wave:,<br>
