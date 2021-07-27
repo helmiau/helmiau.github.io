@@ -5,7 +5,7 @@ permalink: /about/
 weight: 3
 ---
 
-<div style="center; display:flex; width:60%; margin-left:auto; margin-right:auto; ! important;" >
+<div style="center; display:flex; width:40%; height:40%; margin-left:auto; margin-right:auto; ! important;" >
 <img src="{{ site.author.image }}" alt="{{ site.title }}">
 </div>
 
