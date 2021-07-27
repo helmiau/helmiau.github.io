@@ -6,20 +6,13 @@ weight: 3
 ---
 
 <p align="center">
-  <img src="{{ site.author.image }}" alt="{{ site.title }}" width="40%" height="40%" style="display:flex;">
-</p>
-
-<div style="center; display:flex; width:40%; height:40%; margin-left:auto; margin-right:auto; ! important;" >
-
-</div>
+<img src="{{ site.author.image }}" alt="{{ site.title }}" width="40%" height="40%" style="display:flex;">
 
 Hi I am <b>{{ site.author.name }}</b> :wave:,<br>
 I am a college student of Imam Syafi'i Islamic College. I learn more about Islamic religion, currently I have a hobby and take a job as graphic designer, C# & Bash script shell coder. Contact me below if you need a graphic designer or something else.
 
-<div style="center" >
 {% include social.html %}
-</div>
-<br>
+</p>
 
 ## **My Skills**
 
@@ -39,10 +32,10 @@ I am a college student of Imam Syafi'i Islamic College. I learn more about Islam
 {% include about/skills.html title="Other Skills" source=site.data.other-skills %}
 </div>
 
-
-
-<div class="row">
 {% include about/timeline.html %}
-</div>
 
-<h5 align="center">I use GitHub Pages template theme <a href="https://github.com/YoussefRaafatNasry/portfolYOU">portfolYOU</a></h5>
+<p align="center">
+<small class="text-muted mb-2">
+  <h7 align="center">I use GitHub Pages template theme <a href="https://github.com/YoussefRaafatNasry/portfolYOU">portfolYOU</a></h5>
+</small>
+</p>
