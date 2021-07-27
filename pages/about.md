@@ -31,7 +31,7 @@ I use GitHub Pages template theme <a href="https://github.com/YoussefRaafatNasry
 ## **My Scholarship**
 
 <div class="row">
-{% include about/scholarship.html %}
+{% include _data/scholarship.html %}
 </div>
 
 ## **My Job Timeline**
