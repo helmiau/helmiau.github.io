@@ -28,13 +28,7 @@ I use GitHub Pages template theme <a href="https://github.com/YoussefRaafatNasry
 {% include about/skills.html title="Other Skills" source=site.data.other-skills %}
 </div>
 
-## **My Scholarship**
-
-<div class="row">
-{% include _data/scholarship.html %}
-</div>
-
-## **My Job Timeline**
+## **My Scholarship & Job Timeline**
 
 <div class="row">
 {% include about/timeline.html %}
