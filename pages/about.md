@@ -6,10 +6,10 @@ weight: 3
 ---
 
 <p align="center">
-<img src="{{ site.author.image }}" alt="{{ site.title }}" width="40%" height="40%" style="display:flex;">
+<img src="{{ site.author.image }}" alt="{{ site.title }}" width="168px" height="168px" style="display:flex;">
 <br>
 Hi I am <b>{{ site.author.name }}</b> :wave:,<br>
-I am a college student of Imam Syafi'i Islamic College. I learn more about Islamic religion, currently I have a hobby and take a job as graphic designer, C# & Bash script shell coder. Contact me below if you need a graphic designer or something else.
+I am a college student of <b>Imam Syafi'i Islamic College, Jember</b>. I learn more about Islamic religion and take more focus into <b>Hadeeth Science</b>, currently I have a hobby and take a job as <b>graphic designer, C# & Bash script shell coder</b>. Contact me below if you need a graphic designer or something else.
 </p>
 
 <div style="display:flex; justify-content: center;">
