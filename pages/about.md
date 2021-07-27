@@ -50,9 +50,8 @@ I am a college student of Imam Syafi'i Islamic College. I learn more about Islam
 {% include about/timeline.html %}
 
 <br>
-<br>
 <p align="center">
 <small class="text-muted mb-2">
-  I use GitHub Pages template theme <a href="https://github.com/YoussefRaafatNasry/portfolYOU">portfolYOU</a>.
+  I use <a href="https://github.com/YoussefRaafatNasry/portfolYOU">portfolYOU</a> template theme for GitHub Pages.
 </small>
 </p>
