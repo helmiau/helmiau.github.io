@@ -5,19 +5,15 @@ permalink: /about/
 weight: 3
 ---
 
-<div class="row">
-<img src="{{ site.author.image }}" alt="{{ site.title }}" style="float:left; ! important;">
+<img src="{{ site.author.image }}" alt="{{ site.title }}" style="float:left; display:block; width:60%; margin-left:auto; margin-right:auto; ! important;">
 
-<span style="float:right; ! important;">
 Hi I am <b>{{ site.author.name }}</b> :wave:,<br>
 I am a college student of Imam Syafi'i Islamic College. I learn more about Islamic religion, currently I have a hobby and take a job as graphic designer, C# & Bash script shell coder. Contact me below if you need a graphic designer or something else.
-</span>
 
-</div>
-
-<div class="row">
+<div style="center" >
 {% include social.html %}
 </div>
+<br>
 
 I use GitHub Pages template theme <a href="https://github.com/YoussefRaafatNasry/portfolYOU">portfolYOU</a>
 
