@@ -1,11 +1,8 @@
-- name: Indonesian Language
-  percentage: 90
+
+- name: Bash / Shell
+  percentage: 74
   color: danger
 
-- name: Arabic Language
-  percentage: 80
-  color: secondary
-
-- name: English Language
-  percentage: 80
+- name: C#
+  percentage: 79
   color: secondary

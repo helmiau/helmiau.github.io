@@ -15,10 +15,10 @@ I am a college student of Imam Syafi'i Islamic College. I learn more about Islam
 <div class="row">
 {% include about/skills.html title="Native Languages" source=site.data.native-languages %}
 {% include about/skills.html title="Programming Languages" source=site.data.programming-skills %}
-{% include about/skills.html title="Adobe Softwares Skills" source=site.data.other-skills %}
-{% include about/skills.html title="Affinity Serif Skills" source=site.data.affinity-skills %}
-{% include about/skills.html title="Microsoft Office Skills" source=site.data.microsoft-skills %}
-{% include about/skills.html title="Google Docs Skills" source=site.data.microsoft-skills %}
+{% include about/skills.html title="Adobe Skills" source=site.data.adobe-skills %}
+{% include about/skills.html title="Affinity Skills" source=site.data.affinity-skills %}
+{% include about/skills.html title="Microsoft Skills" source=site.data.microsoft-skills %}
+{% include about/skills.html title="Google Skills" source=site.data.google-skills %}
 {% include about/skills.html title="Other Skills" source=site.data.other-skills %}
 </div>
 
