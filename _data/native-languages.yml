@@ -1,0 +1,11 @@
+- name: Indonesian Language
+  percentage: 90
+  color: danger
+
+- name: Arabic Language
+  percentage: 80
+  color: secondary
+
+- name: English Language
+  percentage: 80
+  color: secondary
