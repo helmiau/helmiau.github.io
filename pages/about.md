@@ -5,8 +5,12 @@ permalink: /about/
 weight: 3
 ---
 
+<p align="center">
+  <img src="{{ site.author.image }}" alt="{{ site.title }}" width="40%" height="40%" style="display:flex;">
+</p>
+
 <div style="center; display:flex; width:40%; height:40%; margin-left:auto; margin-right:auto; ! important;" >
-<img src="{{ site.author.image }}" alt="{{ site.title }}">
+
 </div>
 
 Hi I am <b>{{ site.author.name }}</b> :wave:,<br>
@@ -16,8 +20,6 @@ I am a college student of Imam Syafi'i Islamic College. I learn more about Islam
 {% include social.html %}
 </div>
 <br>
-
-I use GitHub Pages template theme <a href="https://github.com/YoussefRaafatNasry/portfolYOU">portfolYOU</a>
 
 ## **My Skills**
 
@@ -42,3 +44,5 @@ I use GitHub Pages template theme <a href="https://github.com/YoussefRaafatNasry
 <div class="row">
 {% include about/timeline.html %}
 </div>
+
+<h5 align="center">I use GitHub Pages template theme <a href="https://github.com/YoussefRaafatNasry/portfolYOU">portfolYOU</a></h5>
