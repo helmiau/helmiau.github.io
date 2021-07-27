@@ -12,11 +12,11 @@ Hi I am <b>{{ site.author.name }}</b> :wave:,<br>
 I am a college student of Imam Syafi'i Islamic College. I learn more about Islamic religion, currently I have a hobby and take a job as graphic designer, C# & Bash script shell coder. Contact me below if you need a graphic designer or something else.
 </p>
 
-<footer class="mt-auto py-3 text-center">
-  {% include social.html %}
-</footer>
+<div style="display:flex; justify-content: center;">
+{% include social.html %}
+</div>
 
-## **My Skills**
+### **My Skills**
 
 <div class="row">
 {% include about/skills.html title="Native Languages" source=site.data.native-languages %}
@@ -40,6 +40,6 @@ I am a college student of Imam Syafi'i Islamic College. I learn more about Islam
 <br>
 <p align="center">
 <small class="text-muted mb-2">
-  I use GitHub Pages template theme <a href="https://github.com/YoussefRaafatNasry/portfolYOU">portfolYOU
+  I use GitHub Pages template theme <a href="https://github.com/YoussefRaafatNasry/portfolYOU">portfolYOU</a>.
 </small>
 </p>
