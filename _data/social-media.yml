@@ -1,0 +1,57 @@
+# Get Icons  from : https://fontawesome.com/icons
+# Get Colors from : https://brandcolors.net/
+
+github:
+  url   : https://www.github.com/
+  icon  : fab fa-github
+  color : 333333
+
+behance:
+  url   : https://www.behance.net/
+  icon  : fab fa-behance
+  color : 1769ff
+
+dribbble:
+  url   : https://dribbble.com/
+  icon  : fab fa-dribbble
+  color : 444444
+
+youtube:
+  url   : https://www.youtube.com/
+  icon  : fab fa-youtube
+  color : ff0000
+
+email:
+  url   : "mailto:"
+  icon  : fas fa-envelope
+  color : db4437
+
+facebook:
+  url   : https://www.facebook.com/
+  icon  : fab fa-facebook
+  color : 3b5998
+
+twitter:
+  url   : https://www.twitter.com/
+  icon  : fab fa-twitter
+  color : 1da1f2
+
+instagram:
+  url   : https://www.instagram.com/
+  icon  : fab fa-instagram
+  color : 405de6
+
+whatsapp:
+  url   : https://wa.me/
+  icon  : fab fa-whatsapp
+  color : ff0000
+
+telegram:
+  url   : https://t.me/
+  icon  : fab fa-telegram
+  color : ff0000
+
+paypal:
+  url   : https://paypal.me/
+  icon  : fab fa-paypal
+  color : ff0000

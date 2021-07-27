@@ -1,1 +1,81 @@
-theme: jekyll-theme-minimal
+### Site Settings ###
+title               : Helmi Amirudin
+description         : >-
+                      I turn coffee :coffee: into code,
+                      use tabs over spaces
+                      and never broke production.
+baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
+repository          : helmiau/helmiau.github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
+remote_theme        : YoussefRaafatNasry/portfolYOU
+
+
+### Plugins ###
+plugins:
+  - jemoji
+
+
+### Navbar Settings ###
+nav_exclude:                                            # The following paths are excluded from navbar
+  - pages/tags.html
+  - pages/404.html
+  - pages/index.md**                           # For Documentation Only
+
+
+### Author Info ###
+author:
+  name              : Helmi Amirudin
+  image             : https://raw.githubusercontent.com/helmiau/helmiau.github.io/vipinmishra-template/mylogo/logoh14.png
+  behance           : helmiamirudin
+  dribbble          : helmiau
+  email             : helmilaw@gmail.com
+  facebook          : helmiau
+  github            : helmiau
+  instagram         : helmiau_
+  twitter           : helmiau
+  youtube           : channel/UCiW0E-PUU7v8_G0TYoCYVGA
+  whatsapp          : 6285852222724
+  telegram          : helmiau
+
+
+### Posts ###
+permalink: /blog/:title
+
+
+### Collections ###
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name
+
+
+### Disqus ###
+#disqus:
+#  shortname: your-short-name-disqus                     # Your website Shortname on disqus
+
+
+### Analytics ###
+analytics:
+  enabled: false                                        # Set true to enable analytics
+  google:
+    tracking_id: your-google-tracking-id
+
+
+### Defaults for collections ###
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "page"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      comments: false                                   # Set to true to enable disqus comments
+
+### Exclude from processing ###
+exclude:
+  - README.md
+  - CONTRIBUTING.md
+  - LICENSE
+  - "*.log"
