@@ -1,15 +1,15 @@
-- name: Adobe Photoshop
+- name: Photoshop
   percentage: 81
   color: info
 
-- name: Adobe Illustrator
+- name: Illustrator
   percentage: 92
   color: success
 
-- name: Adobe After Effects
+- name: After Effects
   percentage: 86
   color: info
 
-- name: Adobe Illustrator
+- name: Illustrator
   percentage: 90
   color: success

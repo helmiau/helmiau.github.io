@@ -1,11 +1,11 @@
-- name: Affinity Designer
+- name: Designer
   percentage: 98
   color: info
 
-- name: Affinity Photo
+- name: Photo
   percentage: 72
   color: success
 
-- name: Affinity Publisher
+- name: Publisher
   percentage: 65
   color: info
