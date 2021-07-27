@@ -29,6 +29,8 @@ I use GitHub Pages template theme <a href="https://github.com/YoussefRaafatNasry
 </div>
 <div class="row">
 {% include about/skills.html title="Adobe Skills" source=site.data.adobe-skills %}
+</div>
+<div class="row">
 {% include about/skills.html title="Affinity Skills" source=site.data.affinity-skills %}
 {% include about/skills.html title="Other Skills" source=site.data.other-skills %}
 </div>
