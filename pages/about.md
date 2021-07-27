@@ -6,9 +6,9 @@ weight: 3
 ---
 
 <div class="row">
-<img src="{{ site.author.image }}" alt="{{ site.title }}" class="circle-image wow animated zoomIn" data-wow-delay=".1s" style="">
+<img src="{{ site.author.image }}" alt="{{ site.title }}" class="circle-image wow animated zoomIn" data-wow-delay=".1s" style="float:left; ! important;">
 
-<span>
+<span style="float:right; ! important;">
 Hi I am <b>{{ site.author.name }}</b> :wave:,<br>
 I am a college student of Imam Syafi'i Islamic College. I learn more about Islamic religion, currently I have a hobby and take a job as graphic designer, C# & Bash script shell coder. Contact me below if you need a graphic designer or something else.
 </span>
