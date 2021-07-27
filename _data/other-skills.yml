@@ -1,7 +1,43 @@
 - name: Adobe Photoshop
-  percentage: 95
+  percentage: 81
+  color: info
+
+- name: Adobe Illustrator
+  percentage: 92
+  color: success
+
+- name: Adobe After Effects
+  percentage: 86
   color: info
 
 - name: Adobe Illustrator
   percentage: 90
   color: success
+
+- name: Affinity Designer
+  percentage: 98
+  color: info
+
+- name: Affinity Photo
+  percentage: 72
+  color: success
+
+- name: Affinity Publisher
+  percentage: 65
+  color: info
+
+- name: CorelDRAW
+  percentage: 94
+  color: success
+
+- name: Inkscape
+  percentage: 86
+  color: info
+
+- name: Bash / Shell
+  percentage: 74
+  color: danger
+
+- name: C#
+  percentage: 79
+  color: secondary

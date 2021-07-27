@@ -1,11 +1,11 @@
-- name: HTML5/CSS3
+- name: Indonesian Language
   percentage: 90
   color: danger
 
-- name: Go
+- name: Arabic Language
   percentage: 80
-  color:
+  color: secondary
 
-- name: Python
-  percentage: 70
+- name: English Language
+  percentage: 80
   color: secondary
