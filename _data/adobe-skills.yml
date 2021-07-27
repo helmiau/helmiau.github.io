@@ -2,6 +2,10 @@
   percentage: 81
   color: info
 
+- name: Lightroom
+  percentage: 53
+  color: info
+
 - name: Illustrator
   percentage: 92
   color: success
@@ -10,6 +14,6 @@
   percentage: 86
   color: info
 
-- name: Illustrator
+- name: Premiere Pro
   percentage: 90
   color: success
