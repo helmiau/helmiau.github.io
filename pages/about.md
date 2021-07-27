@@ -52,6 +52,6 @@ I am a college student of Imam Syafi'i Islamic College. I learn more about Islam
 <br>
 <p align="center">
 <small class="text-muted mb-2">
-  I use <a href="https://github.com/YoussefRaafatNasry/portfolYOU">portfolYOU</a> template theme for GitHub Pages.
+  I use <a href="https://github.com/YoussefRaafatNasry/portfolYOU">portfolYOU</a> theme for GitHub Pages.
 </small>
 </p>
