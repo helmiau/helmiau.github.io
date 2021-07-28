@@ -35,8 +35,7 @@ xderm-mini GUI is simple injector tool based on shell script and python commands
 
 Note : if you need to downgrade, use **```xdrtool```** script by using terminal. Scroll down to read **```xdrtool```** documentations.
 
-<details><summary>Default information (WebUI address, webui login auth and config) (click to show)</summary>
-<p>
+**Default information (WebUI address, webui login auth and config)**
 
 Default **WebUI Page** : http://192.168.1.1/xderm
 
@@ -47,7 +46,7 @@ Username  : admin
 Password  : xderm
 ```
 
-you can change authentication by editing ```/root/auth.txt``` file or by running ```xdrauth``` command using terminal then follow the instructions.
+you can change authentication by editing **```/root/auth.txt```** file or by running **```xdrauth```** command using terminal then follow the instructions.
 
 Default **config.txt**
 ```
@@ -61,19 +60,14 @@ vmess://eyJhZGQiOixxxxxxx
 trojan://user@server:port
 ```
 
-</p>
-</details>
 
 **Screenshots**
-<details><summary>Click here to show some screenshots</summary>
-<p>
+{% capture carousel_images %}
+https://user-images.githubusercontent.com/20932301/126107228-9c227a82-b4f0-43c6-82f9-f744e5aabf54.png
+https://user-images.githubusercontent.com/20932301/125009423-bb764400-e08e-11eb-8645-46c9bf7fa74b.png
+{% endcapture %}
+{% include elements/carousel.html %}
 
-![image](https://user-images.githubusercontent.com/20932301/126107228-9c227a82-b4f0-43c6-82f9-f744e5aabf54.png)
-
-![image](https://user-images.githubusercontent.com/20932301/125009423-bb764400-e08e-11eb-8645-46c9bf7fa74b.png)
-
-</p>
-</details>
 
 ## Installation
 Requirements Packages
@@ -105,17 +99,16 @@ wget -O installer https://raw.githubusercontent.com/ryanfauzi1/xderm-mini_GUI/ma
 
 **Run ```xdrtool``` command using terminal to Setup Xderm Mini after initial installation**
 
-<details><summary>This xdrtool contains : below command lists (click me to view)</summary>
-<p>
+This xdrtool contains : below command lists
 
   ![sddsfvdfcvds](https://user-images.githubusercontent.com/20932301/126867087-34a9fb43-5fe3-4107-90f3-d9e1c22c81dd.png)
 
-</p>
-</details>
 
 - Login Page Installation (you can install it through **./xdrtool**)
 - Login Page Removal (you can remove it through **./xdrtool**)
 - for Manual Update (you can update through **./xdrtool**)
+
+
 
 ## Additional Installation
 #### [Xderm-Mini Installer for STB by Vito Harhari](https://github.com/vitoharhari/xderm-mini)
@@ -142,13 +135,9 @@ Run **```fixphp```** for installation/usage.
 ## Custom Theme
 #### Blue Light Theme by Agus Sriawan
 
-<details><summary>Click here to show screenshots</summary>
-<p>
 
-  ![image](https://user-images.githubusercontent.com/20932301/126102219-f2dbcbb0-3ee3-4952-8076-a144b0e5e7f8.png)
+![image](https://user-images.githubusercontent.com/20932301/126102219-f2dbcbb0-3ee3-4952-8076-a144b0e5e7f8.png)
 
-</p>
-</details>
 
 Copy codes below
 ```
@@ -160,13 +149,7 @@ Run **```installtheme```** for installation/usage.
 
 #### Mejikuhibiniu (RGB) Theme by Adi Putra
 
-<details><summary>Click here to show screenshots</summary>
-<p>
-
 ![image](https://user-images.githubusercontent.com/20932301/126102454-445d1172-6571-4bc5-93ea-37d7d06416ff.png)
-
-</p>
-</details>
 
 Copy codes below
 ```
@@ -178,10 +161,11 @@ Run **```install-theme-putra```** for installation/usage.
 
 ## Credits
 - [Tuhan](https://id.wikipedia.org/wiki/Tuhan) ~ Penguasa semesta, sang pemilik ilmu sekaligus sumbernya.
-- [Ryan Fauzi](https://github.com/ryanfauzi1) ~ Kang developer utama sing paling guanteng | Kang gebuk bug xderm sekaligus improvisasi
-- [Agus Sriawan](https://www.facebook.com/agussriawan.id) ~ Kang bikin tema Blue Light | Kang desain logo tulisan XDERM-MINI
+- [Ryan Fauzi](https://github.com/ryanfauzi1) ~ Kang developer utama sing paling guanteng, Kang gebuk bug xderm sekaligus improvisasi
+- [Agus Sriawan](https://www.facebook.com/agussriawan.id) ~ Kang bikin tema Blue Light, Kang desain logo tulisan XDERM-MINI
 - [Vito Harhari](https://github.com/vitoharhari) ~ Kang bikin auto installer xderm-mini
-- [Helmi Amirudin](https://github.com/helmiau) ~ Kang ngerapihin README | Kang desain logo ikon XDRM, improve logo & tagline
+- [Helmi Amirudin](https://github.com/helmiau) ~ Kang ngerapihin README, Kang desain logo ikon XDRM, improve logo & tagline, Kang bikin xdrtool
 - [Adi Putra](https://github.com/Putra-0) ~ Kang bikin [Tema Mejikuhibiniu RGB](https://github.com/Putra-0/theme-xderm-putra)
+
 <br>
-<h5 align="center">Copyright by <a href="https://github.com/ryanfauzi1">Ryan Fauzi</a> ® 2021 <br> Thank You ! 🤝</h3>
+<h5 align="center">Copyright by <a href="https://github.com/ryanfauzi1">Ryan Fauzi</a> ® 2021 <br> Thank You ! 🤝</h5>

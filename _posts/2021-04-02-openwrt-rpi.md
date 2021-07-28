@@ -10,8 +10,7 @@ Source: [My Own Repo](https://github.com/helmiau/OpenWrt-Rpi#readme)
 
 Raspberry Pi 4 OpenWrt Compile Project. (Based on [SuLingGG OpenWrt-Rpi](https://github.com/SuLingGG/OpenWrt-Rpi) compiled using GitHub Actions). This project also available for Raspberry Pi 1/2/3
 
-<details><summary>Main firmware features : (click to show)</summary>
-<p>
+**Main firmware features :**
 
 - Contains rich OpenWrt original LuCI plug-ins and community LuCI plug-ins
 - Integrate most wired, wireless, 3G/4G network card drivers, no need to install additional
@@ -46,12 +45,9 @@ Note: The advertisement blocking effect at the router level is not good. If you 
 - Support SQM Qos, Socat, support udpspeeder and udp2raw acceleration, support SFE acceleration, bridge acceleration, IPV6 acceleration, FULLCONE NAT acceleration, BBR acceleration.
 - Support multi-line multi-dial, load balancing, MWAN3 shunt assistant.
 
-</p>
-</details>
 
 
-<details><summary>My own configurations : (click to show)</summary>
-<p>
+**My own configurations :**
 
 - Added speedtest and neofetch command
 - Removed all languages except English
@@ -72,10 +68,7 @@ Note: The advertisement blocking effect at the router level is not good. If you 
 	- Open Network Share https://192.168.1.1/cgi-bin/luci/admin/nas/samba
 	- Add shared directory, fill name, path with your shared directory
 	- Fill **Allowed users** with **USER**, check **Browseable**, uncheck **Allowed Guests** and **Read-Only**
-	- Save and Apply
-
-</p>
-</details>
+	- **Save and Apply**
 
 
 
