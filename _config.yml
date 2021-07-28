@@ -77,4 +77,3 @@ exclude:
   - CONTRIBUTING.md
   - LICENSE
   - "*.log"
-  - example_posts
