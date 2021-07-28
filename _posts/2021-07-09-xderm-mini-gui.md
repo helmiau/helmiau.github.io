@@ -1,9 +1,9 @@
 ---
-title: OpenWrt custom firmware for Raspberry Pi
+title: Xderm Mini GUI VPN Injector for OpenWrt
 tags: [Xderm, Xderm Mini, Xderm Mini GUI, VPN, Trojan, SSH, Vmess, OpenWrt]
 style: fill
 color: info
-description: This is OpenWrt project forked from SuLingGG, which taken from coolsnowwolf/lede repo and I add my additions there. Compiled daily by using GitHub Actions.
+description: xderm-mini GUI is simple injector tool based on shell script and python commands for OpenWrt by @ryanfauzi1 which help you to inject your OpenWrt connection using VPN injection (SSH/Trojan/Vmess).
 ---
 
 Source: [My Own Repo](https://github.com/helmiau/OpenWrt-Rpi#readme)
