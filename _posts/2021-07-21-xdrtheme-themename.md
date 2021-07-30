@@ -27,21 +27,21 @@ Current Version : 4.3
 
 <br>
 <h3 align="center">
-• Index information page •
+Index information page
 </h3>
 
 <br>
 {% capture list_items %}
-• How xdrtheme-installer Script Working & What features are available on it •
-• How to use this template and apply it to your theme •
-• Discussions, Issues, Bugs, Feature Request and Others •
-• Credits •
+How xdrtheme-installer Script Working & What features are available on it
+How to use this template and apply it to your theme
+Discussions, Issues, Bugs, Feature Request and Others
+Credits
 {% endcapture %}
 {% include elements/list.html title="Index page information" type="toc" %}
 
 <br>
 <h3 align="center">
-• How xdrtheme-installer Script Working & What features are available on it •
+**How xdrtheme-installer Script Working & What features are available on it**
 </h3>
 
 **```xdrtheme-installer```** will clone your github repository and update local file by repo clone, which mean this script need **```wget```** and **```git```** packages. Then this script will read **```xdrtheme-info```** and **```xdrtheme-update```** from your repository which downloaded to local storage **```/root/(here placed file xdrtheme-info and xdrtheme-update```** .
@@ -59,7 +59,7 @@ Script features :
 
 <br>
 <h3 align="center">
-• How to use this template and apply it to your theme •
+**How to use this template and apply it to your theme**
 </h3>
 
 1. Click [Use this template button](https://github.com/helmiau/xdrtheme-themename/generate) then give template/repo name by following format **```xdrtheme-your_theme_name```** without any space there. Change **your_theme_name** with your own theme name (without space).
@@ -114,7 +114,7 @@ Note : You can see [squarepants96/xdrtheme-adminlte repo's](https://github.com/s
 
 <br>
 <h3 align="center">
-• Discussions, Issues, Bugs, Feature Request and Others •
+**Discussions, Issues, Bugs, Feature Request and Others**
 </h3>
 
 - Use [Discussions Section](https://github.com/helmiau/xdrtheme-themename/discussions) to discuss about this template, such as new feature request, or improvements.
@@ -123,7 +123,7 @@ Note : You can see [squarepants96/xdrtheme-adminlte repo's](https://github.com/s
 
 <br>
 <h3 align="center">
-• Credits •
+**Credits**
 </h3>
 
 - [Allah Subhanahu wa Ta'ala](https://id.wikipedia.org/wiki/Allah) ~ Penguasa semesta, sang pemilik ilmu sekaligus sumbernya.
