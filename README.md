@@ -1,5 +1,5 @@
 # Helmi Amirudin Weblite (Landing Page)
-https://helmiau.github.io or https://www.helmiau.my.id
+open link http://helmiau.github.io or http://www.helmiau.com or http://www.helmiau.my.id
 
 ![image](https://user-images.githubusercontent.com/20932301/127301830-5ee056ea-955c-4ba5-973d-136fdf98c1a4.png)
 
