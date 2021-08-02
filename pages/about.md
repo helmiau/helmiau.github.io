@@ -13,21 +13,7 @@ Hi I am <b>{{ site.author.name }}</b> :wave:,<br>
 I am a college student of <b>Imam Syafi'i Islamic College, Jember</b>. I learn more about Islamic religion and take more focus into <b>Hadeeth Science</b>, currently I have a hobby and take a job as <b>graphic designer, C# & Bash script shell coder</b>. Contact me below if you need a graphic designer or something else.
 </p>
 
-<div style="display:flex; justify-content: center;">
-  {%- assign unfocused_color = "6c757d" -%}
-  {% for account in site.author %}
-    {%- assign service_name = account[0] -%}
-    {%- assign service_data = site.data.social-media[service_name] -%}
-    {%- if service_data -%}    
-    <a class="social mx-1"  href="{{ service_data.url }}{{ account[1] }}"
-       style="color: #{{ unfocused_color }}"
-       onMouseOver="this.style.color='#{{ service_data.color }}'"
-       onMouseOut="this.style.color='#{{ unfocused_color }}'">
-      <i class="{{ service_data.icon }} fa-1x"></i>
-    </a>
-    {%- endif -%}
-  {% endfor %}
-</div>
+{% include about/social.html %}
 <br>
 <br>
 ### **My Skills**
