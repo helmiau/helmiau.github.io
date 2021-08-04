@@ -57,6 +57,7 @@ Note: The advertisement blocking effect at the router level is not good. If you 
 - Loadbalance 4 USB Hilink
 - Add shadowsocksr shortcut (ssr-rst, ssr-start, ssr-stop)
 - QMI modems supported ex. LT4220
+	- Add IP Refresh for QMI Modems by running **```ipqmi```** using terminal.
 - VPN support : PPTP / L2TP / ShadowSocks / ShadowSocksR / V2ray(VMESS/VLESS) / Trojan / Trojan-Go
 - Extended root partition to 3GB
 - RAM Checker via  Terminal by command **```ram```**
@@ -105,7 +106,9 @@ Username	: root
 Password	: password
 ```
 
-
+**Note :**
+- Raspberry Pi will reboot automatically when first boot up after firmware installation
+- If you get blank when open TTYD (Terminal LuCi App), change https://192.168.1.1 to http://192.168.1.1
 
 
 ### Credits
@@ -116,5 +119,6 @@ Password	: password
 - [ophub/amlogic-s9xxx-openwrt](https://github.com/ophub/amlogic-s9xxx-openwrt)
 - [Kry9toN/openwrt-amlogic](https://github.com/Kry9toN/openwrt-amlogic)
 - [config example 1](https://github.com/eallion/openwrt/blob/main/.config)
+- [Rudi Hartono](https://www.facebook.com/rud18) for IP Address refresher script for QMI Modems
 
 [Read more original README](https://github.com/SuLingGG/OpenWrt-Rpi/blob/main/README.md#openwrt-rpi)
