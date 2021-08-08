@@ -82,11 +82,8 @@ Contains scientific Internet tools:</li>
 </ul>
 </p>
 </details>
-<br>
-
-<details><summary>About IPV6 Support (click to show)</summary>
+<details><summary>About IPV6 information, Support, etc. (click to show)</summary>
 <p>
-<h3 id="ipv6-support">IPV6 support</h3>
 <p>IPV6 is not installed in this firmware by default, but it&#39;s available and ready to install. Added within this firmware <strong>ipv6-helper</strong> tools to facilitate quick installation and configuration IPV6 module through terminal.</p>
 <blockquote>
 <p>⚠️This tool is currently under <strong>test build</strong> state, there may be some uncertainties, please test with your own risks.</p>
@@ -118,7 +115,7 @@ ipv6-helper <span class="hljs-keyword">server</span>  : Configure IPV6 <span cla
 ipv6-helper relay   : Configure IPV6 <span class="hljs-keyword">as</span> Relay <span class="hljs-keyword">mode</span>
 ipv6-helper hybird  : Configure IPV6 <span class="hljs-keyword">to</span> hybrid (Hybird) <span class="hljs-keyword">mode</span>
 ipv6-helper clean   : Remove modules <span class="hljs-keyword">and</span> LuCI APP related <span class="hljs-keyword">to</span> wan3 (irreversible/generally <span class="hljs-keyword">not</span> used)
-</code></pre><h4 id="information-precautions">Information &amp; Precautions</h4>
+</code></pre><h4 id="information-precautions">Informations &amp; Precautions</h4>
 <ul>
 <li>Performed <strong>ipv6-helper install</strong> command will automatically install IPV6 IPV6 DHCP server mode, which mean you not need to perform additional <strong>ipv6-helper server</strong> to switch mode.</li>
 <li>After performed <strong>ipv6-helper install</strong>, you will be prompted to restart after installation of the IPV6 module is completed. You can choose to restart immediately or restart later, just restart immediately according to the actual situation.</li>
@@ -129,7 +126,6 @@ ipv6-helper clean   : Remove modules <span class="hljs-keyword">and</span> LuCI 
 </ul>
 </p>
 </details>
-<br>
 
 <br>
 ### Previews
