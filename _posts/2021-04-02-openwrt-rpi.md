@@ -123,6 +123,7 @@ ipv6-helper clean   : Remove modules <span class="hljs-keyword">and</span> LuCI 
 <li>If above step still abnormal after the restart, execute <strong>ipv6-helper relay</strong> to reconfigured to mix (Hybird) mode, then restart your device.</li>
 <li>If above step still abnormal, may be OpenWrt unable to adapt the current network environment, we recommend Google to find other solutions (eg. Nat6).</li>
 <li>Ignore <strong>uci: Entry not found</strong> prompt when installing or switching the IPV6 mode or removing the IPV6 module.</li>
+<li>If you use <strong>OpenClash</strong>, go to <strong>Global Settings</strong> page, then go to <strong>DNS Settings</strong>, then enable <strong>Enable ipv6 Resolve</strong>, Scroll down -> Commit Config -> Apply Config.</li>
 </ul>
 </p>
 </details>
