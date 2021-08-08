@@ -170,10 +170,7 @@ https://github.com/helmiau/OpenWrt-Rpi/raw/main/preview/openwrt-rpi-17.png
 | 3/3B/3B+ | [📂](https://github.com/helmiau/OpenWrt-Rpi/releases/tag/openwrt-rpi-3) | [🔽](https://github.com/helmiau/OpenWrt-Rpi/releases/download/openwrt-rpi-3/openwrt-bcm27xx-bcm2710-rpi-3-squashfs-factory.img.gz) | [🔽](https://github.com/helmiau/OpenWrt-Rpi/releases/download/openwrt-rpi-3/openwrt-bcm27xx-bcm2710-rpi-3-squashfs-sysupgrade.img.gz) | [🔽](https://github.com/helmiau/OpenWrt-Rpi/releases/download/openwrt-rpi-3/openwrt-bcm27xx-bcm2710-rpi-3-ext4-factory.img.gz) | [🔽](https://github.com/helmiau/OpenWrt-Rpi/releases/download/openwrt-rpi-3/openwrt-bcm27xx-bcm2710-rpi-3-ext4-sysupgrade.img.gz) | [🔽](https://github.com/helmiau/OpenWrt-Rpi/releases/download/openwrt-rpi-3/openwrt-bcm27xx-bcm2710-rpi-3-rootfs.tar.gz) |
 | 4/4B | [📂](https://github.com/helmiau/OpenWrt-Rpi/releases/tag/openwrt-rpi-4) | [🔽](https://github.com/helmiau/OpenWrt-Rpi/releases/download/openwrt-rpi-4/openwrt-bcm27xx-bcm2711-rpi-4-squashfs-factory.img.gz) | [🔽](https://github.com/helmiau/OpenWrt-Rpi/releases/download/openwrt-rpi-4/openwrt-bcm27xx-bcm2711-rpi-4-squashfs-sysupgrade.img.gz) | [🔽](https://github.com/helmiau/OpenWrt-Rpi/releases/download/openwrt-rpi-4/openwrt-bcm27xx-bcm2711-rpi-4-ext4-factory.img.gz) | [🔽](https://github.com/helmiau/OpenWrt-Rpi/releases/download/openwrt-rpi-4/openwrt-bcm27xx-bcm2711-rpi-4-ext4-sysupgrade.img.gz) | [🔽](https://github.com/helmiau/OpenWrt-Rpi/releases/download/openwrt-rpi-4/openwrt-bcm27xx-bcm2711-rpi-4-rootfs.tar.gz) |
 
-1. Download latest firmware from link above which contain **sysupgrade** or **factory** words. How about squashfs or ext4 ? [Read more here](https://forum.openwrt.org/t/ext4-vs-squashfs/25187/7)
-
-> I usually use factory_ext4 file
-
+1. Download latest firmware from link above which contain **sysupgrade** or **factory** words. How about squashfs or ext4 ? [Read more here](https://forum.openwrt.org/t/ext4-vs-squashfs/25187/7). Note : I usually use factory_ext4 file.
 2. Download [Rufus](https://github.com/pbatard/rufus/releases/download/v3.13/rufus-3.13p.exe) or [Balena Etcher](https://github.com/balena-io/etcher/releases/latest)
 3. Insert SdCard
 4. Open Rufus/Etcher.
