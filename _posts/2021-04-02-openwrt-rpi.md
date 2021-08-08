@@ -195,7 +195,7 @@ Password	: password
 - If you get blank when open TTYD (Terminal LuCi App), change [https://192.168.1.1/.../terminal](https://192.168.1.1/cgi-bin/luci/admin/system/terminal) to [http://192.168.1.1/.../terminal](http://192.168.1.1/cgi-bin/luci/admin/system/terminal)
 - **ONLY ACCEPT DONATIONS BY CONTACTING ME FOR CONFIRMATION www.helmiau.com/about**
 - **I REFUSE FEATURE REQUEST OR BUG FIX WITHOUT SUGGESTION, CODES OR ANYTHING.**
-
+- If you want to discuss about this firmware, please create a GitHub account. Then open this [OpenWrt-Rpi Discussion Page](https://github.com/helmiau/OpenWrt-Rpi/discussions). Note : English, Indonesian and Arabic languages are allowed.
 
 ### Credits
 - [OpenWrt Official](https://github.com/openwrt/openwrt) for main OpenWrt source.
