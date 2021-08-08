@@ -81,7 +81,7 @@ Contains scientific Internet tools:</li>
 </ul>
 </p>
 </details>
-
+<br>
 
 ### Previews
 {% include elements/video.html id="HsDEWwgy-xg" %}
@@ -104,6 +104,7 @@ https://github.com/helmiau/OpenWrt-Rpi/raw/main/preview/openwrt-rpi-15.png
 https://github.com/helmiau/OpenWrt-Rpi/raw/main/preview/openwrt-rpi-16.png
 https://github.com/helmiau/OpenWrt-Rpi/raw/main/preview/openwrt-rpi-17.png
 {% endcapture %}
+{% include elements/carousel.html %}
 
 ### Firmware Requirements and Installation
 
