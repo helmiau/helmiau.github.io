@@ -52,7 +52,7 @@ Contains scientific Internet tools:</li>
 <details><summary>My own configurations : (click to show)</summary>
 <p>
 <ul>
-<li>Added speedtest and neofetch command.</li>
+<li>Added <strong>speedtest</strong> and <strong>neofetch</strong> command.</li>
 <li>Removed all languages except English.</li>
 <li>Set English as default language.</li>
 <li>Set timezone to WIB-7 Asia/Jakarta.</li>
@@ -86,7 +86,7 @@ Contains scientific Internet tools:</li>
 <p>
 <p>IPV6 is not installed in this firmware by default, but it&#39;s available and ready to install. Added within this firmware <strong>ipv6-helper</strong> tools to facilitate quick installation and configuration IPV6 module through terminal.</p>
 <blockquote>
-<p>⚠️This tool is currently under <strong>test build</strong> state, there may be some uncertainties, please test with your own risks.</p>
+<p>⚠️This tool is currently under <strong>development</strong> state, which mean there still some uncertainties or bugs or anything else. So, please test with your own risks.</p>
 </blockquote>
 <p>In OpenWrt of SSH or TTYD executed ipv6-helper command information tools can help:</p>
 <pre><code><span class="hljs-comment"># root @ HelmiWrt in ~ [19:20:23]</span>
