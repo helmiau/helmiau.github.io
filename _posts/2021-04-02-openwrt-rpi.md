@@ -84,8 +84,6 @@ Contains scientific Internet tools:</li>
 <br>
 
 ### Previews
-{% include elements/video.html id="HsDEWwgy-xg" %}
-
 {% capture carousel_images %}
 https://github.com/helmiau/OpenWrt-Rpi/raw/main/preview/openwrt-rpi-1.png
 https://github.com/helmiau/OpenWrt-Rpi/raw/main/preview/openwrt-rpi-2.png
@@ -105,6 +103,9 @@ https://github.com/helmiau/OpenWrt-Rpi/raw/main/preview/openwrt-rpi-16.png
 https://github.com/helmiau/OpenWrt-Rpi/raw/main/preview/openwrt-rpi-17.png
 {% endcapture %}
 {% include elements/carousel.html %}
+
+{% include elements/video.html id="HsDEWwgy-xg" %}
+
 
 ### Firmware Requirements and Installation
 
@@ -148,6 +149,7 @@ Password	: password
 - If you get blank when open TTYD (Terminal LuCi App), change [https://192.168.1.1/.../terminal](https://192.168.1.1/cgi-bin/luci/admin/system/terminal) to [http://192.168.1.1/.../terminal](http://192.168.1.1/cgi-bin/luci/admin/system/terminal)
 - **ONLY ACCEPT DONATIONS BY CONTACTING ME FOR CONFIRMATION www.helmiau.com/about**
 - **I REFUSE FEATURE REQUEST OR BUG FIX WITHOUT SUGGESTION, CODES OR ANYTHING.**
+
 
 ### Credits
 - [OpenWrt Official](https://github.com/openwrt/openwrt) for main OpenWrt source.
