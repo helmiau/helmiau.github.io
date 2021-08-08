@@ -72,7 +72,7 @@ Contains scientific Internet tools:</li>
 <li>Add IP Address Info Checker. run <strong><code>myip</code></strong> using terminal for use.</li>
 <li>Add Samba Allowed user setup. This tool will help you to add Allowed User for Samba Directory.<ul>
 <li>Run <strong><code>sambaset</code></strong> using terminal for use, then follow instruction.</li>
-<li>Open Network Share <a href="https://192.168.1.1/cgi-bin/luci/admin/nas/samba">https://192.168.1.1/cgi-bin/luci/admin/nas/samba</a>.</li>
+<li>Open Network Share <a href="http://192.168.1.1/cgi-bin/luci/admin/nas/samba">Samba Here</a>.</li>
 <li>Add shared directory, fill name, path with your shared directory.</li>
 <li>Fill <strong>Allowed users</strong> with <strong>USER</strong>, check <strong>Browseable</strong>, uncheck <strong>Allowed Guests</strong> and <strong>Read-Only</strong>.</li>
 <li>Save and Apply.</li>
