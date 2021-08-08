@@ -84,6 +84,54 @@ Contains scientific Internet tools:</li>
 </details>
 <br>
 
+<details><summary>About IPV6 Support (click to show)</summary>
+<p>
+<h3 id="ipv6-support">IPV6 support</h3>
+<p>IPV6 is not installed in this firmware by default, but it&#39;s available and ready to install. Added within this firmware <strong>ipv6-helper</strong> tools to facilitate quick installation and configuration IPV6 module through terminal.</p>
+<blockquote>
+<p>⚠️This tool is currently under <strong>test build</strong> state, there may be some uncertainties, please test with your own risks.</p>
+</blockquote>
+<p>In OpenWrt of SSH or TTYD executed ipv6-helper command information tools can help:</p>
+<pre><code><span class="hljs-comment"># root @ HelmiWrt in ~ [19:20:23]</span>
+$ ipv6-helper
+
+This tool can help you install IPV6 modules on OpenWrt.
+
+Usage:
+ipv6-helper<span class="hljs-built_in"> sub-command
+</span>Example:
+        ipv6-helper install: Install ipv6-helper &amp; IPV6 modules
+        ipv6-helper remove: Remove ipv6-helper &amp; IPV6 modules
+
+Optional Usage:
+        ipv6-helper server: Set IPV6 configuration to server mode
+        ipv6-helper relay: Set IPV6 configuration to relay mode
+        ipv6-helper hybird: Set IPV6 configuration to hybird mode
+        ipv6-helper clean: Remove mwan3 modules
+</code></pre><h4 id="usage">Usage</h4>
+<pre><code>Main usage
+ipv6-helper <span class="hljs-keyword">install</span> : <span class="hljs-keyword">Install</span> IPV6 <span class="hljs-keyword">module</span> <span class="hljs-keyword">and</span> configure IPV6 <span class="hljs-keyword">as</span> <span class="hljs-keyword">Server</span> <span class="hljs-keyword">mode</span> (<span class="hljs-keyword">default</span>)
+ipv6-helper remove  : Remove IPV6 <span class="hljs-keyword">module</span> <span class="hljs-keyword">and</span> roll back all configurations related <span class="hljs-keyword">to</span> IPV6
+
+Additional <span class="hljs-keyword">usage</span>
+ipv6-helper <span class="hljs-keyword">server</span>  : Configure IPV6 <span class="hljs-keyword">as</span> <span class="hljs-keyword">Server</span> <span class="hljs-keyword">mode</span>
+ipv6-helper relay   : Configure IPV6 <span class="hljs-keyword">as</span> Relay <span class="hljs-keyword">mode</span>
+ipv6-helper hybird  : Configure IPV6 <span class="hljs-keyword">to</span> hybrid (Hybird) <span class="hljs-keyword">mode</span>
+ipv6-helper clean   : Remove modules <span class="hljs-keyword">and</span> LuCI APP related <span class="hljs-keyword">to</span> wan3 (irreversible/generally <span class="hljs-keyword">not</span> used)
+</code></pre><h4 id="information-precautions">Information &amp; Precautions</h4>
+<ul>
+<li>Performed <strong>ipv6-helper install</strong> command will automatically install IPV6 IPV6 DHCP server mode, which mean you not need to perform additional <strong>ipv6-helper server</strong> to switch mode.</li>
+<li>After performed <strong>ipv6-helper install</strong>, you will be prompted to restart after installation of the IPV6 module is completed. You can choose to restart immediately or restart later, just restart immediately according to the actual situation.</li>
+<li>IPV6 work under OpenWrt after restarting the server (Server) mode is not normal, you can try to run <strong>ipv6-helper hybird</strong> command to make IPV6 is configured as mixed (Hybird) mode.</li>
+<li>If above step still abnormal after the restart, execute <strong>ipv6-helper relay</strong> to reconfigured to mix (Hybird) mode, then restart your device.</li>
+<li>If above step still abnormal, may be OpenWrt unable to adapt the current network environment, we recommend Google to find other solutions (eg. Nat6).</li>
+<li>Ignore <strong>uci: Entry not found</strong> prompt when installing or switching the IPV6 mode or removing the IPV6 module.</li>
+</ul>
+</p>
+</details>
+<br>
+
+<br>
 ### Previews
 {% capture carousel_images %}
 https://github.com/helmiau/OpenWrt-Rpi/raw/main/preview/openwrt-rpi-1.png
