@@ -49,8 +49,6 @@ Contains scientific Internet tools:</li>
 </ul>
 </p>
 </details>
-<br>
-<br>
 <details><summary>My own configurations : (click to show)</summary>
 <p>
 <ul>
