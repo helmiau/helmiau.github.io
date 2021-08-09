@@ -163,7 +163,6 @@ https://github.com/helmiau/OpenWrt-Rpi/raw/main/preview/openwrt-rpi-17.png
 
 **Installation Steps :**
 
-https://github.com/helmiau/OpenWrt-Rpi/releases/latest/download/openwrt-bcm27xx-bcm2711-rpi-4-ext4-sysupgrade.img.gz
 | Raspberry Pi<br />Version | Github<br />Release | squashfs<br />factory | squashfs<br />sysupgrade | ext4<br />factory | ext4<br />sysupgrade | rootfs |
 | :-----------------------: | :----------------:  | :-------------------: | :----------------------: | :---------------: | :------------------: | :----: |
 | 1/1B | [📂](https://github.com/helmiau/OpenWrt-Rpi/releases/latest) | [🔽](https://github.com/helmiau/OpenWrt-Rpi/releases/latest/download/openwrt-bcm27xx-bcm2708-rpi-squashfs-factory.img.gz) | [🔽](https://github.com/helmiau/OpenWrt-Rpi/releases/latest/download/openwrt-bcm27xx-bcm2708-rpi-squashfs-sysupgrade.img.gz) | [🔽](https://github.com/helmiau/OpenWrt-Rpi/releases/latest/download/openwrt-bcm27xx-bcm2708-rpi-ext4-factory.img.gz) | [🔽](https://github.com/helmiau/OpenWrt-Rpi/releases/latest/download/openwrt-bcm27xx-bcm2708-rpi-ext4-sysupgrade.img.gz) | [🔽](https://github.com/helmiau/OpenWrt-Rpi/releases/latest/download/openwrt-bcm27xx-bcm2708-rpi-rootfs.tar.gz) |
