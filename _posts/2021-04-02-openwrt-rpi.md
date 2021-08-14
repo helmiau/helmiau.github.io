@@ -57,22 +57,22 @@ Contains scientific Internet tools:</li>
 <li>Set timezone to WIB-7 Asia/Jakarta.</li>
 <li>Add shutdown, poweroff, reboot commands.</li>
 <li>Loadbalance 4 USB Hilink.</li>
-<li>Add ShadowsocksR Plus+ shortcut (ssr-rst, ssr-start, ssr-stop).</li>
+<li>Add ShadowsocksR Plus+ shortcut <strong>(ssr-rst, ssr-start, ssr-stop)</strong>.</li>
 <li>QMI modems supported ex. LT4220.<ul>
-<li>Add IP Refresh for QMI Modems by running <strong><code>ipqmi</code></strong> using terminal.</li>
+<li>Add IP Refresh for QMI Modems by running <strong>ipqmi</strong> using terminal.</li>
 <li>Auto reconnect QMI Modems without reboot.</li>
 </ul>
 </li>
 <li>VPN support : PPTP / L2TP / ShadowSocks / ShadowSocksR / V2ray(VMESS/VLESS) / Trojan / Trojan-Go.</li>
 <li>Extended root partition to 3GB.</li>
-<li>RAM Checker via Terminal by command <strong><code>ram</code></strong>.</li>
-<li>VMESS Account Creation (3 days) from racevpn.com via  Terminal by command <strong><code>vmess</code></strong>.</li>
-<li>Fix browser always download file index.php (like xderm and libernet) via  Terminal by command <strong><code>fixphp</code></strong>.</li>
-<li>Add IP Address Info Checker. run <strong><code>myip</code></strong> using terminal for use.</li>
-<li>Add IPV6 helper tool. run <strong><code>ipv6-helper</code></strong> using terminal for use.</li>
+<li>RAM Checker via Terminal by command <strong>ram</strong>.</li>
+<li>VMESS Account Creation (3 days) from racevpn.com via  Terminal by command <strong>vmess</strong>.</li>
+<li>Fix browser always download file index.php (like xderm and libernet) via  Terminal by command <strong>fixphp</strong>.</li>
+<li>Add IP Address Info Checker. run <strong>myip</strong> using terminal for use.</li>
+<li>Add IPV6 helper tool. run <strong>ipv6-helper</strong> using terminal for use.</li>
 <li>Add Samba Allowed user setup. This tool will help you to add Allowed User for Samba Directory.
 <ul>
-<li>Run <strong><code>sambaset</code></strong> using terminal for use, then follow instruction.</li>
+<li>Run <strong>sambaset</strong> using terminal for use, then follow instruction.</li>
 <li>Open Network Share <a href="http://192.168.1.1/cgi-bin/luci/admin/nas/samba">Samba Here</a>.</li>
 <li>Add shared directory, fill name, path with your shared directory.</li>
 <li>Fill <strong>Allowed users</strong> with <strong>USER</strong>, check <strong>Browseable</strong>, uncheck <strong>Allowed Guests</strong> and <strong>Read-Only</strong>.</li>
