@@ -79,6 +79,7 @@ Contains scientific Internet tools:</li>
 <li>Save and Apply.</li>
 </ul>
 </li>
+<li>Add **badvpn** and **corkscrew** package for Xderm Mini GUI & Libernet purpose. (if you want to install Xderm or Libernet, please install it manually)</li>
 </ul>
 </p>
 </details>
