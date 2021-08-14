@@ -70,7 +70,8 @@ Contains scientific Internet tools:</li>
 <li>Fix browser always download file index.php (like xderm and libernet) via  Terminal by command <strong><code>fixphp</code></strong>.</li>
 <li>Add IP Address Info Checker. run <strong><code>myip</code></strong> using terminal for use.</li>
 <li>Add IPV6 helper tool. run <strong><code>ipv6-helper</code></strong> using terminal for use.</li>
-<li>Add Samba Allowed user setup. This tool will help you to add Allowed User for Samba Directory.<ul>
+<li>Add Samba Allowed user setup. This tool will help you to add Allowed User for Samba Directory.
+<ul>
 <li>Run <strong><code>sambaset</code></strong> using terminal for use, then follow instruction.</li>
 <li>Open Network Share <a href="http://192.168.1.1/cgi-bin/luci/admin/nas/samba">Samba Here</a>.</li>
 <li>Add shared directory, fill name, path with your shared directory.</li>
@@ -79,6 +80,10 @@ Contains scientific Internet tools:</li>
 </ul>
 </li>
 <li>Add <strong>badvpn</strong> and <strong>corkscrew</strong> package for Xderm Mini GUI & Libernet purpose. (if you want to install Xderm or Libernet, please install it manually)</li>
+<li>Add <strong>Clash Premium Core</strong> for OpenClash core.</li>
+<ul>
+<li>Run <strong>clashcs</strong> using terminal if you want to switch between Premium Clash Core and Latest Original Clash Core</li>
+</ul>
 </ul>
 </p>
 </details>
