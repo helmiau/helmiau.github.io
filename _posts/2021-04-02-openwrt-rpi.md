@@ -10,7 +10,6 @@ Source: [My Own Repo](https://github.com/helmiau/OpenWrt-Rpi#readme)
 
 Raspberry Pi 4 OpenWrt Compile Project. (Based on [SuLingGG OpenWrt-Rpi](https://github.com/SuLingGG/OpenWrt-Rpi) compiled using GitHub Actions). This project also available for Raspberry Pi 1/2/3
 
-
 <details><summary>Main firmware features : (click to show)</summary>
 <p>
 <ul>
