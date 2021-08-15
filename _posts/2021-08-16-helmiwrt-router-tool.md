@@ -16,6 +16,8 @@ Source: [My Own Repo](https://github.com/helmiau/helmiwrt-tool-free#readme)
 ### Usage & Video Preview
 {% include elements/video.html id="qWl6OXmKDGQ" %}
 
+> Note : Shared software is free version. so you will see many differences between downloaded software and inside the video preview
+
 ### Features
 Main features :
 - Remote OpenWRT, VPS, Hilink Modems, etc. (through putty/winscp)
@@ -31,8 +33,6 @@ Main features :
 - WinSCP (with custom SCP/SFTP configuration)
 - Balena Etcher
 - Rufus included
-
-> Note : This is free version.
 
 ### Credits
 - [Helmi Amirudin](http://www.helmiau.com)
