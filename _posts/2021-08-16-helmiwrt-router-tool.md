@@ -8,9 +8,13 @@ description: HelmiWrt is Windows program for configure OpenWrt/VPS Linux/Hilink 
 
 Source: [My Own Repo](https://github.com/helmiau/helmiwrt-tool-free#readme)
 
+### Preview
 <p align="center">
   <img src="https://user-images.githubusercontent.com/20932301/129487262-21097eaa-dda2-4de2-8788-938e440f41fe.png" height="140" alt="Xderm Mini Logo"/>
 </p>
+
+### Usage & Video Preview
+{% include elements/video.html id="qWl6OXmKDGQ" %}
 
 ### Features
 Main features :
@@ -27,6 +31,8 @@ Main features :
 - WinSCP (with custom SCP/SFTP configuration)
 - Balena Etcher
 - Rufus included
+
+> Note : This is free version.
 
 ### Credits
 - [Helmi Amirudin](http://www.helmiau.com)
