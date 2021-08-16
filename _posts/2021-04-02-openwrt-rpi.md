@@ -1,5 +1,5 @@
 ---
-title: OpenWrt custom firmware for Raspberry Pi
+title: HelmiWrt Custom Firmware for Raspberry Pi 1/2/3/4
 tags: [Raspberry Pi, Lean, Custom Firmware, OpenWrt]
 style: fill
 color: warning
