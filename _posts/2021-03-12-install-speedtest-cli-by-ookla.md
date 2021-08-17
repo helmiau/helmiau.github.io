@@ -2,7 +2,7 @@
 title: Install Speedtest CLI by Ookla for OpenWrt
 tags: [CLI, Speedtest, OpenWrt, Terminal]
 style: fill
-color: primary
+color: danger
 description: This speedtest is taken from Ooklaa Speedtest, which contain link after test.
 ---
 
