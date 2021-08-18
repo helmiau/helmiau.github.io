@@ -12,3 +12,5 @@ Gemfile.lock
 *.log
 
 example_posts
+_posts/2021-08-09-clash-for-android.md
+helmiau/config-example-helmiau.yaml
