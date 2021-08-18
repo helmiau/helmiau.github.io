@@ -4,6 +4,7 @@ tags: [Xderm Mini GUI, Theme, Bash, Installer, Script]
 style: fill
 color: danger
 description: xderm-mini GUI is simple injector tool based on shell script and python commands for OpenWrt by @ryanfauzi1 which help you to inject your OpenWrt connection using VPN injection (SSH/Trojan/Vmess).
+comments: true
 ---
 
 Source: [My Own Repo](https://github.com/helmiau/xdrtheme-adminlte)

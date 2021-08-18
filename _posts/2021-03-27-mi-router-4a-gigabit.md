@@ -4,6 +4,7 @@ tags: [Xiaomi, Router, Mi, Redmi 4A, OpenWrt]
 style: fill
 color: secondary
 description: This article will set Mi Router 4A Gigabit router as access point for OpenWrt using LAN cable.
+comments: true
 ---
 
 Source: [My Own Configuration](https://github.com/helmiau/openwrt-config/blob/main/others/mi-router-4a-gigabit.md#setup-mi-router-4a-gigabit-for-ap-openwrt-using-lan-cable)

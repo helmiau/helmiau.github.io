@@ -4,6 +4,7 @@ tags: [OpenClash, Clash, VPN, Trojan, Shadowsocks, ShadowsocksR, V2ray, OpenWrt]
 style: fill
 color: success
 description: This article will help you to use OpenClash for OpenWrt ONLY!, Installation excluded.
+comments: true
 ---
 
 Source: [My Own Configuration](https://github.com/helmiau/openwrt-config/blob/main/zte-f609-v3-conf/setting-zte-f609-v3.md#setting-zte-f609-v3-build-jun-2020)
