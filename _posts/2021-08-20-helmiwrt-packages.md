@@ -45,7 +45,7 @@ There is 3 versions/options under this package :
 ![xderm-plus](https://raw.githubusercontent.com/helmiau/helmiwrt-packages/main/preview/xderm-prev.png)
 
 
-#### LuCI App OpenSpeedtest
+#### LuCI OpenSpeedtest App
 Speedtest by [OpenSpeedtest.com](openspeedtest.com), required connections when using this app.
 
 > This package will be shown under **LuCI -> Services -> OpenSpeedtest**
@@ -53,7 +53,7 @@ Speedtest by [OpenSpeedtest.com](openspeedtest.com), required connections when u
 ![ost](https://raw.githubusercontent.com/helmiau/helmiwrt-packages/main/preview/openspeedtest-prev.png)
 
 
-#### LuCI App Tiny File Manager
+#### LuCI Tiny File Manager App
 File manager by [Prasath Mani](https://github.com/prasathmani/tinyfilemanager).
 
 > This package will be shown under **LuCI -> NAS -> Tiny File Manager**
@@ -61,7 +61,7 @@ File manager by [Prasath Mani](https://github.com/prasathmani/tinyfilemanager).
 ![tfm](https://raw.githubusercontent.com/helmiau/helmiwrt-packages/main/preview/tinyfilemanager-prev.png)
 
 
-#### LuCI App Shutdown
+#### LuCI Shutdown App
 
 > This package will be shown under **LuCI -> System -> Shutdown**
 
