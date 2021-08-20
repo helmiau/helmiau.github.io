@@ -66,7 +66,7 @@ File manager by [Prasath Mani](https://github.com/prasathmani/tinyfilemanager).
 > This package will be shown under **LuCI -> System -> Shutdown**
 
 
-### Usage :
+### Usage
 - Git clone this repo to your local files by running this command
 ```
 git clone --depth=1 https://github.com/helmiau/helmiwrt-packages
@@ -85,7 +85,7 @@ CONFIG_PACKAGE_luci-app-xderm=n
 > Change "n" to unuse the package or "y" to use the package
 
 
-### Credits :
+### Credits
 - [Immortalwrt](github.com/immortalwrt) for LuCI App comparison.
 - [Helmi Amirudin](helmiau.com/about) for making these LuCI App packages.
 - [Prasath Mani](https://github.com/prasathmani/tinyfilemanager) for Tiny File Manager binaries & source.
@@ -93,7 +93,7 @@ CONFIG_PACKAGE_luci-app-xderm=n
 - [Ryan Fauzi](https://github.com/ryanfauzi1/xderm-mini_GUI) for Xderm Mini GUI binaries.
 - [Lutfa Ibtihaji Ilham](https://github.com/lutfailham96/libernet) for Libernet binaries.
 
-### References :
+### References
 - [prasathmani/tinyfilemanager](https://github.com/prasathmani/tinyfilemanager)
 - [luci-app-fileassistant](https://github.com/immortalwrt/luci/tree/master/applications/luci-app-fileassistant)
 - [luci-app-filebrowser](https://github.com/immortalwrt/luci/tree/master/applications/luci-app-filebrowser)
