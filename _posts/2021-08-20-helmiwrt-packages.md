@@ -96,8 +96,8 @@ CONFIG_PACKAGE_luci-app-xderm=n
 ### References :
 - [prasathmani/tinyfilemanager](https://github.com/prasathmani/tinyfilemanager)
 - [luci-app-fileassistant](https://github.com/immortalwrt/luci/tree/master/applications/luci-app-fileassistant)
-- [luci-app-filebrowser)](https://github.com/immortalwrt/luci/tree/master/applications/luci-app-filebrowser)
-- [ryanfauzi1/xderm-mini_GUI](https://github.com/ryanfauzi1/xderm-mini_GUI) binaries.
+- [luci-app-filebrowser](https://github.com/immortalwrt/luci/tree/master/applications/luci-app-filebrowser)
+- [ryanfauzi1/xderm-mini_GUI](https://github.com/ryanfauzi1/xderm-mini_GUI)
 - [lutfailham96/libernet](https://github.com/lutfailham96/libernet)
 - [OpenSpeedtest for Website](http://openspeedtest.com/speed-testing-application-for-your-website.php)
 
