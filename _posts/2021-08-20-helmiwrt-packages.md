@@ -1,8 +1,8 @@
 ---
-title: HelmiWrt Router Tool for Windows
+title: HelmiWrt LuCI App Packages for OpenWrt
 tags: [Package, LuCI, App, OpenWrt]
 style: fill
-color: success
+color: secondary
 description:  HelmiWrt packages is my LuCI app repository which contains additional LuCI packages for OpenWrt.
 comments: true
 ---
@@ -86,16 +86,19 @@ CONFIG_PACKAGE_luci-app-xderm=n
 
 
 ### Credits :
+- [Immortalwrt](github.com/immortalwrt) for LuCI App comparison.
+- [Helmi Amirudin](helmiau.com/about) for making these LuCI App packages.
 - [Prasath Mani](https://github.com/prasathmani/tinyfilemanager) for Tiny File Manager binaries & source.
 - [OpenSpeedtest](https://github.com/AsrofurRizqi) for OpenSpeedtest binaries & sources.
 - [Ryan Fauzi](https://github.com/ryanfauzi1/xderm-mini_GUI) for Xderm Mini GUI binaries.
 - [Lutfa Ibtihaji Ilham](https://github.com/lutfailham96/libernet) for Libernet binaries.
-- [Helmi Amirudin](helmiau.com/about) for making these LuCI App packages.
 
 ### References :
-- https://github.com/prasathmani/tinyfilemanager
-- https://github.com/immortalwrt/luci/tree/master/applications/luci-app-fileassistant
-- https://github.com/immortalwrt/luci/tree/master/applications/luci-app-filebrowser
-- http://openspeedtest.com/speed-testing-application-for-your-website.php
+- [prasathmani/tinyfilemanager](https://github.com/prasathmani/tinyfilemanager)
+- [luci-app-fileassistant](https://github.com/immortalwrt/luci/tree/master/applications/luci-app-fileassistant)
+- [luci-app-filebrowser)](https://github.com/immortalwrt/luci/tree/master/applications/luci-app-filebrowser)
+- [ryanfauzi1/xderm-mini_GUI](https://github.com/ryanfauzi1/xderm-mini_GUI) binaries.
+- [lutfailham96/libernet](https://github.com/lutfailham96/libernet)
+- [OpenSpeedtest for Website](http://openspeedtest.com/speed-testing-application-for-your-website.php)
 
 <h6 align="center">Copyright by <a href="http://www.helmiau.com">Helmi Amirudin</a> ® 2021 <br> Thank You ! 🤝</h6>
