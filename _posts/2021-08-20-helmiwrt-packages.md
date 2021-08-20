@@ -81,6 +81,7 @@ CONFIG_PACKAGE_luci-app-shutdown=y
 CONFIG_PACKAGE_luci-app-tinyfilemanager=y
 CONFIG_PACKAGE_luci-app-xderm-bin=y
 CONFIG_PACKAGE_luci-app-xderm=n
+CONFIG_PACKAGE_luci-app-xderm-limit=y
 ```
 > Change "n" to unuse the package or "y" to use the package
 
@@ -90,7 +91,7 @@ CONFIG_PACKAGE_luci-app-xderm=n
 - [Helmi Amirudin](helmiau.com/about) for making these LuCI App packages.
 - [Prasath Mani](https://github.com/prasathmani/tinyfilemanager) for Tiny File Manager binaries & source.
 - [OpenSpeedtest](https://github.com/AsrofurRizqi) for OpenSpeedtest binaries & sources.
-- [Ryan Fauzi](https://github.com/ryanfauzi1/xderm-mini_GUI) for Xderm Mini GUI binaries.
+- [Ryan Fauzi](https://github.com/ryanfauzi1/xderm-mini_GUI) for Xderm Mini & Limiter GUI binaries.
 - [Lutfa Ibtihaji Ilham](https://github.com/lutfailham96/libernet) for Libernet binaries.
 
 ### References
