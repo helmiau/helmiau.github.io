@@ -89,6 +89,7 @@ badvpn-ncd-request
 If you want to build these packages manually or adding it to your firmware, do these steps :
 
 - Git clone this repo to your local files by running this command
+
 ```
 git clone --depth=1 https://github.com/helmiau/helmiwrt-packages
 ```
@@ -167,6 +168,7 @@ rm ${IPK}.ipk
 - [Galih Prastowo Aji](https://github.com/hillz2/corkscrew) for corkscrew openwrt Makefile.
 - [Friyadhi Biermann](https://github.com/friyadhibiermann/openwrt_badvpn-tun2socks) for badvpn openwrt Makefile and update.
 - [Asrofur Rizqi](https://github.com/AsrofurRizqi) for clue to build badvpn & corkscrew packages.
+- [Reyre](https://github.com/r3yr3) for building ipk's from this packages.
 
 ### References
 - [prasathmani/tinyfilemanager](https://github.com/prasathmani/tinyfilemanager)
