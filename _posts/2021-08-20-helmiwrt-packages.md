@@ -111,13 +111,13 @@ CONFIG_PACKAGE_corkscrew=y
 - [Helmi Amirudin](helmiau.com/about) for making these LuCI App packages.
 - [Prasath Mani](https://github.com/prasathmani/tinyfilemanager) for Tiny File Manager binaries & source.
 - [OpenSpeedtest](https://github.com/AsrofurRizqi) for OpenSpeedtest binaries & sources.
-- [Ryan Fauzi](https://github.com/ryanfauzi1/xderm-mini_GUI) for Xderm Mini & Limiter GUI binaries.
-- [Lutfa Ibtihaji Ilham](https://github.com/lutfailham96/libernet) for Libernet binaries.
 - [Ambroz Bizjak](https://github.com/ambrop72/badvpn) for main badvpn source.
 - [agroman.net](http://www.agroman.net/corkscrew/) for main corkscrew source.
+- [Ryan Fauzi](https://github.com/ryanfauzi1/xderm-mini_GUI) for Xderm Mini & Limiter GUI binaries.
+- [Lutfa Ibtihaji Ilham](https://github.com/lutfailham96/libernet) for Libernet binaries.
 - [Galih Prastowo Aji](https://github.com/hillz2/corkscrew) for corkscrew openwrt Makefile.
 - [Friyadhi Biermann](https://github.com/friyadhibiermann/openwrt_badvpn-tun2socks) for badvpn openwrt Makefile and update.
-- [Asrofur Rizqi](https://github.com/AsrofurRizqi) for clue to build these packages.
+- [Asrofur Rizqi](https://github.com/AsrofurRizqi) for clue to build badvpn & corkscrew packages.
 
 ### References
 - [prasathmani/tinyfilemanager](https://github.com/prasathmani/tinyfilemanager)
