@@ -16,7 +16,8 @@ LuCI OpenSpeedtest App
 LuCI Tiny File Manager App
 LuCI Shutdown App
 Badvpn and Corkscrew
-Usage
+Build usage
+Installation of IPK file
 Credits
 References
 {% endcapture %}
@@ -84,7 +85,9 @@ badvpn-ncd
 badvpn-ncd-request
 ```
 
-### Usage
+### Build usage
+If you want to build these packages manually or adding it to your firmware, do these steps :
+
 - Git clone this repo to your local files by running this command
 ```
 git clone --depth=1 https://github.com/helmiau/helmiwrt-packages
@@ -141,6 +144,18 @@ CONFIG_PACKAGE_luci-app-xderm-limit=y
 ```
 > Change **n** to unuse the package or **y** to use the package
 
+#### Installation of IPK file
+This section will provide you an installation of IPK files through terminal.
+
+1. Take a look at here -> [Ipk Files](https://github.com/helmiau/helmiwrt-packages/tree/main/ipk-files).
+2. Select and copy a file name, then replace **nama_file_versi_all.ipk** below with your copied text/file name.
+```
+IPK="nama_file_versi_all.ipk"
+wget http://github.com/helmiau/helmiwrt-packages/blob/main/ipk-files/$IPK
+opkg install ${IPK}.ipk
+rm ${IPK}.ipk
+/etc/init.d/rpcd restart
+```
 
 ### Credits
 - [Immortalwrt](github.com/immortalwrt) for LuCI App comparison.
