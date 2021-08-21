@@ -91,6 +91,41 @@ git clone --depth=1 https://github.com/helmiau/helmiwrt-packages
 ```
 - Then add lines below to your **.config** file
 ```
+#Requirements packages for Libernet-Xderm-Limiter
+CONFIG_PACKAGE_procps-ng=y
+CONFIG_PACKAGE_procps-ng-ps=y
+CONFIG_PACKAGE_sshpass=y
+CONFIG_PACKAGE_python3-pip=y
+CONFIG_PACKAGE_coreutils-timeout=y
+CONFIG_PACKAGE_git=y
+CONFIG_PACKAGE_coreutils=y
+CONFIG_PACKAGE_coreutils-stdbuf=y
+CONFIG_PACKAGE_jq=y
+CONFIG_PACKAGE_ip-full=y
+CONFIG_PACKAGE_kmod-tun=y
+CONFIG_PACKAGE_openssh-client=y
+CONFIG_PACKAGE_https-dns-proxy=y
+CONFIG_PACKAGE_php7=y
+CONFIG_PACKAGE_php7-cgi=y
+CONFIG_PACKAGE_php7-mod-json=y
+CONFIG_PACKAGE_php7-mod-session=y
+CONFIG_PACKAGE_python3=y
+CONFIG_PACKAGE_httping=y
+CONFIG_PACKAGE_stunnel=y
+CONFIG_PACKAGE_stubby=y
+CONFIG_PACKAGE_getdns=y
+CONFIG_PACKAGE_libudev-fbsd=y
+CONFIG_PACKAGE_libudev-zero=y
+CONFIG_PACKAGE_librt=y
+CONFIG_PACKAGE_libpthread=y
+CONFIG_PACKAGE_libudev-zero=y
+CONFIG_PACKAGE_libnss=y
+CONFIG_PACKAGE_libopenssl=y
+CONFIG_PACKAGE_openssl-util=y
+
+#HelmiWrt Packages
+CONFIG_PACKAGE_badvpn=y
+CONFIG_PACKAGE_corkscrew=y
 CONFIG_PACKAGE_luci-app-libernet=n
 CONFIG_PACKAGE_luci-app-libernet-bin=n
 CONFIG_PACKAGE_luci-app-libernet-plus=y
@@ -100,8 +135,6 @@ CONFIG_PACKAGE_luci-app-tinyfilemanager=y
 CONFIG_PACKAGE_luci-app-xderm-bin=y
 CONFIG_PACKAGE_luci-app-xderm=n
 CONFIG_PACKAGE_luci-app-xderm-limit=y
-CONFIG_PACKAGE_badvpn=y
-CONFIG_PACKAGE_corkscrew=y
 ```
 > Change **n** to unuse the package or **y** to use the package
 
