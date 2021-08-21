@@ -15,6 +15,7 @@ LuCI Xderm Mini App
 LuCI OpenSpeedtest App
 LuCI Tiny File Manager App
 LuCI Shutdown App
+Badvpn and Corkscrew
 Usage
 Credits
 References
@@ -65,6 +66,23 @@ File manager by [Prasath Mani](https://github.com/prasathmani/tinyfilemanager).
 
 > This package will be shown under **LuCI -> System -> Shutdown**
 
+#### Badvpn and Corkscrew
+This repository is for archiving badvpn & corkscrew which working with latest snapshot OpenWrt build. Collected by [helmiau](http://www.github.com/helmiau)
+
+tun2socks openwrt v1.999.128 **NEW DEC 2020** update by [Friyadhi Biermann](https://github.com/friyadhibiermann/openwrt_badvpn-tun2socks).
+
+Supported libraries :
+```
+NSS
+NSPR
+badvpn-server
+badvpn-client
+badvpn-tun2socks
+badvpn-udpgw
+badvpn-tunctl
+badvpn-ncd
+badvpn-ncd-request
+```
 
 ### Usage
 - Git clone this repo to your local files by running this command
@@ -82,8 +100,10 @@ CONFIG_PACKAGE_luci-app-tinyfilemanager=y
 CONFIG_PACKAGE_luci-app-xderm-bin=y
 CONFIG_PACKAGE_luci-app-xderm=n
 CONFIG_PACKAGE_luci-app-xderm-limit=y
+CONFIG_PACKAGE_badvpn=y
+CONFIG_PACKAGE_corkscrew=y
 ```
-> Change "n" to unuse the package or "y" to use the package
+> Change **n** to unuse the package or **y** to use the package
 
 
 ### Credits
@@ -93,6 +113,11 @@ CONFIG_PACKAGE_luci-app-xderm-limit=y
 - [OpenSpeedtest](https://github.com/AsrofurRizqi) for OpenSpeedtest binaries & sources.
 - [Ryan Fauzi](https://github.com/ryanfauzi1/xderm-mini_GUI) for Xderm Mini & Limiter GUI binaries.
 - [Lutfa Ibtihaji Ilham](https://github.com/lutfailham96/libernet) for Libernet binaries.
+- [Ambroz Bizjak](https://github.com/ambrop72/badvpn) for main badvpn source.
+- [agroman.net](http://www.agroman.net/corkscrew/) for main corkscrew source.
+- [Galih Prastowo Aji](https://github.com/hillz2/corkscrew) for corkscrew openwrt Makefile.
+- [Friyadhi Biermann](https://github.com/friyadhibiermann/openwrt_badvpn-tun2socks) for badvpn openwrt Makefile and update.
+- [Asrofur Rizqi](https://github.com/AsrofurRizqi) for clue to build these packages.
 
 ### References
 - [prasathmani/tinyfilemanager](https://github.com/prasathmani/tinyfilemanager)
@@ -101,5 +126,9 @@ CONFIG_PACKAGE_luci-app-xderm-limit=y
 - [ryanfauzi1/xderm-mini_GUI](https://github.com/ryanfauzi1/xderm-mini_GUI)
 - [lutfailham96/libernet](https://github.com/lutfailham96/libernet)
 - [OpenSpeedtest for Website](http://openspeedtest.com/speed-testing-application-for-your-website.php)
+- [ambrop72/badvpn](https://github.com/ambrop72/badvpn/wiki/Tun2socks)
+- [code.google.com/archive/p/badvpn](https://code.google.com/archive/p/badvpn/downloads)
+- [hillz2/corkscrew](https://github.com/hillz2/corkscrew)
+- [patpadgett/corkscrew](https://github.com/patpadgett/corkscrew)
 
 <h6 align="center">Copyright by <a href="http://www.helmiau.com">Helmi Amirudin</a> ® 2021 <br> Thank You ! 🤝</h6>
