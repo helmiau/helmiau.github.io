@@ -26,11 +26,12 @@ References
 
 #### LuCI Libernet App
 There is 3 versions/options under this package :
-1. Libernet Original (Only LuCI App without binaries)
-2. Libernet Original + binaries
-3. Libernet Plus (remove login page and speedtest, added auto reconnect menu)
+1. luci-app-libernet : LuCI App Libernet Only without binaries.
+2. luci-app-libernet-bin : LuCI App Libernet + original Libernet binaries.
+3. luci-app-libernet-plus : LuCI App Libernet + Libernet Plus binaries (remove login page and speedtest, added auto reconnect menu)
 
-> Please select one of installation above, don't install all packages. This package will be shown under **LuCI -> Services -> Libernet**
+> Please select one of installation above, don't install all packages.
+> This package will be shown under **LuCI -> Services -> Libernet**
 
 ![libernet-plus](https://raw.githubusercontent.com/helmiau/helmiwrt-packages/main/preview/libernet-prev.png)
 
@@ -39,12 +40,21 @@ There is 3 versions/options under this package :
 
 #### LuCI Xderm Mini App
 There is 3 versions/options under this package :
-1. Xderm Mini Original (Only LuCI App without binaries)
-2. Xderm Mini Original + binaries
+1. luci-app-xderm : LuCI App Xderm Mini Only without binaries
+2. luci-app-xderm-bin : LuCI App Xderm Mini + original binaries
 
-> Please select one of installation above, don't install all packages. This package will be shown under **LuCI -> Services -> Xderm Mini**
+> Please select one of installation above, don't install all packages.
+> This package will be shown under **LuCI -> Services -> Xderm Mini**
 
 ![xderm-plus](https://raw.githubusercontent.com/helmiau/helmiwrt-packages/main/preview/xderm-prev.png)
+
+
+#### LuCI Xderm Limiter
+Xderm Limiter will give internet speed limit to every registered device.
+
+> This package will be shown under **LuCI -> Services -> Xderm Limiter**
+
+![xderm-limit](https://raw.githubusercontent.com/helmiau/helmiwrt-packages/main/preview/xderm-limiter-prev.png)
 
 
 #### LuCI OpenSpeedtest App
