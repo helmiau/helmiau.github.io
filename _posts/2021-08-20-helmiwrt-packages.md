@@ -12,6 +12,7 @@ Source: [My Own Repo](https://github.com/helmiau/helmiwrt-packages)
 {% capture list_items %}
 LuCI Libernet App
 LuCI Xderm Mini App
+LuCI Xderm Limiter
 LuCI OpenSpeedtest App
 LuCI Tiny File Manager App
 LuCI Shutdown App
@@ -21,7 +22,7 @@ Installation of IPK file
 Credits
 References
 {% endcapture %}
-{% include elements/list.html title="HelmiWrt Packages for OpenWrt" type="toc" %}
+{% include elements/list.html title="HelmiWrt Packages for OpenWrt Page Index" type="toc" %}
 
 
 #### LuCI Libernet App
