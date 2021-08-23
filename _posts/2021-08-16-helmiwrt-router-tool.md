@@ -36,13 +36,13 @@ Main features :
 - Rufus included
 
 ### Download Link :
-1. [Full Package](https://github.com/helmiau/helmiwrt-tool-free/releases/download/v1.0/HelmiWrt-Tool-Free+Etcher.zip). This package contains :
+1. [Full Package](https://github.com/helmiau/helmiwrt-tool-free/releases/latest/download/HelmiWrt-Tool-Free+Etcher.zip). This package contains :
   - HelmiWrt main software.
   - Putty.
   - WinSCP.
   - Balena Etcher.
   - Rufus.
-2. [Minimal Package](https://github.com/helmiau/helmiwrt-tool-free/releases/download/v1.0/HelmiWrt-Tool-Free.zip). This package contains :
+2. [Minimal Package](https://github.com/helmiau/helmiwrt-tool-free/releases/latest/download/HelmiWrt-Tool-Free.zip). This package contains :
   - HelmiWrt main software.
   - Putty.
   - WinSCP.
