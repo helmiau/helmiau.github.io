@@ -155,7 +155,7 @@ CONFIG_PACKAGE_luci-app-xderm-limit=y
 > Change **n** to unuse the package or **y** to use the package
 
 #### Installation of IPK file
-This section will provide you an installation of IPK files through terminal.
+This section will provide you an installation of IPK files through terminal. Thank's to bro [Reyre](https://www.facebook.com/groups/443024392562406/user/100000998540396/) for helping me to build these ipk's.
 
 1. Take a look at here -> [Ipk Files](https://github.com/helmiau/helmiwrt-packages/tree/main/ipk-files).
 2. Select and copy a file name, then replace **nama_file_versi_all.ipk** below with your copied text/file name.
