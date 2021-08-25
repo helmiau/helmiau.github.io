@@ -162,8 +162,18 @@ This section will provide you an installation of IPK files through terminal. Tha
 ```
 IPK="nama_file_versi_all.ipk"
 wget http://github.com/helmiau/helmiwrt-packages/blob/main/ipk-files/$IPK
-opkg install ${IPK}.ipk
-rm ${IPK}.ipk
+opkg install ${IPK}
+rm ${IPK}
+/etc/init.d/rpcd restart
+```
+
+Example :
+
+```
+IPK="luci-app-xderm-bin-1.2-0_all.ipk"
+wget http://github.com/helmiau/helmiwrt-packages/blob/main/ipk-files/$IPK
+opkg install ${IPK}
+rm ${IPK}
 /etc/init.d/rpcd restart
 ```
 
