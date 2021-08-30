@@ -7,7 +7,7 @@ description: HelmiWrt is Windows program for configure OpenWrt/VPS Linux/Hilink 
 comments: true
 ---
 
-Source: [My Own Repo](https://github.com/helmiau/helmiwrt-tool-free#readme)
+Source: [My Own Repo](https://github.com/helmiau/wrt#readme)
 
 ### Preview
 <p align="center">
@@ -36,13 +36,13 @@ Main features :
 - Rufus included
 
 ### Download Link :
-1. [Full Package](https://github.com/helmiau/helmiwrt-tool-free/releases/latest/download/HelmiWrt-Tool-Free+Etcher.zip). This package contains :
+1. [Full Package](https://github.com/helmiau/wrtool/releases/latest/download/HelmiWrt-Tool-Free+Etcher.zip). This package contains :
   - HelmiWrt main software.
   - Putty.
   - WinSCP.
   - Balena Etcher.
   - Rufus.
-2. [Minimal Package](https://github.com/helmiau/helmiwrt-tool-free/releases/latest/download/HelmiWrt-Tool-Free.zip). This package contains :
+2. [Minimal Package](https://github.com/helmiau/wrtool/releases/latest/download/HelmiWrt-Tool-Free.zip). This package contains :
   - HelmiWrt main software.
   - Putty.
   - WinSCP.
