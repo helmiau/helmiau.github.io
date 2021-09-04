@@ -100,14 +100,15 @@ ipv6-helper clean   : Remove modules <span class="hljs-keyword">and</span> LuCI 
 </details>
 
 <br>
-Tweaked & patched by Helmi Amirudin
+**Tweaked & patched by Helmi Amirudin**
 <!--<details><summary>Tweaked by My own configurations : (click to show)</summary>-->
 <p>
 <ul>
-<li>Added <strong>speedtest</strong> and <strong>neofetch</strong> command.</li>
+<li>Firmware base is from SuLingGG/OpenWrt-Rpi. But, HelmiWrt OS has many tweaks, optimizations and configurations written by Helmi Amirudin.</li>
+<li>Removed all unused bloatwares.</li>
 <li>Removed all languages except English.</li>
-<li>Set English as default language.</li>
-<li>Set timezone to WIB-7 Asia/Jakarta.</li>
+<li>Set <strong>English</strong> as default language.</li>
+<li>Set <strong>WIB-7 Asia/Jakarta</strong> as default timezone.</li>
 <li>Add shutdown, poweroff, reboot commands to LuCI.</li>
 <li>Activated mwan3 Loadbalance :
   <ul>
@@ -146,11 +147,6 @@ Tweaked & patched by Helmi Amirudin
   </ul>
 </li>
 <li>Extended root partition to 3GB.</li>
-<li>RAM Checker via Terminal by command <strong>ram</strong>.</li>
-<li>VMESS Account Creation (3 days) from racevpn.com via  Terminal by command <strong>vmess</strong>.</li>
-<li>Fix browser always download file index.php (like xderm and libernet) via  Terminal by command <strong>fixphp</strong>.</li>
-<li>Add IP Address Info Checker. run <strong>myip</strong> using terminal for use.</li>
-<li>Add IPV6 helper tool. run <strong>ipv6-helper</strong> using terminal for use.</li>
 <li>Add Samba Allowed user setup. This tool will help you to add Allowed User for Samba Directory.
   <ul>
   <li>Run <strong>sambaset</strong> using terminal for use, then follow instruction.</li>
@@ -162,8 +158,22 @@ Tweaked & patched by Helmi Amirudin
 </li>
 <li>Add <strong>badvpn</strong> and <strong>corkscrew</strong> package for Xderm Mini GUI & Libernet purpose.</li>
 <li>Add <strong>Clash Premium Core</strong> for OpenClash.</li>
-<li>Run <strong>ocsm</strong> using terminal if you want to switch between Premium Clash Core and Latest Original Clash Core, update OpenClash App.</li>
-<li>Run <strong>vasm</strong> using terminal if you want to configure v2rayA.</li>
+<li>Below is <strong>helmiwrt</strong> command lists :
+  <ul>
+  <li>Run <strong>ocsm</strong> using terminal if you want to manage OpenClash.</li>
+  <li>Run <strong>vasm</strong> using terminal if you want to manage v2rayA.</li>
+  <li>Run <strong>speedtest</strong> to test your network quality via terminal.</li>
+  <li>Run <strong>neofetch</strong> to see your device information.</li>
+  <li>Run <strong>sambaset</strong> to manage Samba Network Share.</li>
+  <li>Run <strong>ram</strong> to see available/used ram & processes.</li>
+  <li>Run <strong>vmess</strong> to create free vmess account for 3 days.</li>
+  <li>Run <strong>fixphp</strong> to fix browser always download file index.php (like xderm and libernet).</li>
+  <li>Run <strong>myip</strong> to check your public IP address.</li>
+  <li>Run <strong>ipv6-helper</strong> to manage ipv6 support.</li>
+  <li>Run <strong>xdrtool</strong> to manage Xderm Mini via terminal.</li>
+  </ul>
+</li>
+<li>Added many tweaks, optimizations and configurations which is not writed here.</li>
 </ul>
 </p>
 <!--</details>-->
