@@ -49,45 +49,7 @@ Contains scientific Internet tools:</li>
 </ul>
 </p>
 </details>
-<details><summary>My own configurations : (click to show)</summary>
-<p>
-<ul>
-<li>Added <strong>speedtest</strong> and <strong>neofetch</strong> command.</li>
-<li>Removed all languages except English.</li>
-<li>Set English as default language.</li>
-<li>Set timezone to WIB-7 Asia/Jakarta.</li>
-<li>Add shutdown, poweroff, reboot commands.</li>
-<li>Loadbalance 4 USB Hilink.</li>
-<li>Add ShadowsocksR Plus+ shortcut <strong>(ssr-rst, ssr-start, ssr-stop)</strong>.</li>
-<li>QMI modems supported ex. LT4220.<ul>
-<li>Add IP Refresh for QMI Modems by running <strong>ipqmi</strong> using terminal.</li>
-<li>Auto reconnect QMI Modems without reboot.</li>
-</ul>
-</li>
-<li>VPN support : PPTP / L2TP / ShadowSocks / ShadowSocksR / V2ray(VMESS/VLESS) / Trojan / Trojan-Go.</li>
-<li>Extended root partition to 3GB.</li>
-<li>RAM Checker via Terminal by command <strong>ram</strong>.</li>
-<li>VMESS Account Creation (3 days) from racevpn.com via  Terminal by command <strong>vmess</strong>.</li>
-<li>Fix browser always download file index.php (like xderm and libernet) via  Terminal by command <strong>fixphp</strong>.</li>
-<li>Add IP Address Info Checker. run <strong>myip</strong> using terminal for use.</li>
-<li>Add IPV6 helper tool. run <strong>ipv6-helper</strong> using terminal for use.</li>
-<li>Add Samba Allowed user setup. This tool will help you to add Allowed User for Samba Directory.
-<ul>
-<li>Run <strong>sambaset</strong> using terminal for use, then follow instruction.</li>
-<li>Open Network Share <a href="http://192.168.1.1/cgi-bin/luci/admin/nas/samba">Samba Here</a>.</li>
-<li>Add shared directory, fill name, path with your shared directory.</li>
-<li>Fill <strong>Allowed users</strong> with <strong>USER</strong>, check <strong>Browseable</strong>, uncheck <strong>Allowed Guests</strong> and <strong>Read-Only</strong>.</li>
-<li>Save and Apply.</li>
-</ul>
-</li>
-<li>Add <strong>badvpn</strong> and <strong>corkscrew</strong> package for Xderm Mini GUI & Libernet purpose. (if you want to install Xderm or Libernet, please install it manually)</li>
-<li>Add <strong>Clash Premium Core</strong> for OpenClash core.</li>
-<ul>
-<li>Run <strong>clashcs</strong> using terminal if you want to switch between Premium Clash Core and Latest Original Clash Core</li>
-</ul>
-</ul>
-</p>
-</details>
+
 <details><summary>About IPV6 information, Support, etc. (click to show)</summary>
 <p>
 <p>IPV6 is not installed in this firmware by default, but it&#39;s available and ready to install. Added within this firmware <strong>ipv6-helper</strong> tools to facilitate quick installation and configuration IPV6 module through terminal.</p>
@@ -133,6 +95,73 @@ ipv6-helper clean   : Remove modules <span class="hljs-keyword">and</span> LuCI 
 </ul>
 </p>
 </details>
+
+<!--<details><summary>Tweaked by My own configurations : (click to show)</summary>-->
+<p>
+<ul>
+<li>Added <strong>speedtest</strong> and <strong>neofetch</strong> command.</li>
+<li>Removed all languages except English.</li>
+<li>Set English as default language.</li>
+<li>Set timezone to WIB-7 Asia/Jakarta.</li>
+<li>Add shutdown, poweroff, reboot commands to LuCI.</li>
+<li>Activated mwan3 Loadbalance :
+  <ul>
+  <li>4 USB Interface (Hilink, USB to LAN, iOS, Android devices).</li>
+  <li>2 QMI Interface (ex. LT4220).</li>
+  <li>1 3G Interface.</li>
+  </ul>
+</li>
+<li>Add ShadowsocksR Plus+ shortcut <strong>(ssr-rst, ssr-start, ssr-stop)</strong>.</li>
+<li>QMI modems supported ex. LT4220.
+  <ul>
+  <li>Add IP Refresh for QMI Modems by running <strong>ipqmi</strong> using terminal.</li>
+  <li>Auto reconnect QMI Modems without reboot.</li>
+  </ul>
+</li>
+<li>VPN protocol support :
+  <ul>
+  <li>Brook.</li>
+  <li>Hysteria.</li>
+  <li>OpenVPN.</li>
+  <li>ShadowSocks.</li>
+  <li>ShadowSocksR.</li>
+  <li>SSH (SSL Support).</li>
+  <li>Trojan.</li>
+  <li>V2ray (Vmess, Vless).</li>
+  </ul>
+</li>
+<li>VPN client apps :
+  <ul>
+  <li>ShadowSocksR+ Plus.</li>
+  <li>Passwall.</li>
+  <li>OpenClash.</li>
+  <li>OpenVPN.</li>
+  <li>Libernet Plus.</li>
+  <li>Xderm Mini.</li>
+  </ul>
+</li>
+<li>Extended root partition to 3GB.</li>
+<li>RAM Checker via Terminal by command <strong>ram</strong>.</li>
+<li>VMESS Account Creation (3 days) from racevpn.com via  Terminal by command <strong>vmess</strong>.</li>
+<li>Fix browser always download file index.php (like xderm and libernet) via  Terminal by command <strong>fixphp</strong>.</li>
+<li>Add IP Address Info Checker. run <strong>myip</strong> using terminal for use.</li>
+<li>Add IPV6 helper tool. run <strong>ipv6-helper</strong> using terminal for use.</li>
+<li>Add Samba Allowed user setup. This tool will help you to add Allowed User for Samba Directory.
+  <ul>
+  <li>Run <strong>sambaset</strong> using terminal for use, then follow instruction.</li>
+  <li>Open Network Share <a href="http://192.168.1.1/cgi-bin/luci/admin/nas/samba">Samba Here</a>.</li>
+  <li>Add shared directory, fill name, path with your shared directory.</li>
+  <li>Fill <strong>Allowed users</strong> with <strong>USER</strong>, check <strong>Browseable</strong>, uncheck <strong>Allowed Guests</strong> and <strong>Read-Only</strong>.</li>
+  <li>Save and Apply.</li>
+  </ul>
+</li>
+<li>Add <strong>badvpn</strong> and <strong>corkscrew</strong> package for Xderm Mini GUI & Libernet purpose.</li>
+<li>Add <strong>Clash Premium Core</strong> for OpenClash.</li>
+<li>Run <strong>ocsm</strong> using terminal if you want to switch between Premium Clash Core and Latest Original Clash Core, update OpenClash App.</li>
+<li>Run <strong>vasm</strong> using terminal if you want to configure v2rayA.</li>
+</ul>
+</p>
+<!--</details>-->
 
 <br>
 ### Previews
