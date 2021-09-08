@@ -14,7 +14,7 @@ Source: [My Own Repo](https://github.com/helmiau/HelmiWrt-OS#readme)
 <br>
 #### Firmware Informations (features, etc)
 
-helmiwrt OS is a customized OpenWrt firmware with many additions to make a **ready to use** firmware. This firmware based on [SuLingGG OpenWrt-Rpi](https://github.com/SuLingGG/OpenWrt-Rpi) compiled daily using GitHub Actions. This project currently available for Raspberry Pi 1/2/3/4 and x86 (PC/Laptop) devices.
+HelmiWrt OS is a customized OpenWrt firmware with many additions to make a **ready to use** firmware. This firmware based on [SuLingGG OpenWrt-Rpi](https://github.com/SuLingGG/OpenWrt-Rpi) compiled daily using GitHub Actions. This project currently available for Raspberry Pi 1/2/3/4 and x86 (PC/Laptop) devices.
 
 <details><summary>Main firmware features : (click to show)</summary>
 <p>
