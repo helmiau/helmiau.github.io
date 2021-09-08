@@ -1,5 +1,5 @@
 ---
-title: HelmiWrt Custom Firmware for Raspberry Pi 1/2/3/4
+title: HelmiWrt OS : Customized OpenWrt Firmware
 tags: [Raspberry Pi, Lean, Custom Firmware, OpenWrt]
 style: fill
 color: warning
@@ -11,6 +11,8 @@ Source: [My Own Repo](https://github.com/helmiau/HelmiWrt-OS#readme)
 
 <br><center><img height="70px" width="80%" src="https://github.com/helmiau/helmiau.github.io/raw/master/images/helmiwrtos.svg" ></center><br>
 
+<br>
+#### Firmware Informations (features, etc)
 
 Raspberry Pi 4 OpenWrt Compile Project. (Based on [SuLingGG OpenWrt-Rpi](https://github.com/SuLingGG/OpenWrt-Rpi) compiled using GitHub Actions). This project also available for Raspberry Pi 1/2/3
 
@@ -179,7 +181,28 @@ ipv6-helper clean   : Remove modules <span class="hljs-keyword">and</span> LuCI 
 <!--</details>-->
 
 <br>
-### Previews
+#### Supported Devices & Download Section
+
+- Raspberry Pi (1/2/3/4).
+
+| Raspberry Pi<br />Version | Github<br />Release | squashfs<br />factory | squashfs<br />sysupgrade | ext4<br />factory | ext4<br />sysupgrade | rootfs |
+| :-----------------------: | :-----------------: | :-------------------: | :----------------------: | :---------------: | :------------------: | :----: |
+| 1/1B | [📂](https://github.com/helmiau/HelmiWrt-OS/releases/latest) | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-bcm27xx-bcm2708-rpi-squashfs-factory.img.gz) | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-bcm27xx-bcm2708-rpi-squashfs-sysupgrade.img.gz) | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-bcm27xx-bcm2708-rpi-ext4-factory.img.gz) | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-bcm27xx-bcm2708-rpi-ext4-sysupgrade.img.gz) | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-bcm27xx-bcm2708-rpi-rootfs.tar.gz) |
+| 2/2B | [📂](https://github.com/helmiau/HelmiWrt-OS/releases/latest) | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-bcm27xx-bcm2709-rpi-2-squashfs-factory.img.gz) | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-bcm27xx-bcm2709-rpi-2-squashfs-sysupgrade.img.gz) | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-bcm27xx-bcm2709-rpi-2-ext4-factory.img.gz) | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-bcm27xx-bcm2709-rpi-2-ext4-sysupgrade.img.gz) | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-bcm27xx-bcm2709-rpi-2-rootfs.tar.gz) |
+| 3/3B/3B+ | [📂](https://github.com/helmiau/HelmiWrt-OS/releases/latest) | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-bcm27xx-bcm2710-rpi-3-squashfs-factory.img.gz) | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-bcm27xx-bcm2710-rpi-3-squashfs-sysupgrade.img.gz) | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-bcm27xx-bcm2710-rpi-3-ext4-factory.img.gz) | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-bcm27xx-bcm2710-rpi-3-ext4-sysupgrade.img.gz) | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-bcm27xx-bcm2710-rpi-3-rootfs.tar.gz) |
+| 4/4B | [📂](https://github.com/helmiau/HelmiWrt-OS/releases/latest) | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-bcm27xx-bcm2711-rpi-4-squashfs-factory.img.gz) | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-bcm27xx-bcm2711-rpi-4-squashfs-sysupgrade.img.gz) | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-bcm27xx-bcm2711-rpi-4-ext4-factory.img.gz) | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-bcm27xx-bcm2711-rpi-4-ext4-sysupgrade.img.gz) | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-bcm27xx-bcm2711-rpi-4-rootfs.tar.gz) |
+
+- x86/x64 (ex. Laptops, PC).
+
+| Device Name | Github<br />Release | squashfs<br />UEFI | squashfs<br />Legacy | ext4<br />UEFI | ext4<br />Legacy |
+| :---------: | :-----------------: | :----------------: | :------------------: | :------------: | :--------------: |
+| x86-generic (32bit) | [📂](https://github.com/helmiau/HelmiWrt-OS/releases/latest) | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-x86-generic-generic-squashfs-combined-efi.img.gz) | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-x86-generic-generic-squashfs-combined.img.gz) | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-x86-generic-generic-ext4-combined-efi.img.gz) | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-x86-generic-generic-ext4-combined.img.gz) |
+| x86-64 (64bit) | [📂](https://github.com/helmiau/HelmiWrt-OS/releases/latest) | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-x86-64-generic-squashfs-combined-efi.img.gz) | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-x86-64-generic-squashfs-combined.img.gz) | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-x86-64-generic-ext4-combined-efi.img.gz) | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-x86-64-generic-ext4-combined.img.gz) |
+
+> x86 version is also generate VMDK and VDI images, you can go to GitHub Release to download it.
+
+<br>
+#### Previews
 {% capture carousel_images %}
 https://github.com/helmiau/HelmiWrt-OS/raw/main/preview/openwrt-rpi-1.png
 https://github.com/helmiau/HelmiWrt-OS/raw/main/preview/openwrt-rpi-2.png
@@ -203,7 +226,7 @@ https://github.com/helmiau/HelmiWrt-OS/raw/main/preview/openwrt-rpi-17.png
 {% include elements/video.html id="HsDEWwgy-xg" %}
 
 
-### Firmware Requirements and Installation
+#### Firmware Requirements and Installation
 
 **Minimum Requirements :**
 1. SDCard 4GB
@@ -213,14 +236,7 @@ https://github.com/helmiau/HelmiWrt-OS/raw/main/preview/openwrt-rpi-17.png
 
 **Installation Steps :**
 
-| Raspberry Pi<br />Version | Github<br />Release | squashfs<br />factory | squashfs<br />sysupgrade | ext4<br />factory | ext4<br />sysupgrade | rootfs |
-| :-----------------------: | :----------------:  | :-------------------: | :----------------------: | :---------------: | :------------------: | :----: |
-| 1/1B | [📂](https://github.com/helmiau/HelmiWrt-OS/releases/latest) | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-bcm27xx-bcm2708-rpi-squashfs-factory.img.gz) | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-bcm27xx-bcm2708-rpi-squashfs-sysupgrade.img.gz) | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-bcm27xx-bcm2708-rpi-ext4-factory.img.gz) | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-bcm27xx-bcm2708-rpi-ext4-sysupgrade.img.gz) | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-bcm27xx-bcm2708-rpi-rootfs.tar.gz) |
-| 2/2B | [📂](https://github.com/helmiau/HelmiWrt-OS/releases/latest) | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-bcm27xx-bcm2709-rpi-2-squashfs-factory.img.gz) | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-bcm27xx-bcm2709-rpi-2-squashfs-sysupgrade.img.gz) | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-bcm27xx-bcm2709-rpi-2-ext4-factory.img.gz) | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-bcm27xx-bcm2709-rpi-2-ext4-sysupgrade.img.gz) | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-bcm27xx-bcm2709-rpi-2-rootfs.tar.gz) |
-| 3/3B/3B+ | [📂](https://github.com/helmiau/HelmiWrt-OS/releases/latest) | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-bcm27xx-bcm2710-rpi-3-squashfs-factory.img.gz) | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-bcm27xx-bcm2710-rpi-3-squashfs-sysupgrade.img.gz) | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-bcm27xx-bcm2710-rpi-3-ext4-factory.img.gz) | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-bcm27xx-bcm2710-rpi-3-ext4-sysupgrade.img.gz) | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-bcm27xx-bcm2710-rpi-3-rootfs.tar.gz) |
-| 4/4B | [📂](https://github.com/helmiau/HelmiWrt-OS/releases/latest) | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-bcm27xx-bcm2711-rpi-4-squashfs-factory.img.gz) | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-bcm27xx-bcm2711-rpi-4-squashfs-sysupgrade.img.gz) | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-bcm27xx-bcm2711-rpi-4-ext4-factory.img.gz) | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-bcm27xx-bcm2711-rpi-4-ext4-sysupgrade.img.gz) | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-bcm27xx-bcm2711-rpi-4-rootfs.tar.gz) |
-
-1. Download latest firmware from link above which contain **sysupgrade** or **factory** words.
+1. Download latest firmware from **Supported Devices & Download Section** above which contain **sysupgrade** or **factory** words.
   - How about squashfs or ext4 ? [Read more here](https://forum.openwrt.org/t/ext4-vs-squashfs/25187/7).
   - Note : I usually use factory_ext4 file.
   - If firmware URL/download link is not available or error, follow [this link](https://github.com/helmiau/HelmiWrt-OS/discussions/18).
@@ -236,21 +252,21 @@ https://github.com/helmiau/HelmiWrt-OS/raw/main/preview/openwrt-rpi-17.png
 11. Run available commands such as helmilb, sambaset, etc. (Optional)
 
 
-### Login Information
+#### Login Information
 ```
 Router IP	: 192.168.1.1
 Username	: root
 Password	: password
 ```
 
-### Note :
+#### Note :
 - Raspberry Pi will reboot automatically when first boot up after firmware installation.
 - If you get blank when open TTYD (Terminal LuCi App), change [https://192.168.1.1/.../terminal](https://192.168.1.1/cgi-bin/luci/admin/system/terminal) to [http://192.168.1.1/.../terminal](http://192.168.1.1/cgi-bin/luci/admin/system/terminal)
 - **ONLY ACCEPT DONATIONS BY CONTACTING ME FOR CONFIRMATION www.helmiau.com/about**
 - **I REFUSE FEATURE REQUEST OR BUG FIX WITHOUT SUGGESTION, CODES OR ANYTHING.**
 - If you want to discuss about this firmware, please create a GitHub account. Then open this [OpenWrt-Rpi Discussion Page](https://github.com/helmiau/HelmiWrt-OS/discussions). Note : English, Indonesian and Arabic languages are allowed.
 
-### Credits
+#### Credits
 - [OpenWrt Official](https://github.com/openwrt/openwrt) for main OpenWrt source.
 - [P3TERX/Actions-OpenWrt](https://github.com/P3TERX/Actions-OpenWrt) for OpenWrt LEDE GitHub actions script builder.
 - [coolsnowwolf/lede](https://github.com/coolsnowwolf/lede) for main build source and extended packages.
