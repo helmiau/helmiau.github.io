@@ -175,7 +175,7 @@ ipv6-helper clean   : Remove modules <span class="hljs-keyword">and</span> LuCI 
   <li>Run <strong>xdrtool</strong> to manage Xderm Mini via terminal.</li>
   </ul>
 </li>
-<li>Added many tweaks, optimizations and configurations which is not writed here.</li>
+<li>Added many tweaks, optimizations and configurations which unlisted here.</li>
 </ul>
 </p>
 <!--</details>-->
@@ -225,7 +225,7 @@ https://github.com/helmiau/HelmiWrt-OS/raw/main/preview/openwrt-rpi-17.png
 
 {% include elements/video.html id="HsDEWwgy-xg" %}
 
-<br><br>
+<br>
 
 #### Firmware Requirements and Installation
 
