@@ -1,5 +1,5 @@
 ---
-title: HelmiWrt OS : Customized OpenWrt Firmware
+title: HelmiWrt OS is Customized OpenWrt Firmware
 tags: [Raspberry Pi, Lean, Custom Firmware, OpenWrt]
 style: fill
 color: warning
