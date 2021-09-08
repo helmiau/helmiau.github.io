@@ -230,8 +230,7 @@ https://github.com/helmiau/HelmiWrt-OS/raw/main/preview/openwrt-rpi-17.png
 #### Firmware Requirements and Installation
 
 **Minimum Requirements :**
-1. SDCard/HDD/Flashdisk 4GB.
-2. Raspberry Pi 1/2/3/4 or CPU/Laptop.
+1. SDCard/HDD/Flashdisk 4GB.2. Raspberry Pi 1/2/3/4 or CPU/Laptop.
 3. PC/Laptop with Windows OS (if you use other OS, it's up to you but idk about installation with other OS).
 4. MicroSD Adapter/converter (for Raspberry Pi installation only).
 
@@ -266,6 +265,7 @@ Password	: password
 
 #### Known bugs
 - If you get blank when open TTYD (Terminal LuCi App), change [https://192.168.1.1/.../terminal](https://192.168.1.1/cgi-bin/luci/admin/system/terminal) to [http://192.168.1.1/.../terminal](http://192.168.1.1/cgi-bin/luci/admin/system/terminal)
+- If you get an error when open **OpenClash yacd dashboard panel**, change https:// to http:// protocol.
 
 
 #### Notes
