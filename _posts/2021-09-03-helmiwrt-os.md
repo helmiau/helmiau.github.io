@@ -225,6 +225,7 @@ https://github.com/helmiau/HelmiWrt-OS/raw/main/preview/openwrt-rpi-17.png
 
 {% include elements/video.html id="HsDEWwgy-xg" %}
 
+<br><br>
 
 #### Firmware Requirements and Installation
 
@@ -274,8 +275,7 @@ Password	: password
 - **Bug Report only available under GitHub Issue !** Not a Private Message or other social media comment coloumn !.
 - Private Message only available for **DONATION PURPOSE** by contacting me [here](https://www.helmiau.com/about/) with a question **Can i make some donation for you?**.
 - If you want to discuss about this firmware, please create a GitHub account. Then open this [HelmiWrt-OS Discussion Page](https://github.com/helmiau/HelmiWrt-OS/discussions).
-
-> Note : English, Indonesian and Arabic languages are allowed.
+  > Note : English, Indonesian and Arabic languages are allowed.
 
 
 #### Credits
@@ -284,16 +284,11 @@ Password	: password
 - [coolsnowwolf/lede](https://github.com/coolsnowwolf/lede) for main build source and extended packages.
 - [SuLingGG/OpenWrt-Rpi](https://github.com/SuLingGG/OpenWrt-Rpi) for base fork github actions.
 - [ophub/amlogic-s9xxx-openwrt](https://github.com/ophub/amlogic-s9xxx-openwrt) for comparison actions build script.
-<!--
-- [Kry9toN/openwrt-amlogic](https://github.com/Kry9toN/openwrt-amlogic) for comparison actions, config.
--->
 - [Wega Regianto](https://github.com/wegare123/ram) for ram checker.
 - [Ryan Fauzi](https://github.com/ryanfauzi1/vmesscreator) for vmess account creator provided by racevpn.com.
 - [Rudi Hartono](https://www.facebook.com/rud18) for IP Address refresher script for QMI Modems & reconnect w/o reboot script.
 - [LT4220 Facebook Forum](https://www.facebook.com/groups/2727709384212810) and it's [documentations](https://docs.google.com/document/d/10ldzikC9EdvXT43LEtct0qSwi5qWJk-LHFZFsl8_69E/edit#heading=h.ft8rlp9e08c4), **big thanks to [Nugroho](https://www.facebook.com/profile.php?id=100010890091391) as LT4220 docs writer**
-<!--
 - [config example 1](https://github.com/eallion/openwrt/blob/main/.config)
--->
 
 [Read more original README](https://github.com/SuLingGG/OpenWrt-Rpi/blob/main/README.md#openwrt-rpi)
 
