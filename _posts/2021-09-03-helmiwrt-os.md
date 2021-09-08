@@ -229,10 +229,10 @@ https://github.com/helmiau/HelmiWrt-OS/raw/main/preview/openwrt-rpi-17.png
 #### Firmware Requirements and Installation
 
 **Minimum Requirements :**
-1. SDCard 4GB
-2. Raspberry Pi 1/2/3/4
-3. PC/Laptop with Windows OS
-4. MicroSD Adapter/converter
+1. SDCard/HDD/Flashdisk 4GB.
+2. Raspberry Pi 1/2/3/4 or CPU/Laptop.
+3. PC/Laptop with Windows OS (if you use other OS, it's up to you but idk about installation with other OS).
+4. MicroSD Adapter/converter (for Raspberry Pi installation only).
 
 **Installation Steps :**
 
@@ -241,15 +241,18 @@ https://github.com/helmiau/HelmiWrt-OS/raw/main/preview/openwrt-rpi-17.png
   - Note : I usually use factory_ext4 file.
   - If firmware URL/download link is not available or error, follow [this link](https://github.com/helmiau/HelmiWrt-OS/discussions/18).
 2. Download [Rufus](https://github.com/pbatard/rufus/releases/download/v3.13/rufus-3.13p.exe) or [Balena Etcher](https://github.com/balena-io/etcher/releases/latest)
-3. Insert SdCard
+3. Insert SdCard/ Mount your HDD or Flashdisk
 4. Open Rufus/Etcher.
-5. Select disk (sdcard).
+5. Select disk (sdcard/hdd/flashdisk).
 6. Drag and drop downloaded firmware to Rufus/Etcher window.
 7. Start and wait until it finished.
 8. Eject your sdcard.
-9. Put it in to your Raspberry Pi sdcard slot.
-10. Turn your Pi on, then open [LuCI TTYD Terminal](http://192.168.1.1/cgi-bin/luci/admin/system/terminal) or Putty
-11. Run available commands such as helmilb, sambaset, etc. (Optional)
+9. Put it in to your Raspberry Pi sdcard or PC/Laptop hdd/USB slot.
+10. Turn on your device, then wait until boot up properly.
+
+**Recommendation after install :**
+1. open [LuCI TTYD Terminal](http://192.168.1.1/cgi-bin/luci/admin/system/terminal) or Putty.
+2. Run available commands such as helmilb, sambaset, etc. (Optional)
 
 
 #### Login Information
@@ -259,12 +262,21 @@ Username	: root
 Password	: password
 ```
 
-#### Note :
-- Raspberry Pi will reboot automatically when first boot up after firmware installation.
+
+#### Known bugs
 - If you get blank when open TTYD (Terminal LuCi App), change [https://192.168.1.1/.../terminal](https://192.168.1.1/cgi-bin/luci/admin/system/terminal) to [http://192.168.1.1/.../terminal](http://192.168.1.1/cgi-bin/luci/admin/system/terminal)
-- **ONLY ACCEPT DONATIONS BY CONTACTING ME FOR CONFIRMATION www.helmiau.com/about**
+
+
+#### Notes
+- No ETA !. example: When you fix bug blablabla? or any other else.
+- No noob question !. example: what things i need to install OpenWrt to a device?.
 - **I REFUSE FEATURE REQUEST OR BUG FIX WITHOUT SUGGESTION, CODES OR ANYTHING.**
-- If you want to discuss about this firmware, please create a GitHub account. Then open this [OpenWrt-Rpi Discussion Page](https://github.com/helmiau/HelmiWrt-OS/discussions). Note : English, Indonesian and Arabic languages are allowed.
+- **Bug Report only available under GitHub Issue !** Not a Private Message or other social media comment coloumn !.
+- Private Message only available for **DONATION PURPOSE** by contacting me [here](https://www.helmiau.com/about/) with a question **Can i make some donation for you?**.
+- If you want to discuss about this firmware, please create a GitHub account. Then open this [HelmiWrt-OS Discussion Page](https://github.com/helmiau/HelmiWrt-OS/discussions).
+
+> Note : English, Indonesian and Arabic languages are allowed.
+
 
 #### Credits
 - [OpenWrt Official](https://github.com/openwrt/openwrt) for main OpenWrt source.
@@ -272,12 +284,16 @@ Password	: password
 - [coolsnowwolf/lede](https://github.com/coolsnowwolf/lede) for main build source and extended packages.
 - [SuLingGG/OpenWrt-Rpi](https://github.com/SuLingGG/OpenWrt-Rpi) for base fork github actions.
 - [ophub/amlogic-s9xxx-openwrt](https://github.com/ophub/amlogic-s9xxx-openwrt) for comparison actions build script.
+<!--
 - [Kry9toN/openwrt-amlogic](https://github.com/Kry9toN/openwrt-amlogic) for comparison actions, config.
+-->
 - [Wega Regianto](https://github.com/wegare123/ram) for ram checker.
 - [Ryan Fauzi](https://github.com/ryanfauzi1/vmesscreator) for vmess account creator provided by racevpn.com.
 - [Rudi Hartono](https://www.facebook.com/rud18) for IP Address refresher script for QMI Modems & reconnect w/o reboot script.
-- [LT4220 Facebook Forum](https://www.facebook.com/groups/2727709384212810) and it's [documentations](https://docs.google.com/document/d/10ldzikC9EdvXT43LEtct0qSwi5qWJk-LHFZFsl8_69E/edit#heading=h.ft8rlp9e08c4), **especially big thanks to [Nugroho](https://www.facebook.com/profile.php?id=100010890091391) as LT4220 documentation writer**
+- [LT4220 Facebook Forum](https://www.facebook.com/groups/2727709384212810) and it's [documentations](https://docs.google.com/document/d/10ldzikC9EdvXT43LEtct0qSwi5qWJk-LHFZFsl8_69E/edit#heading=h.ft8rlp9e08c4), **big thanks to [Nugroho](https://www.facebook.com/profile.php?id=100010890091391) as LT4220 docs writer**
+<!--
 - [config example 1](https://github.com/eallion/openwrt/blob/main/.config)
+-->
 
 [Read more original README](https://github.com/SuLingGG/OpenWrt-Rpi/blob/main/README.md#openwrt-rpi)
 
