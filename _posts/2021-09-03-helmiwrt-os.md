@@ -246,7 +246,7 @@ https://github.com/helmiau/HelmiWrt-OS/raw/main/preview/openwrt-rpi-17.png
 5. Select disk (sdcard/hdd/flashdisk).
 6. Drag and drop downloaded firmware to Rufus/Etcher window.
 7. Start and wait until it finished.
-8. Eject your sdcard.
+8. Eject your sdcard/flashdisk/HDD.
 9. Put it in to your Raspberry Pi sdcard or PC/Laptop hdd/USB slot.
 10. Turn on your device, then wait until boot up properly.
 
@@ -264,8 +264,11 @@ Password	: password
 
 
 #### Known bugs
-- If you get blank when open TTYD (Terminal LuCi App), change [https://192.168.1.1/.../terminal](https://192.168.1.1/cgi-bin/luci/admin/system/terminal) to [http://192.168.1.1/.../terminal](http://192.168.1.1/cgi-bin/luci/admin/system/terminal)
+- If you get blank when open TTYD (Terminal LuCi App), change [https://192.168.1.1/.../terminal](https://192.168.1.1/cgi-bin/luci/admin/system/terminal) to [http://192.168.1.1/.../terminal](http://192.168.1.1/cgi-bin/luci/admin/system/terminal).
 - If you get an error when open **OpenClash yacd dashboard panel**, change https:// to http:// protocol.
+- v2rayA GUI and LuCI app is need **v2raya** command to start.
+- Libernet and Xderm Mini will not work with mwan3 loadbalance. You need to reconfigure /etc/config/network, /etc/config/firewall, etc/config/mwan3 by yourself. (If anyone know how to fix this, please tell me by creating an issue on GitHub).
+- Use OpenClash/Passwall/SSR+ instead of Libernet or Xderm Mini if you want to VPN with mwan3 loadbalance.
 
 
 #### Notes
