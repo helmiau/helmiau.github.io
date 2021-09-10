@@ -242,13 +242,13 @@ https://github.com/helmiau/HelmiWrt-OS/raw/main/preview/openwrt-rpi-17.png
   - Note : I usually use factory_ext4 file.
   - If firmware URL/download link is not available or error, follow [this link](https://github.com/helmiau/HelmiWrt-OS/discussions/18).
 2. Download [Rufus](https://github.com/pbatard/rufus/releases/download/v3.13/rufus-3.13p.exe) or [Balena Etcher](https://github.com/balena-io/etcher/releases/latest)
-3. Insert SdCard/ Mount your HDD or Flashdisk
+3. Insert SDCard/Flashdisk/HDD to your PC USB slot.
 4. Open Rufus/Etcher.
-5. Select disk (sdcard/hdd/flashdisk).
+5. Select disk (SDCard/Flashdisk/HDD).
 6. Drag and drop downloaded firmware to Rufus/Etcher window.
-7. Start and wait until it finished.
-8. Eject your sdcard/flashdisk/HDD.
-9. Put it in to your Raspberry Pi sdcard or PC/Laptop hdd/USB slot.
+7. Start and wait until it burning/flashing firmware image finished.
+8. Eject your SDCard/Flashdisk/HDD.
+9. Put the SDCard/Flashdisk/HDD in to your Raspberry Pi SDCard slot or PC/Laptop HDD/USB slot.
 10. Turn on your device, then wait until boot up properly.
 
 **Recommendation after install**
@@ -258,16 +258,18 @@ https://github.com/helmiau/HelmiWrt-OS/raw/main/preview/openwrt-rpi-17.png
 
 #### Login Information
 ```
-Router IP	: 192.168.1.1
-Username	: root
-Password	: password
+WiFi SSID     : HelmiWrt
+WiFi Password : no password
+Router IP	    : 192.168.1.1
+LuCI Username	: root
+LuCI Password	: password
 ```
 
 
 #### Known bugs
 - If you get blank when open TTYD (Terminal LuCi App), change [https://192.168.1.1/.../terminal](https://192.168.1.1/cgi-bin/luci/admin/system/terminal) to [http://192.168.1.1/.../terminal](http://192.168.1.1/cgi-bin/luci/admin/system/terminal).
 - If you get an error when open **OpenClash yacd dashboard panel**, change https:// to http:// protocol.
-- v2rayA GUI and LuCI app is need **v2raya** command to start.
+- v2rayA GUI and LuCI app is need **v2raya** command to start and v2rayA web GUI.
 - Libernet and Xderm Mini will not work with mwan3 loadbalance. You need to reconfigure /etc/config/network, /etc/config/firewall, etc/config/mwan3 by yourself. (If anyone know how to fix this, please tell me by creating an issue on GitHub).
 - Use OpenClash/Passwall/SSR+ instead of Libernet or Xderm Mini if you want to VPN with mwan3 loadbalance.
 
