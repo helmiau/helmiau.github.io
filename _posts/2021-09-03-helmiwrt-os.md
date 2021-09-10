@@ -266,12 +266,13 @@ LuCI Password	: password
 ```
 
 
-#### Known bugs
+#### Knowledgement
+- Firmware is optimized for mwan3 loadbalance purpose with 1+1+1=3 setup, not traffic connection separator.
 - If you get blank when open TTYD (Terminal LuCi App), change [https://192.168.1.1/.../terminal](https://192.168.1.1/cgi-bin/luci/admin/system/terminal) to [http://192.168.1.1/.../terminal](http://192.168.1.1/cgi-bin/luci/admin/system/terminal).
 - If you get an error when open **OpenClash yacd dashboard panel**, change https:// to http:// protocol.
 - v2rayA GUI and LuCI app is need **v2raya** command to start and v2rayA web GUI.
 - Libernet and Xderm Mini will not work with mwan3 loadbalance. You need to reconfigure /etc/config/network, /etc/config/firewall, etc/config/mwan3 by yourself. (If anyone know how to fix this, please tell me by creating an issue on GitHub).
-- Use OpenClash/Passwall/SSR+ instead of Libernet or Xderm Mini if you want to VPN with mwan3 loadbalance.
+- Use OpenClash/Passwall/SSR+ instead of Libernet or Xderm Mini if you want to use VPN with mwan3 loadbalance.
 
 
 #### Notes
