@@ -260,7 +260,7 @@ https://github.com/helmiau/HelmiWrt-OS/raw/main/preview/openwrt-rpi-17.png
 ```
 WiFi SSID     : HelmiWrt
 WiFi Password : no password
-Router IP	    : 192.168.1.1
+Router IP     : 192.168.1.1
 LuCI Username	: root
 LuCI Password	: password
 ```
