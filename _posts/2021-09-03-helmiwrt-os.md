@@ -235,6 +235,7 @@ English Guide
 
 
 <br>
+<br>
 ### Tutorial Bahasa Indonesia
 
 <br>
@@ -281,6 +282,7 @@ English Guide
 #### Catatan
 - Jangan tanyakan "Kapan dibenerin? atau yang semisalnya. Single fighter ini bos !.
 - Jangan tanyakan pertanyaan orang awam, seperti : Apa aja yang perlu disiapkan untuk memasang OpenWrt di perangkatku?.
+- Jangan tanyakan dukungan maupun perbaikan bug pada perangkat yang tidak didukung secara resmi.
 - **Saya menolak fitur tambahan dan perbaikan tanpa saran, sumber kode, script ataupun yang lainnya.**
 - **Lapuran Bug hanya tersedia di [GitHub issue](https://github.com/helmiau/HelmiWrt-OS/issues) !**, Bukan pesan pribadi ataupun kolom komentar !.
 - Pesan pribadi hanya berlaku untuk **DONASI** dengan menghubungi saya [disini](https://www.helmiau.com/about/) dengan isi pesan **Saya ingin donasi**.
@@ -288,7 +290,6 @@ English Guide
   > Note : English, Indonesian and Arabic languages are allowed.
 
 
-<br>
 <br>
 <br>
 ### English Guide
@@ -334,6 +335,7 @@ English Guide
 #### Notes
 - No ETA !. example: When you fix bug blablabla? or any other else.
 - No noob question !. example: what things i need to install OpenWrt to a device?.
+- No support and bug fix for unsupported device.
 - **I REFUSE FEATURE REQUEST OR BUG FIX WITHOUT SUGGESTION, CODES OR ANYTHING.**
 - **Bug Report only available under GitHub Issue !**, not a Private Message or other social media comment coloumn !.
 - Private Message only available for **DONATION PURPOSE** by contacting me [here](https://www.helmiau.com/about/) with a message **I want to donate**.
