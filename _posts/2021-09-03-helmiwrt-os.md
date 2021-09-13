@@ -205,15 +205,6 @@ https://github.com/helmiau/HelmiWrt-OS/raw/main/preview/openwrt-rpi-17.png
 
 {% include elements/video.html id="HsDEWwgy-xg" %}
 
-<br>
-
-#### Firmware Requirements
-
-1. SDCard/HDD/Flashdisk 4GB.
-2. Raspberry Pi 1/2/3/4 or CPU/Laptop.
-3. PC/Laptop with Windows OS (if you use other OS, it's up to you but idk about installation with other OS).
-4. MicroSD Adapter/converter (for Raspberry Pi installation only).
-
 
 <br>
 #### Supported Devices & Download Section
@@ -236,8 +227,83 @@ https://github.com/helmiau/HelmiWrt-OS/raw/main/preview/openwrt-rpi-17.png
 
 
 <br>
+{% capture list_items %}
+Tutorial Bahasa Indonesia
+English Guide
+{% endcapture %}
+{% include elements/list.html title="Installation Index / Daftar Isi Instalasi" type="toc" %}
+
+
+<br>
+### Tutorial Bahasa Indonesia
+
+<br>
+#### Kebutuhan Firmware
+
+1. SDCard/HDD/Flashdisk 4GB.
+2. Raspberry Pi 1/2/3/4 atau PC/Laptop.
+3. PC/Laptop dengan sistem operasi Windows (bisa juga menggunakan OS lain, tapi saya tidak cantumkan instalasinya disini).
+4. MicroSD Adapter/converter (untuk instalsi Raspberry Pi saja).
+
+
+<br>
+#### Instalasi Firmware
+1. Unduh firmware terbaru dari bagian **Supported Devices & Download Section** diatas, pilih yang ada tulisan **sysupgrade** atau **factory** atau **UEFI** atau **Legacy**.
+  - Cari tahu tentang perbedaan squashfs dan ext4 [disini](https://forum.openwrt.org/t/ext4-vs-squashfs/25187/7).
+  - Saya biasanya menggunakan ext4.
+  - Jika link download error, silahkan ikuti [cara ini](https://github.com/helmiau/HelmiWrt-OS/discussions/18). Jika masih belum bisa, maka bersabarlah atau gunakan yang lain.
+2. Unduh [Rufus](https://github.com/pbatard/rufus/releases/download/v3.13/rufus-3.13p.exe) atau [Balena Etcher](https://github.com/balena-io/etcher/releases/latest).
+3. Masukkan SDCard/Flashdisk/HDD ke PC via slot USB.
+4. Buka Rufus/Etcher.
+5. Pilih disk (SDCard/Flashdisk/HDD).
+6. Tarik file yang sudah di unduh tadi ke jendela program Rufus/Etcher.
+7. Mulai burn dan tunggu hingga proses selesai.
+8. Lepaskan SDCard/Flashdisk/HDD dari USB.
+9. Masukkan SDCard/Flashdisk/HDD ke slot SdCard Raspberry Pi atau slot USB/HDD pada PC/Laptop.
+10. Tunggu perangkat Anda hidup.
+
+**Rekomendasi setelah install (Tidak Wajib)**
+1. Buka [LuCI TTYD Terminal](http://192.168.1.1/cgi-bin/luci/admin/system/terminal) or Putty.
+2. Jalankan perintah **helmiwrt** untuk melihat beberapa perintah yang ada.
+
+
+<br>
+#### Informasi Tambahan
+- Firmware dibuat dengan optimasi mwan3 loadbalance dengan pengaturan 1+1+1=3, bukan pisah trafik.
+- Jika TTYD (Terminal LuCi App) tidak tampil, ubah [https://192.168.1.1/.../terminal](https://192.168.1.1/cgi-bin/luci/admin/system/terminal) menjadi [http://192.168.1.1/.../terminal](http://192.168.1.1/cgi-bin/luci/admin/system/terminal).
+- Jika **OpenClash yacd dashboard panel** tidak tampil, ganti protokol **https://** menjadi **http://** pada address bar browser yang Anda gunakan.
+- v2rayA GUI dan LuCI app membutuhkan instalasi WebUI pada perintah **v2raya**.
+- Libernet dan Xderm Mini tidak akan berjalan dengan mwan3 loadbalance. Jika Anda ingin menggunakannya, Anda harus mengatur beberapa pengaturan pada /etc/config/network, /etc/config/firewall, etc/config/mwan3 secara manual. (Jika ada yang tahu untuk memperbaiki bug ini, silahkan gunakan [GitHub issue](https://github.com/helmiau/HelmiWrt-OS/issues) untuk memberi perbaikan).
+- Gunakanlah OpenClash/Passwall/SSR+ daripada Libernet atau Xderm Mini jika ingin menggunakan VPN dengan mwan3 loadbalance.
+
+
+<br>
+#### Catatan
+- Jangan tanyakan "Kapan dibenerin? atau yang semisalnya. Single fighter ini bos !.
+- Jangan tanyakan pertanyaan orang awam, seperti : Apa aja yang perlu disiapkan untuk memasang OpenWrt di perangkatku?.
+- **Saya menolak fitur tambahan dan perbaikan tanpa saran, sumber kode, script ataupun yang lainnya.**
+- **Lapuran Bug hanya tersedia di [GitHub issue](https://github.com/helmiau/HelmiWrt-OS/issues) !**, Bukan pesan pribadi ataupun kolom komentar !.
+- Pesan pribadi hanya berlaku untuk **DONASI** dengan menghubungi saya [disini](https://www.helmiau.com/about/) dengan isi pesan **Saya ingin donasi**.
+- Gunakan [Halaman Diskusi HelmiWrt-OS](https://github.com/helmiau/HelmiWrt-OS/discussions) untuk diskusi terkait firmware ini (akun GitHub diperlukan).
+  > Note : English, Indonesian and Arabic languages are allowed.
+
+
+<br>
+<br>
+<br>
+### English Guide
+
+<br>
+#### Firmware Requirements
+
+1. SDCard/HDD/Flashdisk 4GB.
+2. Raspberry Pi 1/2/3/4 or CPU/Laptop.
+3. PC/Laptop with Windows OS (if you use other OS, it's up to you but idk about installation with other OS).
+4. MicroSD Adapter/converter (for Raspberry Pi installation only).
+
+<br>
 #### Firmware Installation
-1. Download latest firmware from **Supported Devices & Download Section** above which contain **sysupgrade** or **factory** words.
+1. Download latest firmware from **Supported Devices & Download Section** above which contain **sysupgrade** or **factory** or **UEFI** or **Legacy** words.
   - How about squashfs or ext4 ? [Read more here](https://forum.openwrt.org/t/ext4-vs-squashfs/25187/7).
   - Note : I usually use factory_ext4 file.
   - If firmware URL/download link is not available or error, follow [this link](https://github.com/helmiau/HelmiWrt-OS/discussions/18).
@@ -251,40 +317,42 @@ https://github.com/helmiau/HelmiWrt-OS/raw/main/preview/openwrt-rpi-17.png
 9. Put the SDCard/Flashdisk/HDD in to your Raspberry Pi SDCard slot or PC/Laptop HDD/USB slot.
 10. Turn on your device, then wait until boot up properly.
 
-**Recommendation after install**
-1. open [LuCI TTYD Terminal](http://192.168.1.1/cgi-bin/luci/admin/system/terminal) or Putty.
-2. Run available commands such as helmilb, sambaset, etc. (Optional)
+**Recommendation after install (Optional)**
+1. Open [LuCI TTYD Terminal](http://192.168.1.1/cgi-bin/luci/admin/system/terminal) or Putty.
+2. Run **helmiwrt** commands to see some available commands.
 
-
-#### Login Information
-```
-WiFi SSID     : HelmiWrt
-WiFi Password : no password
-Router IP     : 192.168.1.1
-LuCI Username : root
-LuCI Password : password
-```
-
-
+<br>
 #### Knowledgement
 - Firmware is optimized for mwan3 loadbalance purpose with 1+1+1=3 setup, not traffic connection separator.
 - If you get blank when open TTYD (Terminal LuCi App), change [https://192.168.1.1/.../terminal](https://192.168.1.1/cgi-bin/luci/admin/system/terminal) to [http://192.168.1.1/.../terminal](http://192.168.1.1/cgi-bin/luci/admin/system/terminal).
 - If you get an error when open **OpenClash yacd dashboard panel**, change https:// to http:// protocol.
 - v2rayA GUI and LuCI app is need **v2raya** command to start and v2rayA web GUI.
-- Libernet and Xderm Mini will not work with mwan3 loadbalance. You need to reconfigure /etc/config/network, /etc/config/firewall, etc/config/mwan3 by yourself. (If anyone know how to fix this, please tell me by creating an issue on GitHub).
+- Libernet and Xderm Mini will not work with mwan3 loadbalance. You need to reconfigure /etc/config/network, /etc/config/firewall, etc/config/mwan3 by yourself. (If anyone know how to fix this, please tell me by create a [GitHub issue](https://github.com/helmiau/HelmiWrt-OS/issues)).
 - Use OpenClash/Passwall/SSR+ instead of Libernet or Xderm Mini if you want to use VPN with mwan3 loadbalance.
 
-
+<br>
 #### Notes
 - No ETA !. example: When you fix bug blablabla? or any other else.
 - No noob question !. example: what things i need to install OpenWrt to a device?.
 - **I REFUSE FEATURE REQUEST OR BUG FIX WITHOUT SUGGESTION, CODES OR ANYTHING.**
-- **Bug Report only available under GitHub Issue !** Not a Private Message or other social media comment coloumn !.
-- Private Message only available for **DONATION PURPOSE** by contacting me [here](https://www.helmiau.com/about/) with a question **Can i make some donation for you?**.
+- **Bug Report only available under GitHub Issue !**, not a Private Message or other social media comment coloumn !.
+- Private Message only available for **DONATION PURPOSE** by contacting me [here](https://www.helmiau.com/about/) with a message **I want to donate**.
 - If you want to discuss about this firmware, please create a GitHub account. Then open this [HelmiWrt-OS Discussion Page](https://github.com/helmiau/HelmiWrt-OS/discussions).
   > Note : English, Indonesian and Arabic languages are allowed.
 
+<br>
+<br>
+#### Login Information
+```
+WiFi SSID      : HelmiWrt
+WiFi Password  : no password
 
+Router/LuCI IP : 192.168.1.1
+LuCI Username  : root
+LuCI Password  : password
+```
+
+<br>
 #### Credits
 - [OpenWrt Official](https://github.com/openwrt/openwrt) for main OpenWrt source.
 - [P3TERX/Actions-OpenWrt](https://github.com/P3TERX/Actions-OpenWrt) for OpenWrt LEDE GitHub actions script builder.
