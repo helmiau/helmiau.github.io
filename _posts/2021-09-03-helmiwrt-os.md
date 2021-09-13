@@ -11,8 +11,20 @@ Source: [My Own Repo](https://github.com/helmiau/HelmiWrt-OS#readme)
 
 <br><center><img height="70px" width="80%" src="https://github.com/helmiau/helmiau.github.io/raw/master/images/helmiwrtos.svg" ></center><br>
 
+
 <br>
-#### Firmware Informations (features, etc)
+{% capture list_items %}
+Firmware Informations
+Tweaked and Patches by Helmi Amirudin
+Previews
+Supported Devices & Download Section
+Tutorial Bahasa Indonesia
+English Guide
+{% endcapture %}
+{% include elements/list.html title="Page Index / Daftar Isi" type="toc" %}
+
+<br>
+#### Firmware Informations
 
 HelmiWrt OS is a customized OpenWrt firmware with many additions to make a **ready to use** firmware. This firmware based on [SuLingGG OpenWrt-Rpi](https://github.com/SuLingGG/OpenWrt-Rpi) compiled daily using GitHub Actions. This project currently available for Raspberry Pi 1/2/3/4 and x86 (PC/Laptop) devices.
 
@@ -102,13 +114,27 @@ ipv6-helper clean   : Remove modules <span class="hljs-keyword">and</span> LuCI 
 </details>
 
 <br>
-**Tweaked & patched by Helmi Amirudin**
+#### Tweaked and Patches by Helmi Amirudin
 <!--<details><summary>Tweaked by My own configurations : (click to show)</summary>-->
 <p>
 <ul>
 <li>Firmware base is from SuLingGG/OpenWrt-Rpi. But, HelmiWrt OS has many tweaks, optimizations and configurations written by Helmi Amirudin.</li>
 <li>Removed all unused bloatwares.</li>
 <li>Removed all languages except English.</li>
+<li>Installed many LuCI themes :
+  <ul>
+  <li>Argon Light and Dark Mode.</li>
+  <li>ATMaterial Original, Brown, Red.</li>
+  <li>Bootstrap.</li>
+  <li>Edge.</li>
+  <li>Infinity Freedom (ifit).</li>
+  <li>Material.</li>
+  <li>Netgear.</li>
+  <li>Opentomcat.</li>
+  <li>OpenTomato.</li>
+  <li>Opentopd.</li>
+  </ul>
+</li>
 <li>Set <strong>English</strong> as default language.</li>
 <li>Set <strong>WIB-7 Asia/Jakarta</strong> as default timezone.</li>
 <li>Add shutdown, poweroff, reboot commands to LuCI.</li>
@@ -224,14 +250,6 @@ https://github.com/helmiau/HelmiWrt-OS/raw/main/preview/openwrt-rpi-17.png
 | :---------: | :-----------------: | :----------------: | :------------------: | :------------: | :--------------: |
 | x86-generic (32bit) | [📂](https://github.com/helmiau/HelmiWrt-OS/releases/latest) | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-x86-generic-generic-squashfs-combined-efi.img.gz) | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-x86-generic-generic-squashfs-combined.img.gz) | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-x86-generic-generic-ext4-combined-efi.img.gz) | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-x86-generic-generic-ext4-combined.img.gz) |
 | x86-64 (64bit) | [📂](https://github.com/helmiau/HelmiWrt-OS/releases/latest) | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-x86-64-generic-squashfs-combined-efi.img.gz) | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-x86-64-generic-squashfs-combined.img.gz) | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-x86-64-generic-ext4-combined-efi.img.gz) | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-x86-64-generic-ext4-combined.img.gz) |
-
-
-<br>
-{% capture list_items %}
-Tutorial Bahasa Indonesia
-English Guide
-{% endcapture %}
-{% include elements/list.html title="Installation Index / Daftar Isi Instalasi" type="toc" %}
 
 
 <br>
