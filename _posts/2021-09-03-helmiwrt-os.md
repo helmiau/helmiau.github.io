@@ -17,7 +17,7 @@ Source: [My Own Repo](https://github.com/helmiau/HelmiWrt-OS#readme)
 Firmware Informations
 Tweaked and Patches by Helmi Amirudin
 Previews
-Supported Devices & Download Section
+Supported Devices and Download Section
 Tutorial Bahasa Indonesia
 English Guide
 {% endcapture %}
@@ -137,6 +137,8 @@ ipv6-helper clean   : Remove modules <span class="hljs-keyword">and</span> LuCI 
 </li>
 <li>Set <strong>English</strong> as default language.</li>
 <li>Set <strong>WIB-7 Asia/Jakarta</strong> as default timezone.</li>
+<li>Auto synchronize time when internet connected.</li>
+<li>Auto fix read-only rootfs.</li>
 <li>Add shutdown, poweroff, reboot commands to LuCI.</li>
 <li>Activated mwan3 Loadbalance :
   <ul>
@@ -233,7 +235,7 @@ https://github.com/helmiau/HelmiWrt-OS/raw/main/preview/openwrt-rpi-17.png
 
 
 <br>
-#### Supported Devices & Download Section
+#### Supported Devices and Download Section
 
 - Raspberry Pi (1/2/3/4).
 
@@ -292,8 +294,11 @@ https://github.com/helmiau/HelmiWrt-OS/raw/main/preview/openwrt-rpi-17.png
 - Jika TTYD (Terminal LuCi App) tidak tampil, ubah [https://192.168.1.1/.../terminal](https://192.168.1.1/cgi-bin/luci/admin/system/terminal) menjadi [http://192.168.1.1/.../terminal](http://192.168.1.1/cgi-bin/luci/admin/system/terminal).
 - Jika **OpenClash yacd dashboard panel** tidak tampil, ganti protokol **https://** menjadi **http://** pada address bar browser yang Anda gunakan.
 - v2rayA GUI dan LuCI app membutuhkan instalasi WebUI pada perintah **v2raya**.
-- Libernet dan Xderm Mini tidak akan berjalan dengan mwan3 loadbalance. Jika Anda ingin menggunakannya, Anda harus mengatur beberapa pengaturan pada /etc/config/network, /etc/config/firewall, etc/config/mwan3 secara manual. (Jika ada yang tahu untuk memperbaiki bug ini, silahkan gunakan [GitHub issue](https://github.com/helmiau/HelmiWrt-OS/issues) untuk memberi perbaikan).
 - Gunakanlah OpenClash/Passwall/SSR+ daripada Libernet atau Xderm Mini jika ingin menggunakan VPN dengan mwan3 loadbalance.
+- Libernet dan Xderm Mini tidak akan berjalan dengan mwan3 loadbalance. Jika Anda ingin menggunakannya, Anda harus mengatur beberapa pengaturan pada /etc/config/network, /etc/config/firewall, etc/config/mwan3 secara manual.
+- OpenClash harus restart ketika Modem Manager (driver untuk modem QMI) restart.
+> Jika ada yang tahu untuk memperbaiki bug ini, silahkan gunakan [GitHub issue](https://github.com/helmiau/HelmiWrt-OS/issues) untuk memberikan saran perbaikan.
+
 
 
 <br>
@@ -305,7 +310,7 @@ https://github.com/helmiau/HelmiWrt-OS/raw/main/preview/openwrt-rpi-17.png
 - **Lapuran Bug hanya tersedia di [GitHub issue](https://github.com/helmiau/HelmiWrt-OS/issues) !**, Bukan pesan pribadi ataupun kolom komentar !.
 - Pesan pribadi hanya berlaku untuk **DONASI** dengan menghubungi saya [disini](https://www.helmiau.com/about/) dengan isi pesan **Saya ingin donasi**.
 - Gunakan [Halaman Diskusi HelmiWrt-OS](https://github.com/helmiau/HelmiWrt-OS/discussions) untuk diskusi terkait firmware ini (akun GitHub diperlukan).
-  > Note : English, Indonesian and Arabic languages are allowed.
+  > Catatan : Bahasa Inggris, Indonesia dan Arab diperbolehkan.
 
 
 <br>
@@ -346,8 +351,10 @@ https://github.com/helmiau/HelmiWrt-OS/raw/main/preview/openwrt-rpi-17.png
 - If you get blank when open TTYD (Terminal LuCi App), change [https://192.168.1.1/.../terminal](https://192.168.1.1/cgi-bin/luci/admin/system/terminal) to [http://192.168.1.1/.../terminal](http://192.168.1.1/cgi-bin/luci/admin/system/terminal).
 - If you get an error when open **OpenClash yacd dashboard panel**, change https:// to http:// protocol.
 - v2rayA GUI and LuCI app is need **v2raya** command to start and v2rayA web GUI.
-- Libernet and Xderm Mini will not work with mwan3 loadbalance. You need to reconfigure /etc/config/network, /etc/config/firewall, etc/config/mwan3 by yourself. (If anyone know how to fix this, please tell me by create a [GitHub issue](https://github.com/helmiau/HelmiWrt-OS/issues)).
 - Use OpenClash/Passwall/SSR+ instead of Libernet or Xderm Mini if you want to use VPN with mwan3 loadbalance.
+- Libernet and Xderm Mini will not work with mwan3 loadbalance. You need to reconfigure /etc/config/network, /etc/config/firewall, etc/config/mwan3 by yourself.
+- OpenClash must be restarted manually when Modem Manager (driver for QMI modem) restarted.
+> If anyone know how to fix this, please tell me by create a [GitHub issue](https://github.com/helmiau/HelmiWrt-OS/issues).
 
 <br>
 #### Notes
