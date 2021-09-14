@@ -15,7 +15,7 @@ Source: [My Own Repo](https://github.com/helmiau/HelmiWrt-OS#readme)
 <br>
 {% capture list_items %}
 Firmware Informations
-Tweaked and Patches by Helmi Amirudin
+Tweaks and Patches by Helmi Amirudin
 Previews
 Supported Devices and Download Section
 Tutorial Bahasa Indonesia
@@ -114,8 +114,8 @@ ipv6-helper clean   : Remove modules <span class="hljs-keyword">and</span> LuCI 
 </details>
 
 <br>
-#### Tweaked and Patches by Helmi Amirudin
-<!--<details><summary>Tweaked by My own configurations : (click to show)</summary>-->
+#### Tweaks and Patches by Helmi Amirudin
+<!--<details><summary>Tweaks by My own configurations : (click to show)</summary>-->
 <p>
 <ul>
 <li>Firmware base is from SuLingGG/OpenWrt-Rpi. But, HelmiWrt OS has many tweaks, optimizations and configurations written by Helmi Amirudin.</li>
