@@ -1,7 +1,8 @@
 ### Site Settings ###
 title               : Helmi Amirudin
 description         : >-
-                      Hadeeth Science • Graphic Designer • C# & Bash Shell Coder
+                      Mahasiswa Ilmu Hadits, Desainer Grafis, Pengelola Kode C# dan Bash.
+                      Lihat proyek, tulisan dan tentang aku di menu pojok kanan atas.
 baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : helmiau/helmiau.github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 remote_theme        : YoussefRaafatNasry/portfolYOU
@@ -53,9 +54,9 @@ disqus:
 
 ### Analytics ###
 analytics:
-  enabled: false                                        # Set true to enable analytics
+  enabled: true                                        # Set true to enable analytics
   google:
-    tracking_id: your-google-tracking-id
+    tracking_id: G-7EH55WVF7X
 
 
 ### Defaults for collections ###
