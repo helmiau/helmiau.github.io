@@ -4,7 +4,6 @@ tags: [Aria2, Portrainer, Emby, Samba, Media Server, Router, OpenWrt]
 style: fill
 color: danger
 description: Artikel ini akan membantumu menjadikan router OpenWrt sebagai server media streaming.
-comments: true
 ---
 
 Source: [My Own Repo](https://github.com/helmiau/openwrt-config/blob/main/others/aria2.md#install-aria2-portainer-emby-samba-and-adding-hdd)

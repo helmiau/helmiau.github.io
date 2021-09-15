@@ -4,7 +4,6 @@ tags: [CLI, Speedtest, OpenWrt, Terminal]
 style: fill
 color: danger
 description: This speedtest is taken from Ooklaa Speedtest, which contain link after test.
-comments: true
 ---
 
 Source: [My Own Repo](https://github.com/helmiau/openwrt-config/blob/main/README.md#install-speedtest-by-ookla)

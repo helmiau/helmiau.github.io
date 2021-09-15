@@ -4,7 +4,6 @@ tags: [Raspberry Pi, Lean, Custom Firmware, OpenWrt]
 style: fill
 color: warning
 description: This is OpenWrt project forked from SuLingGG, which taken from coolsnowwolf/lede repo and I add my additions there. Compiled daily by using GitHub Actions.
-comments: true
 ---
 
 Source: [My Own Repo](https://github.com/helmiau/HelmiWrt-OS#readme)

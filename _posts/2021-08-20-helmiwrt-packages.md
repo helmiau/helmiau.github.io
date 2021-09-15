@@ -4,7 +4,6 @@ tags: [Package, LuCI, App, OpenWrt]
 style: fill
 color: secondary
 description:  HelmiWrt packages is my LuCI app repository which contains additional LuCI packages for OpenWrt.
-comments: true
 ---
 Source: [My Own Repo](https://github.com/helmiau/helmiwrt-packages)
 

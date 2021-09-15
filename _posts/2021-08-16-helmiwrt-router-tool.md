@@ -4,7 +4,6 @@ tags: [C#, Router, Windows, OpenWrt, Hilink, VPS]
 style: fill
 color: success
 description: HelmiWrt is Windows program for configure OpenWrt/VPS Linux/Hilink Modems written in C#.
-comments: true
 ---
 
 Source: [My Own Repo](https://github.com/helmiau/wrt#readme)
