@@ -1,6 +1,6 @@
 ### Site Settings ###
 title               : Helmi Amirudin
-description         : >-
+description         : >- |
                       Mahasiswa Ilmu Hadits, Desainer Grafis, Pengelola Kode C# dan Bash, Webgrammer amatir.
                       Lihat proyek, portfolio, tulisan dan profilku di menu pojok kanan atas.
 baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
