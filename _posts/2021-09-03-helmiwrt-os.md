@@ -355,7 +355,7 @@ https://github.com/helmiau/HelmiWrt-OS/raw/main/preview/openwrt-rpi-17.png
 - Use OpenClash/Passwall/SSR+ instead of Libernet or Xderm Mini if you want to use VPN with mwan3 loadbalance.
 - Libernet and Xderm Mini will not work with mwan3 loadbalance. You need to reconfigure /etc/config/network, /etc/config/firewall, etc/config/mwan3 by yourself.
 - OpenClash must be restarted manually when Modem Manager (driver for QMI modem) restarted.
-- If Gigabit port only read 100mb/s, the you should replace your LAN cable with the better one which has Gigabit support.
+- If Gigabit port only read 100mb/s, the solution is by replacing your LAN cable with the better one which has Gigabit support.
 > If anyone know how to fix this, please tell me by create a [GitHub issue](https://github.com/helmiau/HelmiWrt-OS/issues).
 
 <br>
