@@ -294,9 +294,17 @@ https://github.com/helmiau/HelmiWrt-OS/raw/main/preview/openwrt-rpi-17.png
 - Jika **OpenClash yacd dashboard panel** tidak tampil, ganti protokol **https://** menjadi **http://** pada address bar browser yang Anda gunakan.
 - v2rayA GUI dan LuCI app membutuhkan instalasi WebUI pada perintah **v2raya**.
 - Gunakanlah OpenClash/Passwall/SSR+ daripada Libernet atau Xderm Mini jika ingin menggunakan VPN dengan mwan3 loadbalance.
-- Libernet dan Xderm Mini tidak akan berjalan dengan mwan3 loadbalance. Jika Anda ingin menggunakannya, Anda harus mengatur beberapa pengaturan pada /etc/config/network, /etc/config/firewall, etc/config/mwan3 secara manual.
+- Libernet dan Xderm Mini tidak akan berjalan dengan mwan3 loadbalance. Jika Anda ingin menggunakannya, Anda harus mengatur beberapa pengaturan pada ```/etc/config/network```, ```/etc/config/firewall```, ```etc/config/mwan3``` secara manual.
 - OpenClash harus restart ketika Modem Manager (driver untuk modem QMI) restart.
-- Jika port Gigabit hanya terbaca 100mb/s, solusinya adalah ganti dengan kabel LAN yang mendukung Gigabit.
+- Jika port Gigabit hanya terbaca 100mb/s, solusinya adalah **ganti dengan kabel LAN yang mendukung Gigabit**.
+- Koneksi modem dengan protokol ModemManager atau Mobile Data :
+  - HP lt4220 Mode MBIM (setmode 1)
+  - Telit ln940 Mode MBIM & QMI (setmode 1 & 2)
+  - Quectel EP06-E & EM06-E Mode MBIM & QMI (usbnet 0 & 2)
+  - Dell Dw5821e Mode MBIM
+  - Sierra EM7430 Mode MBIM & QMI
+  - Fibocom L850-GL Mode MBIM (gtusbmode 7)
+  > Baca pos aslinya [disini](https://web.facebook.com/groups/2727709384212810/posts/2821718278145253/), dokumentasi modem diatas ada [disini](https://docs.google.com/document/d/1Ni0l_WSODttDZcLrSA3a2g4TfYZFGObk4DJwalJF94E/edit?fbclid=IwAR2_MtPAJm786eI6cCNXwpelAwOUspL1tItRLZqvdLzSVPBGSn2fCUiltu8)
 > Jika ada yang tahu untuk memperbaiki bug ini, silahkan gunakan [GitHub issue](https://github.com/helmiau/HelmiWrt-OS/issues) untuk memberikan saran perbaikan.
 
 
@@ -353,9 +361,17 @@ https://github.com/helmiau/HelmiWrt-OS/raw/main/preview/openwrt-rpi-17.png
 - If you get an error when open **OpenClash yacd dashboard panel**, change https:// to http:// protocol.
 - v2rayA GUI and LuCI app is need **v2raya** command to start and v2rayA web GUI.
 - Use OpenClash/Passwall/SSR+ instead of Libernet or Xderm Mini if you want to use VPN with mwan3 loadbalance.
-- Libernet and Xderm Mini will not work with mwan3 loadbalance. You need to reconfigure /etc/config/network, /etc/config/firewall, etc/config/mwan3 by yourself.
+- Libernet and Xderm Mini will not work with mwan3 loadbalance. You need to reconfigure ```/etc/config/network```, ```/etc/config/firewall```, ```etc/config/mwan3``` by yourself.
 - OpenClash must be restarted manually when Modem Manager (driver for QMI modem) restarted.
-- If Gigabit port only read 100mb/s, the solution is by replacing your LAN cable with the better one which has Gigabit support.
+- If Gigabit port only read 100mb/s, the solution is by **replacing your LAN cable** with the better one which has Gigabit support.
+- Connect modem with ModemManager or Mobile Data protocol :
+  - HP lt4220 Mode MBIM (setmode 1)
+  - Telit ln940 Mode MBIM & QMI (setmode 1 & 2)
+  - Quectel EP06-E & EM06-E Mode MBIM & QMI (usbnet 0 & 2)
+  - Dell Dw5821e Mode MBIM
+  - Sierra EM7430 Mode MBIM & QMI
+  - Fibocom L850-GL Mode MBIM (gtusbmode 7)
+  > Read original post [here](https://web.facebook.com/groups/2727709384212810/posts/2821718278145253/), read above modem documentation [here](https://docs.google.com/document/d/1Ni0l_WSODttDZcLrSA3a2g4TfYZFGObk4DJwalJF94E/edit?fbclid=IwAR2_MtPAJm786eI6cCNXwpelAwOUspL1tItRLZqvdLzSVPBGSn2fCUiltu8)
 > If anyone know how to fix this, please tell me by create a [GitHub issue](https://github.com/helmiau/HelmiWrt-OS/issues).
 
 <br>
@@ -384,7 +400,7 @@ LuCI Password  : password
 
 <br>
 #### Credits
-[OpenWrt Official](https://github.com/openwrt/openwrt) for main OpenWrt source - [P3TERX/Actions-OpenWrt](https://github.com/P3TERX/Actions-OpenWrt) for OpenWrt LEDE GitHub actions script builder - [coolsnowwolf/lede](https://github.com/coolsnowwolf/lede) for main build source and extended packages - [SuLingGG/OpenWrt-Rpi](https://github.com/SuLingGG/OpenWrt-Rpi) for base fork github actions - [ophub/amlogic-s9xxx-openwrt](https://github.com/ophub/amlogic-s9xxx-openwrt) for comparison actions build script - [Wega Regianto](https://github.com/wegare123/ram) for ram checker - [Ryan Fauzi](https://github.com/ryanfauzi1/vmesscreator) for vmess account creator provided by racevpn.com and xderm mini - [Rudi Hartono](https://www.facebook.com/rud18) for IP Address refresher script for QMI Modems & reconnect w/o reboot script - [Prasath Mani](https://github.com/prasathmani/tinyfilemanager) for Tiny File Manager binaries & source - [OpenSpeedtest](https://github.com/AsrofurRizqi) for OpenSpeedtest binaries & sources - [Ambroz Bizjak](https://github.com/ambrop72/badvpn) for main badvpn source - [agroman.net](http://www.agroman.net/corkscrew/) for main corkscrew source - [Lutfa Ibtihaji Ilham](https://github.com/lutfailham96/libernet) for Libernet binaries - [Galih Prastowo Aji](https://github.com/hillz2/corkscrew) for corkscrew openwrt Makefile - [Friyadhi Biermann](https://github.com/friyadhibiermann/openwrt_badvpn-tun2socks) for badvpn openwrt Makefile and update - [Asrofur Rizqi](https://github.com/AsrofurRizqi) for clue to build and fix some packages - [Reyre](https://github.com/r3yr3) for building ipk's from this packages - [LT4220 Facebook Forum](https://www.facebook.com/groups/2727709384212810) and it's [documentations](https://docs.google.com/document/d/10ldzikC9EdvXT43LEtct0qSwi5qWJk-LHFZFsl8_69E/edit#heading=h.ft8rlp9e08c4), **big thanks to [Nugroho](https://www.facebook.com/profile.php?id=100010890091391) as LT4220 docs writer**
+[OpenWrt Official](https://github.com/openwrt/openwrt) for main OpenWrt source - [P3TERX/Actions-OpenWrt](https://github.com/P3TERX/Actions-OpenWrt) for OpenWrt LEDE GitHub actions script builder - [coolsnowwolf/lede](https://github.com/coolsnowwolf/lede) for main build source and extended packages - [SuLingGG/OpenWrt-Rpi](https://github.com/SuLingGG/OpenWrt-Rpi) for base fork github actions - [ophub/amlogic-s9xxx-openwrt](https://github.com/ophub/amlogic-s9xxx-openwrt) for comparison actions build script - [Wega Regianto](https://github.com/wegare123/ram) for ram checker - [Ryan Fauzi](https://github.com/ryanfauzi1/vmesscreator) for vmess account creator provided by racevpn.com and xderm mini - [Rudi Hartono](https://www.facebook.com/rud18) for IP Address refresher script for QMI Modems & reconnect w/o reboot script - [Prasath Mani](https://github.com/prasathmani/tinyfilemanager) for Tiny File Manager binaries & source - [OpenSpeedtest](https://github.com/AsrofurRizqi) for OpenSpeedtest binaries & sources - [Ambroz Bizjak](https://github.com/ambrop72/badvpn) for main badvpn source - [agroman.net](http://www.agroman.net/corkscrew/) for main corkscrew source - [Lutfa Ibtihaji Ilham](https://github.com/lutfailham96/libernet) for Libernet binaries - [Galih Prastowo Aji](https://github.com/hillz2/corkscrew) for corkscrew openwrt Makefile - [Friyadhi Biermann](https://github.com/friyadhibiermann/openwrt_badvpn-tun2socks) for badvpn openwrt Makefile and update - [Asrofur Rizqi](https://github.com/AsrofurRizqi) for clue to build and fix some packages and Orange Pi Zero builder- [LT4220 Facebook Group](https://www.facebook.com/groups/2727709384212810) and it's [documentations](https://docs.google.com/document/d/10ldzikC9EdvXT43LEtct0qSwi5qWJk-LHFZFsl8_69E/edit#heading=h.ft8rlp9e08c4) by Sir [Nugroho](https://www.facebook.com/profile.php?id=100010890091391) as LT4220 docs writer
 - [config example 1](https://github.com/eallion/openwrt/blob/main/.config)
 
 [Read more original README](https://github.com/SuLingGG/OpenWrt-Rpi/blob/main/README.md#openwrt-rpi)
