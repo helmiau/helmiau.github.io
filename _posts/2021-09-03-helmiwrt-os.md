@@ -236,7 +236,7 @@ https://github.com/helmiau/HelmiWrt-OS/raw/main/preview/openwrt-rpi-17.png
 <br>
 #### Supported Devices and Download Section
 
-- Raspberry Pi (1/2/3/4) by [Helmi Amirudin](http://helmiau.com/about) & Orange Pi Zero (Credits to [Asrofur Rizqi](https://github.com/AsrofurRizqi)).
+- Raspberry Pi (1/2/3/4) by [Helmi Amirudin](http://helmiau.com/about) & Orange Pi Zero by [Asrofur Rizqi](https://github.com/AsrofurRizqi).
 
 | Device Lists Name | Github<br />Release | squashfs<br />factory | squashfs<br />sysupgrade | ext4<br />factory | ext4<br />sysupgrade | rootfs |
 | :-----------------------: | :-----------------: | :-------------------: | :----------------------: | :---------------: | :------------------: | :----: |
