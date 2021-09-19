@@ -316,7 +316,7 @@ https://github.com/helmiau/HelmiWrt-OS/raw/main/preview/openwrt-rpi-17.png
 
 <br>
 #### Catatan
-- Firmware terbaru akan tersedia setelah pukul 15.00 WIB.
+- Firmware terbaru akan tersedia setelah pukul 15.00 hingga 04.00 WIB.
 - Jangan tanyakan "Kapan dibenerin? atau yang semisalnya. Single fighter ini bos !.
 - Jangan tanyakan pertanyaan orang awam, seperti : Apa aja yang perlu disiapkan untuk memasang OpenWrt di perangkatku?.
 - Jangan tanyakan dukungan maupun perbaikan bug pada perangkat yang tidak didukung secara resmi.
@@ -382,7 +382,7 @@ https://github.com/helmiau/HelmiWrt-OS/raw/main/preview/openwrt-rpi-17.png
 
 <br>
 #### Notes
-- New firmware release will be available after 15.00 WIB.
+- New firmware release will be available after 15.00 until 04.00 WIB.
 - No ETA !. example: When you fix bug blablabla? or any other else.
 - No noob question !. example: what things i need to install OpenWrt to a device?.
 - No support and bug fix for unsupported device.
