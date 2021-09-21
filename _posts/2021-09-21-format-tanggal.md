@@ -97,47 +97,49 @@ Building a custom DateTime.ToString Patterns
 
 The following details the meaning of each pattern character. Note the K and z character.
 
-**d**	Represents the day of the month as a number from 1 through 31. A single-digit day is formatted without a leading zero
-**dd**	Represents the day of the month as a number from 01 through 31. A single-digit day is formatted with a leading zero
-**ddd**	Represents the abbreviated name of the day of the week (Mon, Tues, Wed etc)
-**dddd**	Represents the full name of the day of the week (Monday, Tuesday etc)
-**h**	12-hour clock hour (e.g. 7)
-**hh**	12-hour clock, with a leading 0 (e.g. 07)
-**H**	24-hour clock hour (e.g. 19)
-**HH**	24-hour clock hour, with a leading 0 (e.g. 19)
-**m**	Minutes
-**mm**	Minutes with a leading zero
-**M**	Month number
-**MM**	Month number with leading zero
-**MMM**	Abbreviated Month Name (e.g. Dec)
-**MMMM**	Full month name (e.g. December)
-**s**	Seconds
-**ss**	Seconds with leading zero
-**t**	Abbreviated AM / PM (e.g. A or P)
-**tt**	AM / PM (e.g. AM or PM
-**y**	Year, no leading zero (e.g. 2001 would be 1)
-**yy**	Year, leadin zero (e.g. 2001 would be 01)
-**yyy**	Year, (e.g. 2001 would be 2001)
-**yyyy**	Year, (e.g. 2001 would be 2001)
-**K**	Represents the time zone information of a date and time value (e.g. +05:00)
-**z**	With DateTime values, represents the signed offset of the local operating system's time zone from Coordinated Universal Time (UTC), measured in hours. (e.g. +6)
-**zz**	As z but with leadin zero (e.g. +06)
-**zzz**	With DateTime values, represents the signed offset of the local operating system's time zone from UTC, measured in hours and minutes. (e.g. +06:00)
-**f**	Represents the most significant digit of the seconds fraction; that is, it represents the tenths of a second in a date and time value.
-**ff**	Represents the two most significant digits of the seconds fraction; that is, it represents the hundredths of a second in a date and time value.
-**fff**	Represents the three most significant digits of the seconds fraction; that is, it represents the milliseconds in a date and time value.
-**ffff**	Represents the four most significant digits of the seconds fraction; that is, it represents the ten thousandths of a second in a date and time value. While it is possible to display the ten thousandths of a second component of a time value, that value may not be meaningful. The precision of date and time values depends on the resolution of the system clock. On Windows NT 3.5 and later, and Windows Vista operating systems, the clock's resolution is approximately 10-15 milliseconds.
-**fffff**	Represents the five most significant digits of the seconds fraction; that is, it represents the hundred thousandths of a second in a date and time value. While it is possible to display the hundred thousandths of a second component of a time value, that value may not be meaningful. The precision of date and time values depends on the resolution of the system clock. On Windows NT 3.5 and later, and Windows Vista operating systems, the clock's resolution is approximately 10-15 milliseconds.
-**ffffff**	Represents the six most significant digits of the seconds fraction; that is, it represents the millionths of a second in a date and time value. While it is possible to display the millionths of a second component of a time value, that value may not be meaningful. The precision of date and time values depends on the resolution of the system clock. On Windows NT 3.5 and later, and Windows Vista operating systems, the clock's resolution is approximately 10-15 milliseconds.
-**fffffff**	Represents the seven most significant digits of the seconds fraction; that is, it represents the ten millionths of a second in a date and time value. While it is possible to display the ten millionths of a second component of a time value, that value may not be meaningful. The precision of date and time values depends on the resolution of the system clock. On Windows NT 3.5 and later, and Windows Vista operating systems, the clock's resolution is approximately 10-15 milliseconds.
-**F**	Represents the most significant digit of the seconds fraction; that is, it represents the tenths of a second in a date and time value. Nothing is displayed if the digit is zero.
-**:**	Represents the time separator defined in the current DateTimeFormatInfo..::.TimeSeparator property. This separator is used to differentiate hours, minutes, and seconds.
-**/**	 Represents the date separator defined in the current DateTimeFormatInfo..::.DateSeparator property. This separator is used to differentiate years, months, and days.
-**"**	 Represents a quoted string (quotation mark). Displays the literal value of any string between two quotation marks ("). Your application should precede each quotation mark with an escape character (\).
-**'**	 Represents a quoted string (apostrophe). Displays the literal value of any string between two apostrophe (') characters.
-**%c**	Represents the result associated with a c custom format specifier, when the custom date and time format string consists solely of that custom format specifier. That is, to use the **d, f, F, h, m, s, t, y, z, H, or M** custom format specifier by itself, the application should specify **%d, %f, %F, %h, %m, %s, %t, %y, %z, %H, or %M**. For more information about using a single format specifier, see Using Single Custom Format Specifiers.
+- **d**	Represents the day of the month as a number from 1 through 31. A single-digit day is formatted without a leading zero
+- **dd**	Represents the day of the month as a number from 01 through 31. A single-digit day is formatted with a leading zero
+- **ddd**	Represents the abbreviated name of the day of the week (Mon, Tues, Wed etc)
+- **dddd**	Represents the full name of the day of the week (Monday, Tuesday etc)
+- **h**	12-hour clock hour (e.g. 7)
+- **hh**	12-hour clock, with a leading 0 (e.g. 07)
+- **H**	24-hour clock hour (e.g. 19)
+- **HH**	24-hour clock hour, with a leading 0 (e.g. 19)
+- **m**	Minutes
+- **mm**	Minutes with a leading zero
+- **M**	Month number
+- **MM**	Month number with leading zero
+- **MMM**	Abbreviated Month Name (e.g. Dec)
+- **MMMM**	Full month name (e.g. December)
+- **s**	Seconds
+- **ss**	Seconds with leading zero
+- **t**	Abbreviated AM / PM (e.g. A or P)
+- **tt**	AM / PM (e.g. AM or PM
+- **y**	Year, no leading zero (e.g. 2001 would be 1)
+- **yy**	Year, leadin zero (e.g. 2001 would be 01)
+- **yyy**	Year, (e.g. 2001 would be 2001)
+- **yyyy**	Year, (e.g. 2001 would be 2001)
+- **K**	Represents the time zone information of a date and time value (e.g. +05:00)
+- **z**	With DateTime values, represents the signed offset of the local operating system's time zone from Coordinated Universal Time (UTC), measured in hours. (e.g. +6)
+- **zz**	As z but with leadin zero (e.g. +06)
+- **zzz**	With DateTime values, represents the signed offset of the local operating system's time zone from UTC, measured in hours and minutes. (e.g. +06:00)
+- **f**	Represents the most significant digit of the seconds fraction; that is, it represents the tenths of a second in a date and time value.
+- **ff**	Represents the two most significant digits of the seconds fraction; that is, it represents the hundredths of a second in a date and time value.
+- **fff**	Represents the three most significant digits of the seconds fraction; that is, it represents the milliseconds in a date and time value.
+- **ffff**	Represents the four most significant digits of the seconds fraction; that is, it represents the ten thousandths of a second in a date and time value. While it is possible to display the ten thousandths of a second component of a time value, that value may not be meaningful. The precision of date and time values depends on the resolution of the system clock. On Windows NT 3.5 and later, and Windows Vista operating systems, the clock's resolution is approximately 10-15 milliseconds.
+- **fffff**	Represents the five most significant digits of the seconds fraction; that is, it represents the hundred thousandths of a second in a date and time value. While it is possible to display the hundred thousandths of a second component of a time value, that value may not be meaningful. The precision of date and time values depends on the resolution of the system clock. On Windows NT 3.5 and later, and Windows Vista operating systems, the clock's resolution is approximately 10-15 milliseconds.
+- **ffffff**	Represents the six most significant digits of the seconds fraction; that is, it represents the millionths of a second in a date and time value. While it is possible to display the millionths of a second component of a time value, that value may not be meaningful. The precision of date and time values depends on the resolution of the system clock. On Windows NT 3.5 and later, and Windows Vista operating systems, the clock's resolution is approximately 10-15 milliseconds.
+- **fffffff**	Represents the seven most significant digits of the seconds fraction; that is, it represents the ten millionths of a second in a date and time value. While it is possible to display the ten millionths of a second component of a time value, that value may not be meaningful. The precision of date and time values depends on the resolution of the system clock. On Windows NT 3.5 and later, and Windows Vista operating systems, the clock's resolution is approximately 10-15 milliseconds.
+- **F**	Represents the most significant digit of the seconds fraction; that is, it represents the tenths of a second in a date and time value. Nothing is displayed if the digit is zero.
+- **:**	Represents the time separator defined in the current DateTimeFormatInfo..::.TimeSeparator property. This separator is used to differentiate hours, minutes, and seconds.
+- **/**	 Represents the date separator defined in the current DateTimeFormatInfo..::.DateSeparator property. This separator is used to differentiate years, months, and days.
+- **"**	 Represents a quoted string (quotation mark). Displays the literal value of any string between two quotation marks ("). Your application should precede each quotation mark with an escape character (\).
+- **'**	 Represents a quoted string (apostrophe). Displays the literal value of any string between two apostrophe (') characters.
+- **%c**	Represents the result associated with a c custom format specifier, when the custom date and time format string consists solely of that custom format specifier. That is, to use the **d, f, F, h, m, s, t, y, z, H, or M** custom format specifier by itself, the application should specify **%d, %f, %F, %h, %m, %s, %t, %y, %z, %H, or %M**. For more information about using a single format specifier, see Using Single Custom Format Specifiers.
 **||\c ||** Represents the escape character, and displays the character "c" as a literal when that character is preceded by the escape character (\). To insert the backslash character itself in the result string, the application should use two escape characters ("\\").
 
+
 Any other character copies any other character to the result string, without affecting formatting. ||
+
 
 <h6 align="center">Copyright by <a href="http://www.helmiau.com">Helmi Amirudin</a> ® 2021 <br> Thank You ! 🤝</h6>
