@@ -16,6 +16,8 @@ LuCI Xderm Limiter
 LuCI OpenSpeedtest App
 LuCI Tiny File Manager App
 LuCI Shutdown App
+LuCI v2rayA App
+LuCI Mikrotik Monitor App
 Badvpn and Corkscrew
 Build usage
 Installation of IPK file
@@ -31,12 +33,13 @@ There is 3 versions/options under this package :
 2. luci-app-libernet-bin : LuCI App Libernet + original Libernet binaries.
 3. luci-app-libernet-plus : LuCI App Libernet + Libernet Plus binaries (remove login page and speedtest, added auto reconnect menu)
 
-> Please select one of installation above, don't install all packages.
-> This package will be shown under **LuCI -> Services -> Libernet**
+Note :
+- Please select one of installation above, don't install all packages.
+- This package will be shown under **LuCI -> Services -> Libernet**
 
 ![libernet-plus](https://raw.githubusercontent.com/helmiau/helmiwrt-packages/main/preview/libernet-prev.png)
 
-![libernet-plus](https://raw.githubusercontent.com/helmiau/helmiwrt-packages/main/preview/libernet-plus-prev.jpg)
+![libernet-plus](https://raw.githubusercontent.com/helmiau/helmiwrt-packages/main/preview/libernet-plus-prev.png)
 
 
 #### LuCI Xderm Mini App
@@ -44,8 +47,9 @@ There is 3 versions/options under this package :
 1. luci-app-xderm : LuCI App Xderm Mini Only without binaries
 2. luci-app-xderm-bin : LuCI App Xderm Mini + original binaries
 
-> Please select one of installation above, don't install all packages.
-> This package will be shown under **LuCI -> Services -> Xderm Mini**
+Note :
+- Please select one of installation above, don't install all packages.
+- This package will be shown under **LuCI -> Services -> Xderm Mini**
 
 ![xderm-plus](https://raw.githubusercontent.com/helmiau/helmiwrt-packages/main/preview/xderm-prev.png)
 
@@ -53,7 +57,7 @@ There is 3 versions/options under this package :
 #### LuCI Xderm Limiter
 Xderm Limiter will give internet speed limit to every registered device.
 
-> This package will be shown under **LuCI -> Services -> Xderm Limiter**
+This package will be shown under **LuCI -> Services -> Xderm Limiter**
 
 ![xderm-limit](https://raw.githubusercontent.com/helmiau/helmiwrt-packages/main/preview/xderm-limiter-prev.png)
 
@@ -61,7 +65,7 @@ Xderm Limiter will give internet speed limit to every registered device.
 #### LuCI OpenSpeedtest App
 Speedtest by [OpenSpeedtest.com](openspeedtest.com), required connections when using this app.
 
-> This package will be shown under **LuCI -> Services -> OpenSpeedtest**
+This package will be shown under **LuCI -> Services -> OpenSpeedtest**
 
 ![ost](https://raw.githubusercontent.com/helmiau/helmiwrt-packages/main/preview/openspeedtest-prev.png)
 
@@ -69,14 +73,32 @@ Speedtest by [OpenSpeedtest.com](openspeedtest.com), required connections when u
 #### LuCI Tiny File Manager App
 File manager by [Prasath Mani](https://github.com/prasathmani/tinyfilemanager).
 
-> This package will be shown under **LuCI -> NAS -> Tiny File Manager**
+This package will be shown under **LuCI -> NAS -> Tiny File Manager**
 
 ![tfm](https://raw.githubusercontent.com/helmiau/helmiwrt-packages/main/preview/tinyfilemanager-prev.png)
 
 
 #### LuCI Shutdown App
 
-> This package will be shown under **LuCI -> System -> Shutdown**
+This package will be shown under **LuCI -> System -> Shutdown**
+
+
+#### LuCI v2rayA App
+
+This package will be shown under **LuCI -> Services -> v2rayA**
+
+![tfm](https://raw.githubusercontent.com/helmiau/helmiwrt-packages/main/preview/v2raya-prev.png)
+
+
+
+#### LuCI Mikrotik Monitor App
+
+This package will be shown under **LuCI -> Services -> Mikrotik Monitor**
+
+![tfm](https://raw.githubusercontent.com/helmiau/helmiwrt-packages/main/preview/mikhmon-prev.png)
+
+
+
 
 #### Badvpn and Corkscrew
 This repository is for archiving badvpn & corkscrew which working with latest snapshot OpenWrt build. Collected by [helmiau](http://www.github.com/helmiau)
