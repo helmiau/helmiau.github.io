@@ -167,12 +167,14 @@ CONFIG_PACKAGE_corkscrew=y
 CONFIG_PACKAGE_luci-app-libernet=n
 CONFIG_PACKAGE_luci-app-libernet-bin=n
 CONFIG_PACKAGE_luci-app-libernet-plus=y
+CONFIG_PACKAGE_luci-app-mikhmon=y
 CONFIG_PACKAGE_luci-app-openspeedtest=y
 CONFIG_PACKAGE_luci-app-shutdown=y
 CONFIG_PACKAGE_luci-app-tinyfilemanager=y
 CONFIG_PACKAGE_luci-app-xderm-bin=y
 CONFIG_PACKAGE_luci-app-xderm=n
 CONFIG_PACKAGE_luci-app-xderm-limit=y
+CONFIG_PACKAGE_luci-app-v2raya=y
 ```
 > Change **n** to unuse the package or **y** to use the package
 
