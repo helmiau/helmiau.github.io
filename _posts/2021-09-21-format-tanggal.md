@@ -1,6 +1,6 @@
 ---
 title: Penulisan Format Waktu untuk C#, Bash dan GitHub Actions
-tags: [Raspberry Pi, Lean, Custom Firmware, OpenWrt]
+tags: [C#, Bash, GitHub Actions, Workflow]
 style: fill
 color: primary
 description: Butuh format penulisan tanggal, waktu dan hari untuk digunakan pada bahasa C# atau Bash ataupun GitHub Actions workflow? yuk baca pos ini.
