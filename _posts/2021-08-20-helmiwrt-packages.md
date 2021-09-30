@@ -129,7 +129,7 @@ git clone --depth=1 https://github.com/helmiau/helmiwrt-packages
 - Then add lines below to your **.config** file
 
 ```
-#Requirements packages for Libernet-Xderm-Limiter
+#Requirements packages for Libernet-Xderm-Limiter-v2rayA-Mikhmon
 CONFIG_PACKAGE_procps-ng=y
 CONFIG_PACKAGE_procps-ng-ps=y
 CONFIG_PACKAGE_sshpass=y
@@ -160,6 +160,29 @@ CONFIG_PACKAGE_libudev-zero=y
 CONFIG_PACKAGE_libnss=y
 CONFIG_PACKAGE_libopenssl=y
 CONFIG_PACKAGE_openssl-util=y
+CONFIG_PACKAGE_php7-mod-gmp=y
+CONFIG_PACKAGE_php7-mod-gettext=y
+CONFIG_PACKAGE_php7-mod-iconv=y
+CONFIG_PACKAGE_php7-mod-pcntl=y
+CONFIG_PACKAGE_zoneinfo-core=y
+CONFIG_PACKAGE_zoneinfo-asia=y
+CONFIG_PACKAGE_zoneinfo-simple=y
+CONFIG_PACKAGE_php7=y
+CONFIG_PACKAGE_php7-fpm=y
+CONFIG_PACKAGE_php7-mod-curl=y
+CONFIG_PACKAGE_php7-mod-gd=y
+CONFIG_PACKAGE_php7-mod-iconv=y
+CONFIG_PACKAGE_php7-mod-json=y
+CONFIG_PACKAGE_php7-mod-mbstring=y
+CONFIG_PACKAGE_php7-mod-opcache=y
+CONFIG_PACKAGE_php7-mod-session=y
+CONFIG_PACKAGE_php7-mod-zip=y
+CONFIG_PACKAGE_php7-mod-sqlite3=y
+CONFIG_PACKAGE_php7-mod-pdo=y
+CONFIG_PACKAGE_php7-mod-pdo-sqlite=y
+CONFIG_PACKAGE_php7-mod-pdo-mysql=y
+CONFIG_PACKAGE_php7-cgi=y
+CONFIG_PACKAGE_php7-mod-dom=y
 
 #HelmiWrt Packages
 CONFIG_PACKAGE_badvpn=y
@@ -214,6 +237,8 @@ rm ${IPK}
 - [Friyadhi Biermann](https://github.com/friyadhibiermann/openwrt_badvpn-tun2socks) for badvpn openwrt Makefile and update.
 - [Asrofur Rizqi](https://github.com/AsrofurRizqi) for clue to build badvpn & corkscrew packages.
 - [Reyre](https://github.com/r3yr3) for building ipk's from this packages.
+- [Laksamadi Guko](https://github.com/laksa19/mikhmonv3) as original mikhmonv3 coder.
+- [v2rayA](https://github.com/v2rayA/v2raya-web) as v2rayA web gui creator.
 
 ### References
 - [prasathmani/tinyfilemanager](https://github.com/prasathmani/tinyfilemanager)
