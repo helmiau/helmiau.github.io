@@ -271,10 +271,10 @@ https://github.com/helmiau/HelmiWrt-OS/raw/main/preview/openwrt-rpi-17.png
 
 - for Set Top Box s905x devices repacked by [Raditya Budi Handoko](https://github.com/radityabh/HelmiOs-to-s905) and [Andi Rijal Habibi](https://www.facebook.com/sibondt).
 
-| Device<br>Chipset | Device Lists | Github<br>Release | Kernel<br />5.4.147 | Kernel<br />5.13.14 | Kernel<br />5.14.5 |
+| Device<br>Chipset | Device Lists | Github<br>Release | Kernel<br />5.4.150 | Kernel<br />5.13.14 | Kernel<br />5.14.5 |
 | :---------------: | :-------------: | :---------------: | :-----------------: | :-----------------: | :-----------------: |
-| s905x | HG680P, B860H | [📂](https://github.com/helmiau/HelmiWrt-OS/releases/latest) | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-s905x-k5.4.147.img.gz) | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-s905x-k5.13.14.img.gz) | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-s905x-k5.14.5.img.gz) |
-| s905x3 | X96-Max+, HK1-Box, H96-Max-X3, <br>Ugoos-X3, X96-Air, A95XF3-Air | [📂](https://github.com/helmiau/HelmiWrt-OS/releases/latest) | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-s905x3-k5.4.147.img.gz) | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-s905x3-k5.13.14.img.gz) | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-s905x3-k5.14.5.img.gz) |
+| s905x | HG680P, B860H | [📂](https://github.com/helmiau/HelmiWrt-OS/releases/latest) | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-s905x-k5.4.150.img.gz) | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-s905x-k5.13.14.img.gz) | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-s905x-k5.14.5.img.gz) |
+| s905x3 | X96-Max+, HK1-Box, H96-Max-X3, <br>Ugoos-X3, X96-Air, A95XF3-Air | [📂](https://github.com/helmiau/HelmiWrt-OS/releases/latest) | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-s905x3-k5.4.150.img.gz) | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-s905x3-k5.13.14.img.gz) | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-s905x3-k5.14.5.img.gz) |
 
 > s905x kernel info : <br> 5.4.147 = flippy kernel <br> 5.13.14 & 5.14.5 = Andi Rijal Habibi's kernel
 
