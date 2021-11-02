@@ -10,7 +10,7 @@ Source: [My Own Repo](https://github.com/helmiau/HelmiWrt-OS#readme)
 
 <br><center><img height="70px" width="80%" src="https://github.com/helmiau/helmiau.github.io/raw/master/images/helmiwrtos.svg" ></center><br>
 
-<h3 align="center"><a href="https://www.helmiau.com/pay/index_en.html" target="_blank">Donation Here</a></h3>
+<h3 align="center"><a href="https://www.helmiau.com/pay/index_en.html" target="_blank">Donation Page</a></h3>
 
 
 <br>
