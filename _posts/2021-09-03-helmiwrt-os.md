@@ -252,6 +252,7 @@ https://github.com/helmiau/HelmiWrt-OS/raw/main/preview/openwrt-rpi-17.png
 
 | NanoPi<br />Version | Github<br />Release | squashfs<br />factory | squashfs<br />sysupgrade | ext4<br />factory | ext4<br />sysupgrade | rootfs |
 | :-----------------------: | :-----------------: | :-------------------: | :----------------------: | :---------------: | :------------------: | :----: |
+| R2C | [📂](https://cararegistrasi.com/WXCt) | ⛔ | [🔽](https://cararegistrasi.com/FFT1QOmS) | ⛔ | [🔽](https://cararegistrasi.com/xgjNUWfe) | [🔽](https://cararegistrasi.com/5dm0S5si) |
 | R2S | [📂](https://cararegistrasi.com/WXCt) | ⛔ | [🔽](https://cararegistrasi.com/b1hRI13bo) | ⛔ | [🔽](https://cararegistrasi.com/VuZPehJXjR) | [🔽](https://cararegistrasi.com/iV4Tr6Ou) |
 | R4S | [📂](https://cararegistrasi.com/WXCt) | ⛔ | [🔽](https://cararegistrasi.com/Pul8a) | ⛔ | [🔽](https://cararegistrasi.com/g2HCOO) | [🔽](https://cararegistrasi.com/5lsEHD) |
 
