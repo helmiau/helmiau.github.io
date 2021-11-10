@@ -280,9 +280,9 @@ https://github.com/helmiau/HelmiWrt-OS/raw/main/preview/openwrt-rpi-17.png
 
 > s905x kernel info : <br> 5.4.147 = flippy kernel <br> 5.13.14 & 5.14.5 = Andi Rijal Habibi's kernel
 
-> Older release [find here](https://github.com/helmiau/HelmiWrt-OS/releases) and scroll down a bit to see older release with yesterday date.
+> Older release [find here](https://cararegistrasi.com/WXCt) and scroll down a bit to see older release with yesterday date.
 
-> Firmware lama dapat dicari dan diunduh pada [link ini](https://github.com/helmiau/HelmiWrt-OS/releases), lalu geser kebawah pada halaman link untuk melihat rilis yang lama.
+> Firmware lama dapat dicari dan diunduh pada [link ini](https://cararegistrasi.com/WXCt), lalu geser kebawah pada halaman link untuk melihat rilis yang lama.
 
 <br>
 <br>
