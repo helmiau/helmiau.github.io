@@ -242,8 +242,8 @@ https://github.com/helmiau/HelmiWrt-OS/raw/main/preview/openwrt-rpi-17.png
 
 - for Raspberry Pi (1/2/3/4) by [Helmi Amirudin](http://helmiau.com/about)
 
-| Raspberry Pi<br />Version | Github<br />Release | squashfs<br />factory | squashfs<br />sysupgrade | ext4<br />factory | ext4<br />sysupgrade | rootfs |
-| :-----------------------: | :-----------------: | :-------------------: | :----------------------: | :---------------: | :------------------: | :----: |
+| Raspberry Pi<br />Version | squashfs<br />factory | squashfs<br />sysupgrade | ext4<br />factory | ext4<br />sysupgrade | rootfs |
+| :-----------------------: | :-------------------: | :----------------------: | :---------------: | :------------------: | :----: |
 | A/B/B+/Zero/W | [🔽](https://cararegistrasi.com/rIpd) | [🔽](https://cararegistrasi.com/Qv80bGnYU) | [🔽](https://cararegistrasi.com/46lsZMd6OGl) | [🔽](https://cararegistrasi.com/0o4nkrpy9) | [🔽](https://cararegistrasi.com/9lqV4vZNk) |
 | 2/B | [🔽](https://cararegistrasi.com/rSgUaSgVliGY) | [🔽](https://cararegistrasi.com/gFWDEKzTHZ) | [🔽](https://cararegistrasi.com/7aC7jff01) | [🔽](https://cararegistrasi.com/f0aZSFcr) | [🔽](https://cararegistrasi.com/hOVNQmg7ib) |
 | 3/B/B+ | [🔽](https://cararegistrasi.com/DD4Hv85DgW) | [🔽](https://cararegistrasi.com/NfDAr9SU) | [🔽](https://cararegistrasi.com/mXgxYMNEB) | [🔽](https://cararegistrasi.com/AHorBlX9emb) | [🔽](https://cararegistrasi.com/tOkGOp) |
