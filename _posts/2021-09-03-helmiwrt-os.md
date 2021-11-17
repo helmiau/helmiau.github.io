@@ -270,19 +270,23 @@ https://github.com/helmiau/HelmiWrt-OS/raw/main/preview/openwrt-rpi-17.png
 | x86-generic (32bit) | [📂](https://cararegistrasi.com/WXCt) | [🔽](https://cararegistrasi.com/qMmrR) | [🔽](https://cararegistrasi.com/JU8aJI3D) | [🔽](https://cararegistrasi.com/ovqmh8J55JN) | [🔽](https://cararegistrasi.com/OvFTF6JuZzN) | [🔽](https://cararegistrasi.com/87TYtAdsqvyU) | [🔽](https://cararegistrasi.com/dA3WvOluIb2O) |
 | x86-64 (64bit) | [📂](https://cararegistrasi.com/WXCt) | [🔽](https://cararegistrasi.com/v5HjfbedEfM) | [🔽](https://cararegistrasi.com/0rq8Qwmyj) | [🔽](https://cararegistrasi.com/qZquNRR) | [🔽](https://cararegistrasi.com/Jq2Kuc) | [🔽](https://cararegistrasi.com/1tk1gj4kcj) | [🔽](https://cararegistrasi.com/8sFfwdJ9G7) |
 
-- for Set Top Box s905x/s905x3 devices repacked by [Raditya Budi Handoko](https://github.com/radityabh/HelmiOs-to-s905) and [Andi Rijal Habibi](https://www.facebook.com/sibondt), s905x2 request by [Feri Adi Candra](https://github.com/feriadicandra/HelmiOs-to-s905).
+- for Set-Top-Box s9xxx devices repacked by [Raditya Budi Handoko](https://github.com/radityabh/HelmiOs-to-s905) and [Andi Rijal Habibi](https://www.facebook.com/sibondt), s905x2 request by [Feri Adi Candra](https://github.com/feriadicandra/HelmiOs-to-s905).
 
-| Device<br>Chipset | Device Lists | Github<br>Release | Kernel<br />5.4.150 | Kernel<br />5.13.14 | Kernel<br />5.14.5 |
-| :---------------: | :-------------: | :---------------: | :-----------------: | :-----------------: | :-----------------: |
-| s905x | HG680P, B860H | [📂](https://cararegistrasi.com/WXCt) | [🔽](https://cararegistrasi.com/Z6SCnaZyBRPc) | [🔽](https://cararegistrasi.com/k1Z4vI) | [🔽](https://cararegistrasi.com/gAGdMy8) |
-| s905x2 | X96Max-4G, X96Max-2G, A95XF2 | [📂](https://cararegistrasi.com/WXCt) | [🔽](https://cararegistrasi.com/pqLlZ) | [🔽](https://cararegistrasi.com/sNq8iDK) | [🔽](https://cararegistrasi.com/vBmQtZWwX) |
-| s905x3 | X96-Max+, HK1-Box, H96-Max-X3, <br>Ugoos-X3, X96-Air, A95XF3-Air | [📂](https://cararegistrasi.com/WXCt) | [🔽](https://cararegistrasi.com/hb1Ia) | [🔽](https://cararegistrasi.com/kyJDnH) | [🔽](https://cararegistrasi.com/8GeBErqzZ0) |
+| Device<br>Chipset | Device Lists | Github<br>Release | Kernel<br />5.4.150 | Kernel<br />5.15.1 |
+| :---------------: | :-------------: | :---------------: | :-----------------: | :-----------------: |
+| s905d | Phicomm-N1 | [📂](https://cararegistrasi.com/WXCt) | [🔽](https://cararegistrasi.com/lKrJWWk8nv0Y) | [🔽](https://cararegistrasi.com/3k0Y) |
+| s905w | X96-Mini, TX3-Mini | [📂](https://cararegistrasi.com/WXCt) | [🔽](https://cararegistrasi.com/eQeJvyzUa) | [🔽](https://cararegistrasi.com/Vx7VJCiyO) |
+| s905x | HG680P, B860H | [📂](https://cararegistrasi.com/WXCt) | [🔽](https://cararegistrasi.com/Z6SCnaZyBRPc) | [🔽](https://cararegistrasi.com/fA7enpzR) |
+| s905x2 | X96Max-4G, X96Max-2G, A95XF2 | [📂](https://cararegistrasi.com/WXCt) | [🔽](https://cararegistrasi.com/pqLlZ) | [🔽](https://cararegistrasi.com/vWdhubW2R) |
+| s905x3 | X96-Max+, HK1-Box, H96-Max-X3, <br>Ugoos-X3, X96-Air, A95XF3-Air | [📂](https://cararegistrasi.com/WXCt) | [🔽](https://cararegistrasi.com/hb1Ia) | [🔽](https://cararegistrasi.com/QS8w9qpG6X) |
+| s912 | H96-Pro-Plus, Octopus-Planet | [📂](https://cararegistrasi.com/WXCt) | [🔽](https://cararegistrasi.com/XfkDc) | [🔽](https://cararegistrasi.com/wM7U9mQQmz) |
+| s922x | Belink, Belink-Pro, Ugoos-AM6-Plus,<br> ODROID-N2 | [📂](https://cararegistrasi.com/WXCt) | [🔽](https://cararegistrasi.com/iHftc3WH9z) | [🔽](https://cararegistrasi.com/hqtbJeHRJ) |
 
-> s905x kernel info : <br> 5.4.147 = flippy kernel <br> 5.13.14 & 5.14.5 = Andi Rijal Habibi's kernel
+> s905x kernel info : <br> 5.4.150 = flippy kernel <br> 5.15.1 = Andi Rijal Habibi's kernel
 
-> Older release [find here](https://cararegistrasi.com/WXCt) and scroll down a bit to see older release with yesterday date.
+> All releases including Older release can be found [here](https://cararegistrasi.com/WXCt) and scroll down a bit to see older release with yesterday date.
 
-> Firmware lama dapat dicari dan diunduh pada [link ini](https://cararegistrasi.com/WXCt), lalu geser kebawah pada halaman link untuk melihat rilis yang lama.
+> Seluruh firmware rilis, termasuk firmware lama dapat dicari dan diunduh pada [link ini](https://cararegistrasi.com/WXCt), lalu geser kebawah pada halaman link untuk melihat rilis yang lama.
 
 <br>
 <br>
