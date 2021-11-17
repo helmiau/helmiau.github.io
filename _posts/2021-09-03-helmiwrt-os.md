@@ -283,7 +283,7 @@ https://github.com/helmiau/HelmiWrt-OS/raw/main/preview/openwrt-rpi-17.png
 | s912 | H96-Pro-Plus, Octopus-Planet | [🔽](https://cararegistrasi.com/XfkDc) | [🔽](https://cararegistrasi.com/wM7U9mQQmz) |
 | s922x | Belink, Belink-Pro, Ugoos-AM6-Plus,<br> ODROID-N2 | [🔽](https://cararegistrasi.com/iHftc3WH9z) | [🔽](https://cararegistrasi.com/hqtbJeHRJ) |
 
-> s905x kernel info : <br> 5.4.150 = flippy kernel <br> 5.15.1 = Andi Rijal Habibi's kernel
+> s9xxx kernel info : <br> 5.4.150 = flippy kernel <br> 5.15.1 = Andi Rijal Habibi's kernel
 
 > All releases including Older release can be found [here](https://cararegistrasi.com/WXCt) and scroll down a bit to see older release with yesterday date.
 
