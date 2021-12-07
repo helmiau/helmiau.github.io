@@ -150,7 +150,7 @@ ipv6-helper clean   : Remove modules <span class="hljs-keyword">and</span> LuCI 
   <li>1 3G Interface.</li>
   </ul>
 </li>
-<li>Add ShadowsocksR Plus+ shortcut <strong>(ssr-rst, ssr-start, ssr-stop)</strong>.</li>
+<li>Add ShadowsocksR Plus+ shortcut <strong>(ssr restart, ssr start, ssr stop)</strong>.</li>
 <li>QMI modems supported ex. LT4220.
   <ul>
   <li>Add IP Refresh for QMI Modems by running <strong>ipqmi</strong> using terminal.</li>
@@ -164,9 +164,9 @@ ipv6-helper clean   : Remove modules <span class="hljs-keyword">and</span> LuCI 
   <li>OpenVPN.</li>
   <li>ShadowSocks.</li>
   <li>ShadowSocksR.</li>
-  <li>SSH (SSL Support).</li>
-  <li>Trojan.</li>
-  <li>V2ray (Vmess, Vless).</li>
+  <li>SSH (WebSocket, Proxy, Payload, SSL Support).</li>
+  <li>Trojan (Original, Go, gRPC, WebSocket).</li>
+  <li>V2ray (Vmess, Vless, gRPC, WebSocket).</li>
   </ul>
 </li>
 <li>VPN client apps :
@@ -177,6 +177,7 @@ ipv6-helper clean   : Remove modules <span class="hljs-keyword">and</span> LuCI 
   <li>OpenVPN.</li>
   <li>Libernet Plus.</li>
   <li>Xderm Mini.</li>
+  <li>STL Wegare.</li>
   </ul>
 </li>
 <li>Extended root partition to 3GB.</li>
@@ -443,7 +444,7 @@ LuCI Password  : password
 
 <br>
 #### Credits
-[OpenWrt Official](https://github.com/openwrt/openwrt) for main OpenWrt source - [P3TERX/Actions-OpenWrt](https://github.com/P3TERX/Actions-OpenWrt) for OpenWrt LEDE GitHub actions script builder - [coolsnowwolf/lede](https://github.com/coolsnowwolf/lede) for main build source and extended packages - [SuLingGG/OpenWrt-Rpi](https://github.com/SuLingGG/OpenWrt-Rpi) for base fork github actions - [ophub/amlogic-s9xxx-openwrt](https://github.com/ophub/amlogic-s9xxx-openwrt) for comparison actions build script - [Wega Regianto](https://github.com/wegare123/ram) for ram checker and stl - [Ryan Fauzi](https://github.com/ryanfauzi1/vmesscreator) for vmess account creator provided by racevpn.com  and xderm mini - [Rudi Hartono](https://www.facebook.com/rud18) for IP Address refresher script for QMI Modems & reconnect w/o reboot script - [Prasath Mani](https://github.com/prasathmani/tinyfilemanager) for Tiny File Manager binaries & source - [OpenSpeedtest](https://github.com/AsrofurRizqi) for OpenSpeedtest binaries & sources - [Ambroz Bizjak](https://github.com/ambrop72/badvpn) for main badvpn source - [agroman.net](http://www.agroman.net/corkscrew/) for main corkscrew source - [Lutfa Ibtihaji Ilham](https://github.com/lutfailham96/libernet) for Libernet binaries - [Galih Prastowo Aji](https://github.com/hillz2/corkscrew) for corkscrew openwrt Makefile - [Friyadhi Biermann](https://github.com/friyadhibiermann/openwrt_badvpn-tun2socks) for badvpn openwrt Makefile and update - [Asrofur Rizqi](https://github.com/AsrofurRizqi) for clue to build and fix some packages and Orange Pi Zero builder- [LT4220 Facebook Group](https://www.facebook.com/groups/2727709384212810) and it's [documentations](https://docs.google.com/document/d/10ldzikC9EdvXT43LEtct0qSwi5qWJk-LHFZFsl8_69E/edit#heading=h.ft8rlp9e08c4) by [Nugroho](https://www.facebook.com/profile.php?id=100010890091391) as LT4220 docs writer - [Raditya Budi Handoko](https://github.com/radityabh/HelmiOs-to-s905) and [Andi Rijal Habibi](https://www.facebook.com/sibondt) as s9xxx device repacker and maintainer - [Malik Al](https://github.com/malikshi/openwrt-rpi) for some helps with vasm (v2rayA Script Manager) - [Reyre](https://github.com/r3yr3) for some mikhmon clues - [Jaki Rahman](https://github.com/rootjack404) for some ocsm (Openclash Script Manager) additions - [Nur Rahmat Adi S](https://facebook.com/adi.persada.560) for helping me to adding OpenClash Config Editor - [Feri Adi Candra](https://github.com/feriadicandra/HelmiOs-to-s905) for s905x2 sample github build - [Neo](t.me/neo_at) for fixing some wrong permissions - [Abdul Aziz Amar](https://blog.kopijahe.my.id/posts/autologin-kopijahe/) for autologin wifi id seamless script.
+[OpenWrt Official](https://github.com/openwrt/openwrt) for main OpenWrt source - [P3TERX/Actions-OpenWrt](https://github.com/P3TERX/Actions-OpenWrt) for OpenWrt LEDE GitHub actions script builder - [coolsnowwolf/lede](https://github.com/coolsnowwolf/lede) for main build source and extended packages - [SuLingGG/OpenWrt-Rpi](https://github.com/SuLingGG/OpenWrt-Rpi) for base fork github actions - [ophub/amlogic-s9xxx-openwrt](https://github.com/ophub/amlogic-s9xxx-openwrt) for comparison actions build script - [Wega Regianto](https://github.com/wegare123/ram) for ram checker and stl - [Ryan Fauzi](https://github.com/ryanfauzi1/vmesscreator) for vmess account creator provided by racevpn.com  and xderm mini - [Rudi Hartono](https://www.facebook.com/rud18) for IP Address refresher script for QMI Modems & reconnect w/o reboot script - [Prasath Mani](https://github.com/prasathmani/tinyfilemanager) for Tiny File Manager binaries & source - [OpenSpeedtest](https://github.com/AsrofurRizqi) for OpenSpeedtest binaries & sources - [Ambroz Bizjak](https://github.com/ambrop72/badvpn) for main badvpn source - [agroman.net](http://www.agroman.net/corkscrew/) for main corkscrew source - [Lutfa Ibtihaji Ilham](https://github.com/lutfailham96/libernet) for Libernet binaries - [Galih Prastowo Aji](https://github.com/hillz2/corkscrew) for corkscrew openwrt Makefile - [Friyadhi Biermann](https://github.com/friyadhibiermann/openwrt_badvpn-tun2socks) for badvpn openwrt Makefile and update - [Asrofur Rizqi](https://github.com/AsrofurRizqi) for clue to build and fix some packages and Orange Pi Zero builder- [LT4220 Facebook Group](https://www.facebook.com/groups/2727709384212810) and it's [documentations](https://docs.google.com/document/d/10ldzikC9EdvXT43LEtct0qSwi5qWJk-LHFZFsl8_69E/edit#heading=h.ft8rlp9e08c4) by [Nugroho](https://www.facebook.com/profile.php?id=100010890091391) as DIY Modems docs writer and IPK builder - [Raditya Budi Handoko](https://github.com/radityabh/HelmiOs-to-s905) and [Andi Rijal Habibi](https://www.facebook.com/sibondt) as s9xxx device repacker and maintainer - [Malik Al](https://github.com/malikshi/openwrt-rpi) for some helps with vasm (v2rayA Script Manager) - [Reyre](https://github.com/r3yr3) for some mikhmon clues - [Jaki Rahman](https://github.com/rootjack404) for some ocsm (Openclash Script Manager) additions - [Nur Rahmat Adi S](https://facebook.com/adi.persada.560) for helping me to adding OpenClash Config Editor - [Feri Adi Candra](https://github.com/feriadicandra/HelmiOs-to-s905) for s905x2 sample github build - [Neo](t.me/neo_at) for fixing some wrong permissions - [Abdul Aziz Amar](https://blog.kopijahe.my.id/posts/autologin-kopijahe/) for autologin wifi id seamless script.
 
 
 <!--

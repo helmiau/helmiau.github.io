@@ -92,7 +92,6 @@ This package will be shown under **LuCI -> Services -> v2rayA**
 ![tfm](https://raw.githubusercontent.com/helmiau/helmiwrt-packages/main/preview/v2raya-prev.png)
 
 
-
 #### LuCI Mikrotik Monitor App
 
 This package will be shown under **LuCI -> Services -> Mikrotik Monitor**
@@ -100,6 +99,18 @@ This package will be shown under **LuCI -> Services -> Mikrotik Monitor**
 ![tfm](https://raw.githubusercontent.com/helmiau/helmiwrt-packages/main/preview/mikhmon-prev.png)
 
 
+#### LuCI Wegare STL GUI
+
+This package will be shown under **LuCI -> Services -> Wegare STL**
+
+![tfm](https://raw.githubusercontent.com/helmiau/helmiwrt-packages/main/preview/wegare-prev.png)
+
+
+#### LuCI Free VPN Sites
+
+This package will be shown under **LuCI -> Services -> VPN Site List**
+
+![tfm](https://raw.githubusercontent.com/helmiau/helmiwrt-packages/main/preview/freevpnsite-prev.png)
 
 
 #### Badvpn and Corkscrew
@@ -189,41 +200,43 @@ CONFIG_PACKAGE_php7-mod-dom=y
 #HelmiWrt Packages
 CONFIG_PACKAGE_badvpn=y
 CONFIG_PACKAGE_corkscrew=y
+CONFIG_PACKAGE_luci-app-freevpnsite=y
 CONFIG_PACKAGE_luci-app-libernet=n
 CONFIG_PACKAGE_luci-app-libernet-bin=n
 CONFIG_PACKAGE_luci-app-libernet-plus=y
 CONFIG_PACKAGE_luci-app-mikhmon=y
 CONFIG_PACKAGE_luci-app-openspeedtest=y
 CONFIG_PACKAGE_luci-app-shutdown=y
-CONFIG_PACKAGE_luci-app-tinyfilemanager=y
+CONFIG_PACKAGE_luci-app-tinyfm=y
 CONFIG_PACKAGE_luci-app-xderm-bin=y
 CONFIG_PACKAGE_luci-app-xderm=n
 CONFIG_PACKAGE_luci-app-xderm-limit=y
 CONFIG_PACKAGE_luci-app-v2raya=y
+CONFIG_PACKAGE_luci-app-wegare=y
 ```
 > Change **n** to unuse the package or **y** to use the package
 
 #### Installation of IPK file
-This section will provide you an installation of IPK files through terminal. Thank's to bro [Reyre](https://www.facebook.com/groups/443024392562406/user/100000998540396/) for helping me to build these ipk's.
+This section will provide you an installation of IPK files through terminal. Thank's to bro [Reyre](https://www.facebook.com/groups/443024392562406/user/100000998540396/) and [Nugroho](https://www.facebook.com/profile.php?id=100010890091391) for helping me to build these ipk's.
 
-1. Take a look at here -> [Ipk Files](https://github.com/helmiau/helmiwrt-packages/tree/main/ipk-files).
-2. Select and copy a file name, then replace **nama_file_versi_all.ipk** below with your copied text/file name.
+1. Take a look at here -> [Ipk Files](https://github.com/helmiau/helmiwrt-packages/releases/tag/ipk).
+2. Select and copy a file name, then replace **filename_version_all.ipk** below with your copied text/file name.
 ```
-IPK="nama_file_versi_all.ipk"
-wget http://github.com/helmiau/helmiwrt-packages/blob/main/ipk-files/$IPK
-opkg install ${IPK}
+export IPK="filename_version_all.ipk"
+wget --no-check-certificate https://github.com/helmiau/helmiwrt-packages/releases/download/ipk/$IPK
+opkg update && opkg install ${IPK}
 rm ${IPK}
-/etc/init.d/rpcd restart
+unset IPK
 ```
 
 Example :
 
 ```
-IPK="luci-app-xderm-bin-1.2-0_all.ipk"
-wget http://github.com/helmiau/helmiwrt-packages/blob/main/ipk-files/$IPK
-opkg install ${IPK}
+export IPK="luci-app-xderm-bin-1.2-0_all.ipk"
+wget --no-check-certificate https://github.com/helmiau/helmiwrt-packages/releases/download/ipk/$IPK
+opkg update && opkg install ${IPK}
 rm ${IPK}
-/etc/init.d/rpcd restart
+unset IPK
 ```
 
 ### Credits
@@ -242,6 +255,7 @@ rm ${IPK}
 - [Laksamadi Guko](https://github.com/laksa19/mikhmonv3) as original mikhmonv3 coder.
 - [v2rayA](https://github.com/v2rayA/v2raya-web) as v2rayA web gui creator.
 - [Nur Rahmat Adi S](https://facebook.com/adi.persada.560) for helping me to adding OpenClash Config Editor.
+- [Nugroho](https://www.facebook.com/profile.php?id=100010890091391) for helping me to fix some codes and simplify.
 
 ### References
 - [prasathmani/tinyfilemanager](https://github.com/prasathmani/tinyfilemanager)
