@@ -20,6 +20,8 @@ LuCI Tiny File Manager App
 LuCI Shutdown App
 LuCI v2rayA App
 LuCI Mikrotik Monitor App
+LuCI Wegare STL GUI
+LuCI Free VPN Sites
 Badvpn and Corkscrew
 Build usage
 Installation of IPK file
@@ -254,8 +256,9 @@ unset IPK
 - [Reyre](https://github.com/r3yr3) for building ipk's from this packages.
 - [Laksamadi Guko](https://github.com/laksa19/mikhmonv3) as original mikhmonv3 coder.
 - [v2rayA](https://github.com/v2rayA/v2raya-web) as v2rayA web gui creator.
-- [Nur Rahmat Adi S](https://facebook.com/adi.persada.560) for helping me to adding OpenClash Config Editor.
+- [Nur Rahmat Adi S](https://facebook.com/adi.persada.560) for helping me to adding OpenClash Config Editor, and STL Wegare GUI.
 - [Nugroho](https://www.facebook.com/profile.php?id=100010890091391) for helping me to fix some codes and simplify.
+- [M Nabil Shah Nawwaz](https://www.facebook.com/Official.HunterNblz) for helping me to improve STL Wegare GUI.
 
 ### References
 - [prasathmani/tinyfilemanager](https://github.com/prasathmani/tinyfilemanager)
