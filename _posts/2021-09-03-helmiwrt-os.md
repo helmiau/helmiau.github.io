@@ -442,9 +442,7 @@ LuCI Password  : password
 #### Telegram Chat
 
 <p align="center">
-	<img width="460" height="300">
-		<i class="fab fa-telegram-plane"></i>
-	</img>
+	<i width="250" height="250" class="fab fa-telegram-plane"></i>
 	<h6 align="center">
 		<a href="https://t.me/joinchat/UWnNfqyDFeTiU7bJ">Join Telegram Chat Group</a>
 	</h6>
