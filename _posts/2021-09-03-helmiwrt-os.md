@@ -3,7 +3,7 @@ title: HelmiWrt OS is Customized OpenWrt Firmware
 tags: [Raspberry Pi, Lean, Custom Firmware, OpenWrt]
 style: fill
 color: warning
-description: This is OpenWrt project forked from SuLingGG, which taken from coolsnowwolf/lede repo and I add my additions there. Compiled daily by using GitHub Actions.
+description: This is OpenWrt project forked from SuLingGG, which taken from coolsnowwolf/lede repo and I add my additions there. Compiled by using GitHub Actions.
 ---
 
 Source: [My Own Repo](https://github.com/helmiau/HelmiWrt-OS#readme)
@@ -21,7 +21,7 @@ Previews
 Supported Devices and Download Section
 Tutorial Bahasa Indonesia
 English Guide
-Login Information
+Default Firmware Information
 Telegram Chat
 {% endcapture %}
 {% include elements/list.html title="Page Index / Daftar Isi" type="toc" %}
@@ -29,7 +29,7 @@ Telegram Chat
 <br>
 #### Firmware Informations
 
-HelmiWrt OS is a customized OpenWrt firmware with many additions to make a **ready to use** firmware. This firmware based on [SuLingGG OpenWrt-Rpi](https://github.com/SuLingGG/OpenWrt-Rpi) compiled daily using GitHub Actions. This project currently available for Raspberry Pi 1/2/3/4 and x86 (PC/Laptop) devices.
+HelmiWrt OS is a customized OpenWrt firmware with many additions to make a **ready to use** firmware. This firmware based on [SuLingGG OpenWrt-Rpi](https://github.com/SuLingGG/OpenWrt-Rpi) compiled using GitHub Actions. This project currently available for Raspberry Pi 1/2/3/4 and x86 (PC/Laptop) devices.
 
 <details><summary>Main firmware features : (click to show)</summary>
 <p>
@@ -427,7 +427,7 @@ https://github.com/helmiau/HelmiWrt-OS/raw/main/preview/openwrt-rpi-17.png
 
 <br>
 <br>
-#### Login Information
+#### Default Firmware Information
 ```
 WiFi SSID      : HelmiWrt
 WiFi Password  : no password
@@ -441,6 +441,21 @@ LuCI Password  : password
 <br>
 #### Telegram Chat
 [Join Telegram Chat Group Here](https://t.me/joinchat/UWnNfqyDFeTiU7bJ)
+
+<div class="w-100 h-100 flex flex-column items-center justify-center">
+	<div class="flex flex-row flex-nowrap items-stretch shadow-3 br3">
+		<div class="br3 br--left bg-white pa3 flex flex-column items-center justify-center grape5">
+			<svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="telegram-plane" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-telegram-plane fa-w-14 fa-3x">
+			<path fill="currentColor" d="M446.7 98.6l-67.6 318.8c-5.1 22.5-18.4 28.1-37.3 17.5l-103-75.9-49.7 47.8c-5.5 5.5-10.1 10.1-20.7 10.1l7.4-104.9 190.9-172.5c8.3-7.4-1.8-11.5-12.9-4.1L117.8 284 16.2 252.2c-22.1-6.9-22.5-22.1 4.6-32.7L418.2 66.4c18.4-6.9 34.5 4.1 28.5 32.2z" class="">
+			</path>
+			</svg>
+		</div>
+		<div class="br3 br--right pa3 flex flex-column justify-center bg-white-90 black-70">
+			<p class="mv0 lh-copy f4 fw6">I'm afraid I can't telegram-plane that, Dave. <span class="link grape5 underline">Retry?</span>
+			</p>
+		</div>
+	</div>
+</div>
 
 <br>
 #### Credits
