@@ -276,13 +276,13 @@ https://github.com/helmiau/HelmiWrt-OS/raw/main/preview/openwrt-rpi-17.png
 
 | Device<br>Chipset | Device Lists | Kernel<br />5.4.150 | Kernel<br />5.15.1 |
 | :---------------: | :-------------: | :-----------------: | :-----------------: |
-| s905d | Phicomm-N1 | [🔽](https://cararegistrasi.com/lKrJWWk8nv0Y) | [🔽](https://cararegistrasi.com/3k0Y) |
-| s905w | X96-Mini, TX3-Mini | [🔽](https://cararegistrasi.com/eQeJvyzUa) | [🔽](https://cararegistrasi.com/Vx7VJCiyO) |
-| s905x | HG680P, B860H | [🔽](https://cararegistrasi.com/Z6SCnaZyBRPc) | [🔽](https://cararegistrasi.com/fA7enpzR) |
-| s905x2 | X96Max-4G, X96Max-2G, A95XF2 | [🔽](https://cararegistrasi.com/pqLlZ) | [🔽](https://cararegistrasi.com/vWdhubW2R) |
-| s905x3 | X96-Max+, HK1-Box, H96-Max-X3, <br>Ugoos-X3, X96-Air, A95XF3-Air | [🔽](https://cararegistrasi.com/hb1Ia) | [🔽](https://cararegistrasi.com/QS8w9qpG6X) |
-| s912 | H96-Pro-Plus, Octopus-Planet | [🔽](https://cararegistrasi.com/XfkDc) | [🔽](https://cararegistrasi.com/wM7U9mQQmz) |
-| s922x | Belink, Belink-Pro, Ugoos-AM6-Plus,<br> ODROID-N2 | [🔽](https://cararegistrasi.com/iHftc3WH9z) | [🔽](https://cararegistrasi.com/hqtbJeHRJ) |
+| s905d | Phicomm-N1 | [🔽](https://cararegistrasi.com/lKrJWWk8nv0Y) | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-s905d-k5.15.5.img.gz) |
+| s905w | X96-Mini, TX3-Mini | [🔽](https://cararegistrasi.com/eQeJvyzUa) | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-s905w-k5.15.5.img.gz) |
+| s905x | HG680P, B860H | [🔽](https://cararegistrasi.com/Z6SCnaZyBRPc) | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-s905x-k5.15.5.img.gz) |
+| s905x2 | X96Max-4G, X96Max-2G, A95XF2 | [🔽](https://cararegistrasi.com/pqLlZ) | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-s905x2-k5.15.5.img.gz) |
+| s905x3 | X96-Max+, HK1-Box, H96-Max-X3, <br>Ugoos-X3, X96-Air, A95XF3-Air | [🔽](https://cararegistrasi.com/hb1Ia) | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-s905x3-k5.15.5.img.gz) |
+| s912 | H96-Pro-Plus, Octopus-Planet | [🔽](https://cararegistrasi.com/XfkDc) | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-s912-k5.15.5.img.gz) |
+| s922x | Belink, Belink-Pro, Ugoos-AM6-Plus,<br> ODROID-N2 | [🔽](https://cararegistrasi.com/iHftc3WH9z) | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-s922x-k5.15.5.img.gz) |
 
 > s9xxx kernel info : <br> 5.4.150 = flippy kernel <br> 5.15.1 = Andi Rijal Habibi's kernel
 
