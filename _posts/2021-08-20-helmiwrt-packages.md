@@ -138,108 +138,108 @@ If you want to build these packages manually or adding it to your firmware, do t
 
 - Git clone this repo to your local files by running this command
 
-```
-git clone --depth=1 https://github.com/helmiau/helmiwrt-packages
-```
+	```
+	git clone --depth=1 https://github.com/helmiau/helmiwrt-packages
+	```
 - Then add lines below to your **.config** file
 
-```
-#Requirements packages for Libernet-Xderm-Limiter-v2rayA-Mikhmon
-CONFIG_PACKAGE_procps-ng=y
-CONFIG_PACKAGE_procps-ng-ps=y
-CONFIG_PACKAGE_sshpass=y
-CONFIG_PACKAGE_python3-pip=y
-CONFIG_PACKAGE_coreutils-timeout=y
-CONFIG_PACKAGE_git=y
-CONFIG_PACKAGE_coreutils=y
-CONFIG_PACKAGE_coreutils-stdbuf=y
-CONFIG_PACKAGE_jq=y
-CONFIG_PACKAGE_ip-full=y
-CONFIG_PACKAGE_kmod-tun=y
-CONFIG_PACKAGE_openssh-client=y
-CONFIG_PACKAGE_https-dns-proxy=y
-CONFIG_PACKAGE_php7=y
-CONFIG_PACKAGE_php7-cgi=y
-CONFIG_PACKAGE_php7-mod-json=y
-CONFIG_PACKAGE_php7-mod-session=y
-CONFIG_PACKAGE_python3=y
-CONFIG_PACKAGE_httping=y
-CONFIG_PACKAGE_stunnel=y
-CONFIG_PACKAGE_stubby=y
-CONFIG_PACKAGE_getdns=y
-CONFIG_PACKAGE_libudev-fbsd=y
-CONFIG_PACKAGE_libudev-zero=y
-CONFIG_PACKAGE_librt=y
-CONFIG_PACKAGE_libpthread=y
-CONFIG_PACKAGE_libudev-zero=y
-CONFIG_PACKAGE_libnss=y
-CONFIG_PACKAGE_libopenssl=y
-CONFIG_PACKAGE_openssl-util=y
-CONFIG_PACKAGE_php7-mod-gmp=y
-CONFIG_PACKAGE_php7-mod-gettext=y
-CONFIG_PACKAGE_php7-mod-iconv=y
-CONFIG_PACKAGE_php7-mod-pcntl=y
-CONFIG_PACKAGE_zoneinfo-core=y
-CONFIG_PACKAGE_zoneinfo-asia=y
-CONFIG_PACKAGE_zoneinfo-simple=y
-CONFIG_PACKAGE_php7=y
-CONFIG_PACKAGE_php7-fpm=y
-CONFIG_PACKAGE_php7-mod-curl=y
-CONFIG_PACKAGE_php7-mod-gd=y
-CONFIG_PACKAGE_php7-mod-iconv=y
-CONFIG_PACKAGE_php7-mod-json=y
-CONFIG_PACKAGE_php7-mod-mbstring=y
-CONFIG_PACKAGE_php7-mod-opcache=y
-CONFIG_PACKAGE_php7-mod-session=y
-CONFIG_PACKAGE_php7-mod-zip=y
-CONFIG_PACKAGE_php7-mod-sqlite3=y
-CONFIG_PACKAGE_php7-mod-pdo=y
-CONFIG_PACKAGE_php7-mod-pdo-sqlite=y
-CONFIG_PACKAGE_php7-mod-pdo-mysql=y
-CONFIG_PACKAGE_php7-cgi=y
-CONFIG_PACKAGE_php7-mod-dom=y
+	```
+	#Requirements packages for Libernet-Xderm-Limiter-v2rayA-Mikhmon
+	CONFIG_PACKAGE_procps-ng=y
+	CONFIG_PACKAGE_procps-ng-ps=y
+	CONFIG_PACKAGE_sshpass=y
+	CONFIG_PACKAGE_python3-pip=y
+	CONFIG_PACKAGE_coreutils-timeout=y
+	CONFIG_PACKAGE_git=y
+	CONFIG_PACKAGE_coreutils=y
+	CONFIG_PACKAGE_coreutils-stdbuf=y
+	CONFIG_PACKAGE_jq=y
+	CONFIG_PACKAGE_ip-full=y
+	CONFIG_PACKAGE_kmod-tun=y
+	CONFIG_PACKAGE_openssh-client=y
+	CONFIG_PACKAGE_https-dns-proxy=y
+	CONFIG_PACKAGE_php7=y
+	CONFIG_PACKAGE_php7-cgi=y
+	CONFIG_PACKAGE_php7-mod-json=y
+	CONFIG_PACKAGE_php7-mod-session=y
+	CONFIG_PACKAGE_python3=y
+	CONFIG_PACKAGE_httping=y
+	CONFIG_PACKAGE_stunnel=y
+	CONFIG_PACKAGE_stubby=y
+	CONFIG_PACKAGE_getdns=y
+	CONFIG_PACKAGE_libudev-fbsd=y
+	CONFIG_PACKAGE_libudev-zero=y
+	CONFIG_PACKAGE_librt=y
+	CONFIG_PACKAGE_libpthread=y
+	CONFIG_PACKAGE_libudev-zero=y
+	CONFIG_PACKAGE_libnss=y
+	CONFIG_PACKAGE_libopenssl=y
+	CONFIG_PACKAGE_openssl-util=y
+	CONFIG_PACKAGE_php7-mod-gmp=y
+	CONFIG_PACKAGE_php7-mod-gettext=y
+	CONFIG_PACKAGE_php7-mod-iconv=y
+	CONFIG_PACKAGE_php7-mod-pcntl=y
+	CONFIG_PACKAGE_zoneinfo-core=y
+	CONFIG_PACKAGE_zoneinfo-asia=y
+	CONFIG_PACKAGE_zoneinfo-simple=y
+	CONFIG_PACKAGE_php7=y
+	CONFIG_PACKAGE_php7-fpm=y
+	CONFIG_PACKAGE_php7-mod-curl=y
+	CONFIG_PACKAGE_php7-mod-gd=y
+	CONFIG_PACKAGE_php7-mod-iconv=y
+	CONFIG_PACKAGE_php7-mod-json=y
+	CONFIG_PACKAGE_php7-mod-mbstring=y
+	CONFIG_PACKAGE_php7-mod-opcache=y
+	CONFIG_PACKAGE_php7-mod-session=y
+	CONFIG_PACKAGE_php7-mod-zip=y
+	CONFIG_PACKAGE_php7-mod-sqlite3=y
+	CONFIG_PACKAGE_php7-mod-pdo=y
+	CONFIG_PACKAGE_php7-mod-pdo-sqlite=y
+	CONFIG_PACKAGE_php7-mod-pdo-mysql=y
+	CONFIG_PACKAGE_php7-cgi=y
+	CONFIG_PACKAGE_php7-mod-dom=y
 
-#HelmiWrt Packages
-CONFIG_PACKAGE_badvpn=y
-CONFIG_PACKAGE_corkscrew=y
-CONFIG_PACKAGE_luci-app-freevpnsite=y
-CONFIG_PACKAGE_luci-app-libernet=n
-CONFIG_PACKAGE_luci-app-libernet-bin=n
-CONFIG_PACKAGE_luci-app-libernet-plus=y
-CONFIG_PACKAGE_luci-app-mikhmon=y
-CONFIG_PACKAGE_luci-app-openspeedtest=y
-CONFIG_PACKAGE_luci-app-shutdown=y
-CONFIG_PACKAGE_luci-app-tinyfm=y
-CONFIG_PACKAGE_luci-app-xderm-bin=y
-CONFIG_PACKAGE_luci-app-xderm=n
-CONFIG_PACKAGE_luci-app-xderm-limit=y
-CONFIG_PACKAGE_luci-app-v2raya=y
-CONFIG_PACKAGE_luci-app-wegare=y
-```
-> Change **n** to unuse the package or **y** to use the package
+	#HelmiWrt Packages
+	CONFIG_PACKAGE_badvpn=y
+	CONFIG_PACKAGE_corkscrew=y
+	CONFIG_PACKAGE_luci-app-freevpnsite=y
+	CONFIG_PACKAGE_luci-app-libernet=n
+	CONFIG_PACKAGE_luci-app-libernet-bin=n
+	CONFIG_PACKAGE_luci-app-libernet-plus=y
+	CONFIG_PACKAGE_luci-app-mikhmon=y
+	CONFIG_PACKAGE_luci-app-openspeedtest=y
+	CONFIG_PACKAGE_luci-app-shutdown=y
+	CONFIG_PACKAGE_luci-app-tinyfm=y
+	CONFIG_PACKAGE_luci-app-xderm-bin=y
+	CONFIG_PACKAGE_luci-app-xderm=n
+	CONFIG_PACKAGE_luci-app-xderm-limit=y
+	CONFIG_PACKAGE_luci-app-v2raya=y
+	CONFIG_PACKAGE_luci-app-wegare=y
+	```
+	> Change **n** to unuse the package or **y** to use the package
 
 #### Installation of IPK file
 This section will provide you an installation of IPK files through terminal. Thank's to bro [Reyre](https://www.facebook.com/groups/443024392562406/user/100000998540396/) and [Nugroho](https://www.facebook.com/profile.php?id=100010890091391) for helping me to build these ipk's.
 
 1. Take a look at here -> [Ipk Files](https://github.com/helmiau/helmiwrt-packages/releases/tag/ipk).
 2. Select and copy a file name, then replace **filename_version_all.ipk** below with your copied text/file name.
-```
-export IPK="filename_version_all.ipk"
-wget --no-check-certificate https://github.com/helmiau/helmiwrt-packages/releases/download/ipk/$IPK
-opkg update && opkg install ${IPK}
-rm ${IPK}
-unset IPK
-```
+	```
+	export IPK="filename_version_all.ipk"
+	wget --no-check-certificate https://github.com/helmiau/helmiwrt-packages/releases/download/ipk/$IPK
+	opkg update && opkg install ${IPK}
+	rm ${IPK}
+	unset IPK
+	```
 
-Example :
+	Example :
 
-```
-export IPK="luci-app-xderm-bin-1.2-0_all.ipk"
-wget --no-check-certificate https://github.com/helmiau/helmiwrt-packages/releases/download/ipk/$IPK
-opkg update && opkg install ${IPK}
-rm ${IPK}
-unset IPK
-```
+	```
+	export IPK="luci-app-xderm-bin-1.2-0_all.ipk"
+	wget --no-check-certificate https://github.com/helmiau/helmiwrt-packages/releases/download/ipk/$IPK
+	opkg update && opkg install ${IPK}
+	rm ${IPK}
+	unset IPK
+	```
 
 ### Credits
 - [Immortalwrt](github.com/immortalwrt) for LuCI App comparison.
