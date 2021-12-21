@@ -2,7 +2,7 @@
 title: Menghubungkan Modem HiLink ke LuCI 3G Info OpenWrt
 tags: [OpenWrt, HiLink, Modem, Huawei]
 style: fill
-color: danger
+color: warning
 description: Dokumen ini berisi tentang cara menghubungkan modem HiLink seperti e3372, e5577, e5673 ke aplikasi 3g info.
 ---
 

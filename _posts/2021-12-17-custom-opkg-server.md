@@ -2,8 +2,8 @@
 title: Paket Aplikasi OpenWrt Server milik Pribadi
 tags: [OpenWrt, opkg, ipk]
 style: fill
-color: danger
-description: Dokumen ini membahas .
+color: success
+description: Dokumen ini membahas cara menambah server opkg ke OpenWrt.
 ---
 
 # Tentang Paket OPKG Pribadi
