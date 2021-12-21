@@ -274,7 +274,7 @@ https://github.com/helmiau/HelmiWrt-OS/raw/main/preview/openwrt-rpi-17.png
 
 - for Set-Top-Box s9xxx devices repacked by [Raditya Budi Handoko](https://github.com/radityabh/HelmiOs-to-s905) and [Andi Rijal Habibi](https://www.facebook.com/sibondt), s905x2 request by [Feri Adi Candra](https://github.com/feriadicandra/HelmiOs-to-s905).
 
-| Device<br>Chipset | Device Lists | Kernel<br />5.4.150 | Kernel<br />5.15.1 |
+| Device<br>Chipset | Device Lists | Kernel<br />5.4.150 | Kernel<br />5.15.5 |
 | :---------------: | :-------------: | :-----------------: | :-----------------: |
 | s905d | Phicomm-N1 | [🔽](https://cararegistrasi.com/lKrJWWk8nv0Y) | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-s905d-k5.15.5.img.gz) |
 | s905w | X96-Mini, TX3-Mini | [🔽](https://cararegistrasi.com/eQeJvyzUa) | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-s905w-k5.15.5.img.gz) |
@@ -350,7 +350,7 @@ https://github.com/helmiau/HelmiWrt-OS/raw/main/preview/openwrt-rpi-17.png
 <br>
 #### Catatan
 - Firmware terbaru akan tersedia setelah pukul 15.00 hingga 04.00 WIB.
-- Jangan tanyakan "Kapan dibenerin? atau yang semisalnya. Single fighter ini bos !.
+- Jangan tanyakan "Kapan dibenerin?" atau yang semisalnya. Single fighter ini bos !.
 - Jangan tanyakan pertanyaan orang awam, seperti : Apa aja yang perlu disiapkan untuk memasang OpenWrt di perangkatku?.
 - Jangan tanyakan dukungan maupun perbaikan bug pada perangkat yang tidak didukung secara resmi.
 - **Saya menolak fitur tambahan dan perbaikan tanpa saran, sumber kode, script ataupun yang lainnya.**
