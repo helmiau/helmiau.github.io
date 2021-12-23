@@ -331,7 +331,7 @@ https://github.com/helmiau/HelmiWrt-OS/raw/main/preview/openwrt-rpi-17.png
 - Jika **OpenClash yacd dashboard panel** tidak tampil, ganti protokol **https://** menjadi **http://** pada address bar browser yang Anda gunakan.
 - v2rayA GUI dan LuCI app membutuhkan instalasi WebUI pada perintah **v2raya**.
 - Gunakanlah OpenClash/Passwall/SSR+ daripada Libernet atau Xderm Mini jika ingin menggunakan VPN dengan mwan3 loadbalance.
-- Libernet dan Xderm Mini tidak akan berjalan dengan mwan3 loadbalance. Jika Anda ingin menggunakannya, Anda harus mengatur beberapa pengaturan pada ```/etc/config/network```, ```/etc/config/firewall```, ```etc/config/mwan3``` secara manual.
+- Libernet dan Xderm Mini tidak akan berjalan dengan mwan3 loadbalance. Jika Anda ingin menggunakan salah satu dari kedua aplikasi tersebut setelah memasang loadbalance di perintah helmilb, maka Anda harus menghapus seluruh pengaturan loadbalance pada ```etc/config/mwan3``` secara manual.
 - OpenClash harus restart ketika Modem Manager (driver untuk modem QMI) restart.
 - Jika port Gigabit hanya terbaca 100mb/s, solusinya adalah **ganti dengan kabel LAN yang mendukung Gigabit**.
 - Koneksi modem dengan protokol ModemManager atau Mobile Data :
@@ -399,7 +399,7 @@ https://github.com/helmiau/HelmiWrt-OS/raw/main/preview/openwrt-rpi-17.png
 - If you get an error when open **OpenClash yacd dashboard panel**, change https:// to http:// protocol.
 - v2rayA GUI and LuCI app is need **v2raya** command to start and v2rayA web GUI.
 - Use OpenClash/Passwall/SSR+ instead of Libernet or Xderm Mini if you want to use VPN with mwan3 loadbalance.
-- Libernet and Xderm Mini will not work with mwan3 loadbalance. You need to reconfigure ```/etc/config/network```, ```/etc/config/firewall```, ```etc/config/mwan3``` by yourself.
+- Libernet and Xderm Mini will not work with mwan3 loadbalance. You need to remove all configurations insiden ```etc/config/mwan3``` manually if helmilb command has been installed on your system.
 - OpenClash must be restarted manually when Modem Manager (driver for QMI modem) restarted.
 - If Gigabit port only read 100mb/s, the solution is by **replacing your LAN cable** with the better one which has Gigabit support.
 - Connect modem with ModemManager or Mobile Data protocol :
