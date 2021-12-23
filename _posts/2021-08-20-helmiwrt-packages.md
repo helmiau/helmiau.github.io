@@ -198,6 +198,11 @@ If you want to build these packages manually or adding it to your firmware, do t
 	CONFIG_PACKAGE_php7-mod-pdo-mysql=y
 	CONFIG_PACKAGE_php7-cgi=y
 	CONFIG_PACKAGE_php7-mod-dom=y
+	CONFIG_PACKAGE_php7-mod-fileinfo=y
+	CONFIG_PACKAGE_php7-mod-ctype=y
+	CONFIG_PACKAGE_zoneinfo-core=y
+	CONFIG_PACKAGE_zoneinfo-asia=y
+	CONFIG_PACKAGE_zoneinfo-simple=y
 
 	#HelmiWrt Packages
 	CONFIG_PACKAGE_badvpn=y
