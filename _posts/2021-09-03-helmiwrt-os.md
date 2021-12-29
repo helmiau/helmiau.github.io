@@ -243,7 +243,7 @@ https://github.com/helmiau/HelmiWrt-OS/raw/main/preview/openwrt-rpi-17.png
 
 
 <p align="center">
-	<img title="HelmiWrt Latest Release" alt="HelmiWrt Latest Release" src="https://img.shields.io/github/v/release/helmiau/HelmiWrt-OS.svg?label=Latest%20Release&style=for-the-badge&logo=openwrt" width="80%" height="70px">
+	<img title="HelmiWrt Latest Release" alt="HelmiWrt Latest Release" src="https://img.shields.io/github/v/release/helmiau/HelmiWrt-OS.svg?label=Latest%20Release&style=for-the-badge&logo=openwrt" height="70px" width="80%">
 </p>
 
 
