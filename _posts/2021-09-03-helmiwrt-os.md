@@ -243,10 +243,9 @@ https://github.com/helmiau/HelmiWrt-OS/raw/main/preview/openwrt-rpi-17.png
 
 
 <p align="center">
-	<img title="HelmiWrt Latest Release" alt="HelmiWrt Latest Release" src="https://img.shields.io/github/v/release/helmiau/HelmiWrt-OS.svg?label=Latest%20Release&style=for-the-badge&logo=openwrt" width="30%" height="50px">
+	<img title="HelmiWrt Latest Release" alt="HelmiWrt Latest Release" src="https://img.shields.io/github/v/release/helmiau/HelmiWrt-OS.svg?label=Latest%20Release&style=for-the-badge&logo=openwrt" width="40%" height="70px">
 </p>
 
-<br>
 
 - for Raspberry Pi (1/2/3/4) by [Helmi Amirudin](http://helmiau.com/about)
 
