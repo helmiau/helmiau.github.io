@@ -2,7 +2,7 @@
 title: Mengganti Kernel OpenWrt s905x
 tags: [s905x, OpenWrt, Kernel]
 style: fill
-color: warning
+color: secondary
 description: Ingin mengganti kernel OpenWrt pada firmware yang kamu pakai sekarang? Simak disini caranya.
 ---
 
