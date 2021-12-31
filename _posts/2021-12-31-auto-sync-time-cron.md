@@ -2,7 +2,7 @@
 title: Sinkronisasi Waktu Otomatis di OpenWrt
 tags: [OpenWrt]
 style: fill
-color: warning
+color: info
 description: Sering mengalami waktu yang tidak tersinkron otomatis di OpenWrt? Simak perbaikannya disini.
 ---
 
