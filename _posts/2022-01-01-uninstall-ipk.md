@@ -2,7 +2,7 @@
 title: Uninstall Paket OpenWrt
 tags: [OpenWrt, Uninstall, IPK]
 style: fill
-color: info
+color: danger
 description: Hapus banyak paket OpenWrt secara langsung, tapi ribet di awal doang.
 ---
 
