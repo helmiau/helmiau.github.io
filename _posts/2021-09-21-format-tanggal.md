@@ -139,7 +139,7 @@ The following details the meaning of each pattern character. Note the K and z ch
 **||\c ||** Represents the escape character, and displays the character "c" as a literal when that character is preceded by the escape character (\). To insert the backslash character itself in the result string, the application should use two escape characters ("\\").
 
 
-Any other character copies any other character to the result string, without affecting formatting. ||
+Any other character copies any other character to the result string, without affecting formatting.
 
 
 <h6 align="center">Copyright by <a href="http://www.helmiau.com">Helmi Amirudin</a> ® 2021 <br> Thank You ! 🤝</h6>
