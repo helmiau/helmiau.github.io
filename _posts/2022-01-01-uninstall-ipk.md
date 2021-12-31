@@ -1,6 +1,6 @@
 ---
 title: Uninstall Paket OpenWrt
-tags: [OpenWrt]
+tags: [OpenWrt, Uninstall, IPK]
 style: fill
 color: info
 description: Hapus banyak paket OpenWrt secara langsung, tapi ribet di awal doang.
@@ -16,12 +16,20 @@ Kali ini penulis akan membuat dokumentasi cara menghapus paket OpenWrt yang tida
 	```
 	opkg list-installed 
 	```
+	
+	Contoh :
+	
+	![image](https://user-images.githubusercontent.com/20932301/147840977-610df283-9f12-45c2-b8bf-2957b5174b41.png)
 
 2. Atau juga bisa menggunakan tambahan ``` | grep nama_paket``` untuk melihat paket dengan nama tertentu.
 
 	```
 	opkg list-installed | grep nama_paket
 	```
+	
+	Contoh :
+	
+	![image](https://user-images.githubusercontent.com/20932301/147840984-74e0ec6c-c9a6-483b-8e30-7b7f23cf7c08.png)
 
 3. Atau bisa juga menambahkan beberapa kata seperti ``` | grep "nama_paket_1\|nama_paket_2\|nama_paket_3"``` untuk melihat paket dengan berbagai nama yang berbeda
 
@@ -33,7 +41,16 @@ Kali ini penulis akan membuat dokumentasi cara menghapus paket OpenWrt yang tida
 
 	Jika ingin menambah paket setelah `nama_paket_3`, tambahkan terlebih dahulu tanda `\|` lalu susulkan nama paket lain setelahnya.
 	
+	Contoh :
+	
+	![image](https://user-images.githubusercontent.com/20932301/147841000-ddff4af6-8914-4106-9187-921f152ff504.png)
+	
+	Contoh diatas menampilkan paket-paket yang mengandung kata `clash`, `vpn`, dan `argon`. 
+	
 ### Menghapus Paket
+
+![image](https://user-images.githubusercontent.com/20932301/147840968-85768fe2-c018-4454-b698-77b926057550.png)
+
 1. Buka terminal/TTYD/Termius/JuiceSSH, jalankan perintah dibawah ini
 
 	```
