@@ -278,7 +278,7 @@ https://github.com/helmiau/HelmiWrt-OS/raw/main/preview/openwrt-rpi-17.png
 | x86-generic (32bit) | [🔽](https://cararegistrasi.com/qMmrR) | [🔽](https://cararegistrasi.com/JU8aJI3D) | [🔽](https://cararegistrasi.com/ovqmh8J55JN) | [🔽](https://cararegistrasi.com/OvFTF6JuZzN) | [🔽](https://cararegistrasi.com/87TYtAdsqvyU) | [🔽](https://cararegistrasi.com/dA3WvOluIb2O) |
 | x86-64 (64bit) | [🔽](https://cararegistrasi.com/v5HjfbedEfM) | [🔽](https://cararegistrasi.com/0rq8Qwmyj) | [🔽](https://cararegistrasi.com/qZquNRR) | [🔽](https://cararegistrasi.com/Jq2Kuc) | [🔽](https://cararegistrasi.com/1tk1gj4kcj) | [🔽](https://cararegistrasi.com/8sFfwdJ9G7) |
 
-- for Set-Top-Box s9xxx devices repacked by [Raditya Budi Handoko](https://github.com/radityabh/HelmiOs-to-s905) and [Andi Rijal Habibi](https://www.facebook.com/sibondt), s905x2 request by [Feri Adi Candra](https://github.com/feriadicandra/HelmiOs-to-s905).
+- for Set-Top-Box s9xxx devices repacked by [Raditya Budi Handoko](https://github.com/radityabh/HelmiOs-to-s905) and [Andi Rijal Habibi](https://www.facebook.com/), s905x2 request by [Feri Adi Candra](https://github.com/feriadicandra/HelmiOs-to-s905).
 
 | Device<br>Chipset | Device Lists | Kernel<br />5.4.167 | Kernel<br />5.15.5 |
 | :---------------: | :-------------: | :-----------------: | :-----------------: |
