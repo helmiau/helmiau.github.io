@@ -32,3 +32,12 @@ $(function () {
     var shorten_includ = ["github.com","t.me","facebook.com","fb.me","google.com"];
 </script>
 <script src='//safelinku.com/js/web-script.js'></script>
+
+<!-- Adblock Detector -->
+<script type="text/javascript" src="https://raw.githubusercontent.com/NikolaiT/adblock-detect-javascript-only/master/dist/adblockDetector.min.js"></script>
+<script type="text/javascript">
+  detectAdblock(function(isUsingAdblock) {
+    // isUsingAdblock is either `true`, `false` or `unknown`
+    alert("Using Adblock: " + isUsingAdblock);
+  })
+</script>
