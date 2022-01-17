@@ -280,17 +280,17 @@ https://github.com/helmiau/HelmiWrt-OS/raw/main/preview/openwrt-rpi-17.png
 
 - for Set-Top-Box s9xxx devices repacked by [Raditya Budi Handoko](https://github.com/radityabh/HelmiOs-to-s905) and [Andi Rijal Habibi](https://www.facebook.com/), s905x2 request by [Feri Adi Candra](https://github.com/feriadicandra/HelmiOs-to-s905).
 
-| Device<br>Chipset | Device Lists | Kernel<br />5.4.167 | Kernel<br />5.15.5 |
+| Device<br>Chipset | Device Lists | Kernel<br />5.4.0 | Kernel<br />5.15.5 |
 | :---------------: | :-------------: | :-----------------: | :-----------------: |
-| s905d | Phicomm-N1 | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-s905d-k5.4.167.img.gz) | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-s905d-k5.15.5.img.gz) |
-| s905w | X96-Mini, TX3-Mini | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-s905w-k5.4.167.img.gz) | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-s905w-k5.15.5.img.gz) |
-| s905x | HG680P, B860H | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-s905x-k5.4.167.img.gz) | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-s905x-k5.15.5.img.gz) |
-| s905x2 | X96Max-4G, X96Max-2G, A95XF2 | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-s905x2-k5.4.167.img.gz) | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-s905x2-k5.15.5.img.gz) |
-| s905x3 | X96-Max+, HK1-Box, H96-Max-X3, <br>Ugoos-X3, X96-Air, A95XF3-Air | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-s905x3-k5.4.167.img.gz) | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-s905x3-k5.15.5.img.gz) |
-| s912 | H96-Pro-Plus, Octopus-Planet | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-s912-k5.4.167.img.gz) | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-s912-k5.15.5.img.gz) |
-| s922x | Belink, Belink-Pro, Ugoos-AM6-Plus,<br> ODROID-N2 | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-s922x-k5.4.167.img.gz) | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-s922x-k5.15.5.img.gz) |
+| s905d | Phicomm-N1 | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-s905d-k5.4.0.img.gz) | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-s905d-k5.15.5.img.gz) |
+| s905w | X96-Mini, TX3-Mini | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-s905w-k5.4.0.img.gz) | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-s905w-k5.15.5.img.gz) |
+| s905x | HG680P, B860H | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-s905x-k5.4.0.img.gz) | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-s905x-k5.15.5.img.gz) |
+| s905x2 | X96Max-4G, X96Max-2G, A95XF2 | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-s905x2-k5.4.0.img.gz) | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-s905x2-k5.15.5.img.gz) |
+| s905x3 | X96-Max+, HK1-Box, H96-Max-X3, <br>Ugoos-X3, X96-Air, A95XF3-Air | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-s905x3-k5.4.0.img.gz) | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-s905x3-k5.15.5.img.gz) |
+| s912 | H96-Pro-Plus, Octopus-Planet | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-s912-k5.4.0.img.gz) | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-s912-k5.15.5.img.gz) |
+| s922x | Belink, Belink-Pro, Ugoos-AM6-Plus,<br> ODROID-N2 | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-s922x-k5.4.0.img.gz) | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-s922x-k5.15.5.img.gz) |
 
-> s9xxx kernel info : <br> 5.4.167 = flippy kernel <br> 5.15.5 = Andi Rijal Habibi's kernel
+> s9xxx kernel info : <br> 5.4.0 = flippy kernel <br> 5.15.5 = Andi Rijal Habibi's kernel
 
 > All releases including Older release can be found [here](https://cararegistrasi.com/WXCt) and scroll down a bit to see older release with yesterday date.
 
