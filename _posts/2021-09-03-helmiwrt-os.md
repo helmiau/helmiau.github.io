@@ -448,11 +448,17 @@ LuCI Password  : password
 #### Telegram Chat
 
 <p align="center">
-	<i class="fab fa-telegram-plane fa-5x"></i>
+	<a href="https://t.me/joinchat/UWnNfqyDFeTiU7bJ" target="_blank">
+         <i class="fab fa-telegram-plane fa-5x"></i>
+	</a>
 	<h6 align="center">
-		<a href="https://t.me/joinchat/UWnNfqyDFeTiU7bJ">Join Telegram Chat Group</a>
+		<a href="https://t.me/joinchat/UWnNfqyDFeTiU7bJ" target="_blank">Join Telegram Chat Group</a>
 	</h6>
 </p>
+
+<br>
+
+<h3 align="center"><a href="https://www.helmiau.com/pay/index_en.html" target="_blank">Donation Page</a></h3>
 
 <br>
 #### Credits
