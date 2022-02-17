@@ -136,6 +136,7 @@ ipv6-helper clean   : Remove modules <span class="hljs-keyword">and</span> LuCI 
   <li>Opentomcat.</li>
   <li>OpenTomato.</li>
   <li>Opentopd.</li>
+  <li>Neobird. !!NEW!!</li>
   </ul>
 </li>
 <li>Set <strong>English</strong> as default language.</li>
@@ -200,7 +201,6 @@ ipv6-helper clean   : Remove modules <span class="hljs-keyword">and</span> LuCI 
   <li>Run <strong>neofetch</strong> to see your device information.</li>
   <li>Run <strong>sambaset</strong> to manage Samba Network Share.</li>
   <li>Run <strong>ram</strong> to see available/used ram & processes.</li>
-  <li>Run <strong>vmess</strong> to create free vmess account for 3 days.</li>
   <li>Run <strong>fixphp</strong> to fix browser always download file index.php (like xderm and libernet).</li>
   <li>Run <strong>myip</strong> to check your public IP address.</li>
   <li>Run <strong>ipv6-helper</strong> to manage ipv6 support.</li>
@@ -249,48 +249,50 @@ https://github.com/helmiau/HelmiWrt-OS/raw/main/preview/openwrt-rpi-17.png
 
 - for Raspberry Pi (1/2/3/4) by [Helmi Amirudin](http://helmiau.com/about)
 
-| Raspberry Pi<br />Version | squashfs<br />factory | squashfs<br />sysupgrade | ext4<br />factory | ext4<br />sysupgrade | rootfs |
-| :-----------------------: | :-------------------: | :----------------------: | :---------------: | :------------------: | :----: |
-| A/B/B+/Zero/W | [🔽](https://cararegistrasi.com/rIpd) | [🔽](https://cararegistrasi.com/Qv80bGnYU) | [🔽](https://cararegistrasi.com/46lsZMd6OGl) | [🔽](https://cararegistrasi.com/0o4nkrpy9) | [🔽](https://cararegistrasi.com/9lqV4vZNk) |
-| 2/B | [🔽](https://cararegistrasi.com/rSgUaSgVliGY) | [🔽](https://cararegistrasi.com/gFWDEKzTHZ) | [🔽](https://cararegistrasi.com/7aC7jff01) | [🔽](https://cararegistrasi.com/f0aZSFcr) | [🔽](https://cararegistrasi.com/hOVNQmg7ib) |
-| 3/B/B+ | [🔽](https://cararegistrasi.com/DD4Hv85DgW) | [🔽](https://cararegistrasi.com/NfDAr9SU) | [🔽](https://cararegistrasi.com/mXgxYMNEB) | [🔽](https://cararegistrasi.com/AHorBlX9emb) | [🔽](https://cararegistrasi.com/tOkGOp) |
-| 4/B/400/CM4 | [🔽](https://cararegistrasi.com/vWhclu8) | [🔽](https://cararegistrasi.com/XU4b2Wsc) | [🔽](https://cararegistrasi.com/8ak3G0pF) | [🔽](https://cararegistrasi.com/ZNyS7Hm4O9bE) | [🔽](https://cararegistrasi.com/VQrnnjDs) |
+		| Raspberry Pi<br />Version | squashfs<br />factory | squashfs<br />sysupgrade | ext4<br />factory | ext4<br />sysupgrade | rootfs |
+		| :-----------------------: | :-------------------: | :----------------------: | :---------------: | :------------------: | :----: |
+		| A/B/B+/Zero/W | [🔽](https://cararegistrasi.com/rIpd) | [🔽](https://cararegistrasi.com/Qv80bGnYU) | [🔽](https://cararegistrasi.com/46lsZMd6OGl) | [🔽](https://cararegistrasi.com/0o4nkrpy9) | [🔽](https://cararegistrasi.com/9lqV4vZNk) |
+		| 2/B | [🔽](https://cararegistrasi.com/rSgUaSgVliGY) | [🔽](https://cararegistrasi.com/gFWDEKzTHZ) | [🔽](https://cararegistrasi.com/7aC7jff01) | [🔽](https://cararegistrasi.com/f0aZSFcr) | [🔽](https://cararegistrasi.com/hOVNQmg7ib) |
+		| 3/B/B+ | [🔽](https://cararegistrasi.com/DD4Hv85DgW) | [🔽](https://cararegistrasi.com/NfDAr9SU) | [🔽](https://cararegistrasi.com/mXgxYMNEB) | [🔽](https://cararegistrasi.com/AHorBlX9emb) | [🔽](https://cararegistrasi.com/tOkGOp) |
+		| 4/B/400/CM4 | [🔽](https://cararegistrasi.com/vWhclu8) | [🔽](https://cararegistrasi.com/XU4b2Wsc) | [🔽](https://cararegistrasi.com/8ak3G0pF) | [🔽](https://cararegistrasi.com/ZNyS7Hm4O9bE) | [🔽](https://cararegistrasi.com/VQrnnjDs) |
 
 - for Nano Pi by [SuLingGG](http://github.com/SuLingGG) and [Helmi Amirudin](http://helmiau.com/about)
 
-| NanoPi<br />Version | squashfs<br />factory | squashfs<br />sysupgrade | ext4<br />factory | ext4<br />sysupgrade | rootfs |
-| :-----------------: | :-------------------: | :----------------------: | :---------------: | :------------------: | :----: |
-| R2C | ⛔ | [🔽](https://cararegistrasi.com/FFT1QOmS) | ⛔ | [🔽](https://cararegistrasi.com/xgjNUWfe) | [🔽](https://cararegistrasi.com/5dm0S5si) |
-| R2S | ⛔ | [🔽](https://cararegistrasi.com/b1hRI13bo) | ⛔ | [🔽](https://cararegistrasi.com/VuZPehJXjR) | [🔽](https://cararegistrasi.com/iV4Tr6Ou) |
-| R4S | ⛔ | [🔽](https://cararegistrasi.com/Pul8a) | ⛔ | [🔽](https://cararegistrasi.com/g2HCOO) | [🔽](https://cararegistrasi.com/5lsEHD) |
+		| NanoPi<br />Version | squashfs<br />factory | squashfs<br />sysupgrade | ext4<br />factory | ext4<br />sysupgrade | rootfs |
+		| :-----------------: | :-------------------: | :----------------------: | :---------------: | :------------------: | :----: |
+		| R2C | ⛔ | [🔽](https://cararegistrasi.com/FFT1QOmS) | ⛔ | [🔽](https://cararegistrasi.com/xgjNUWfe) | [🔽](https://cararegistrasi.com/5dm0S5si) |
+		| R2S | ⛔ | [🔽](https://cararegistrasi.com/b1hRI13bo) | ⛔ | [🔽](https://cararegistrasi.com/VuZPehJXjR) | [🔽](https://cararegistrasi.com/iV4Tr6Ou) |
+		| R4S | ⛔ | [🔽](https://cararegistrasi.com/Pul8a) | ⛔ | [🔽](https://cararegistrasi.com/g2HCOO) | [🔽](https://cararegistrasi.com/5lsEHD) |
 
 - for Orange Pi Zero by [Asrofur Rizqi](https://github.com/AsrofurRizqi) and Orange Pi R1 Plus [Nugroho](https://www.facebook.com/profile.php?id=100010890091391)
 
-| OrangePi<br />Version | squashfs<br />factory | squashfs<br />sysupgrade | ext4<br />factory | ext4<br />sysupgrade | rootfs |
-| :-------------------: | :-------------------: | :----------------------: | :---------------: | :------------------: | :----: |
-| Zero | [🔽](https://cararegistrasi.com/mUwAPGmZPMdn) | ⛔ | [🔽](https://cararegistrasi.com/pZeO) | ⛔ | [🔽](https://cararegistrasi.com/ndCGQ) |
-| R1 Plus | ⛔ | [🔽](https://cararegistrasi.com/Ym3oUfCCxy7p) | ⛔ | [🔽](https://cararegistrasi.com/z7yDXhZ0j) | [🔽](https://cararegistrasi.com/zv1DCtnVNHL) |
+		| OrangePi<br />Version | squashfs<br />factory | squashfs<br />sysupgrade | ext4<br />factory | ext4<br />sysupgrade | rootfs |
+		| :-------------------: | :-------------------: | :----------------------: | :---------------: | :------------------: | :----: |
+		| Zero | [🔽](https://cararegistrasi.com/mUwAPGmZPMdn) | ⛔ | [🔽](https://cararegistrasi.com/pZeO) | ⛔ | [🔽](https://cararegistrasi.com/ndCGQ) |
+		| R1 Plus | ⛔ | [🔽](https://cararegistrasi.com/Ym3oUfCCxy7p) | ⛔ | [🔽](https://cararegistrasi.com/z7yDXhZ0j) | [🔽](https://cararegistrasi.com/zv1DCtnVNHL) |
 
 - for x86/x64 (ex. Laptops, PC) by [SuLingGG](http://github.com/SuLingGG) and [Helmi Amirudin](https://helmiau.com/about).
 
-| Device Name | squashfs<br />UEFI | squashfs<br />Legacy | squashfs<br />rootfs | ext4<br />UEFI | ext4<br />Legacy | ext4<br />rootfs |
-| :---------: | :----------------: | :------------------: | :----------------: | :------------: | :--------------: | :----------------: |
-| x86-generic (32bit) | [🔽](https://cararegistrasi.com/qMmrR) | [🔽](https://cararegistrasi.com/JU8aJI3D) | [🔽](https://cararegistrasi.com/ovqmh8J55JN) | [🔽](https://cararegistrasi.com/OvFTF6JuZzN) | [🔽](https://cararegistrasi.com/87TYtAdsqvyU) | [🔽](https://cararegistrasi.com/dA3WvOluIb2O) |
-| x86-64 (64bit) | [🔽](https://cararegistrasi.com/v5HjfbedEfM) | [🔽](https://cararegistrasi.com/0rq8Qwmyj) | [🔽](https://cararegistrasi.com/qZquNRR) | [🔽](https://cararegistrasi.com/Jq2Kuc) | [🔽](https://cararegistrasi.com/1tk1gj4kcj) | [🔽](https://cararegistrasi.com/8sFfwdJ9G7) |
+		| Device Name | squashfs<br />UEFI | squashfs<br />Legacy | squashfs<br />rootfs | ext4<br />UEFI | ext4<br />Legacy | ext4<br />rootfs |
+		| :---------: | :----------------: | :------------------: | :----------------: | :------------: | :--------------: | :----------------: |
+		| x86-generic (32bit) | [🔽](https://cararegistrasi.com/qMmrR) | [🔽](https://cararegistrasi.com/JU8aJI3D) | [🔽](https://cararegistrasi.com/ovqmh8J55JN) | [🔽](https://cararegistrasi.com/OvFTF6JuZzN) | [🔽](https://cararegistrasi.com/87TYtAdsqvyU) | [🔽](https://cararegistrasi.com/dA3WvOluIb2O) |
+		| x86-64 (64bit) | [🔽](https://cararegistrasi.com/v5HjfbedEfM) | [🔽](https://cararegistrasi.com/0rq8Qwmyj) | [🔽](https://cararegistrasi.com/qZquNRR) | [🔽](https://cararegistrasi.com/Jq2Kuc) | [🔽](https://cararegistrasi.com/1tk1gj4kcj) | [🔽](https://cararegistrasi.com/8sFfwdJ9G7) |
+
+		> Note: Wireless status is random !
 
 - for Set-Top-Box s9xxx devices repacked by [Raditya Budi Handoko](https://github.com/radityabh/HelmiOs-to-s905) and [Andi Rijal Habibi](https://www.facebook.com/), s905x2 request by [Feri Adi Candra](https://github.com/feriadicandra/HelmiOs-to-s905).
 
-| Device<br>Chipset | Device Lists | Kernel<br />5.4.0 | Kernel<br />5.15.15 |
-| :---------------: | :-------------: | :-----------------: | :-----------------: |
-| s905d | Phicomm-N1 | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-s905d-k5.4.0.img.gz) | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-s905d-k5.15.15.img.gz) |
-| s905w | X96-Mini, TX3-Mini | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-s905w-k5.4.0.img.gz) | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-s905w-k5.15.15.img.gz) |
-| s905x | HG680P, B860H | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-s905x-k5.4.0.img.gz) | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-s905x-k5.15.15.img.gz) |
-| s905x2 | X96Max-4G, X96Max-2G, A95XF2 | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-s905x2-k5.4.0.img.gz) | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-s905x2-k5.15.15.img.gz) |
-| s905x3 | X96-Max+, HK1-Box, H96-Max-X3, <br>Ugoos-X3, X96-Air, A95XF3-Air | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-s905x3-k5.4.0.img.gz) | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-s905x3-k5.15.15.img.gz) |
-| s912 | H96-Pro-Plus, Octopus-Planet | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-s912-k5.4.0.img.gz) | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-s912-k5.15.15.img.gz) |
-| s922x | Belink, Belink-Pro, Ugoos-AM6-Plus,<br> ODROID-N2 | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-s922x-k5.4.0.img.gz) | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-s922x-k5.15.15.img.gz) |
+		| Device<br>Chipset | Device Lists | Kernel<br />5.4.0 | Kernel<br />5.15.15 |
+		| :---------------: | :-------------: | :-----------------: | :-----------------: |
+		| s905d | Phicomm-N1 | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-s905d-k5.4.0.img.gz) | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-s905d-k5.15.15.img.gz) |
+		| s905w | X96-Mini, TX3-Mini | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-s905w-k5.4.0.img.gz) | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-s905w-k5.15.15.img.gz) |
+		| s905x | HG680P, B860H | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-s905x-k5.4.0.img.gz) | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-s905x-k5.15.15.img.gz) |
+		| s905x2 | X96Max-4G, X96Max-2G, A95XF2 | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-s905x2-k5.4.0.img.gz) | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-s905x2-k5.15.15.img.gz) |
+		| s905x3 | X96-Max+, HK1-Box, H96-Max-X3, <br>Ugoos-X3, X96-Air, A95XF3-Air | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-s905x3-k5.4.0.img.gz) | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-s905x3-k5.15.15.img.gz) |
+		| s912 | H96-Pro-Plus, Octopus-Planet | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-s912-k5.4.0.img.gz) | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-s912-k5.15.15.img.gz) |
+		| s922x | Belink, Belink-Pro, Ugoos-AM6-Plus,<br> ODROID-N2 | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-s922x-k5.4.0.img.gz) | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-s922x-k5.15.15.img.gz) |
 
-> s9xxx kernel info : <br> 5.4.0 = Amlogic kernel <br> 5.15.15 = Andi Rijal Habibi's kernel
+		> s9xxx kernel info : <br> 5.4.0 = Amlogic kernel <br> 5.15.15 = Andi Rijal Habibi's kernel
 
 > All releases including Older release can be found [here](https://cararegistrasi.com/WXCt) and scroll down a bit to see older release with yesterday date.
 
