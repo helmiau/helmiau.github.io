@@ -292,7 +292,9 @@ https://github.com/helmiau/HelmiWrt-OS/raw/main/preview/openwrt-rpi-17.png
 | s912 | H96-Pro-Plus, Octopus-Planet | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-s912-k5.4.0.img.gz) | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-s912-k5.15.15.img.gz) |
 | s922x | Belink, Belink-Pro, Ugoos-AM6-Plus,<br> ODROID-N2 | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-s922x-k5.4.0.img.gz) | [🔽](https://github.com/helmiau/HelmiWrt-OS/releases/latest/download/helmiwrt-s922x-k5.15.15.img.gz) |
 
-> s9xxx kernel info : <br> 5.4.0 = Amlogic kernel <br> 5.15.15 = Andi Rijal Habibi's kernel
+> s9xxx kernel info : <br> 5.4.0 = Amlogic kernel <br> 5.15.15 = Andi Rijal Habibi's kernel <br> All Wireless (WiFi) status = ON
+
+<br>
 
 > All releases including Older release can be found [here](https://cararegistrasi.com/WXCt) and scroll down a bit to see older release with yesterday date.
 
