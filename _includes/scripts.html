@@ -26,15 +26,11 @@ $(function () {
 </script>
 
 <!-- safelinku -->
-<script src="https://safelinku.com/js/web-script.js" onload="safelinkuloaded = true;" onerror="safelinkuloaded = false;"></script>
+<script src="https://safelinku.com/js/web-script.js"></script>
 <script type="text/javascript">
     var go_url = 'https://cararegistrasi.com/';
     var api = 'd10ee7cc102cb0852479b0f136af34e4f4f85c6d';
     var shorten_includ = ["github.com","t.me","facebook.com","fb.me","google.com"];
-    if(safelinkuloaded = false) {
-        //alert("Adblocker Detected! Please disable it first!.");
-        console.log("Adblocker Detected! Please disable it first! - Safelinku");
-    }
 </script>
 
 <!-- Adblock Detector -->
@@ -46,13 +42,35 @@ if( window.HelmiAmirudinRunAds === undefined ){
     console.log("Adblocker Detected! Please disable it first!.");
     // showFallbackImage();
 }
-if(!helmiiklan1) {
-    console.log("Adblocker Detected! Please disable it first!.");
-}
-if(!helmiiklan2) {
-    console.log("Adblocker Detected! Please disable it first!.");
-}
-if(!helmiiklan3) {
-    console.log("Adblocker Detected! Please disable it first!.");
-}
+</script>
+
+<script>
+<!-- Safelinku Adblock Detector -->
+let safelinku = document.createElement('script');
+safelinku.src = "https://safelinku.com/js/web-script.js"; // no such script
+document.head.append(safelinku);
+safelinku.onerror = function () {
+  console.log("Error occured when loading " + this.src + " script ,Adblocker Detected! Please disable it first!.");
+};
+<!-- HelmiIklan1 Adblock Detector -->
+let helmiiklan1 = document.createElement('script');
+helmiiklan1.src = "/assets/js/ads.js"; // no such script
+document.head.append(helmiiklan1);
+helmiiklan1.onerror = function () {
+  console.log("Error occured when loading " + this.src + " script ,Adblocker Detected! Please disable it first!.");
+};
+<!-- HelmiIklan2 Adblock Detector -->
+let helmiiklan2 = document.createElement('script');
+helmiiklan2.src = "/assets/js/prebid.js"; // no such script
+document.head.append(helmiiklan2);
+helmiiklan2.onerror = function () {
+  console.log("Error occured when loading " + this.src + " script ,Adblocker Detected! Please disable it first!.");
+};
+<!-- HelmiIklan3 Adblock Detector -->
+let helmiiklan3 = document.createElement('script');
+helmiiklan3.src = "/assets/js/prebid-ads.js"; // no such script
+document.head.append(helmiiklan3);
+helmiiklan3.onerror = function () {
+  console.log("Error occured when loading " + this.src + " script ,Adblocker Detected! Please disable it first!.");
+};
 </script>
