@@ -1,0 +1,73 @@
+---
+layout: page
+---
+
+<h1><b>{{ page.title }}</b></h1>
+
+<p class="post-metadata text-muted">
+  {{ page.date | date_to_long_string }} -  
+  <b>
+  {%- assign words = content | number_of_words -%}
+  {%- if words < 360 -%}
+    less than 1 min read time
+  {%- else -%}
+    {{ words | divided_by: 180 }} mins read time
+  {%- endif -%}
+  </b>
+
+  <br>
+
+  {%- if page.tags != empty -%}
+    Tags: 
+    {% for tag in page.tags %}
+    <a class="text-decoration-none no-underline" href="{{ tag | slugify | prepend:'/blog/tags#' | relative_url }}">
+      <span class="tag badge badge-pill text-primary border border-primary">{{ tag }}</span>
+    </a>
+    {% endfor %}
+  {%- endif -%}
+
+</p>
+
+<!-- Adblock Detector -->
+<script>
+<!-- Safelinku Adblock Detector -->
+let safelinku = document.createElement('script');
+safelinku.src = "https://safelinku.com/js/web-script.js";
+document.head.append(safelinku);
+safelinku.onerror = function () {
+  //console.log("Error occured when loading " + this.src + " script ,Adblocker Detected! Please disable it first!.");
+  window.open("/iklan.html", "_self");
+};
+<!-- HelmiIklan1 Adblock Detector -->
+let helmiiklan1 = document.createElement('script');
+helmiiklan1.src = "/assets/js/ads.js";
+document.head.append(helmiiklan1);
+helmiiklan1.onerror = function () {
+  //console.log("Error occured when loading " + this.src + " script ,Adblocker Detected! Please disable it first!.");
+  window.open("/iklan.html", "_self");
+};
+<!-- HelmiIklan2 Adblock Detector -->
+let helmiiklan2 = document.createElement('script');
+helmiiklan2.src = "/assets/js/prebid.js";
+document.head.append(helmiiklan2);
+helmiiklan2.onerror = function () {
+  //console.log("Error occured when loading " + this.src + " script ,Adblocker Detected! Please disable it first!.");
+  window.open("/iklan.html", "_self");
+};
+<!-- HelmiIklan3 Adblock Detector -->
+let helmiiklan3 = document.createElement('script');
+helmiiklan3.src = "/assets/js/prebid-ads.js";
+document.head.append(helmiiklan3);
+helmiiklan3.onerror = function () {
+  //console.log("Error occured when loading " + this.src + " script ,Adblocker Detected! Please disable it first!.");
+  window.open("/iklan.html", "_self");
+};
+</script>
+
+{{ content }}
+
+{% if page.comments %}
+<div class="pt-5">
+  {% include blog/disqus.html %}
+</div>
+{% endif %}
