@@ -26,20 +26,23 @@ $(function () {
 </script>
 
 <!-- safelinku -->
-<script src='https://safelinku.com/js/web-script.js'></script>
+<script src="https://safelinku.com/js/web-script.js" onload="safelinkuloaded=true;"></script>
 <script type="text/javascript">
     var go_url = 'https://cararegistrasi.com/';
     var api = 'd10ee7cc102cb0852479b0f136af34e4f4f85c6d';
     var shorten_includ = ["github.com","t.me","facebook.com","fb.me","google.com"];
+    if(!safelinkuloaded) {
+        alert("Script not loaded!");
+    }
 </script>
 
 <!-- Adblock Detector -->
 <script>
-  // Adblock detector
-  // https://stackoverflow.com/questions/4869154/how-to-detect-adblock-on-my-website?page=1&tab=scoredesc#tab-top
-  if( window.HelmiAmirudinRunAds === undefined ){
+// Adblock detector
+// https://stackoverflow.com/questions/4869154/how-to-detect-adblock-on-my-website?page=1&tab=scoredesc#tab-top
+if( window.HelmiAmirudinRunAds === undefined ){
     // adblocker detected, show fallback
-	console.log("Adblocker Detected");
+    console.log("Adblocker Detected");
     showFallbackImage();
-  }
+}
 </script>
