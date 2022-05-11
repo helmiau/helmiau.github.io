@@ -34,10 +34,12 @@ $(function () {
 <script src='//safelinku.com/js/web-script.js'></script>
 
 <!-- Adblock Detector -->
-<script type="text/javascript" src="https://raw.githubusercontent.com/NikolaiT/adblock-detect-javascript-only/master/dist/adblockDetector.min.js"></script>
-<script type="text/javascript">
-  detectAdblock(function(isUsingAdblock) {
-    // isUsingAdblock is either `true`, `false` or `unknown`
-    alert("Using Adblock: " + isUsingAdblock);
-  })
+<script>
+  // Adblock detector
+  // https://stackoverflow.com/questions/4869154/how-to-detect-adblock-on-my-website?page=1&tab=scoredesc#tab-top
+  if( window.HelmiAmirudinRunAds === undefined ){
+    // adblocker detected, show fallback
+	console.log("Adblocker Detected");
+    showFallbackImage();
+  }
 </script>
