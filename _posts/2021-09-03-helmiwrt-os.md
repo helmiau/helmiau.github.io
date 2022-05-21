@@ -203,7 +203,6 @@ ipv6-helper clean   : Remove modules <span class="hljs-keyword">and</span> LuCI 
   <li>Run <strong>ram</strong> to see available/used ram & processes.</li>
   <li>Run <strong>fixphp</strong> to fix browser always download file index.php (like xderm and libernet).</li>
   <li>Run <strong>myip</strong> to check your public IP address.</li>
-  <li>Run <strong>ipv6-helper</strong> to manage ipv6 support.</li>
   <li>Run <strong>xdrtool</strong> to manage Xderm Mini via terminal.</li>
   </ul>
 </li>
