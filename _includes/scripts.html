@@ -15,8 +15,10 @@
 <script> new WOW().init(); </script>
 
 <!-- Google Ads -->
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2465162923324707"
+{%- if site.adsense.enabled == true -%}
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-{{ site.adsense.google.publisher_id }}"
      crossorigin="anonymous"></script>
+{%- endif -%}
 
 <!-- Initialize all tooltips -->
 <script>
