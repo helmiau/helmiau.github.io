@@ -72,6 +72,10 @@ adsense:
 translate:
   enabled: true                                        # Set true to enable google translate
 
+### AdBlock Detection ###
+adblock_detect:
+  enabled: true                                        # Set true to enable adblock detection
+
 ### Defaults for collections ###
 defaults:
   - scope:

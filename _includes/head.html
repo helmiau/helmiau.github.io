@@ -36,8 +36,10 @@
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
   
   <!-- Adblock Detector 2 -->
-  <script src="{{ '/assets/js/ads.js' | relative_url }}"></script>
-  <script src="{{ '/assets/js/prebid.js' | relative_url }}"></script>
-  <script src="{{ '/assets/js/prebid-ads.js' | relative_url }}"></script>
+  {%- if site.adblock_detect.enabled == true -%}
+	  <script src="{{ '/assets/js/ads.js' | relative_url }}"></script>
+	  <script src="{{ '/assets/js/prebid.js' | relative_url }}"></script>
+	  <script src="{{ '/assets/js/prebid-ads.js' | relative_url }}"></script>
+  {%- endif -%}
 
 </head>
