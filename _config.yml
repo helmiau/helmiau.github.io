@@ -62,7 +62,7 @@ analytics:
 ### Google Adsense ###
 ### Get your publisher ID with https://www.google.com/adsense/new/u/0/pub-your_publisher_id/settings/account-information
 ### Replace "your_publisher_id" from url above, with your publisher id.
-### Download ads.txt from your adsense, then place it to same directory with this file.
+### Download ads.txt from tutorial here https://support.google.com/adsense/answer/7532444?hl=en then place it to same directory with this file.
 adsense:
   enabled: true                                        # Set true to enable google Adsense
   google:

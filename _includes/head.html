@@ -35,6 +35,12 @@
   <!-- Custom CSS -->
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
   
+  <!-- Google Ads -->
+  {%- if site.adsense.enabled == true -%}
+	  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-{{ site.adsense.google.publisher_id }}"
+		   crossorigin="anonymous"></script>
+  {%- endif -%}
+
   <!-- Adblock Detector 2 -->
   {%- if site.adblock_detect.enabled == true -%}
 	  <script src="{{ '/assets/js/ads.js' | relative_url }}"></script>
