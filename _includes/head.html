@@ -37,6 +37,15 @@
   <!-- Custom CSS -->
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
   
+  <!-- Google Tag Manager -->
+  {%- if site.tagmanager.enabled == true -%}
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','{{ site.tagmanager.google.tag_id }}');</script>
+  {%- endif -%}
+
   <!-- Google Ads -->
   {%- if site.adsense.enabled == true -%}
 	  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-{{ site.adsense.google.publisher_id }}"

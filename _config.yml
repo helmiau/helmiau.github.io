@@ -69,6 +69,12 @@ adsense:
     publisher_id: 7446272259355358
 
 ### Google Translate ###
+tagmanager:
+  enabled: true                                        # Set true to enable google Adsense
+  google:
+    tag_id: GTM-5BQ3JVM
+
+### Google Translate ###
 translate:
   enabled: true                                        # Set true to enable google translate
 

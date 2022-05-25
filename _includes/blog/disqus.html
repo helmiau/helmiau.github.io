@@ -18,3 +18,9 @@
   iframe[sandbox="allow-forms allow-popups allow-same-origin allow-scripts"]{display:none!important;}
   </style>
 {%- endif -%}
+
+<!-- Google Tag Manager (noscript) -->
+{%- if site.tagmanager.enabled == true -%}
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ site.tagmanager.google.tag_id }}"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+{%- endif -%}
