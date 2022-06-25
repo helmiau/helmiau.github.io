@@ -8,6 +8,10 @@ description: Artikel ini berisi beberapa contoh penulisan yang ada di config Sha
 
 <br>
 
+<h3 align="center"><a href="https://www.helmiau.com/pay/index_en.html" target="_blank">Donation Page</a></h3>
+
+<br>
+
 Shadowrocket merupakan salah satu aplikasi VPN di iOS yang memiliki UI yang simpel, dengan fitur yang banyak.
 
 Di artiket ini, penulis akan fokus memberikan beberapa contoh penulisan file.conf yang terdapat pada bagian **Shadowrocket - Config - Local Files - namafile.conf**.
