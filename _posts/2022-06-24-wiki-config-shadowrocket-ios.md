@@ -12,7 +12,7 @@ Shadowrocket merupakan salah satu aplikasi VPN di iOS yang memiliki UI yang simp
 
 Di artiket ini, penulis akan fokus memberikan beberapa contoh penulisan file.conf yang terdapat pada bagian **Shadowrocket - Config - Local Files - namafile.conf**.
 
-Rule koneksi bawaan:
+- Rule koneksi bawaan:
 
 ```
 PROXY 
@@ -21,6 +21,7 @@ REJECT
 ```
 
 - Contoh isi **`file.list`**
+
 ```
 DOMAIN-KEYWORD,112wan
 DOMAIN-SUFFIX,112wan
@@ -29,7 +30,9 @@ IP-CIDR,0.0.0.1/32,no-resolve
 USER-AGENT,cloudd*,DIRECT 
 ```
 
+
 - Contoh penulisan barisan rule provider/set dari file yang sudah ada di hosting GitHub terletak dibawah barisan **``[Rule]``**
+
 ```
 [Rule]
 # Advertising
@@ -44,13 +47,17 @@ DOMAIN-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master
 RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/China/China.list,DIRECT
 ```
 
+
 - Penulisan baris akhir barisan **``[Rule]``**
+
 ```
 GEOIP,CN,DIRECT
 FINAL,PROXY
 ```
 
+
 - Contoh penulisan barisan **``[Host]``**
+
 ```
 [Host]
 *testflight.apple.com = server:8.8.4.4
@@ -73,6 +80,7 @@ dl.l.google.com = server:119.29.29.29
 ```
 
 - Contoh penulisan barisan **``[URL Rewrite]``**
+
 ```
 [URL Rewrite]
 # Redirect Google Search Service
