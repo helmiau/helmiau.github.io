@@ -11,11 +11,11 @@ Openclash adalah aplikasi OpenWrt yang multifungsi dalam memberikan kemudahan ke
 Dengan fitur RULE PROVIDER ini, pengguna dapat mengarahkan koneksi ke tujuan yang diinginkan. Didalam fitur ini juga terdapat sesuatu fungsi untuk memblokir akses dari situs tertentu. Mari kita langsung ke poin persiapan yang perlu:
 
 
-1. Siapkan kuota minimal 30mb untuk mengunduh rule adblock yang banyak.
+1. Siapkan kuota minimal 30mb untuk mengunduh rule adblock yang cukup besar.
 2. Siapkan text editor untuk mengubah isi config.yaml.
 
 
-Contoh disini menggunakan firmware HelmiWrt pada Raspberry Pi 4, dengan modem HiLink e3372h dan e5673. Dan saya bagian apa yang sudah saya atur sendiri dan saya tidak menggunakan core meta. Dengan file config yang sudah pernah saya bahas [disini](base-config-openclash-helmi). Untuk contoh tambahannya bisa disimak dibawah ini:
+Contoh disini menggunakan firmware HelmiWrt pada Raspberry Pi 4, dengan modem HiLink e3372h dan e5673. Tentu saja menggunakan base config dari file config yang sudah pernah dibahas [disini](base-config-openclash-helmi). Untuk contoh tambahannya bisa disimak dibawah ini:
 
 1. Edit **config.yaml** yang kalian gunakan.
 2. Cari tulisan **``rules:``**.
