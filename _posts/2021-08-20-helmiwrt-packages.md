@@ -9,7 +9,6 @@ Source: [My Own Repo](https://github.com/helmiau/helmiwrt-packages)
 
 ![HelmiWrt Preview](https://raw.githubusercontent.com/helmiau/helmiau.github.io/master/images/helmiwrt-packages.png)
 
-<h3 align="center"><a href="https://www.helmiau.com/pay/index_en.html" target="_blank">Donation Page</a></h3>
 
 {% capture list_items %}
 LuCI Libernet App
