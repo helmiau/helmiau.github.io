@@ -15,7 +15,7 @@ Dengan fitur RULE PROVIDER ini, pengguna dapat mengarahkan koneksi ke tujuan yan
 2. Siapkan text editor untuk mengubah isi config.yaml.
 
 
-Contoh disini menggunakan firmware HelmiWrt pada Raspberry Pi 4, dengan modem HiLink e3372h dan e5673. Tentu saja menggunakan base config dari file config yang sudah pernah dibahas [disini](base-config-openclash-helmi). Untuk contoh tambahannya bisa disimak dibawah ini:
+Contoh disini menggunakan firmware HelmiWrt pada Raspberry Pi 4, dengan modem HiLink e3372h dan e5673. Tentu saja menggunakan base config dari file config yang sudah pernah dibahas [Base Config OpenClash by Helmi Amirudin](base-config-openclash-helmi). Untuk contoh tambahannya bisa disimak dibawah ini:
 
 1. Edit **config.yaml** yang kalian gunakan.
 2. Cari tulisan **``rules:``**.
