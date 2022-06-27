@@ -2,7 +2,7 @@
 title: Rule Port Game OpenClash
 tags: [OpenWrt, OpenClash, Rule Provider, Google]
 style: fill
-color: info
+color: warning
 description: Rule port game only untuk in-game di OpenClash.
 ---
 
