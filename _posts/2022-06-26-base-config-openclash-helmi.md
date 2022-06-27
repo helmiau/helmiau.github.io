@@ -42,7 +42,7 @@ Contoh disini menggunakan firmware HelmiWrt pada Raspberry Pi 4, dengan modem Hi
 
 
 
-6. Anda juga bisa mengkombinasikan config ini dengan rule provider [Adblock Rule](adblocking-openclash), [XL Akrab Rule]() maupun [Google Family Rule]() yang saya bagikan di postingan lain.
+6. Anda juga bisa kombinasikan config ini dengan rule provider [Multi Direct Connection OpenClash]() atau [Adblock Rule](adblocking-openclash) atau [XL Akrab Rule](xl-akrab-rule-openclash) atau [Google Family Rule](google-family-rule-openclash) yang saya bagikan di postingan lain.
 
 
 Thanks to

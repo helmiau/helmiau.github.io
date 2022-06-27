@@ -59,3 +59,5 @@ Contoh disini menggunakan firmware HelmiWrt pada Raspberry Pi 4, dengan modem Hi
 
 
 5. Untuk contoh config dan seluruh rule adblocknya bisa diunduh [disini](https://safefileku.com/download/MpvXfaqP4m6Vmpo). Jangan lupa ubah ekstensi file dari **.txt** menjadi **.yaml**.
+
+6. Setelah mengaktifkan OpenClash dengan menggunakan config ini, segera masuk ke **panel YACD**, pilih **Proxies** lalu cari **Adblock** dan pilih proxy yang ingin digunakan.
