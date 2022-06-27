@@ -19,10 +19,10 @@ Contoh disini menggunakan firmware HelmiWrt pada Raspberry Pi 4, dengan modem Hi
 
 1. Edit **config.yaml** yang kalian gunakan.
 2. Cari tulisan **``rules:``**.
-3. Tambahkan baris dibawah ini diatas tulisan **``rules:``**.
+3. Tambahkan baris dibawah ini, letakkan diatas tulisan **``rules:``**.
 
 
-	> Jika tidak ada **``rules:``**, maka tambahkan baris dibawah ini dibagian bawah dari file config kalian.
+	> Jika tidak ada **``rules:``**, maka tambahkan baris dibawah ini dibagian akhir/bawah sendiri dari file config kalian.
 
 
 	```
