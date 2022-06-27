@@ -1,8 +1,8 @@
 ---
-title: Rule Direct XL Akrab OpenClash
+title: Rule Google Family OpenClash
 tags: [OpenWrt, OpenClash, Rule Provider, Google]
 style: fill
-color: danger
+color: info
 description: Rule Google Family di OpenClash.
 ---
 

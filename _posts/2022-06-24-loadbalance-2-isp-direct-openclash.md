@@ -2,7 +2,7 @@
 title: Multi Direct Connection OpenClash
 tags: [Tutorial, OpenClash, Loadbalance]
 style: fill
-color: warning
+color: dark
 description: Tutorial loadbalance 2 modem HiLink mode direct tanpa VPN di OpenClash.
 ---
 

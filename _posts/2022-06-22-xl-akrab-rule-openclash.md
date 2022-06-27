@@ -2,7 +2,7 @@
 title: Rule Direct XL Akrab OpenClash
 tags: [OpenWrt, OpenClash, Rule Provider, XL Akrab]
 style: fill
-color: danger
+color: success
 description: Rule direct connection XL Akrab di OpenClash.
 ---
 
