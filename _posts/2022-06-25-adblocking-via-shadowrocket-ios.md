@@ -6,8 +6,6 @@ color: primary
 description: Artikel ini menjelaskan cara memasukkan config adblocking di aplikasi Shadowrocket iOS.
 ---
 
-<br>
-
 Shadowrocket merupakan salah satu aplikasi VPN di iOS yang memiliki UI yang simpel, dengan fitur yang banyak salah satunya adalah fitur adblocking.
 
 Sistem adblocking di Shadowrocket ini dapat memblokir permintaan koneksi dari suatu web, sehingga web tersebut tidak akan tampil di halaman browser kita.

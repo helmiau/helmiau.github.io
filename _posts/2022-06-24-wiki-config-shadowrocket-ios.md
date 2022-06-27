@@ -6,8 +6,6 @@ color: secondary
 description: Artikel ini berisi beberapa contoh penulisan yang ada di config Shadowrocket iOS.
 ---
 
-<br>
-
 Shadowrocket merupakan salah satu aplikasi VPN di iOS yang memiliki UI yang simpel, dengan fitur yang banyak.
 
 Di artiket ini, penulis akan fokus memberikan beberapa contoh penulisan file.conf yang terdapat pada bagian **Shadowrocket - Config - Local Files - namafile.conf**.
