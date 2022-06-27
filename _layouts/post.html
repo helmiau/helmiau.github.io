@@ -72,12 +72,16 @@ helmiiklan3.onerror = function () {
 </script>
 </center>
 
-<script type='text/javascript' src='/assets/js/trbtn-overlay.min.js'></script>
-<!-- replace https://trakteer.id/helmiau/tip/embed/modal with https://www.helmiau.com/pay/index_en.html -->
-<script type='text/javascript' class='troverlay'>
-(function() {var trbtnId = trbtnOverlay.init('Donasi Disini','#1E86B6','https://www.helmiau.com/pay/index_en.html','https://cdn.trakteer.id/images/embed/trbtn-icon.png','50','floating-right');trbtnOverlay.draw(trbtnId);})();
-</script>
-<!-- trakteer widget -->
+<!-- pojok kanan bawah tombol -->
+<script type='text/javascript' src='/assets/css/pojok-kanan.css'></script>
+<script type='text/javascript' src='/assets/js/pojok-kanan.js'></script>
+<div class="pojok-kanan">
+    <button class="pojok-kanan-button">
+        <span class="short-text">+</span>
+        <span class="long-text">Dukung dengan Donasi</span>
+		<a href="https://www.helmiau.com/pay/index_en.html" target="_blank"></a>
+    </button>
+</div>
 
 {{ content }}
 
