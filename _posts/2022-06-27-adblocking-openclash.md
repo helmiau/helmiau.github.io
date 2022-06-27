@@ -2,7 +2,7 @@
 title: Rule Adblock OpenClash
 tags: [OpenWrt, OpenClash, Rule Provider, Adblock]
 style: fill
-color: warning
+color: info
 description: Tutorial dan script blokir iklan di OpenClash.
 ---
 
