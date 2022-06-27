@@ -8,10 +8,6 @@ description: Artikel ini menjelaskan cara memasukkan config adblocking di aplika
 
 <br>
 
-<h3 align="center"><a href="https://www.helmiau.com/pay/index_en.html" target="_blank">Donation Page</a></h3>
-
-<br>
-
 Shadowrocket merupakan salah satu aplikasi VPN di iOS yang memiliki UI yang simpel, dengan fitur yang banyak salah satunya adalah fitur adblocking.
 
 Sistem adblocking di Shadowrocket ini dapat memblokir permintaan koneksi dari suatu web, sehingga web tersebut tidak akan tampil di halaman browser kita.
