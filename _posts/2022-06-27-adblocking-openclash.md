@@ -46,7 +46,7 @@ Contoh disini menggunakan firmware HelmiWrt pada Raspberry Pi 4, dengan modem Hi
 
 	```
 
-<br>
+
 
 4. Tambahkan baris dibawah ini, dibawah tulisan **``rules:``**.
 
@@ -57,6 +57,5 @@ Contoh disini menggunakan firmware HelmiWrt pada Raspberry Pi 4, dengan modem Hi
 	- RULE-SET,Adblock,Adblock
 	```
 
-<br>
 
 5. Untuk contoh config dan seluruh rule adblocknya bisa diunduh [disini](https://safefileku.com/download/MpvXfaqP4m6Vmpo). Jangan lupa ubah ekstensi file dari **.txt** menjadi **.yaml**.
