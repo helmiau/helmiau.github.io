@@ -23,9 +23,11 @@ Contoh disini menggunakan firmware HelmiWrt pada Raspberry Pi 4, dengan modem Hi
 	5. Centang **``Router-Self Proxy``**, sisanya yang dibawah tidak usah dicentang.
 
 
+
 4. Pilih tab **``DNS Settings``** dibarisan yang sama dengan tab **``Operation Mode``**.
 
 	1. Centang **``Redirect Local DNS Setting``** lalu **``Custom DNS Setting``** dan **``Persistence Fake-IP``**, sisanya tidak usah dicentang.
+
 
 
 5. Lalu untuk config dasarnya, saya menggunakan [config ini](https://safefileku.com/download/HAW2NbCGre2mKVA). Sedikit informasi terkait dengan config ini:
@@ -35,7 +37,10 @@ Contoh disini menggunakan firmware HelmiWrt pada Raspberry Pi 4, dengan modem Hi
 	3. Config tersebut juga berisi contoh loadbalance 3 akun vpn dengan 2 modem hilink.
 	4. Setelah mengaktifkan OpenClash dengan config ini, segera masuk ke **panel YACD**, lalu pilih **Proxies** dan cari **VPN**, kemudian ubah ke proxy yang ingin digunakan.
 
+
+
 6. Anda juga bisa mengkombinasikan config ini dengan rule provider [Adblock Rule](adblocking-openclash), [XL Akrab Rule] maupun [Google Family Rule] yang saya bagikan di postingan lain.
+
 
 Thanks to
 1. Allah Ta'ala
