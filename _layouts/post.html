@@ -64,6 +64,13 @@ helmiiklan3.onerror = function () {
 };
 </script>
 
+<!-- trakteer widget -->
+<script type='text/javascript' src='https://assets.trakteer.id/js/trbtn-overlay.min.js'></script>
+<!-- replace https://trakteer.id/helmiau/tip/embed/modal with https://www.helmiau.com/pay/index_en.html -->
+<script type='text/javascript' class='troverlay'>
+(function() {var trbtnId = trbtnOverlay.init('Donasi Disini','#1E86B6','https://trakteer.id/helmiau/tip/embed/modal','https://cdn.trakteer.id/images/embed/trbtn-icon.png','40','inline');trbtnOverlay.draw(trbtnId);})();
+</script>
+
 {{ content }}
 
 {% if page.comments %}
