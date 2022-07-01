@@ -358,7 +358,7 @@ https://github.com/helmiau/HelmiWrt-OS/raw/main/preview/openwrt-rpi-17.png
   - Fibocom L850-GL Mode MBIM (gtusbmode 7)
   > Baca pos aslinya [disini](https://web.facebook.com/groups/2727709384212810/posts/2821718278145253/), dokumentasi modem diatas ada [disini](https://docs.google.com/document/d/1Ni0l_WSODttDZcLrSA3a2g4TfYZFGObk4DJwalJF94E/edit?fbclid=IwAR2_MtPAJm786eI6cCNXwpelAwOUspL1tItRLZqvdLzSVPBGSn2fCUiltu8)
 
-> Jika ada yang tahu untuk memperbaiki bug ini, silahkan gunakan [GitHub issue](https://github.com/helmiau/HelmiWrt-OS/issues) atau [Grup Telegram](https://t.me/joinchat/UWnNfqyDFeTiU7bJ) untuk memberikan saran perbaikan.
+> Jika ada yang tahu untuk memperbaiki bug ini, silahkan gunakan [GitHub issue](https://github.com/helmiau/HelmiWrt-OS/issues) atau [Grup Telegram](https://t.me/+KwiFuRZymqFmNmE1) untuk memberikan saran perbaikan.
 
 
 
@@ -426,7 +426,7 @@ https://github.com/helmiau/HelmiWrt-OS/raw/main/preview/openwrt-rpi-17.png
   - Fibocom L850-GL Mode MBIM (gtusbmode 7)
   > Read original post [here](https://web.facebook.com/groups/2727709384212810/posts/2821718278145253/), read above modem documentation [here](https://docs.google.com/document/d/1Ni0l_WSODttDZcLrSA3a2g4TfYZFGObk4DJwalJF94E/edit?fbclid=IwAR2_MtPAJm786eI6cCNXwpelAwOUspL1tItRLZqvdLzSVPBGSn2fCUiltu8)
 
-> If anyone know how to fix this, please tell me by create a [GitHub issue](https://github.com/helmiau/HelmiWrt-OS/issues) or [Telegram Chat Group](https://t.me/joinchat/UWnNfqyDFeTiU7bJ).
+> If anyone know how to fix this, please tell me by create a [GitHub issue](https://github.com/helmiau/HelmiWrt-OS/issues) or [Telegram Chat Group](https://t.me/+KwiFuRZymqFmNmE1).
 
 <br>
 #### Notes
@@ -457,11 +457,11 @@ LuCI Password  : password
 #### Telegram Chat
 
 <p align="center">
-	<a href="https://t.me/joinchat/UWnNfqyDFeTiU7bJ" target="_blank">
+	<a href="https://t.me/+KwiFuRZymqFmNmE1" target="_blank">
          <i class="fab fa-telegram-plane fa-5x"></i>
 	</a>
 	<h6 align="center">
-		<a href="https://t.me/joinchat/UWnNfqyDFeTiU7bJ" target="_blank">Join Telegram Chat Group</a>
+		<a href="https://t.me/+KwiFuRZymqFmNmE1" target="_blank">Join Telegram Chat Group</a>
 	</h6>
 </p>
 
