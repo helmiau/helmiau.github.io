@@ -45,11 +45,9 @@ Lanjut contoh tutorialnya
 
 
 
-5. Untuk contoh config, rule selengkapnya dan contoh peletakan rulenya bisa diunduh [disini](https://safefileku.com/download/To6NrHuRw2IG4md). Jangan lupa ubah ekstensi file dari **.txt** menjadi **.yaml**.
+5. Untuk contoh config, rule selengkapnya dan contoh peletakan rulenya bisa diunduh [disini](https://safefileku.com/download/5xr0xK4pxdG1fvf). Jangan lupa ubah ekstensi file dari **.txt** menjadi **.yaml**.
 
 
 Penerapannya sama seperti postingan [Adblocking via OpenClash](adblocking-openclash), yaitu dengan menggunakan file config dari [Base Config OpenClash by Helmi Amirudin](base-config-openclash-helmi). Untuk rulenya, silahkan unduh disini tambahannya bisa disimak dibawah ini:
-
-Untuk contoh config dan contoh peletakan rulenya bisa diunduh [disini](https://safefileku.com/download/5xr0xK4pxdG1fvf). Jangan lupa ubah ekstensi file dari **.txt** menjadi **.yaml**.
 
 6. Setelah mengaktifkan OpenClash dengan menggunakan config ini, segera masuk ke **panel YACD**, pilih **Proxies** lalu cari **XLAkrab** dan pilih proxy yang ingin digunakan.
