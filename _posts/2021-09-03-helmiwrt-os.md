@@ -376,10 +376,10 @@ LuCI Username : root
 LuCI Password : password
 
 
-> Note: try old password above first. If it's still not work for LuCI login, get [new password here](https://www.toptal.com/developers/hastebin/raw/ocirazoqed).
+> Note: try old password above first. If it's still not work for LuCI login, get [new password here](https://pastebin.com/raw/VjUCKsZU).
 
 
-> Catatan: coba terlebih dahulu password LuCI lama yang ada diatas. Jika masih belum bisa login, silahkan gunakan [password LuCI yang baru disini](https://www.toptal.com/developers/hastebin/raw/ocirazoqed).
+> Catatan: coba terlebih dahulu password LuCI lama yang ada diatas. Jika masih belum bisa login, silahkan gunakan [password LuCI yang baru disini](https://pastebin.com/raw/VjUCKsZU).
 
 
 <br>
