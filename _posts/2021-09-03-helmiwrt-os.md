@@ -27,99 +27,22 @@ Telegram Chat
 <br>
 #### Firmware Informations
 
-HelmiWrt OS is a customized OpenWrt firmware with many additions to make a **ready to use** firmware. This firmware based on [SuLingGG OpenWrt-Rpi](https://github.com/SuLingGG/OpenWrt-Rpi) compiled using GitHub Actions. This project currently available for Raspberry Pi 1/2/3/4 and x86 (PC/Laptop) devices.
-
-<details><summary>Main firmware features : (click to show)</summary>
-<p>
-<ul>
-<li>Contains rich OpenWrt original LuCI plug-ins and community LuCI plug-ins</li>
-<li>Integrate most wired, wireless, 3G/4G network card drivers, no need to install additional</li>
-<li>Pre-install the latest version of Clash core and oh-my-zsh to minimize configuration costs</li>
-<li>Pre-install all kmod ipk software packages in the firmware, pre-configure the local opkg software source, keep away from kmod conflicts</li>
-<li>More comprehensive IPV6 support, the firmware built-in IPV6 CLI configuration tool, you can quickly install/uninstall/configure IPV6</li>
-<li>Pull the latest OpenWrt source code and community plug-in source code at 2:00 am every day to compile and provide split downloads to ensure that you always get the latest experience</li>
-<li>Provide packages-server (including WEB server package archive), which can quickly establish LAN software source under Windows</li>
-<li>For advanced users, provide OpenWrt Image Builder, OpenWrt SDK, OpenWrt Tool Chain, and dl archive files
-Contains scientific Internet tools:</li>
-<li>The firmware supports the following scientific Internet tools: ①ShadowSocksR Plus+ ②Passwall ③OpenClash</li>
-<li>Among them, ShadowSocksR Plus+ in Offical version firmware is transplanted from Lean version source code.</li>
-<li>Both now support SS/SSR/V2ray/Trojan/Socks5 protocol, support Kcptun, support Netflix streaming, support link/subscription import node, Socks5 server, access control, automatic switching of failed nodes. Among them, Passwall additionally supports Brook and V2ray diversion.</li>
-<li>For OpenClash, the latest version of Clash core (clash/clash_tun/clash_game) has been pre-installed in the firmware, and it can be used out of the box without additional download.</li>
-<li>Support ad blocking AdGuard Home<blockquote>
-<p>Note: The advertisement blocking effect at the router level is not good. If you are very sensitive to advertisements, it is recommended to use the browser plug-in-level advertisement blocking plugin. In addition, ad blocking tools may severely affect internet speed.</p>
-</blockquote>
-</li>
-<li>Support to unlock NetEase Cloud gray songs:</li>
-<li>Contains three schemes of Golang/Nodejs/cloud unlocking.</li>
-<li>Support Jingdong sign-in service, you can get 20+ golden beans/day unattended.</li>
-<li>Support Docker container arm and aarch64 (arm64) architecture images. Before pulling the image, please confirm that the image has the above architecture version and use the corresponding architecture tag to pull it.</li>
-<li>Support AirPlay2 and PCHiFi digital turntable remote control function, you can push music to the Raspberry Pi to play and control through the AirPlay feature.</li>
-<li>Support Samba/CIFSD/FTP/SFTP file transfer, support mounting Samba/NFS file system to local, support Syncthing and VerySync synchronization, support Rclone to mount network disk files to local.</li>
-<li>Support disk management, you can create/remove partitions and create Raid arrays with one click.</li>
-<li>Support file assistant / file browser (Filemanager) / Kodexplorer (Kodexplorer), can manage the files in OpenWrt online.</li>
-<li>Support Aria2 and Transmission download tools, you can download http/https/BT seeds/magnet links to Raspberry Pi.</li>
-<li>Support SSR server (libv/python), V2ray server, Brook server, Trojan server, PPTP VPN server, IPSec VPN server, OpenVPN server, N2N v2 VPN, ZeroTier, support OpenVPN client, PPTP/L2TP client, OpenConnect client, WireGuard VPN.</li>
-<li>Support DDNS (support Dnspod and Alibaba Cloud DDNS), SmartDNS, ARP binding.</li>
-<li>Support Frpc/NPS intranet penetration and Frps server.</li>
-<li>Support WeChat push (Server sauce), USB print server, KMS server, Wake-on-LAN, Thunderbird, Tianyi Family Cloud/Cloud Disk to speed up.</li>
-<li>Support SQM Qos, Socat, support udpspeeder and udp2raw acceleration, support SFE acceleration, bridge acceleration, IPV6 acceleration, FULLCONE NAT acceleration, BBR acceleration.</li>
-<li>Support multi-line multi-dial, load balancing, MWAN3 shunt assistant.</li>
-</ul>
-</p>
-</details>
-
-<details><summary>About IPV6 information, Support, etc. (click to show)</summary>
-<p>
-<p>IPV6 is not installed in this firmware by default, but it&#39;s available and ready to install. Added within this firmware <strong>ipv6-helper</strong> tools to facilitate quick installation and configuration IPV6 module through terminal.</p>
-<blockquote>
-<p>⚠️This tool is currently under <strong>development</strong> state, which mean there still some uncertainties or bugs or anything else. So, please test with your own risks.</p>
-</blockquote>
-<p>In OpenWrt of SSH or TTYD executed ipv6-helper command information tools can help:</p>
-<pre><code><span class="hljs-comment"># root @ HelmiWrt in ~ [19:20:23]</span>
-$ ipv6-helper
-
-This tool can help you install IPV6 modules on OpenWrt.
-
-Usage:
-ipv6-helper<span class="hljs-built_in"> sub-command
-</span>Example:
-        ipv6-helper install: Install ipv6-helper &amp; IPV6 modules
-        ipv6-helper remove: Remove ipv6-helper &amp; IPV6 modules
-
-Optional Usage:
-        ipv6-helper server: Set IPV6 configuration to server mode
-        ipv6-helper relay: Set IPV6 configuration to relay mode
-        ipv6-helper hybird: Set IPV6 configuration to hybird mode
-        ipv6-helper clean: Remove mwan3 modules
-</code></pre><h4 id="usage">Usage</h4>
-<pre><code>Main usage
-ipv6-helper <span class="hljs-keyword">install</span> : <span class="hljs-keyword">Install</span> IPV6 <span class="hljs-keyword">module</span> <span class="hljs-keyword">and</span> configure IPV6 <span class="hljs-keyword">as</span> <span class="hljs-keyword">Server</span> <span class="hljs-keyword">mode</span> (<span class="hljs-keyword">default</span>)
-ipv6-helper remove  : Remove IPV6 <span class="hljs-keyword">module</span> <span class="hljs-keyword">and</span> roll back all configurations related <span class="hljs-keyword">to</span> IPV6
-
-Additional <span class="hljs-keyword">usage</span>
-ipv6-helper <span class="hljs-keyword">server</span>  : Configure IPV6 <span class="hljs-keyword">as</span> <span class="hljs-keyword">Server</span> <span class="hljs-keyword">mode</span>
-ipv6-helper relay   : Configure IPV6 <span class="hljs-keyword">as</span> Relay <span class="hljs-keyword">mode</span>
-ipv6-helper hybird  : Configure IPV6 <span class="hljs-keyword">to</span> hybrid (Hybird) <span class="hljs-keyword">mode</span>
-ipv6-helper clean   : Remove modules <span class="hljs-keyword">and</span> LuCI APP related <span class="hljs-keyword">to</span> wan3 (irreversible/generally <span class="hljs-keyword">not</span> used)
-</code></pre><h4 id="information-precautions">Informations &amp; Precautions</h4>
-<ul>
-<li>Performed <strong>ipv6-helper install</strong> command will automatically install IPV6 IPV6 DHCP server mode, which mean you not need to perform additional <strong>ipv6-helper server</strong> to switch mode.</li>
-<li>After performed <strong>ipv6-helper install</strong>, you will be prompted to restart after installation of the IPV6 module is completed. You can choose to restart immediately or restart later, just restart immediately according to the actual situation.</li>
-<li>IPV6 work under OpenWrt after restarting the server (Server) mode is not normal, you can try to run <strong>ipv6-helper hybird</strong> command to make IPV6 is configured as mixed (Hybird) mode.</li>
-<li>If above step still abnormal after the restart, execute <strong>ipv6-helper relay</strong> to reconfigured to mix (Hybird) mode, then restart your device.</li>
-<li>If above step still abnormal, may be OpenWrt unable to adapt the current network environment, we recommend Google to find other solutions (eg. Nat6).</li>
-<li>Ignore <strong>uci: Entry not found</strong> prompt when installing or switching the IPV6 mode or removing the IPV6 module.</li>
-<li>If you use <strong>OpenClash</strong>, go to <strong>Global Settings</strong> page, then go to <strong>DNS Settings</strong>, then enable <strong>Enable ipv6 Resolve</strong>, Scroll down -> Commit Config -> Apply Config.</li>
-</ul>
-</p>
-</details>
+HelmiWrt OS is a customized OpenWrt firmware with many additions to make a **ready to use** firmware. This firmware based on [ImmortalWrt](https://github.com/immortalwrt/immortalwrt) with some implementation from [SuLingGG OpenWrt-Rpi](https://github.com/SuLingGG/OpenWrt-Rpi) using [SuLingGG OPKG Server](https://doc.openwrt.cc/2-OpenWrt-Rpi/) compiled using GitHub Actions. This project currently available for Raspberry Pi, x86 64bit (PC/Laptop), some NanoPi and OrangePi devices.
 
 <br>
 #### Tweaks and Patches by Helmi Amirudin
 <!--<details><summary>Tweaks by My own configurations : (click to show)</summary>-->
 <p>
 <ul>
-<li>Firmware base is from SuLingGG/OpenWrt-Rpi. But, HelmiWrt OS added many tweaks, optimizations and configurations written by Helmi Amirudin.</li>
+<li>Supported various devices :
+  <ul>
+  <li>Raspberry Pi devices.</li>
+  <li>x86 64bit.</li>
+  <li>Some NanoPi devices.</li>
+  <li>Some OrangePi devices.</li>
+  <li>Some Amlogic s9xxx devices.</li>
+  </ul>
+</li>
 <li>Removed all unused bloatwares.</li>
 <li>Removed all languages except English.</li>
 <li>Installed many LuCI themes :
@@ -141,7 +64,6 @@ ipv6-helper clean   : Remove modules <span class="hljs-keyword">and</span> LuCI 
 <li>Set <strong>WIB-7 Asia/Jakarta</strong> as default timezone.</li>
 <li>Auto synchronize time when internet connected.</li>
 <li>Auto fix read-only rootfs.</li>
-<li>Add shutdown, poweroff, reboot commands to LuCI.</li>
 <li>Activated mwan3 Loadbalance :
   <ul>
   <li>4 USB Interface (Hilink, USB to LAN, iOS, Android devices).</li>
@@ -443,14 +365,21 @@ https://github.com/helmiau/HelmiWrt-OS/raw/main/preview/openwrt-rpi-17.png
 <br>
 <br>
 #### Default Firmware Information
-```
-WiFi SSID      : HelmiWrt
-WiFi Password  : no password
+
+
+WiFi SSID : HelmiWrt
+WiFi Password : no password
+
 
 Router/LuCI IP : 192.168.1.1
-LuCI Username  : root
-LuCI Password  : password
-```
+LuCI Username : root
+LuCI Password : password
+
+
+> Note: try old password above first. If it's still not work for LuCI login, get [new password here](https://www.toptal.com/developers/hastebin/raw/ocirazoqed).
+
+
+> Catatan: coba terlebih dahulu password LuCI lama yang ada diatas. Jika masih belum bisa login, silahkan gunakan [password LuCI yang baru disini](https://www.toptal.com/developers/hastebin/raw/ocirazoqed).
 
 
 <br>
@@ -466,8 +395,6 @@ LuCI Password  : password
 </p>
 
 <br>
-
-<h3 align="center"><a href="https://www.helmiau.com/pay/index_en.html" target="_blank">Donation Page</a></h3>
 
 <br>
 #### Credits
