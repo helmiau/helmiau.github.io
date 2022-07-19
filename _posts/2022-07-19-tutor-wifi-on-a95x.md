@@ -11,11 +11,11 @@ Gak usah kelamaan ya, langsung masuk ke poinnya.
 1. Download [dtb disini](https://mediafire.com/file/jiwvayou4w5d0yc/meson-gxm-amlogic-a95x-a2.dtb/file) & ganti dtb firmware ke **meson-gxm-amlogic-a95x-a2.dtb**
 2. Jalankan printah dibawah ke terminal
 
-```
-echo "ath10k_core" > /etc/modules.d/ath10k_core
-echo "ath10k_sdio" > /etc/modules.d/ath10k_sdio
-echo "ath10k_usb" > /etc/modules.d/ath10k_usb
-```
+	```
+	echo "ath10k_core" > /etc/modules.d/ath10k_core
+	echo "ath10k_sdio" > /etc/modules.d/ath10k_sdio
+	echo "ath10k_usb" > /etc/modules.d/ath10k_usb
+	```
 
 3. Cek folder **/lib/firmware** ada folder ath10k atau tidak. 
 4. Kalo tidak ada download file [ath10k.zip disini](https://mediafire.com/file/a51x6vt6a6c9gpv/ath10k.zip/file), Lalu extract file ath10k.zip kemudian copy ke **/lib/firmware**.
