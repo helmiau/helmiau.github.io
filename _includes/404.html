@@ -133,11 +133,12 @@
       </svg>
 
 	{%- if site.adblock_detect.enabled == true -%}
-      <h3>Page not found or adblock is active!</h3>
-      <h6>Please disable adblock then <a href="{{ site.baseurl }}/">go to Home</a> or you can <a href="javascript:history.back()">back to previous page</a>.</h6>
+      <h3>Page not found or adblock is active!</h3></h6>
+      <h6>Make sure you: (1) Type URL correctly, (2) Disable adblock, (3) Using another browser.</h6>
+      <h6>Then you can <a href="{{ site.baseurl }}/">go to Home</a> or go <a href="javascript:history.back()">back to previous page</a>.</h6>
     {%- else -%}
       <h3>Page not found!</h3>
-      <h6><a href="{{ site.baseurl }}/">Go to Home</a> or you can <a href="javascript:history.back()">back to previous page</a>.</h6>
+      <h6><a href="{{ site.baseurl }}/">Go Home</a> or you can <a href="javascript:history.back()">back to previous page</a>.</h6>
 	{%- endif -%}
 	  
 	  <a class="btn btn-primary mt-1" href="javascript:history.back()">Back to Previous Page</a>
