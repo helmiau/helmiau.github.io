@@ -19,6 +19,7 @@ LuCI Tiny File Manager App
 LuCI Shutdown App
 LuCI v2rayA App
 LuCI Mikrotik Monitor App
+LuCI Mikrotik Monitor V4 App
 LuCI Wegare STL GUI
 LuCI Free VPN Sites
 Badvpn and Corkscrew
@@ -98,6 +99,13 @@ This package will be shown under **LuCI -> Services -> v2rayA**
 This package will be shown under **LuCI -> Services -> Mikrotik Monitor**
 
 ![tfm](https://raw.githubusercontent.com/helmiau/helmiwrt-packages/main/preview/mikhmon-prev.png)
+
+
+#### LuCI Mikrotik Monitor V4 App
+
+This package will be shown under **LuCI -> Services -> Mikrotik Monitor V4**
+
+![tfm](https://raw.githubusercontent.com/helmiau/helmiwrt-packages/main/preview/mikhmonv4-prev.png)
 
 
 #### LuCI Wegare STL GUI
@@ -211,6 +219,7 @@ If you want to build these packages manually or adding it to your firmware, do t
 	CONFIG_PACKAGE_luci-app-libernet-bin=n
 	CONFIG_PACKAGE_luci-app-libernet-plus=y
 	CONFIG_PACKAGE_luci-app-mikhmon=y
+	CONFIG_PACKAGE_luci-app-mikhmon4=y
 	CONFIG_PACKAGE_luci-app-openspeedtest=y
 	CONFIG_PACKAGE_luci-app-shutdown=y
 	CONFIG_PACKAGE_luci-app-tinyfm=y
