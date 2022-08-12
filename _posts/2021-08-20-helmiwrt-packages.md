@@ -193,6 +193,7 @@ If you want to build these packages manually or adding it to your firmware, do t
 	CONFIG_PACKAGE_php7-fpm=y
 	CONFIG_PACKAGE_php7-mod-curl=y
 	CONFIG_PACKAGE_php7-mod-gd=y
+	CONFIG_PACKAGE_php7-mod-filter=y
 	CONFIG_PACKAGE_php7-mod-iconv=y
 	CONFIG_PACKAGE_php7-mod-json=y
 	CONFIG_PACKAGE_php7-mod-mbstring=y
