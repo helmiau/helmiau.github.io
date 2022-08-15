@@ -231,15 +231,30 @@ https://github.com/helmiau/HelmiWrt-OS/raw/main/preview/openwrt-rpi-17.png
 | s912 | H96-Pro-Plus, Octopus-Planet | [🔽 Download](https://github.com/ghdlsvc/dl37/releases/latest/download/helmiwrt-18.06-k5.4-s912-k5.4.0.img.gz) | [🔽 Download](https://github.com/ghdlsvc/dl37/releases/latest/download/helmiwrt-18.06-k5.4-s912-k5.15.51.img.gz) | [🔽 Download](https://github.com/ghdlsvc/dl37/releases/latest/download/helmiwrt-21.02-s912-k5.4.0.img.gz) | [🔽 Download](https://github.com/ghdlsvc/dl37/releases/latest/download/helmiwrt-21.02-s912-k5.15.51.img.gz) |
 | s922x | Belink, Belink-Pro, Ugoos-AM6-Plus, ODROID-N2 | [🔽 Download](https://github.com/ghdlsvc/dl37/releases/latest/download/helmiwrt-18.06-k5.4-s922x-k5.4.0.img.gz) | [🔽 Download](https://github.com/ghdlsvc/dl37/releases/latest/download/helmiwrt-18.06-k5.4-s922x-k5.15.51.img.gz) | [🔽 Download](https://github.com/ghdlsvc/dl37/releases/latest/download/helmiwrt-21.02-s922x-k5.4.0.img.gz) | [🔽 Download](https://github.com/ghdlsvc/dl37/releases/latest/download/helmiwrt-21.02-s922x-k5.15.51.img.gz) |
 
-> s9xxx kernel info : <br> 5.4.0 = Amlogic kernel <br> 5.15.51 = Andi Rijal Habibi's kernel <br> All Wireless (WiFi) status = 80% ON
 
-> Note: Wireless status is random due to various hardware.
+> Catatan STB Firmware:
+> - s9xxx kernel info: 5.4.0 = Amlogic kernel | 5.15.51 = (sibondt) Andi Rijal Habibi's kernel.
+> - Semua Wireless (WiFi) status = 70% ON.
+> - Status Wireless (WiFi) sangat acak, karena banyaknya perbedaan hardware.
+> - HG680P dan ZTE (B860H) kernel 5.15.xx: kalau wireless off, ganti dtb ke p212.
+
 
 <br>
 
-> All releases including Older release can be found [here for HelmiWrt Lede Based](https://cararegistrasi.com/WXCt), and [this for HelmiWrt ImmortalWrt Based](https://github.com/helmiau/dl/releases) and scroll down a bit to see older release older date.
 
-> Seluruh firmware rilis, termasuk firmware lama dapat dicari dan diunduh pada [link ini untuk HelmiWrt berbasis Lede](https://cararegistrasi.com/WXCt), dan [ini untuk HelmiWrt berbasis ImmortalWrt](https://github.com/helmiau/dl/releases), lalu geser kebawah pada halaman link untuk melihat rilis yang lama.
+> STB Firmware Notes:
+> - s9xxx kernel info: 5.4.0 = Amlogic kernel | 5.15.51 = (sibondt) Andi Rijal Habibi's kernel.
+> - All Wireless (WiFi) status = 70% ON.
+> - Wireless status is random due to various hardware.
+> - HG680P and ZTE (B860H) kernel 5.15.xx: if wireless off, change dtb to p212.
+
+
+<br>
+
+
+> Firmware rilisan terdahulu (BASE LEDE) bisa dicari di [link ini untuk HelmiWrt berbasis Lede](https://cararegistrasi.com/WXCt), dan tidak ada arsip rilisan terdahulu untuk firmware base ImmortalWrt.
+
+> Older firmware release (LEDE BASED ONLY) can be found [here for HelmiWrt Lede Based](https://cararegistrasi.com/WXCt), and there is no archive releases for ImmortalWrt based firmware.
 
 <br>
 <br>
@@ -277,14 +292,12 @@ https://github.com/helmiau/HelmiWrt-OS/raw/main/preview/openwrt-rpi-17.png
 
 <br>
 #### Informasi Tambahan
-- Firmware dibuat dengan optimasi mwan3 loadbalance dengan pengaturan 1+1+1=3, bukan pisah trafik.
 - Jika TTYD (Terminal LuCi App) tidak tampil, ubah [https://192.168.1.1/.../terminal](https://192.168.1.1/cgi-bin/luci/admin/system/terminal) menjadi [http://192.168.1.1/.../terminal](http://192.168.1.1/cgi-bin/luci/admin/system/terminal).
 - Jika **OpenClash yacd dashboard panel** tidak tampil, ganti protokol **https://** menjadi **http://** pada address bar browser yang Anda gunakan.
-- v2rayA GUI dan LuCI app membutuhkan instalasi WebUI pada perintah **v2raya**.
-- Gunakanlah OpenClash/Passwall/SSR+ daripada Libernet atau Xderm Mini jika ingin menggunakan VPN dengan mwan3 loadbalance.
+- Gunakanlah OpenClash/Passwall/SSR+, jika ingin menggunakan VPN dengan loadbalance.
 - Libernet dan Xderm Mini tidak akan berjalan dengan mwan3 loadbalance. Jika Anda ingin menggunakan salah satu dari kedua aplikasi tersebut setelah memasang loadbalance di perintah helmilb, maka Anda harus menghapus seluruh pengaturan loadbalance pada ```etc/config/mwan3``` secara manual.
 - OpenClash harus restart ketika Modem Manager (driver untuk modem QMI) restart.
-- Jika port Gigabit hanya terbaca 100mb/s, solusinya adalah **ganti dengan kabel LAN yang mendukung Gigabit**.
+- Jika port Gigabit hanya terbaca 100mb/s, maka **ganti dengan kabel LAN yang mendukung Gigabit**.
 - Koneksi modem dengan protokol ModemManager atau Mobile Data :
   - HP lt4220 Mode MBIM (setmode 1)
   - Telit ln940 Mode MBIM & QMI (setmode 1 & 2)
@@ -294,21 +307,22 @@ https://github.com/helmiau/HelmiWrt-OS/raw/main/preview/openwrt-rpi-17.png
   - Fibocom L850-GL Mode MBIM (gtusbmode 7)
   > Baca pos aslinya [disini](https://web.facebook.com/groups/2727709384212810/posts/2821718278145253/), dokumentasi modem diatas ada [disini](https://docs.google.com/document/d/1Ni0l_WSODttDZcLrSA3a2g4TfYZFGObk4DJwalJF94E/edit?fbclid=IwAR2_MtPAJm786eI6cCNXwpelAwOUspL1tItRLZqvdLzSVPBGSn2fCUiltu8)
 
-> Jika ada yang tahu untuk memperbaiki bug ini, silahkan gunakan [GitHub issue](https://github.com/helmiau/HelmiWrt-OS/issues) atau [Grup Telegram](https://t.me/+KwiFuRZymqFmNmE1) untuk memberikan saran perbaikan.
+> Jika ada yang tahu untuk memperbaiki bug ini, sampaikan pendapatmu di [Grup Telegram](https://t.me/+KwiFuRZymqFmNmE1) untuk memberikan saran perbaikan.
 
 
 
 <br>
 #### Catatan
-- Firmware terbaru akan tersedia setelah pukul 15.00 hingga 04.00 WIB.
-- Jangan tanyakan "Kapan dibenerin?" atau yang semisalnya. Single fighter ini bos !.
-- Jangan tanyakan pertanyaan orang awam, seperti : Apa aja yang perlu disiapkan untuk memasang OpenWrt di perangkatku?.
-- Jangan tanyakan dukungan maupun perbaikan bug pada perangkat yang tidak didukung secara resmi.
-- **Saya menolak fitur tambahan dan perbaikan tanpa saran, sumber kode, script ataupun yang lainnya.**
-- **Lapuran Bug hanya tersedia di [GitHub issue](https://github.com/helmiau/HelmiWrt-OS/issues) !**, Bukan pesan pribadi ataupun kolom komentar !.
-- Pesan pribadi hanya berlaku untuk **DONASI** dengan menghubungi saya [disini](https://www.helmiau.com/about/) dengan isi pesan **Saya ingin donasi**.
-- Gunakan [Halaman Diskusi HelmiWrt-OS](https://github.com/helmiau/HelmiWrt-OS/discussions) untuk diskusi terkait firmware ini (akun GitHub diperlukan).
-  > Catatan : Bahasa Inggris, Indonesia dan Arab diperbolehkan.
+- Jika ada update firmware, maka semua device mendapatkan update. Kecuali jika ada informasi yang menyatakan **``tidak ada update untuk device X``** atau dengan kata yang semisal.
+- Jangan tanya "Kapan dibenerin?" atau yang semisalnya. Single fighter ini bos !.
+- Jangan tanyakan pertanyaan orang awam, seperti: Apa saja yang perlu disiapkan untuk memasang OpenWrt di perangkatku?.
+- Jangan tanyakan dukungan maupun perbaikan bug pada perangkat yang tidak didukung diatas.
+- Saya menolak fitur tambahan dan perbaikan tanpa adanya informasi yang jelas seperti log, kode, script dan sejenisnya.
+- Laporkan bug, fitur dan semacamnya **HANYA** di [Grup Telegram](https://t.me/+KwiFuRZymqFmNmE1).
+- Jangan laporkan bug, fitur dan semacamnya di pesan pribadi ataupun kolom komentar, karena tidak akan dibaca!.
+- Pesan pribadi hanya berlaku untuk **KONFIRMASI DONASI** saja, dengan mengirimkan donasi ke [HALAMAN DONASI](https://www.helmiau.com/pay/) lalu mengirimkan konfirmasi transfer ke pesan pribadi Helmi Amirudin dengan pesan **Saya transfer donasi $XXX.XXX**.
+- Gunakan [Grup Telegram](https://t.me/+KwiFuRZymqFmNmE1) untuk diskusi terkait firmware ini dengan menggunakan bahasa yang baik dan sopan.
+
 
 
 <br>
@@ -345,11 +359,9 @@ https://github.com/helmiau/HelmiWrt-OS/raw/main/preview/openwrt-rpi-17.png
 
 <br>
 #### Knowledgement
-- Firmware is optimized for mwan3 loadbalance purpose with 1+1+1=3 setup, not traffic connection separator.
 - If you get blank when open TTYD (Terminal LuCi App), change [https://192.168.1.1/.../terminal](https://192.168.1.1/cgi-bin/luci/admin/system/terminal) to [http://192.168.1.1/.../terminal](http://192.168.1.1/cgi-bin/luci/admin/system/terminal).
 - If you get an error when open **OpenClash yacd dashboard panel**, change https:// to http:// protocol.
-- v2rayA GUI and LuCI app is need **v2raya** command to start and v2rayA web GUI.
-- Use OpenClash/Passwall/SSR+ instead of Libernet or Xderm Mini if you want to use VPN with mwan3 loadbalance.
+- Use OpenClash/Passwall/SSR+, if you want to use VPN with loadbalance.
 - Libernet and Xderm Mini will not work with mwan3 loadbalance. You need to remove all configurations insiden ```etc/config/mwan3``` manually if helmilb command has been installed on your system.
 - OpenClash must be restarted manually when Modem Manager (driver for QMI modem) restarted.
 - If Gigabit port only read 100mb/s, the solution is by **replacing your LAN cable** with the better one which has Gigabit support.
@@ -362,19 +374,19 @@ https://github.com/helmiau/HelmiWrt-OS/raw/main/preview/openwrt-rpi-17.png
   - Fibocom L850-GL Mode MBIM (gtusbmode 7)
   > Read original post [here](https://web.facebook.com/groups/2727709384212810/posts/2821718278145253/), read above modem documentation [here](https://docs.google.com/document/d/1Ni0l_WSODttDZcLrSA3a2g4TfYZFGObk4DJwalJF94E/edit?fbclid=IwAR2_MtPAJm786eI6cCNXwpelAwOUspL1tItRLZqvdLzSVPBGSn2fCUiltu8)
 
-> If anyone know how to fix this, please tell me by create a [GitHub issue](https://github.com/helmiau/HelmiWrt-OS/issues) or [Telegram Chat Group](https://t.me/+KwiFuRZymqFmNmE1).
+> If anyone know how to fix this, please tell me at [Telegram Chat Group](https://t.me/+KwiFuRZymqFmNmE1).
 
 <br>
-#### Notes
-- New firmware release will be available after 15.00 until 04.00 WIB.
-- No ETA !. example: When you fix bug blablabla? or any other else.
-- No noob question !. example: what things i need to install OpenWrt to a device?.
-- No support and bug fix for unsupported device.
-- **I REFUSE FEATURE REQUEST OR BUG FIX WITHOUT SUGGESTION, CODES OR ANYTHING.**
-- **Bug Report only available under GitHub Issue !**, not a Private Message or other social media comment coloumn !.
-- Private Message only available for **DONATION PURPOSE** by contacting me [here](https://www.helmiau.com/about/) with a message **I want to donate**.
-- If you want to discuss about this firmware, please create a GitHub account. Then open this [HelmiWrt-OS Discussion Page](https://github.com/helmiau/HelmiWrt-OS/discussions).
-  > Note : English, Indonesian and Arabic languages are allowed.
+#### Notes  
+- If firmware has an update, every device will get it. Except you informed that **``device X has no update available``** or similar phrase.
+- No ETA to fix a bug/feature!. ex: When you fix bug blablabla? or any other else.
+- No noob question !. ex: what things i need to install OpenWrt to a device?.
+- No support and bug fix for unlisted devices.
+- No bug fixing or feature request without clear information such as log, codes, etc.
+- Report bug or feature **ONLY** at [Telegram Group](https://t.me/+KwiFuRZymqFmNmE1).
+- Don't report a bug or feature to private message, it won't be read.
+- Private message **ONLY AVAILABLE** for **DONATION CONFIRMATION** by sending me a donation through [DONATE PAGE](https://www.helmiau.com/pay/) then send me PM/DM with a message **I send you donation $XXX.XXX**.
+- Use [Telegram Group Chat](https://t.me/+KwiFuRZymqFmNmE1) to discuss around this firmware using good and polite language.
 
 <br>
 <br>
@@ -386,7 +398,7 @@ https://github.com/helmiau/HelmiWrt-OS/raw/main/preview/openwrt-rpi-17.png
 - WiFi Password : no password
 - Router/LuCI IP : 192.168.1.1
 - LuCI Username : root
-- LuCI Password : password
+- LuCI Password : password (baca catatan dibawah/read notes below)
 
 - Note: try old password above first. If it's still not work for LuCI login, get [new password here](https://pastebin.com/raw/jVPzz0Lu).
 - Catatan: coba terlebih dahulu password LuCI lama yang ada diatas. Jika masih belum bisa login, silahkan gunakan [password LuCI yang baru disini](https://pastebin.com/raw/jVPzz0Lu).
@@ -396,12 +408,14 @@ https://github.com/helmiau/HelmiWrt-OS/raw/main/preview/openwrt-rpi-17.png
 #### Telegram Chat
 
 <p align="center">
-	<a href="https://t.me/+KwiFuRZymqFmNmE1" target="_blank">
-         <i class="fab fa-telegram-plane fa-5x"></i>
-	</a>
-	<h6 align="center">
-		<a href="https://t.me/+KwiFuRZymqFmNmE1" target="_blank">Join Telegram Chat Group</a>
-	</h6>
+	<div>
+		<a href="https://t.me/+KwiFuRZymqFmNmE1" target="_blank">
+			 <i class="fab fa-telegram-plane fa-5x"></i>
+		</a>
+		<h6 align="center">
+			<a href="https://t.me/+KwiFuRZymqFmNmE1" target="_blank">Join Telegram Chat Group</a>
+		</h6>
+	</div>
 </p>
 
 <br>
