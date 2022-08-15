@@ -408,14 +408,12 @@ https://github.com/helmiau/HelmiWrt-OS/raw/main/preview/openwrt-rpi-17.png
 #### Telegram Chat
 
 <p align="center">
-	<div>
-		<a href="https://t.me/+KwiFuRZymqFmNmE1" target="_blank">
-			 <i class="fab fa-telegram-plane fa-5x"></i>
-		</a>
-		<h6 align="center">
-			<a href="https://t.me/+KwiFuRZymqFmNmE1" target="_blank">Join Telegram Chat Group</a>
-		</h6>
-	</div>
+	<a href="https://t.me/+KwiFuRZymqFmNmE1" target="_blank">
+		 <i class="fab fa-telegram-plane fa-5x"></i>
+	</a>
+	<h6 align="center">
+		<a href="https://t.me/+KwiFuRZymqFmNmE1" target="_blank">Join Telegram Chat Group</a>
+	</h6>
 </p>
 
 <br>
