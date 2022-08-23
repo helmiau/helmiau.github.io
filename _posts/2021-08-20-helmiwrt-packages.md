@@ -122,6 +122,20 @@ This package will be shown under **LuCI -> Services -> VPN Site List**
 ![tfm](https://raw.githubusercontent.com/helmiau/helmiwrt-packages/main/preview/freevpnsite-prev.png)
 
 
+#### LuCI MulImiter
+
+This package will be shown under **LuCI -> Services -> MulImiter**
+
+![tfm](https://raw.githubusercontent.com/helmiau/helmiwrt-packages/main/preview/mulimiter-prev.png)
+
+
+#### LuCI myXL Lite
+
+This package will be shown under **LuCI -> Status -> myXL Lite**
+
+![tfm](https://raw.githubusercontent.com/helmiau/helmiwrt-packages/main/preview/myxllite-prev.png)
+
+
 #### Badvpn and Corkscrew
 This repository is for archiving badvpn & corkscrew which working with latest snapshot OpenWrt build. Collected by [helmiau](http://www.github.com/helmiau)
 
@@ -161,6 +175,8 @@ If you want to build these packages manually or adding it to your firmware, do t
 	CONFIG_PACKAGE_luci-app-libernet-plus=y
 	CONFIG_PACKAGE_luci-app-mikhmon=y
 	CONFIG_PACKAGE_luci-app-mikhmon4=y
+	CONFIG_PACKAGE_luci-app-mulimiter=y
+	CONFIG_PACKAGE_luci-app-myxllite=y
 	CONFIG_PACKAGE_luci-app-openspeedtest=y
 	CONFIG_PACKAGE_luci-app-shutdown=y
 	CONFIG_PACKAGE_luci-app-tinyfm=y
@@ -175,25 +191,16 @@ If you want to build these packages manually or adding it to your firmware, do t
 #### Installation of IPK file
 This section will provide you an installation of IPK files through terminal. Thank's to bro [Reyre](https://www.facebook.com/groups/443024392562406/user/100000998540396/) and [Nugroho](https://www.facebook.com/profile.php?id=100010890091391) for helping me to build these ipk's.
 
-1. Take a look at here -> [Ipk Files](https://github.com/helmiau/helmiwrt-packages/releases/tag/ipk).
-2. Select and copy a file name, then replace **filename_version_all.ipk** below with your copied text/file name.
-	```
-	export IPK="filename_version_all.ipk"
-	wget --no-check-certificate https://github.com/helmiau/helmiwrt-packages/releases/download/ipk/$IPK
-	opkg update && opkg install ${IPK}
-	rm ${IPK}
-	unset IPK
-	```
-
-	Example :
+1. Download script below
 
 	```
-	export IPK="luci-app-xderm-bin-1.2-0_all.ipk"
-	wget --no-check-certificate https://github.com/helmiau/helmiwrt-packages/releases/download/ipk/$IPK
-	opkg update && opkg install ${IPK}
-	rm ${IPK}
-	unset IPK
+	wget --no-check-certificate https://raw.githubusercontent.com/helmiau/helmiwrt-packages/main/hpipk -O /bin/hpipk && chmod 755 /bin/hpipk
 	```
+
+	Then run **``hpipk``** script using terminal, usage and ipk lists with versions will be shown under terminal.
+
+	Example: If you want to install Wegare STL, run **``hpipk luci-app-wegare_1.0-1_all.ipk``** using terminal.
+
 
 ### Credits
 - [Immortalwrt](github.com/immortalwrt) for LuCI App comparison.
@@ -213,6 +220,9 @@ This section will provide you an installation of IPK files through terminal. Tha
 - [Nur Rahmat Adi S](https://facebook.com/adi.persada.560) for helping me to adding OpenClash Config Editor, and STL Wegare GUI.
 - [Nugroho](https://www.facebook.com/profile.php?id=100010890091391) for helping me to fix some codes and simplify.
 - [M Nabil Shah Nawwaz](https://www.facebook.com/Official.HunterNblz) for helping me to improve STL Wegare GUI.
+- [Rizkirmdhn](https://github.com/rizpedia/myxllite) for myXL Lite - XL Axiata package checker including unlimited quota FUP.
+- [Teguh Santoso](https://github.com/tegohsx/mulimiter) for MulImiter - OpenWrt bandwidth limiter through iptables firewall with PHP GUI.
+
 
 ### References
 - [prasathmani/tinyfilemanager](https://github.com/prasathmani/tinyfilemanager)
