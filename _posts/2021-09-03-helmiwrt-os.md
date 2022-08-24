@@ -163,11 +163,11 @@ https://github.com/helmiau/HelmiWrt-OS/raw/main/preview/openwrt-rpi-17.png
 
 
 <p align="center">
-	<a href="https://t.me/+KwiFuRZymqFmNmE1" target="_blank">
+	<a href="https://raw.githubusercontent.com/helmiau/HelmiWrt-OS-Immortal/main/tezt.txt" target="_blank">
 		 <i class="far fa-clipboard-list-check fa-5x"></i>
 	</a>
 	<h6 align="center">
-		<a href="https://t.me/+KwiFuRZymqFmNmE1" target="_blank">Read Changelogs - Baca Catatan Perubahan</a>
+		<a href="https://raw.githubusercontent.com/helmiau/HelmiWrt-OS-Immortal/main/tezt.txt" target="_blank">Read Changelogs - Baca Catatan Perubahan</a>
 	</h6>
 </p>
 
