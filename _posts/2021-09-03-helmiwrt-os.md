@@ -16,6 +16,7 @@ Source: [My Own Repo](https://github.com/helmiau/HelmiWrt-OS#readme)
 Firmware Informations
 Tweaks and Patches by Helmi Amirudin
 Previews
+Changelogs
 Supported Devices and Download Section
 Tutorial Bahasa Indonesia
 English Guide
@@ -155,6 +156,22 @@ https://github.com/helmiau/HelmiWrt-OS/raw/main/preview/openwrt-rpi-17.png
 {% include elements/carousel.html %}
 
 {% include elements/video.html id="HsDEWwgy-xg" %}
+
+
+<br>
+#### Changelogs
+
+
+<p align="center">
+	<a href="https://t.me/+KwiFuRZymqFmNmE1" target="_blank">
+		 <i class="far fa-clipboard-list-check fa-5x"></i>
+	</a>
+	<h6 align="center">
+		<a href="https://t.me/+KwiFuRZymqFmNmE1" target="_blank">Read Changelogs - Baca Catatan Perubahan</a>
+	</h6>
+</p>
+
+<br>
 
 
 <br>
