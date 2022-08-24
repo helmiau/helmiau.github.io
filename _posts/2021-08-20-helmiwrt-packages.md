@@ -22,6 +22,8 @@ LuCI Mikrotik Monitor App
 LuCI Mikrotik Monitor V4 App
 LuCI Wegare STL GUI
 LuCI Free VPN Sites
+LuCI MulImiter
+LuCI myXL Lite
 Badvpn and Corkscrew
 Build usage
 Installation of IPK file
