@@ -32,7 +32,7 @@ layout: page
 <script src="https://safelinku.com/js/web-script.js"></script>
 <script type="text/javascript">
 	try {
-		app_get_url();
+		app_get_url('https://github.com');
 	}
 	catch (err) {
 		console.log(err);
@@ -40,54 +40,21 @@ layout: page
 	}
 </script>
 
-<!-- HelmXklan Adjs Detect -->
-<script src="/assets/js/ads.js"></script>
+<!-- NikolaITXKlan Detect -->
+<script src="https://raw.githubusercontent.com/NikolaiT/adblock-detect-javascript-only/master/dist/adblockDetector.min.js"></script>
 <script type="text/javascript">
 	try {
-		FuncHelmiAmirudinRunAds();
-		if (VarHelmiAmirudinRunAds === null) { 
-			console.log('VarHelmiAmirudinRunAds is Null or undefined value!');
+		detectAdblock().then((res) => {
+			console.log('Using Adblocker: ${JSON.stringify(res)}');
 			window.open("/404.html", "_self");
-		}
+		});
 	}
 	catch (err) {
-		console.log('FuncHelmiAmirudinRunAds is not function!');
+		console.log('NikolaAdblock is undetected!');
 		window.open("/404.html", "_self");
 	}
 </script>
-
-<!-- HelmXklan Prebid Detect -->
-<script src="/assets/js/prebid.js"></script>
-<script type="text/javascript">
-	try {
-		FuncHelmiAmirudinRunPrebid();
-		if (VarHelmiAmirudinRunPrebid === null) { 
-			console.log('VarHelmiAmirudinRunAds is Null or undefined value!');
-			window.open("/404.html", "_self");
-		}
-	}
-	catch (err) {
-		console.log('FuncHelmiAmirudinRunPrebid is not function!');
-		window.open("/404.html", "_self");
-	}
-</script>
-
-<!-- HelmXklan PrebidsAds Detect -->
-<script src="/assets/js/prebid-ads.js"></script>
-<script type="text/javascript">
-	try {
-		FuncHelmiAmirudinRunPrebidAds();
-		if (VarHelmiAmirudinRunPrebidAds === null) { 
-			console.log('VarHelmiAmirudinRunAds is Null or undefined value!');
-			window.open("/404.html", "_self");
-		}
-	}
-	catch (err) {
-		console.log('FuncHelmiAmirudinRunPrebidAds is not function!');
-		window.open("/404.html", "_self");
-	}
-</script>
-
+ 
 <!-- trakteer widget -->
 <br>
 <center>
