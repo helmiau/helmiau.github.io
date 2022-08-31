@@ -33,7 +33,7 @@ layout: page
 	try {
 		app_get_url('https://github.com/helmiau');
 	}
-	catch {
+	catch (err) {
 		console.log('Safelinku unloaded');
 		window.open("/404.html", "_self");
 	}
@@ -55,17 +55,6 @@ if( window.VarHelmiAmirudinRunPrebidAds === undefined ){
 }
 </script>
 
-<!-- NikolaITXKlan Detect -->
-<script type="text/javascript">
-	try {
-		detectAdblock().then((res) => {console.log('Using Adblocker: ${JSON.stringify(res)}');});
-	}
-	catch (err) {
-		console.log('NikolaAdblock is undetected!');
-		window.open("/404.html", "_self");
-	}
-</script>
- 
 <!-- trakteer widget -->
 <br>
 <center>
