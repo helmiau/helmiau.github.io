@@ -29,25 +29,36 @@ layout: page
 </p>
 
 <!-- Safelinku Detect -->
-<script src="https://safelinku.com/js/web-script.js"></script>
 <script type="text/javascript">
 	try {
-		app_get_url('https://github.com');
+		app_get_url('https://github.com/helmiau');
 	}
-	catch (err) {
-		console.log(err);
+	catch {
+		console.log('Safelinku unloaded');
 		window.open("/404.html", "_self");
 	}
 </script>
 
+<!-- HelmXKlan Detect -->
+<script type="text/javascript">
+FuncHelmiAmirudinRunAds();
+FuncHelmiAmirudinRunPrebid();
+FuncHelmiAmirudinRunPrebidAds();
+if( window.VarHelmiAmirudinRunAds === undefined ){
+	window.open("/404.html", "_self");
+}
+if( window.VarHelmiAmirudinRunPrebid === undefined ){
+	window.open("/404.html", "_self");
+}
+if( window.VarHelmiAmirudinRunPrebidAds === undefined ){
+	window.open("/404.html", "_self");
+}
+</script>
+
 <!-- NikolaITXKlan Detect -->
-<script src="https://raw.githubusercontent.com/NikolaiT/adblock-detect-javascript-only/master/dist/adblockDetector.min.js"></script>
 <script type="text/javascript">
 	try {
-		detectAdblock().then((res) => {
-			console.log('Using Adblocker: ${JSON.stringify(res)}');
-			window.open("/404.html", "_self");
-		});
+		detectAdblock().then((res) => {console.log('Using Adblocker: ${JSON.stringify(res)}');});
 	}
 	catch (err) {
 		console.log('NikolaAdblock is undetected!');
