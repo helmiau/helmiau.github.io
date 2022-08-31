@@ -88,21 +88,6 @@ layout: page
 	}
 </script>
 
-<!-- NikolaITXKlan Detect -->
-<script src="https://raw.githubusercontent.com/NikolaiT/adblock-detect-javascript-only/master/dist/adblockDetector.min.js"></script>
-<script type="text/javascript">
-	try {
-		detectAdblock().then((res) => {
-			console.log('Using Adblocker: ${JSON.stringify(res)}');
-			window.open("/404.html", "_self");
-		});
-	}
-	catch (err) {
-		console.log('NikolaAdblock is undetected!');
-		window.open("/404.html", "_self");
-	}
-</script>
- 
 <!-- trakteer widget -->
 <br>
 <center>
