@@ -30,11 +30,11 @@ layout: page
 
 <!-- Safelinku Detect -->
 <script type="text/javascript">
-	try {
-		app_get_url('https://github.com/helmiau');
+	if (typeof me.onChange === "function") { 
+		console.log('Safelinku loaded, site can be accessed.');
 	}
-	catch (err) {
-		console.log('Safelinku unloaded');
+	else {
+		console.log('Safelinku unloaded.');
 		window.open("/404.html", "_self");
 	}
 </script>
