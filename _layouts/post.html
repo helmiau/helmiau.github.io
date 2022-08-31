@@ -28,17 +28,6 @@ layout: page
 
 </p>
 
-<!-- Safelinku Detect -->
-<script type="text/javascript">
-	if ( typeof app_get_url === "function" ) { 
-		console.log('Safelinku loaded, site can be accessed.');
-	}
-	else {
-		console.log('Safelinku unloaded.');
-		window.open("/404.html", "_self");
-	}
-</script>
-
 <!-- HelmXKlan Detect -->
 <script type="text/javascript">
 FuncHelmiAmirudinRunAds();
@@ -54,6 +43,15 @@ if( window.VarHelmiAmirudinRunPrebid === "undefined" ){
 }
 if( window.VarHelmiAmirudinRunPrebidAds === "undefined" ){
 	console.log('VarHelmiAmirudinRunPrebidAds unloaded');
+	window.open("/404.html", "_self");
+}
+
+
+if ( typeof app_get_url === "function" ) { 
+	console.log('Safelinku loaded, site can be accessed.');
+}
+else {
+	console.log('Safelinku unloaded.');
 	window.open("/404.html", "_self");
 }
 </script>
