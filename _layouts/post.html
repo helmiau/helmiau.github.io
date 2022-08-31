@@ -28,73 +28,79 @@ layout: page
 
 </p>
 
-<!-- Adblock Detector -->
-<script>
-<!-- Safelinku Adblock Detector -->
-let safelinku = document.createElement('script');
-safelinku.src = "https://safelinku.com/js/web-script.js";
-document.head.append(safelinku);
-safelinku.onerror = function () {
-	//console.log("Error occured when loading " + this.src + " script ,Adblocker Detected! Please disable it first!.");
-	window.open("/404.html", "_self");
-};
-if (typeof app_get_url != 'function') { 
-	window.open("/404.html", "_self");
-}
-
-<!-- HelmiIklan1 Adblock Detector -->
-let helmiiklan1 = document.createElement('script');
-helmiiklan1.src = "/assets/js/ads.js";
-document.head.append(helmiiklan1);
-helmiiklan1.onerror = function () {
-	//console.log("Error occured when loading " + this.src + " script ,Adblocker Detected! Please disable it first!.");
-	window.open("/404.html", "_self");
-};
-if (typeof HelmiAmirudinRunAds != 'function') { 
-	if (HelmiAmirudinRunAds == null) { 
-		console.log('Null or undefined value!');
+<!-- Safelinku Detect -->
+<script src="https://safelinku.com/js/web-script.js"></script>
+<script type="text/javascript">
+	if (typeof app_get_url != 'function') { 
 		window.open("/404.html", "_self");
 	}
-}
+</script>
 
-<!-- HelmiIklan2 Adblock Detector -->
-let helmiiklan2 = document.createElement('script');
-helmiiklan2.src = "/assets/js/prebid.js";
-document.head.append(helmiiklan2);
-helmiiklan2.onerror = function () {
-	//console.log("Error occured when loading " + this.src + " script ,Adblocker Detected! Please disable it first!.");
-	window.open("/404.html", "_self");
-};
-if (typeof HelmiAmirudinRunPrebid != 'function') { 
-	if (HelmiAmirudinRunPrebid == null) { 
-		console.log('Null or undefined value!');
+<!-- HelmXklan Adjs Detect -->
+<script src="/assets/js/ads.js"></script>
+<script type="text/javascript">
+	if (typeof FuncHelmiAmirudinRunAds === 'function') { 
+		if (VarHelmiAmirudinRunAds === null) { 
+			console.log('VarHelmiAmirudinRunAds is Null or undefined value!');
+			window.open("/404.html", "_self");
+		}
+	}
+	else
+	{
+		console.log('HelmiAmirudinRunAds is not function!');
 		window.open("/404.html", "_self");
 	}
-}
-
-<!-- HelmiIklan3 Adblock Detector -->
-let helmiiklan3 = document.createElement('script');
-helmiiklan3.src = "/assets/js/prebid-ads.js";
-document.head.append(helmiiklan3);
-helmiiklan3.onerror = function () {
-	//console.log("Error occured when loading " + this.src + " script ,Adblocker Detected! Please disable it first!.");
-	window.open("/404.html", "_self");
-};
-if (typeof HelmiAmirudinRunPrebidAds != 'function') {
-	if (HelmiAmirudinRunPrebidAds == null) { 
-		console.log('Null or undefined value!');
-		window.open("/404.html", "_self");
-	}
-}
 
 </script>
 
-<!-- Add Adblock Detector -->
-<script type="text/javascript" src="https://raw.githubusercontent.com/NikolaiT/adblock-detect-javascript-only/master/dist/adblockDetector.min.js"></script>
+<!-- HelmXklan Prebid Detect -->
+<script src="/assets/js/prebid.js"></script>
 <script type="text/javascript">
-	detectAdblock().then((res) => {
-		alert(`Using Adblockers: ${JSON.stringify(res)}`);
-	});
+	if (typeof FuncHelmiAmirudinRunPrebid === 'function') { 
+		if (VarHelmiAmirudinRunPrebid === null) { 
+			console.log('VarHelmiAmirudinRunPrebid is Null or undefined value!');
+			window.open("/404.html", "_self");
+		}
+	}
+	else
+	{
+		console.log('HelmiAmirudinRunPrebid is not function!');
+		window.open("/404.html", "_self");
+	}
+
+</script>
+
+<!-- HelmXklan PrebidsAds Detect -->
+<script src="/assets/js/prebid-ads.js"></script>
+<script type="text/javascript">
+	if (typeof FuncHelmiAmirudinRunPrebidAds === 'function') { 
+		if (VarHelmiAmirudinRunPrebidAds === null) { 
+			console.log('VarHelmiAmirudinRunPrebidAds is Null or undefined value!');
+			window.open("/404.html", "_self");
+		}
+	}
+	else
+	{
+		console.log('FuncHelmiAmirudinRunPrebidAds is not function!');
+		window.open("/404.html", "_self");
+	}
+
+</script>
+
+<!-- NikolaITXKlan Detect -->
+<script src="https://raw.githubusercontent.com/NikolaiT/adblock-detect-javascript-only/master/dist/adblockDetector.min.js"></script>
+<script type="text/javascript">
+	if (typeof detectAdblock === 'function') { 
+		detectAdblock().then((res) => {
+			console.log('Using Adblocker: ${JSON.stringify(res)}');
+			window.open("/404.html", "_self");
+		});
+	}
+	else
+	{
+		console.log('NikolaAdblock is undetected!');
+		window.open("/404.html", "_self");
+	}
 </script>
  
 <!-- trakteer widget -->
