@@ -52,6 +52,7 @@ layout: page
 
 <!-- HelmXKlan Detect -->
 <!-- https://stackoverflow.com/questions/4869154/how-to-detect-adblock-on-my-website?page=1&tab=scoredesc#tab-top -->
+<script src="https://safelinku.com/js/web-script.js"></script>
 <script type="text/javascript">
 FuncHelmiAmirudinRunAds();
 FuncHelmiAmirudinRunPrebid();
@@ -67,24 +68,17 @@ FuncHelmiPA();
 FuncHelmiPAD();
 FuncHelmiSCL();
 FuncHelmiWOD();
-if( window.VarHelmiAmirudinRunAds === "undefined" && window.VarHelmiAmirudinRunPrebid === "undefined" && window.VarHelmiAmirudinRunPrebidAds === "undefined" && window.VarHelmiGTM_GPT === "undefined" && window.VarHelmiGTM === "undefined" && window.VarHelmiGSABG === "undefined" && window.VarHelmiGALI === "undefined" && window.VarHelmiGAGA === "undefined" && window.VarHelmiGACA === "undefined" && window.VarHelmiGAA === "undefined" && window.VarHelmiPA === "undefined" && window.VarHelmiPAD === "undefined" && window.VarHelmiSCL === "undefined" && window.VarHelmiWOD === "undefined" ){
+if( window.VarHelmiAmirudinRunAds === "undefined" && window.VarHelmiAmirudinRunPrebid === "undefined" && window.VarHelmiAmirudinRunPrebidAds === "undefined" && window.VarHelmiGTM_GPT === "undefined" && window.VarHelmiGTM === "undefined" && window.VarHelmiGSABG === "undefined" && window.VarHelmiGALI === "undefined" && window.VarHelmiGAGA === "undefined" && window.VarHelmiGACA === "undefined" && window.VarHelmiGAA === "undefined" && window.VarHelmiPA === "undefined" && window.VarHelmiPAD === "undefined" && window.VarHelmiSCL === "undefined" && window.VarHelmiWOD === "undefined" && typeof app_get_url !== "function" ){
 	console.log('Scripts unloaded');
 	document.getElementById(patsongpat).style.display="block";
 	document.getElementById(kongteng).style.display="none";
 	window.open("/404.html", "_self");
 }
-</script>
-
-<script src="https://safelinku.com/js/web-script.js"></script>
-<script type="text/javascript">
-if ( typeof app_get_url === "function" ) { 
-	console.log('Javascript loaded, site can be accessed.');
-}
-else {
-	console.log('Safelinku unloaded.');
+else
+{
+	console.log('All scripts loaded');
 	document.getElementById(patsongpat).style.display="block";
 	document.getElementById(kongteng).style.display="none";
-	window.open("/404.html", "_self");
 }
 </script>
 
