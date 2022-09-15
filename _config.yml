@@ -79,7 +79,7 @@ adsense:
   google:
     publisher_id: ca-pub-7446272259355358
     ## get data_ad_slot from https://www.google.com/adsense/new/u/0/pub-your_publisher_id/myads/units
-    data_ad_slot: 4632525718
+    data_ad_slot: 7067117361
 
 ### Google Translate ###
 tagmanager:
