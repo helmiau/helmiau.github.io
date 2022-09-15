@@ -48,7 +48,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
   <!-- Google Ads -->
   {%- if site.adsense.enabled == true -%}
-	  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-{{ site.adsense.google.publisher_id }}"
+	  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={{ site.adsense.google.publisher_id }}"
 		   crossorigin="anonymous"></script>
   {%- endif -%}
 

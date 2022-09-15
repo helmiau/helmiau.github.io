@@ -77,7 +77,9 @@ analytics:
 adsense:
   enabled: true                                        # Set true to enable google Adsense
   google:
-    publisher_id: 7446272259355358
+    publisher_id: ca-pub-7446272259355358
+    ## get data_ad_slot from https://www.google.com/adsense/new/u/0/pub-your_publisher_id/myads/units
+    data_ad_slot: 7067117361
 
 ### Google Translate ###
 tagmanager:
