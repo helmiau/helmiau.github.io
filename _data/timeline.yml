@@ -21,24 +21,26 @@
 - title: Potret Pena
   from: 2021
   to: present
-  description: I work as graphic designer for @potretpena.id media contents, such as instagram post for knowledges, etc.
+  description: I work as graphic designer for <a href="https://instagram.com/potretpena.id" target="_blank">@potretpena.id</a> media contents, such as instagram post for knowledges, etc.
 
 - title: Jaziima ID - Hijab Authentic
   from: 2021
   to: present
-  description: I work as graphic designer for [https://instagram.com/jaziima.id](@jaziima.id) media promotion contents, such as instagram posts, stories, promotions, etc.
+  description: I work as graphic designer for <a href="https://instagram.com/jaziima.id" target="_blank">@jaziima.id</a> media promotion contents, such as instagram posts, stories, promotions, etc.
 
 - title: HelmiWrt OS Maintainer
   from: 2021
   to: present
-  description: HelmiWrt is customized OpenWrt firmware. I maintaining this firmware for more than 20 devices.
+  description: HelmiWrt is customized OpenWrt firmware, <a href="https://helmiau.github.io/blog/helmiwrt-os" target="_blank">read more about it here</a>. I maintaining this firmware for more than 20 devices.
 
 - title: Faqihna Syari Indonesia
   from: December 2021
   to: present
-  description: I am co-founder of Faqihna Syari Indonesia, also work as teacher, data administrator, graphic designer, web development.
+  description: I am co-founder of <a href="https://faqihna.id" target="_blank">Faqihna Syari Indonesia</a>, also work as teacher, data administrator, graphic designer, web development.
 
 - title: WhatsMart
   from: September 2022
   to: present
   description: I am co-founder of WhatsMart - WhatsApp Marketplace (Jual beli via WhatsApp), also work as mentor, data administrator, graphic designer.
+
+# <a href="https://instagram.com/potretpena.id" target="_blank">@potretpena.id</a>
