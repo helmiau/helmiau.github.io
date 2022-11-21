@@ -4,9 +4,9 @@
   color: danger
 
 - name: C#
-  percentage: 79
+  percentage: 60
   color: secondary
 
-- name: HTML
-  percentage: 50
+- name: HTML, CSS, Javascript
+  percentage: 45
   color: danger

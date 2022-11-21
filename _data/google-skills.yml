@@ -1,11 +1,11 @@
 - name: Google Form
-  percentage: 83
+  percentage: 50
   color: info
 
 - name: Google Sheet
-  percentage: 92
+  percentage: 40
   color: success
 
 - name: Google Docs
-  percentage: 89
+  percentage: 60
   color: info

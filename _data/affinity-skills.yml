@@ -3,9 +3,9 @@
   color: info
 
 - name: Photo
-  percentage: 72
+  percentage: 50
   color: success
 
 - name: Publisher
-  percentage: 65
+  percentage: 50
   color: info

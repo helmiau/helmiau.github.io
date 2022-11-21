@@ -1,11 +1,11 @@
 - name: Words
-  percentage: 89
+  percentage: 75
   color: info
 
 - name: Excel
-  percentage: 85
+  percentage: 40
   color: success
 
 - name: PowerPoint
-  percentage: 86
+  percentage: 40
   color: info
