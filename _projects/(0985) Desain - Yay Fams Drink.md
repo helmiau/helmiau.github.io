@@ -1,7 +1,7 @@
 ---
 name:  Desain - Yay Fams Drink
 tools: [Design, Portfolio]
-image: https://www.instagram.com/p/B6vCDlJJMvB/media/?size=l
+image: https://raw.githubusercontent.com/helmiau/helmiau.github.io/master/images/yayfams.jpg
 description: Portfolio desain konten instagram Yay Fams Drink.
 external_url: https://www.instagram.com/yay_fams/
 ---
