@@ -418,7 +418,7 @@ https://github.com/helmiau/HelmiWrt-OS/raw/main/preview/openwrt-rpi-17.png
 - LuCI Password : ??? (baca catatan dibawah/read notes below)
 
 - Note: Download and try these passwords first at [this link](https://safefileku.com/download/qVAmqCjkGZJh9AY). If it's still not work for LuCI login, get [new password here](https://pastebin.com/raw/vcXgqe6N).
-- Catatan: Download lalu coba satu per satu terlebih dahulu password LuCI lama pada [link ini](https://safefileku.com/download/qVAmqCjkGZJh9AY). Jika masih belum bisa login, silahkan gunakan [password LuCI yang baru disini](https://pastebin.com/raw/vcXgqe6N).
+- Catatan: Download lalu coba satu per satu terlebih dahulu password LuCI lama pada [link ini](https://safefileku.com/download/qVAmqCjkGZJh9AY). Jika masih belum bisa login, silahkan gunakan [password baru disini](https://pastebin.com/raw/vcXgqe6N).
 
 
 <br>
