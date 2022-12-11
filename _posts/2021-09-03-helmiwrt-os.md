@@ -415,10 +415,10 @@ https://github.com/helmiau/HelmiWrt-OS/raw/main/preview/openwrt-rpi-17.png
 - WiFi Password : no password
 - Router/LuCI IP : 192.168.1.1
 - LuCI Username : root
-- LuCI Password : password (baca catatan dibawah/read notes below)
+- LuCI Password : ??? (baca catatan dibawah/read notes below)
 
-- Note: try old password above first. If it's still not work for LuCI login, get [new password here](https://pastebin.com/raw/vcXgqe6N).
-- Catatan: coba terlebih dahulu password LuCI lama yang ada diatas. Jika masih belum bisa login, silahkan gunakan [password LuCI yang baru disini](https://pastebin.com/raw/vcXgqe6N).
+- Note: Download and try these passwords first at [this link](https://safefileku.com/download/qVAmqCjkGZJh9AY). If it's still not work for LuCI login, get [new password here](https://pastebin.com/raw/vcXgqe6N).
+- Catatan: Download lalu coba satu per satu terlebih dahulu password LuCI lama pada [link ini](https://safefileku.com/download/qVAmqCjkGZJh9AY). Jika masih belum bisa login, silahkan gunakan [password LuCI yang baru disini](https://pastebin.com/raw/vcXgqe6N).
 
 
 <br>
