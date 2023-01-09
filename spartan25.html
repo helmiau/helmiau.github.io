@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+	<title>Portal Dokumen SPARTAN 25</title>
+	<meta name="description" content="Portal Dokumen SPARTAN 25 oleh Helmi Amirudin.">
+	<link rel="icon" type="image/png" sizes="16x16" href="assets/img/spartan25.svg">
+	<link rel="icon" type="image/png" sizes="32x32" href="assets/img/spartan25.svg">
+	<link rel="icon" type="image/png" sizes="180x180" href="assets/img/spartan25.svg">
+	<link rel="icon" type="image/png" sizes="192x192" href="assets/img/spartan25.svg">
+	<link rel="icon" type="image/png" sizes="512x512" href="assets/img/spartan25.svg">
+	<link rel="stylesheet" href="assets/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/styles.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <meta charset="utf-8" />
+    <script>
+        $(document).ready(function () {
+            $("#tombolperiksa").click(function () {
+                $(".spartan").hide("fast");
+                if ($('#kuncispartan').val().toLocaleLowerCase() == "spartanawee") {
+                    $("#spartankonten").show("fast");
+                }
+            });
+            $("#kuncispartan").change(function () {
+                $("#incorrect").hide("500");
+            });
+        });
+    </script>
+    <style>
+        #spartankonten {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+<div class="col text-center tcolor mx-auto" style="height: 50Vh;max-width: 650px;">
+<div class="d-flex justify-content-center mt-5">
+	<img class="w-100" src="assets/img/spartan25.svg" alt="main-image" loading="lazy" style="max-height: 30vh;">
+</div>
+
+<div class="d-flex justify-content-center">
+	<h5 class="my-2"><strong>Selamat Datang di<br>Portal Dokumen SPARTAN 25</strong></h5>
+</div>
+<div class="text-center d-flex d-xl-flex justify-content-center justify-content-xl-center">
+	<p class="text-center d-xl-flex justify-content-xl-center w-75">
+	Laman ini berisikan dokumen pribadi. Silahkan membaca deskripsi grup WhatsApp SPARTAN 25 untuk mendapatkan kode.
+	</p>
+</div>
+<div class="form-row mx-auto justify-content-center" style="max-width: 400px;">
+	<div class="form-group col-md-8">
+		<input id="kuncispartan" type="text" class="form-control" placeholder="Masukkan Kodenya Dulu Gan!!!" aria-label="Masukkan Kodenya Dulu Gan!!!" aria-describedby="basic-addon1">
+	</div>
+	<div class="form-group col-md-4">
+		<button id="tombolperiksa" class="btn btn-primary btn-block" type="button">Periksa</button>
+	</div>
+</div>
+<div id="spartankonten" class="spartan form-row mx-auto justify-content-center" style="max-width: 400px;">
+	<div class="form-group">
+		<h5 class="my-2"><strong>Bagian Berkas</strong></h5>
+	</div>
+	<div class="form-group">
+		<button class="btn btn-success btn-block" type="button" onclick="window.open('https://drive.google.com/drive/folders/0B_SYu8JVdbIzaU8xRDdEMEVvck0?resourcekey=0-fAe-XG88tJKSqtGZmG94XQ&usp=sharing','_blank')">Berkas Indonesia</button>
+	</div>
+	<div class="form-group">
+		<button class="btn btn-primary btn-block" type="button" onclick="window.open('https://drive.google.com/drive/folders/0B_SYu8JVdbIzYTM5NHBfNGVmY3M?resourcekey=0-QEBDahfyFjFvXe_xLvmmdA&usp=sharing','_blank')">Berkas Terjemahan</button>
+	</div>
+	<div class="form-group">
+		<button class="btn btn-danger btn-block" type="button" onclick="window.open('https://drive.google.com/drive/folders/0B_SYu8JVdbIzb21ZQ18tdFgyUm8?resourcekey=0-7m5ixef20J3_erelyVgaZQ&usp=sharing','_blank')">Ijazah</button>
+	</div>
+	<div class="form-group">
+		<button class="btn btn-info btn-block" type="button" onclick="window.open('https://drive.google.com/drive/folders/0B47PMRfyZMfiN1VTVXpXWW9sb0k?resourcekey=0-S6QNqcdKl3-FijxfU_D63Q&usp=sharing','_blank')">Tazkiyah Umum</button>
+	</div>
+	<div class="form-group">
+		<button class="btn btn-secondary btn-block" type="button" onclick="window.open('https://drive.google.com/drive/folders/0B_SYu8JVdbIzRExCZWxlTkpQMDA?resourcekey=0-1-vMMSqkZsn9Nn71H-LzWw&usp=sharing','_blank')">Tazkiyah Ummulqura</button>
+	</div>
+	<div class="form-group">
+		<h5 class="my-2"><strong>Bagian Foto</strong></h5>
+	</div>
+	<div class="form-group">
+		<button class="btn btn-success btn-block" type="button" onclick="window.open('https://drive.google.com/drive/folders/0B47PMRfyZMfiUFFvVVJkcWNwODA?resourcekey=0-_AvXL56Vyn1n0WAIjq-KmA&usp=sharing','_blank')">Foto UN</button>
+	</div>
+	<div class="form-group">
+		<button class="btn btn-danger btn-block" type="button" onclick="window.open('https://drive.google.com/drive/folders/0B2-dbjpJCvQddm9DUi1tOUtZemM?resourcekey=0-MdBzZHqG8kVyX2aiur4Ryw&usp=sharing','_blank')">Foto Wisuda</button>
+	</div>
+	<div class="form-group">
+		<button class="btn btn-primary btn-block" type="button" onclick="window.open('https://drive.google.com/drive/folders/0B2-dbjpJCvQddm9DUi1tOUtZemM?resourcekey=0-MdBzZHqG8kVyX2aiur4Ryw&usp=sharing','_blank')">Foto Lainnya</button>
+	</div>
+</div>
+
+<p class="text-center">Copyright by  <a href="http://www.helmiau.com">Helmi Amirudin</a> ® 2022 🤝</p>
+<br>
+<script src="assets/jquery.min.js"></script>
+<script src="assets/bootstrap.bundle.min.js"></script>
+<script src="assets/script.min.js"></script>
+</body>
+</html>
