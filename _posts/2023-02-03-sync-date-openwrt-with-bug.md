@@ -1,5 +1,5 @@
 ---
-title: Sync OpenWrt date with custom domain
+title: Sync OpenWrt Date from Custom Domain
 tags: [Timezone, Sync Time, OpenWrt, Bash, Shell]
 style: fill
 color: info
