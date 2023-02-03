@@ -1,6 +1,6 @@
 ---
 title: Install PHPTeleBotWrt
-tags: [A95x]
+tags: [PHPTeleBotWrt, PHP, Telegram Bot, OpenWrt]
 style: fill
 color: danger
 description: PHPTeleBotWrt - Telegram bot framework written in PHP for OpenWRT.
