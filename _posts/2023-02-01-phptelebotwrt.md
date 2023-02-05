@@ -159,8 +159,12 @@ phpbotmgr t
  
 📁OpenClash Command
  ↳/oc          | OC Information
- ↳/proxies     | Proxies status 
- ↳/rules       | Rule list
+ ↳/ocst        | Start/Restart Openclash
+ ↳/ocsp        | Stop Openclash
+ ↳/ocpr        | Proxies status 
+ ↳/ocrl        | Rule list
+ ↳/ocup        | Update Openclash version
+ ↳/ocua        | Update Openclash and all cores
 
 📁MyXL Command
  ↳/myxl        | Bandwidth usage 
@@ -194,66 +198,75 @@ phpbotmgr t
 <p><img src="https://raw.githubusercontent.com/helmiau/PHPTeleBotWrt/master/pics/phpbotwrt-cmdlist.png" alt="Start cmdlist"></p>
 </details>
 
-
 <details>
 <summary><h5>/memory</h5> (click to see screenshot)</summary>
 <p><img src="https://raw.githubusercontent.com/helmiau/PHPTeleBotWrt/master/pics/phpbotwrt-memory.png" alt="Memory"></p>
 </details>
-
 
 <details>
 <summary><h5>/myip</h5> (click to see screenshot)</summary>
 <p><img src="https://raw.githubusercontent.com/helmiau/PHPTeleBotWrt/master/pics/phpbotwrt-myip.png" alt="Myip"></p>
 </details>
 
-
 <details>
 <summary><h5>/myxl <code>number</code></h5> (click to see screenshot)</summary>
 <p><img src="https://raw.githubusercontent.com/helmiau/PHPTeleBotWrt/master/pics/phpbotwrt-myxl.png" alt="MyXL"></p>
 </details>
-
 
 <details>
 <summary><h5>/ping</h5> (click to see screenshot)</summary>
 <p><img src="https://raw.githubusercontent.com/helmiau/PHPTeleBotWrt/master/pics/phpbotwrt-ping.png" alt="ping"></p>
 </details>
 
-
 <details>
 <summary><h5>/oc</h5> (click to see screenshot)</summary>
 <p><img src="https://raw.githubusercontent.com/helmiau/PHPTeleBotWrt/master/pics/phpbotwrt-ocinfo.png" alt="OCInfo"></p>
 </details>
 
-
 <details>
-<summary><h5>/proxies</h5> (click to see screenshot)</summary>
+<summary><h5>/ocpr</h5> (click to see screenshot)</summary>
 <p><img src="https://raw.githubusercontent.com/helmiau/PHPTeleBotWrt/master/pics/phpbotwrt-ocproxies.png" alt="OCProxies"></p>
 </details>
 
-
 <details>
-<summary><h5>/rules</h5> (click to see screenshot)</summary>
+<summary><h5>/ocrl</h5> (click to see screenshot)</summary>
 <p><img src="https://raw.githubusercontent.com/helmiau/PHPTeleBotWrt/master/pics/phpbotwrt-ocrules.png" alt="OCRules"></p>
 </details>
 
+<details>
+<summary><h5>/ocst</h5> (click to see screenshot)</summary>
+<p><img src="https://raw.githubusercontent.com/helmiau/PHPTeleBotWrt/master/pics/phpbotwrt-ocstart.png" alt="OCStart"></p>
+</details>
+
+<details>
+<summary><h5>/ocsp</h5> (click to see screenshot)</summary>
+<p><img src="https://raw.githubusercontent.com/helmiau/PHPTeleBotWrt/master/pics/phpbotwrt-ocstop.png" alt="OCStop"></p>
+</details>
+
+<details>
+<summary><h5>/ocup</h5> (click to see screenshot)</summary>
+<p><img src="https://raw.githubusercontent.com/helmiau/PHPTeleBotWrt/master/pics/phpbotwrt-ocupdate-ipk.png" alt="OCUpIPK"></p>
+</details>
+
+<details>
+<summary><h5>/ocua</h5> (click to see screenshot)</summary>
+<p><img src="https://raw.githubusercontent.com/helmiau/PHPTeleBotWrt/master/pics/phpbotwrt-ocupdate-all.png" alt="OCUpALL"></p>
+</details>
 
 <details>
 <summary><h5>/speedtest <code>(depend on what speedtest installed)</code></h5> (click to see screenshot)</summary>
 <p><img src="https://raw.githubusercontent.com/helmiau/PHPTeleBotWrt/master/pics/phpbotwrt-speedtest.png" alt="Speedtest"></p>
 </details>
 
-
 <details>
 <summary><h5>/sysinfo</h5> (click to see screenshot)</summary>
 <p><img src="https://raw.githubusercontent.com/helmiau/PHPTeleBotWrt/master/pics/phpbotwrt-sysinfo.png" alt="sysinfo"></p>
 </details>
 
-
 <details>
 <summary><h5>/vnstat <code>-d</code> or <code>-h</code> or <code>-m</code></h5> (click to see screenshot)</summary>
 <p><img src="https://raw.githubusercontent.com/helmiau/PHPTeleBotWrt/master/pics/phpbotwrt-vnstat.png" alt="vnstat"></p>
 </details>
-
 
 <details>
 <summary><h5>/vnstati <code>-d</code> or <code>-h</code> or <code>-m</code></h5> (click to see screenshot)</summary>
@@ -261,7 +274,6 @@ phpbotmgr t
 <br>
 <p><img src="https://raw.githubusercontent.com/helmiau/PHPTeleBotWrt/master/pics/phpbotwrt-vnstati2.png" alt="vnstati2"></p>
 </details>
-
 
 <details>
 <summary><h5>/upload</h5> (click to see screenshot)</summary>
@@ -271,7 +283,6 @@ phpbotmgr t
 <br>
 <p><img src="https://raw.githubusercontent.com/helmiau/PHPTeleBotWrt/master/pics/phpbotwrt-upload3.png" alt="upload3"></p>
 </details>
-
 
 <details>
 <summary><h5>/update</h5> (click to see screenshot)</summary>
