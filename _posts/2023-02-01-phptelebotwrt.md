@@ -215,19 +215,25 @@ phpbotmgr t
 
 <details>
 <summary><h5>/ping</h5> (click to see screenshot)</summary>
-<p><img src="https://raw.githubusercontent.com/helmiau/PHPTeleBotWrt/master/pics/phpbotwrt-ping.png" alt="Proxies"></p>
+<p><img src="https://raw.githubusercontent.com/helmiau/PHPTeleBotWrt/master/pics/phpbotwrt-ping.png" alt="ping"></p>
+</details>
+
+
+<details>
+<summary><h5>/oc</h5> (click to see screenshot)</summary>
+<p><img src="https://raw.githubusercontent.com/helmiau/PHPTeleBotWrt/master/pics/phpbotwrt-oc.png" alt="OCInfo"></p>
 </details>
 
 
 <details>
 <summary><h5>/proxies</h5> (click to see screenshot)</summary>
-<p><img src="https://raw.githubusercontent.com/helmiau/PHPTeleBotWrt/master/pics/phpbotwrt-proxies.png" alt="Proxies"></p>
+<p><img src="https://raw.githubusercontent.com/helmiau/PHPTeleBotWrt/master/pics/phpbotwrt-ocproxies.png" alt="OCProxies"></p>
 </details>
 
 
 <details>
 <summary><h5>/rules</h5> (click to see screenshot)</summary>
-<p><img src="https://raw.githubusercontent.com/helmiau/PHPTeleBotWrt/master/pics/phpbotwrt-rules.png" alt="Rules"></p>
+<p><img src="https://raw.githubusercontent.com/helmiau/PHPTeleBotWrt/master/pics/phpbotwrt-ocrules.png" alt="OCRules"></p>
 </details>
 
 
