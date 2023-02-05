@@ -221,7 +221,7 @@ phpbotmgr t
 
 <details>
 <summary><h5>/oc</h5> (click to see screenshot)</summary>
-<p><img src="https://raw.githubusercontent.com/helmiau/PHPTeleBotWrt/master/pics/phpbotwrt-oc.png" alt="OCInfo"></p>
+<p><img src="https://raw.githubusercontent.com/helmiau/PHPTeleBotWrt/master/pics/phpbotwrt-ocinfo.png" alt="OCInfo"></p>
 </details>
 
 
