@@ -148,39 +148,48 @@ phpbotmgr t
 #### Command lists
 
 ```
-📁Bot Manager
- ↳/update       | Update PHPTeleBotWrt binaries
+📁PHPTeleBotWrt Manager
+ ↳/botup : Update bot binaries
+ ↳/botas : Add/remove bot to/from auto start on boot [$boot_stat]
+ ↳/botcr : Add/remove bot to/from cron job [$cron_stat]
  
-📁Aria2 Command
- ↳/aria2add     | Add task
- ↳/aria2stats   | Aria2 status
- ↳/aria2pause   | Pause all
- ↳/aria2resume  | Resume all
+ 📁Aria2 Commands
+ ↳/aria2add : Add task
+ ↳/aria2stats : Aria2 status
+ ↳/aria2pause : Pause all
+ ↳/aria2resume : Resume all
  
-📁OpenClash Command
- ↳/oc          | OC Information
- ↳/ocst        | Start/Restart Openclash
- ↳/ocsp        | Stop Openclash
- ↳/ocpr        | Proxies status 
- ↳/ocrl        | Rule list
- ↳/ocup        | Update Openclash version
- ↳/ocua        | Update Openclash and all cores
+📁OpenClash Commands
+ ↳/oc : OC Information
+ ↳/ocst : Start/Restart Openclash
+ ↳/ocsp : Stop Openclash
+ ↳/ocpr : Proxies status 
+ ↳/ocrl : Rule list 
+ ↳/ocup : Update Openclash app only
+ ↳/ocua : Update Openclash and all cores
 
-📁MyXL Command
- ↳/myxl        | Bandwidth usage 
- ↳/setxl 087   | Set default number
+📁MyXL Commands
+ ↳/myxl : Bandwidth usage 
+ ↳/setxl 087 : Set default number
 
 📁File Uploader
- ↳/upload      | Upload single file to OpenWrt
+ ↳/upload : Upload file to OpenWrt
 
-📁System Information
- ↳/vnstat      | Bandwidth usage 
- ↳/vnstati     | Better Bandwidth usage 
- ↳/memory      | Memory status 
- ↳/myip        | Get ip details 
- ↳/speedtest   | Speedtest 
- ↳/ping        | Ping bot
- ↳/sysinfo     | System Information
+📁System
+ ↳/memory : Memory status 
+ ↳/sysinfo : System Information
+ ↳/reboot : Reboot OpenWrt
+ ↳/turnoff : Turn off OpenWrt
+ 
+📁Network Information
+ ↳/netcl : Lists of connected client devices
+ ↳/fwlist : Firewall lists
+ ↳/ifcfg interface : List of device interface 
+ ↳/vnstat : Bandwidth usage 
+ ↳/vnstati : Better Bandwidth usage 
+ ↳/myip : Get ip details 
+ ↳/speedtest : Speedtest 
+ ↳/ping : Ping bot
 ```
 
 
@@ -296,4 +305,4 @@ phpbotmgr t
 * [**Reyre Firmware OC OnLy 27.10.22**](https://www.youtube.com/watch?v=0KWgy6P2PVYA) -> Speedtest Fixed (vnstat Bug)
 * [**Reyre Firmware OC OnLy 06.11.22**](https://www.youtube.com/watch?v=SBHcJJC8ln0) -> Working Perfectly
 * [**HelmiWrt OS PHP7, Older OpenClash**](https://www.cararegistrasi.com/nMfJevPD5cn4) -> Working Perfectly
-* [**HelmiWrt OS PHP8, Latest OpenClash**](https://www.cararegistrasi.com/nMfJevPD5cn4) -> OC Info not work
+* [**HelmiWrt OS PHP8, Latest OpenClash**](https://www.cararegistrasi.com/nMfJevPD5cn4) -> Working Perfectly
