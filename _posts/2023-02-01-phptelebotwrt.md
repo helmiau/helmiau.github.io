@@ -36,8 +36,10 @@ Telegram bot framework written in PHP for OpenWRT
 - Internet
 - `git` openwrt package.
 - `screen` openwrt package.
-- `php8-cli` openwrt package.
-- `php8-mod-curl` openwrt package .
+- `wget-ssl` openwrt package.
+- `curl` openwrt package.
+- `php8-cli` or `php7-cli` openwrt package.
+- `php8-mod-curl` or `php7-mod-curl` openwrt package .
 - Your own private telegram bot and bot username (see from bot profile)
 - Telegram Bot API Token - get from [@BotFather](https://t.me/BotFather)
 
@@ -59,10 +61,10 @@ Telegram bot framework written in PHP for OpenWRT
 	curl -sL https://raw.githubusercontent.com/helmiau/PHPTeleBotWrt/master/phpbotmgr > /root/phpbotmgr && chmod +x /root/phpbotmgr
 	```
 
-3. Run `phpbotmgr i` with Putty/Terminal/TTYD/XTERM to install **PHPTeleBotWrt**
+3. Run `./phpbotmgr i` with Putty/Terminal/TTYD/XTERM to install **PHPTeleBotWrt**
 
 	```sh
-	phpbotmgr i
+	./phpbotmgr i
 	```
 
 4. Copy Telegram Bot API Token from [@BotFather](https://t.me/BotFather), paste to terminal when `💬 Enter Bot Token:` appeared.
@@ -94,54 +96,54 @@ Here some command previews:
 
 Install **PHPTeleBotWrt**
 ```sh
-phpbotmgr i
+./phpbotmgr i
 ```
 
 Update **PHPTeleBotWrt**
 ```sh
-phpbotmgr u
+./phpbotmgr u
 ```
 
 Edit **PHPTeleBotWrt** databot
 ```sh
-phpbotmgr e
+./phpbotmgr e
 ```
 	
 Run/Start **PHPTeleBotWrt**
 ```sh
-phpbotmgr r
+./phpbotmgr r
 ```
 
 > If not work, just run `cd PHPTeleBotWrt && nohup php8-cli index.php &>/dev/null & && cd` manually
 
 Check **PHPTeleBotWrt** running status
 ```sh
-phpbotmgr c
+./phpbotmgr c
 ```
 
 Stop **PHPTeleBotWrt**
 ```sh
-phpbotmgr s
+./phpbotmgr s
 ```
 
 Full Remove/Uninstall **PHPTeleBotWrt** with all datas.
 ```sh
-phpbotmgr ra
+./phpbotmgr ra
 ```
 
 Remove/Uninstall **PHPTeleBotWrt** without databot.
 ```sh
-phpbotmgr rx
+./phpbotmgr rx
 ```
 
 Add/remove **PHPTeleBotWrt** to Auto-startup **`LuCI - System - Startup - Local Startup - rc.local`**.
 ```sh
-phpbotmgr a
+./phpbotmgr a
 ```
 
 Add/remove **PHPTeleBotWrt** to Auto-startup **`LuCI - System - Scheduled Tasks`**.
 ```sh
-phpbotmgr t
+./phpbotmgr t
 ```
 
 
@@ -306,3 +308,8 @@ phpbotmgr t
 * [**Reyre Firmware OC OnLy 06.11.22**](https://www.youtube.com/watch?v=SBHcJJC8ln0) -> Working Perfectly
 * [**HelmiWrt OS PHP7, Older OpenClash**](https://www.cararegistrasi.com/nMfJevPD5cn4) -> Working Perfectly
 * [**HelmiWrt OS PHP8, Latest OpenClash**](https://www.cararegistrasi.com/nMfJevPD5cn4) -> Working Perfectly
+
+## Known Bugs
+
+- `/netcl` not support adguard dhcp
+- Sometimes **PHPTeleBotWrt** running status checker not work
