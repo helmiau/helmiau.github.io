@@ -174,12 +174,19 @@ Add/remove **PHPTeleBotWrt** to Auto-startup **`LuCI - System - Scheduled Tasks`
  ↳/myxl : Bandwidth usage 
  ↳/setxl 087 : Set default number
 
-📁File Uploader
- ↳/upload : Upload file to OpenWrt
+📁File Manager
+ ↳/upf : Upload a file to OpenWrt
+ ↳/dlf : Get/retrieve a file from OpenWrt
+ ↳/cp : Copy a file to another folder
+ ↳/mv : Move a file to another folder
+ ↳/rm : Delete a file
 
 📁System
- ↳/memory : Memory status 
  ↳/sysinfo : System Information
+ ↳/memory : Memory status 
+ ↳/sh commandSample : Run custom command in bash terminal
+ 
+📁Power System
  ↳/reboot : Reboot OpenWrt
  ↳/turnoff : Turn off OpenWrt
  
