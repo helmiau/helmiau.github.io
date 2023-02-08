@@ -198,6 +198,8 @@ Add/remove **PHPTeleBotWrt** to Auto-startup **`LuCI - System - Scheduled Tasks`
  ↳/sysinfo : System Information
  ↳/memory : Memory status 
  ↳/sh commandSample : Run custom command in bash terminal
+ ↳/rs ls : List of compatible app restart
+ ↳/rs appname : Restart app in init.d
  
 📁Power System
  ↳/reboot : Reboot OpenWrt
