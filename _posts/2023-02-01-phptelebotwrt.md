@@ -14,7 +14,6 @@ Telegram bot framework written in PHP for OpenWRT
 Features
 Requirements
 Installation
-Changelogs
 Usage
 Command lists
 Screenshots
