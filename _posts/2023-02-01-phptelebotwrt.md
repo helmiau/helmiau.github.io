@@ -80,8 +80,8 @@ Known Bugs
 	./phpbotmgr i
 	```
 
-4. Copy Telegram Bot API Token from [@BotFather](https://t.me/BotFather), paste to terminal when `💬 Enter Bot Token:` appeared.
-5. Copy your Telegram Bot Username from bot profile, paste to terminal when `🤖 Enter Bot Username (without @):` appeared.
+4. Copy Telegram Bot API Token from [@BotFather](https://t.me/BotFather), paste to terminal when `💬 Enter Your Bot Token:` appeared. Token bot example: `52123745:ABeN1H9jc0I_7lIeyu_4aE8BZiV_fXt9TGk`
+5. Copy your Telegram Bot Username from bot profile, paste to terminal when `🤖 Enter Your Bot Username (without @):` appeared. Bot username example: `mamanxwrt`
 
 
 #### Follow Installation Tutorial from Youtube (php7)
@@ -129,7 +129,7 @@ Run/Start **PHPTeleBotWrt**
 
 > If not work, just run `cd PHPTeleBotWrt && nohup php8-cli index.php &>/dev/null & && cd` manually
 
-Check **PHPTeleBotWrt** running status
+Check **PHPTeleBotWrt** running status (maybe not work sometimes)
 ```sh
 ./phpbotmgr c
 ```
