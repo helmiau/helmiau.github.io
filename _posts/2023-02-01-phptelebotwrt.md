@@ -9,6 +9,20 @@ description: PHPTeleBotWrt - Telegram bot framework written in PHP for OpenWRT.
 # PHPTeleBotWrt
 Telegram bot framework written in PHP for OpenWRT
 
+<br>
+{% capture list_items %}
+Features
+Requirements
+Installation
+Changelogs
+Usage
+Command lists
+Screenshots
+Tested on
+Known Bugs
+{% endcapture %}
+{% include elements/list.html title="Page Index / Daftar Isi" type="toc" %}
+
 
 ## Features
 
@@ -202,7 +216,7 @@ Add/remove **PHPTeleBotWrt** to Auto-startup **`LuCI - System - Scheduled Tasks`
 ```
 
 
-## 📷 Screenshots
+## Screenshots
 
 
 <details>
