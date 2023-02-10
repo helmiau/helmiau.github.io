@@ -19,6 +19,7 @@ Command lists
 Screenshots
 Tested on
 Known Bugs
+Developers
 {% endcapture %}
 {% include elements/list.html title="Page Index / Daftar Isi" type="toc" %}
 
@@ -53,8 +54,23 @@ Known Bugs
 - `curl` openwrt package.
 - `php8-cli` or `php7-cli` openwrt package.
 - `php8-mod-curl` or `php7-mod-curl` openwrt package .
-- Your own private telegram bot and bot username (see from bot profile)
-- Telegram Bot API Token - get from [@BotFather](https://t.me/BotFather)
+- Your own private telegram bot and bot username (see from bot profile).
+
+	* Go to your bot, see bot profile to see bot username.
+	* Copy bot username.
+	
+- Telegram Bot API Token.
+
+	* Chat with [@BotFather](https://t.me/BotFather).
+	* Send `/token`.
+	* Select your bot.
+	* Copy token by tapping token line under `You can use this token to access HTTP API:` text.
+	
+- Your own perconal account ID.
+
+	* Type `/start` to on chat with [@userinfobot](https://t.me/userinfobot).
+	* See ID line, then copy it.
+
 
 
 ## Installation
@@ -80,8 +96,9 @@ Known Bugs
 	./phpbotmgr i
 	```
 
-4. Copy Telegram Bot API Token from [@BotFather](https://t.me/BotFather), paste to terminal when `💬 Enter Your Bot Token:` appeared. Token bot example: `52123745:ABeN1H9jc0I_7lIeyu_4aE8BZiV_fXt9TGk`
-5. Copy your Telegram Bot Username from bot profile, paste to terminal when `🤖 Enter Your Bot Username (without @):` appeared. Bot username example: `mamanxwrt`
+4. Copy Telegram Bot API Token from [@BotFather](https://t.me/BotFather), paste to terminal when `💬 Enter Your Bot Token:` appeared. Token bot example: `52123745:ABeN1H9jc0I_7lIeyu_4aE8BZiV_fXt9TGk`.
+5. Copy your Telegram Bot Username from bot profile, paste to terminal when `🤖 Enter Your Bot Username (without @):` appeared. Bot username example: `mamanxwrt_bot`.
+6. Copy your Telegram Account User ID from [@userinfobot](https://t.me/userinfobot), paste to terminal when `🤖Enter Your Personal Account UID:` appeared. User ID example: `234321234`.
 
 
 #### Follow Installation Tutorial from Youtube (php7)
@@ -339,3 +356,12 @@ Add/remove **PHPTeleBotWrt** to Auto-startup **`LuCI - System - Scheduled Tasks`
 - `/sh` max limit message 4,096 characters.
 - `/upf` upload max limit 50mb.
 - Read more telegram limitation [here](https://limits.tginfo.me/en).
+
+## Developers
+
+- [**Pringgo Radianto (Radya)**](https://github.com/radyakaze/phptelebot) - PHPTeleBot Base Development.
+- Dimas Syahrul Hidayat [**Hacked Repo**](https://github.com/OppaiCyber/XppaiWRT) & [**New Repo**](https://github.com/xentolopx/eXppaiWRT) - Implement bot and openclash features to OpenWrt.
+
+	> Support Dimas on BCA : **`0131630831`** | DANA / OVO : **`087837872813`** | AN Dimas Syahrul Hidayat.
+	
+- [**Helmi Amirudin**](https://github.com/helmiau) - Features improvements such as installations, commands, universalize for all firmware and other many rich features. [Donate Helmi](https://helmiau.com/pay).
