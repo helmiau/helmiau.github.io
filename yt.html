@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="Refresh" content="1; url='https://youtube.com/@helmiau'" />
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="theme-color" content="#343a40" />
+		<meta
+			name="description"
+			content="YouTube - Helmi Amirudin"
+		/>  
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<title>YouTube - Helmi Amirudin</title>
+		<style>
+			body{
+				background-color: #faf8ef;
+			}
+		</style>
+	</head>
+	<body>
+		<br>
+		<br>
+		<br>
+		<center>
+			<h3 class="align-items-center mt-2">YouTube<br>Helmi Amirudin</h3>
+			<br>
+			<script>
+			var timeleft = 1;
+			var downloadTimer = setInterval(function(){
+				if(timeleft <= 0){
+				clearInterval(downloadTimer);
+				document.getElementById("tombolLanjut").style.display = "block";
+				document.getElementById("tombolCapt").style.display = "block";
+				} else {
+				<!-- document.getElementById("countdown").innerHTML = "Sedang mengalihkan dalam " + timeleft + " detik..."; -->
+				document.getElementById("countdown").innerHTML = "Sedang mengalihkan ke halaman tujuan...";
+				}
+				timeleft -= 1;
+			}, 1000);
+			</script>
+			<h4 class="align-items-center mt-2" align="center">
+			<p id="countdown">Redirecting...</p>
+			<p id="tombolCapt" style="display: none;!important;">Click button below if you are not redirected automatically.</p>
+			</h4>
+			<div id="tombolLanjut" class="mt-4 text-center mx-auto" style="max-width: 500px; display: none;!important;">
+				<a href="https://youtube.com/@helmiau"
+				class="btn btn-outline-dark btn-block btn-lg" role="button">
+				Go to YouTube
+				</a>
+			</div>
+		</center>
+	</body>
+</html>
