@@ -359,6 +359,13 @@ Add/remove **PHPTeleBotWrt** to Auto-startup **`LuCI - System - Scheduled Tasks`
 - `/sh` max limit message 4,096 characters.
 - `/upf` upload max limit 50mb.
 - Read more telegram limitation [here](https://limits.tginfo.me/en).
+- Run `opkg update && opkg install libcurl4` if error below occured
+	
+	```
+	Error relocating /usr/bin/curl: curl_easy_header: symbol not found
+	Error relocating /usr/bin/curl: curl_easy_nextheader: symbol not found
+	```
+	
 
 ## Reports
 
