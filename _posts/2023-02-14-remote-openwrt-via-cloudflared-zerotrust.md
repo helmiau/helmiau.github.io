@@ -19,10 +19,10 @@ English Tutorial
 
 <br>
 {% capture list_items %}
-About
-Setup Domain at Cloudflare Dashboard
-Setup Tunnels at Cloudflare ZeroTrust Dashboard
-About cfdmgr script
+Tentang
+Pengaturan Domain di Cloudflare Dashboard
+Pengaturan Tunnels di Cloudflare ZeroTrust Dashboard
+Tentang Script cfdmgr
 {% endcapture %}
 {% include elements/list.html title="Daftar Isi Tutorial Bahasa Indonesia" type="toc" %}
 
