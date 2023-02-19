@@ -10,8 +10,8 @@ description: Cheapest way to remote OpenWrt from another network using custom do
 
 <br>
 {% capture list_items %}
-1. [Tutorial Bahasa Indonesia](#Tutorial-Bahasa-Indonesia)
-1. [English Tutorial](#English-Tutorial)
+Tutorial Bahasa Indonesia
+English Tutorial
 {% endcapture %}
 {% include elements/list.html title="Page Index Languange" type="toc" %}
 
@@ -19,10 +19,10 @@ description: Cheapest way to remote OpenWrt from another network using custom do
 
 <br>
 {% capture list_items %}
-1. [About](#About)
-1. [Setup Domain at Cloudflare Dashboard](#Setup-Domain-at-Cloudflare-Dashboard)
-2. [Setup Tunnels at Cloudflare ZeroTrust Dashboard](#Setup-Tunnels-at-Cloudflare-ZeroTrust-Dashboard)
-3. [About cfdmgr script](#Tentang-Script-cfdmgr)
+About
+Setup Domain at Cloudflare Dashboard
+Setup Tunnels at Cloudflare ZeroTrust Dashboard
+About cfdmgr script
 {% endcapture %}
 {% include elements/list.html title="Daftar Isi Tutorial Bahasa Indonesia" type="toc" %}
 
@@ -168,10 +168,10 @@ Berikut beberapa perintah yang tersedia dalam script:
 
 <br>
 {% capture list_items %}
-1. [About](#About)
-1. [Setup Domain at Cloudflare Dashboard](#Setup-Domain-at-Cloudflare-Dashboard)
-2. [Setup Tunnels at Cloudflare ZeroTrust Dashboard](#Setup-Tunnels-at-Cloudflare-ZeroTrust-Dashboard)
-3. [About cfdmgr script](#Tentang-Script-cfdmgr)
+About
+Setup Domain at Cloudflare Dashboard
+Setup Tunnels at Cloudflare ZeroTrust Dashboard
+About cfdmgr script
 {% endcapture %}
 {% include elements/list.html title="Page Index fo English Tutorial" type="toc" %}
 
