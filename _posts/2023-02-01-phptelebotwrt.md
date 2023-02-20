@@ -11,9 +11,11 @@ Telegram bot framework written in PHP for OpenWRT
 
 <br>
 {% capture list_items %}
+Video Preview
 Features
 Requirements
 Installation
+Video Installation
 Usage
 Command lists
 Screenshots
@@ -23,6 +25,11 @@ Reports
 Developers
 {% endcapture %}
 {% include elements/list.html title="Page Index / Daftar Isi" type="toc" %}
+
+
+## Video Preview
+
+{% include elements/video.html id="lVWPefOJD58" %}
 
 
 ## Features
@@ -75,6 +82,10 @@ Developers
 	* See ID line, then copy it.
 
 
+## Video Installation
+
+{% include elements/video.html id="0lu_93xBhas" %}
+
 
 ## Installation
 
@@ -102,13 +113,6 @@ Developers
 4. Copy Telegram Bot API Token from [@BotFather](https://t.me/BotFather), paste to terminal when `💬 Enter Your Bot Token:` appeared. Token bot example: `52123745:ABeN1H9jc0I_7lIeyu_4aE8BZiV_fXt9TGk`.
 5. Copy your Telegram Bot Username from bot profile, paste to terminal when `🤖 Enter Your Bot Username (without @):` appeared. Bot username example: `mamanxwrt_bot`.
 6. Copy your Telegram Account User ID from [@userinfobot](https://t.me/userinfobot), paste to terminal when `🤖Enter Your Personal Account UID:` appeared. User ID example: `234321234`.
-
-
-#### Follow Installation Tutorial from Youtube (php7)
-
-See some video tutorial below
-
-* [Install OpenWrt PHP Telegram Bot By XppaiWRT - PHP7 REYRE-STB](https://www.youtube.com/watch?v=JJPozNreVE0&lc=Ugy_OosDmlWRERUgvB94AaABAg.9iCzkvv1lxu9iV-s6tpDnO)
 
 
 ## Usage
