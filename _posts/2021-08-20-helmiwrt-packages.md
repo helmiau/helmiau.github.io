@@ -199,9 +199,18 @@ This section will provide you an installation of IPK files through terminal. Tha
 	wget --no-check-certificate https://raw.githubusercontent.com/helmiau/helmiwrt-packages/main/hpipk -O /bin/hpipk && chmod 755 /bin/hpipk
 	```
 
-	Then run **``hpipk``** script using terminal, usage and ipk lists with versions will be shown under terminal.
+2. Then run **``hpipk``** script using terminal, usage and ipk lists with versions will be shown under terminal.
 
 	Example: If you want to install Wegare STL, run **``hpipk luci-app-wegare_1.0-1_all.ipk``** using terminal.
+
+3. Some available commands from **``hpipk``** script
+
+	```
+	hpipk -l : Read lists of available ipks.
+	hpipk appName_ver.ipk : Install luci-app-name_v999.ipk.
+	hpipk -fd appName_ver.ipk : Force install luci-app-name_v999.ipk ignoring dependencies.
+	hpipk -dl appName_ver.ipk : Download luci-app-name_v999.ipk only.
+	```
 
 
 ### Credits
