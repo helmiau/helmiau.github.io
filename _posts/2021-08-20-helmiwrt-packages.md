@@ -190,13 +190,20 @@ If you want to build these packages manually or adding it to your firmware, do t
 	```
 	> Change **n** to unuse the package or **y** to use the package
 
+
 #### Installation of IPK file
-This section will provide you an installation of IPK files through terminal. Thank's to bro [Reyre](https://www.facebook.com/groups/443024392562406/user/100000998540396/) and [Nugroho](https://www.facebook.com/profile.php?id=100010890091391) for helping me to build these ipk's.
+1. Run commands below to download **`hpipk`** script to your OpenWRT (choose one of installation method below):
 
-1. Download script below
+	`wget` installation:
 
-	```
+	```sh
 	wget --no-check-certificate https://raw.githubusercontent.com/helmiau/helmiwrt-packages/main/hpipk -O /bin/hpipk && chmod 755 /bin/hpipk
+	```
+
+	`curl` installation:
+
+	```sh
+	curl -sL https://raw.githubusercontent.com/helmiau/helmiwrt-packages/main/hpipk > /bin/hpipk && chmod 755 /bin/hpipk
 	```
 
 2. Then run **``hpipk``** script using terminal, usage and ipk lists with versions will be shown under terminal.
@@ -207,9 +214,38 @@ This section will provide you an installation of IPK files through terminal. Tha
 
 	```
 	hpipk -l : Read lists of available ipks.
-	hpipk appName_ver.ipk : Install luci-app-name_v999.ipk.
-	hpipk -fd appName_ver.ipk : Force install luci-app-name_v999.ipk ignoring dependencies.
-	hpipk -dl appName_ver.ipk : Download luci-app-name_v999.ipk only.
+	hpipk appName_ver.ipk : Install appName_ver.ipk.
+	hpipk -fd appName_ver.ipk : Force install appName_ver.ipk ignoring dependencies.
+	hpipk -dl appName_ver.ipk : Download appName_ver.ipk only.
+	```
+
+
+#### Pemasangan IPK
+1. Jalankan perintah dibawah ini di terminal untuk memasang skrip **`hpipk`** para OpenWRT-mu (pilih salah satu):
+
+	`wget` installation:
+
+	```sh
+	wget --no-check-certificate https://raw.githubusercontent.com/helmiau/helmiwrt-packages/main/hpipk -O /bin/hpipk && chmod 755 /bin/hpipk
+	```
+
+	`curl` installation:
+
+	```sh
+	curl -sL https://raw.githubusercontent.com/helmiau/helmiwrt-packages/main/hpipk > /bin/hpipk && chmod 755 /bin/hpipk
+	```
+
+2. Jalankan perintah **``hpipk``** pada terminal untuk melihat daftar IPK dan versinya.
+
+	Contoh: Jika ingin memasang Wegare STL, jalankan perintah **``hpipk luci-app-wegare_1.0-1_all.ipk``** di terminal.
+
+3. Beberapa perintah yang tersedia dalah skrip **``hpipk``**
+
+	```
+	hpipk -l : Melihat daftar IPK yang tersedia beserta versinya.
+	hpipk appName_ver.ipk : Install appName_ver.ipk.
+	hpipk -fd appName_ver.ipk : Install paksa appName_ver.ipk tanpa dependencies.
+	hpipk -dl appName_ver.ipk : Hanya unduh appName_ver.ipk.
 	```
 
 
