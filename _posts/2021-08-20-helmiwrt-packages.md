@@ -27,6 +27,7 @@ LuCI myXL Lite
 Badvpn and Corkscrew
 Build usage
 Installation of IPK file
+Pemasangan IPK
 Credits
 References
 {% endcapture %}
