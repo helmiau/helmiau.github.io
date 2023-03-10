@@ -1,6 +1,6 @@
 ---
 title: Tutor A95x Wifi ON
-tags: [A95x]
+tags: [A95x, OpenWrt]
 style: fill
 color: primary
 description: Tutorial singkat atur wifi A95x agar aktif.
@@ -15,6 +15,7 @@ Gak usah kelamaan ya, langsung masuk ke poinnya.
 	echo "ath10k_core" > /etc/modules.d/ath10k_core
 	echo "ath10k_sdio" > /etc/modules.d/ath10k_sdio
 	echo "ath10k_usb" > /etc/modules.d/ath10k_usb
+	rm /etc/config/wireless
 	```
 
 3. Cek folder **/lib/firmware** ada folder ath10k atau tidak. 
@@ -27,6 +28,8 @@ Gak usah kelamaan ya, langsung masuk ke poinnya.
 10. Done.
 
 
-Note: tested wifi on di kernel 5.15 tapi silahkan di coba dahulu ke versi kernel fw masing-masing.
+Note:
+- tested wifi on di kernel 5.15 tapi silahkan di coba dahulu ke versi kernel firmware masing-masing.
+- wifi untuk s905x kernel 6 jgn dipake dlu, drivernya masih ngaco, blm tak perbaiki
 
-Best regards, Raditya Budi Handoko.
+Best regards, mbah Andi Rijal Habibi & mbah Raditya Budi Handoko.
