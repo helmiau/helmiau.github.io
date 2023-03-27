@@ -182,8 +182,18 @@ https://github.com/helmiau/HelmiWrt-OS/raw/main/preview/openwrt-rpi-17.png
 	<img title="HelmiWrt Latest Release" alt="HelmiWrt Latest Release" src="https://img.shields.io/github/v/release/ghdlsvc/dl10.svg?label=Latest%20Release&style=for-the-badge&logo=openwrt" height="70px" width="80%">
 </p>
 
+<br>
+{% capture list_items %}
+SBC (Single Board Computer)
+x86 (Laptop, PC)
+Amlogic STB (Set-Top-Box) Device Informations
+OpenWrt 18.06 Download Section for Amlogic STB
+OpenWrt 21.02 Download Section for Amlogic STB
+{% endcapture %}
+{% include elements/list.html title="Download Index" type="toc" %}
 
-- for SBC (Single Board Computer), Using ext4 format partition.
+
+##### SBC (Single Board Computer)
 
 | Raspberry Pi Version | 18.06 factory | 18.06 sysupgrade | 18.06 rootfs | 21.02 factory | 21.02 sysupgrade | 21.02 rootfs |
 | :-----------------------: | :---------------------: | :------------------------: | :----------: | :---------------------: | :------------------------: | :----------: |
@@ -225,7 +235,9 @@ https://github.com/helmiau/HelmiWrt-OS/raw/main/preview/openwrt-rpi-17.png
 | OrangePi One Plus | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-18.06-k5.4-sunxi-cortexa53-xunlong_orangepi-one-plus-ext4-sdcard.img.gz) | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-18.06-k5.4-sunxi-cortexa53-rootfs.tar.gz) | None | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-21.02-sunxi-cortexa53-rootfs.tar.gz) |
 | OrangePi 3 | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-18.06-k5.4-sunxi-cortexa53-xunlong_orangepi-3-ext4-sdcard.img.gz) | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-18.06-k5.4-sunxi-cortexa53-rootfs.tar.gz) | None | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-21.02-sunxi-cortexa53-rootfs.tar.gz) |
 
-- for x86 (ex. Laptops, PC)
+
+##### x86 (Laptop, PC)
+
 
 | CPU Arch. | OpenWrt Version | squashfs UEFI | squashfs Legacy | squashfs rootfs | ext4 UEFI | ext4 Legacy | ext4 rootfs |
 | :-------: | :-------------: | :----------------: | :------------------: | :----------------: | :------------: | :--------------: | :----------------: |
@@ -235,22 +247,62 @@ https://github.com/helmiau/HelmiWrt-OS/raw/main/preview/openwrt-rpi-17.png
 |  64bit | 21.02 | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-21.02-x86-64-generic-squashfs-combined-efi.img.gz) | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-21.02-x86-64-generic-squashfs-combined.img.gz) | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-21.02-x86-64-generic-squashfs-rootfs.img.gz) | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-21.02-x86-64-generic-ext4-combined-efi.img.gz) | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-21.02-x86-64-generic-ext4-combined.img.gz) | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-21.02-x86-64-generic-ext4-rootfs.img.gz) |
 
 
-- for STB (Set-Top-Box) s9xxx devices
+##### Amlogic STB (Set-Top-Box) Device Informations
 
-| Device Chipset | Device's Sample | Kernel 5.4.0 OpenWrt 18.06 | Kernel 5.15.51 OpenWrt 18.06 | Kernel 5.4.0 OpenWrt 21.02 | Kernel 5.15.51 OpenWrt 21.02 |
-| :------------: | :-------------: | :------------------------: | :--------------------------: | :------------------------: | :--------------------------: |
-| s905 | Beelink-Mini-MX-2G, MXQ-PRO+4K | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-18.06-k5.4-s905-k5.4.0.img.gz) | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-18.06-k5.4-s905-k5.15.51.img.gz) | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-21.02-s905-k5.4.0.img.gz) | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-21.02-s905-k5.15.51.img.gz) |
-| s905d | MECOOL-KI-Pro, Phicomm-N1 | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-18.06-k5.4-s905d-k5.4.0.img.gz) | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-18.06-k5.4-s905d-k5.15.51.img.gz) | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-21.02-s905d-k5.4.0.img.gz) | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-21.02-s905d-k5.15.51.img.gz) |
-| s905w | X96-Mini, TX3-Mini | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-18.06-k5.4-s905w-k5.4.0.img.gz) | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-18.06-k5.4-s905w-k5.15.51.img.gz) | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-21.02-s905w-k5.4.0.img.gz) | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-21.02-s905w-k5.15.51.img.gz) |
-| s905x | HG680P, B860H, TBee-Box | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-18.06-k5.4-s905x-k5.4.0.img.gz) | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-18.06-k5.4-s905x-k5.15.51.img.gz) | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-21.02-s905x-k5.4.0.img.gz) | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-21.02-s905x-k5.15.51.img.gz) |
-| s905x2 | X96Max-4G, X96Max-2G, A95XF2 | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-18.06-k5.4-s905x2-k5.4.0.img.gz) | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-18.06-k5.4-s905x2-k5.15.51.img.gz) | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-21.02-s905x2-k5.4.0.img.gz) | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-21.02-s905x2-k5.15.51.img.gz) |
-| s905x3 | X96-Max+, HK1-Box, H96-Max-X3, Ugoos-X3, X96-Air, A95XF3-Air | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-18.06-k5.4-s905x3-k5.4.0.img.gz) | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-18.06-k5.4-s905x3-k5.15.51.img.gz) | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-21.02-s905x3-k5.4.0.img.gz) | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-21.02-s905x3-k5.15.51.img.gz) |
-| s912 | H96-Pro-Plus, Octopus-Planet | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-18.06-k5.4-s912-k5.4.0.img.gz) | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-18.06-k5.4-s912-k5.15.51.img.gz) | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-21.02-s912-k5.4.0.img.gz) | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-21.02-s912-k5.15.51.img.gz) |
-| s922x | Belink, Belink-Pro, Ugoos-AM6-Plus, ODROID-N2 | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-18.06-k5.4-s922x-k5.4.0.img.gz) | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-18.06-k5.4-s922x-k5.15.51.img.gz) | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-21.02-s922x-k5.4.0.img.gz) | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-21.02-s922x-k5.15.51.img.gz) |
 
+| Device Chipset | Device's Sample |
+| :------------: | :-------------: |
+| s905 | Beelink-Mini-MX-2G, MXQ-PRO+4K |
+| s905d | MECOOL-KI-Pro, Phicomm-N1 |
+| s905w | X96-Mini, TX3-Mini, W95, X96W/FunTV, MXQ-Pro-4K |
+| s905x | HG680P, TBee-Box |
+| s905x2 | X96Max-4G, X96Max-2G, MECOOL-KM3-4G, Tanix-Tx5-Max, A95X-F2 |
+| s905x3 | X96-Max+, HK1-Box, Vontar-X3, H96-Max-X3, Ugoos-X3, TX3(QZ), TX3(BZ), X96-Air, X96-Max+_A100, A95XF3-Air, Tencent-Aurora-3Pro(s905x3-b), X96-Max+Q1, X96-Max+100W, X96-Max+_2101, Infinity-B32 |
+| s912 | Tanix-TX8-Max, Tanix-TX9-Pro(3G), Tanix-TX9-Pro(2G), Tanix-TX92, Nexbox-A1, Nexbox-A95X-A2, A95X, H96-Pro-Plus, VORKE-Z6-Plus, Mecool-M8S-PRO-L, Vontar-X92, T95Z-Plus, Octopus-Planet, Phicomm-T1 |
+| s922x | Beelink-GT-King, Beelink-GT-King-Pro, Ugoos-AM6-Plus, ODROID-N2, X88-King, Ali-CT2000 |
+| s905x-b860h | B860H |
+| s905l2 | MGV2000, MGV3000, Wojia-TV-IPBS9505, M301A |
+| s905l3 | CM311-1, HG680-LC, M401A |
+| s905l3a | E900V22C/D, CM311-1a-YST, M401A, M411A, UNT403A, UNT413A, ZTE-B863AV3.2-M |
+| s905l3b | M302A/M304A, E900V22E, Hisense-IP103H, CM211-1 |
+
+##### OpenWrt 18.06 Download Section for Amlogic STB
+
+| Device Chipset | Kernel 5.4.238 | Kernel 5.15.104 | Kernel 6.1.21 |
+| :------------: | :------------: | :-------------: | :-----------: |
+| s905 | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-18.06-k5.4-s905-k5.4.238.img.gz) | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-18.06-k5.4-s905-k5.15.104.img.gz) | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-18.06-k5.4-s905-k6.1.21.img.gz) |
+| s905d | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-18.06-k5.4-s905d-k5.4.238.img.gz) | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-18.06-k5.4-s905d-k5.15.104.img.gz) | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-18.06-k5.4-s905d-k6.1.21.img.gz) |
+| s905w | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-18.06-k5.4-s905w-k5.4.238.img.gz) | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-18.06-k5.4-s905w-k5.15.104.img.gz) | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-18.06-k5.4-s905w-k6.1.21.img.gz) |
+| s905x | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-18.06-k5.4-s905x-k5.4.238.img.gz) | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-18.06-k5.4-s905x-k5.15.104.img.gz) | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-18.06-k5.4-s905x-k6.1.21.img.gz) |
+| s905x2 | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-18.06-k5.4-s905x2-k5.4.238.img.gz) | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-18.06-k5.4-s905x2-k5.15.104.img.gz) | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-18.06-k5.4-s905x2-k6.1.21.img.gz) |
+| s905x3 | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-18.06-k5.4-s905x3-k5.4.238.img.gz) | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-18.06-k5.4-s905x3-k5.15.104.img.gz) | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-18.06-k5.4-s905x3-k6.1.21.img.gz) |
+| s912 | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-18.06-k5.4-s912-k5.4.238.img.gz) | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-18.06-k5.4-s912-k5.15.104.img.gz) | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-18.06-k5.4-s912-k6.1.21.img.gz) |
+| s922x | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-18.06-k5.4-s922x-k5.4.238.img.gz) | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-18.06-k5.4-s922x-k5.15.104.img.gz) | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-18.06-k5.4-s922x-k6.1.21.img.gz) |
+| s905x-b860h | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-18.06-k5.4-s905x-b860h-k5.4.238.img.gz) | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-18.06-k5.4-s905x-b860h-k5.15.104.img.gz) | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-18.06-k5.4-s905x-b860h-k6.1.21.img.gz) |
+| s905l2 | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-18.06-k5.4-s905l2-k5.4.238.img.gz) | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-18.06-k5.4-s905l2-k5.15.104.img.gz) | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-18.06-k5.4-s905l2-k6.1.21.img.gz) |
+| s905l3 | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-18.06-k5.4-s905l3-k5.4.238.img.gz) | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-18.06-k5.4-s905l3-k5.15.104.img.gz) | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-18.06-k5.4-s905l3-k6.1.21.img.gz) |
+| s905l3a | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-18.06-k5.4-s905l3a-k5.4.238.img.gz) | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-18.06-k5.4-s905l3a-k5.15.104.img.gz) | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-18.06-k5.4-s905l3a-k6.1.21.img.gz) |
+| s905l3b | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-18.06-k5.4-s905l3b-k5.4.238.img.gz) | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-18.06-k5.4-s905l3b-k5.15.104.img.gz) | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-18.06-k5.4-s905l3b-k6.1.21.img.gz) |
+
+##### OpenWrt 21.02 Download Section for Amlogic STB
+
+| Device Chipset | Kernel 5.4.238 | Kernel 5.15.104 | Kernel 6.1.21 |
+| :------------: | :------------: | :-------------: | :-----------: |
+| s905 | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-21.02-s905-k5.4.238.img.gz) | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-21.02-s905-k5.15.104.img.gz) | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-21.02-s905-k6.1.21.img.gz) |
+| s905d | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-21.02-s905d-k5.4.238.img.gz) | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-21.02-s905d-k5.15.104.img.gz) | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-21.02-s905d-k6.1.21.img.gz) |
+| s905w | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-21.02-s905w-k5.4.238.img.gz) | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-21.02-s905w-k5.15.104.img.gz) | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-21.02-s905w-k6.1.21.img.gz) |
+| s905x | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-21.02-s905x-k5.4.238.img.gz) | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-21.02-s905x-k5.15.104.img.gz) | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-21.02-s905x-k6.1.21.img.gz) |
+| s905x2 | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-21.02-s905x2-k5.4.238.img.gz) | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-21.02-s905x2-k5.15.104.img.gz) | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-21.02-s905x2-k6.1.21.img.gz) |
+| s905x3 | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-21.02-s905x3-k5.4.238.img.gz) | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-21.02-s905x3-k5.15.104.img.gz) | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-21.02-s905x3-k6.1.21.img.gz) |
+| s912 | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-21.02-s912-k5.4.238.img.gz) | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-21.02-s912-k5.15.104.img.gz) | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-21.02-s912-k6.1.21.img.gz) |
+| s922x | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-21.02-s922x-k5.4.238.img.gz) | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-21.02-s922x-k5.15.104.img.gz) | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-21.02-s922x-k6.1.21.img.gz) |
+| s905x-b860h | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-21.02-s905x-b860h-k5.4.238.img.gz) | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-21.02-s905x-b860h-k5.15.104.img.gz) | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-21.02-s905x-b860h-k6.1.21.img.gz) |
+| s905l2 | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-21.02-s905l2-k5.4.238.img.gz) | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-21.02-s905l2-k5.15.104.img.gz) | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-21.02-s905l2-k6.1.21.img.gz) |
+| s905l3 | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-21.02-s905l3-k5.4.238.img.gz) | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-21.02-s905l3-k5.15.104.img.gz) | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-21.02-s905l3-k6.1.21.img.gz) |
+| s905l3a | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-21.02-s905l3a-k5.4.238.img.gz) | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-21.02-s905l3a-k5.15.104.img.gz) | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-21.02-s905l3a-k6.1.21.img.gz) |
+| s905l3b | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-21.02-s905l3b-k5.4.238.img.gz) | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-21.02-s905l3b-k5.15.104.img.gz) | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-21.02-s905l3b-k6.1.21.img.gz) |
 
 > Catatan STB Firmware:
-> - s9xxx kernel info: 5.4.0 = Amlogic kernel | 5.15.51 = (sibondt) Andi Rijal Habibi's kernel.
 > - Semua Wireless (WiFi) status = 70% ON.
 > - Status Wireless (WiFi) sangat acak, karena banyaknya perbedaan hardware.
 > - HG680P dan ZTE (B860H) kernel 5.15.xx: kalau wireless off, ganti dtb ke p212.
@@ -260,7 +312,6 @@ https://github.com/helmiau/HelmiWrt-OS/raw/main/preview/openwrt-rpi-17.png
 
 
 > STB Firmware Notes:
-> - s9xxx kernel info: 5.4.0 = Amlogic kernel | 5.15.51 = (sibondt) Andi Rijal Habibi's kernel.
 > - All Wireless (WiFi) status = 70% ON.
 > - Wireless status is random due to various hardware.
 > - HG680P and ZTE (B860H) kernel 5.15.xx: if wireless off, change dtb to p212.
