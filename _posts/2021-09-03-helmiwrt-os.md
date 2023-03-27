@@ -187,8 +187,8 @@ https://github.com/helmiau/HelmiWrt-OS/raw/main/preview/openwrt-rpi-17.png
 SBC (Single Board Computer)
 x86 (Laptop, PC)
 Amlogic STB (Set-Top-Box) Device Informations
-OpenWrt 18.06 Download Section for Amlogic STB
-OpenWrt 21.02 Download Section for Amlogic STB
+OpenWrt 18 Download Section for Amlogic STB
+OpenWrt 21 Download Section for Amlogic STB
 {% endcapture %}
 {% include elements/list.html title="Download Index" type="toc" %}
 
@@ -266,7 +266,7 @@ OpenWrt 21.02 Download Section for Amlogic STB
 | s905l3a | E900V22C/D, CM311-1a-YST, M401A, M411A, UNT403A, UNT413A, ZTE-B863AV3.2-M |
 | s905l3b | M302A/M304A, E900V22E, Hisense-IP103H, CM211-1 |
 
-##### OpenWrt 18.06 Download Section for Amlogic STB
+##### OpenWrt 18 Download Section for Amlogic STB
 
 | Device Chipset | Kernel 5.4.238 | Kernel 5.15.104 | Kernel 6.1.21 |
 | :------------: | :------------: | :-------------: | :-----------: |
@@ -284,7 +284,7 @@ OpenWrt 21.02 Download Section for Amlogic STB
 | s905l3a | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-18.06-k5.4-s905l3a-k5.4.238.img.gz) | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-18.06-k5.4-s905l3a-k5.15.104.img.gz) | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-18.06-k5.4-s905l3a-k6.1.21.img.gz) |
 | s905l3b | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-18.06-k5.4-s905l3b-k5.4.238.img.gz) | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-18.06-k5.4-s905l3b-k5.15.104.img.gz) | [🔽 Download](https://github.com/ghdlsvc/dl10/releases/latest/download/helmiwrt-18.06-k5.4-s905l3b-k6.1.21.img.gz) |
 
-##### OpenWrt 21.02 Download Section for Amlogic STB
+##### OpenWrt 21 Download Section for Amlogic STB
 
 | Device Chipset | Kernel 5.4.238 | Kernel 5.15.104 | Kernel 6.1.21 |
 | :------------: | :------------: | :-------------: | :-----------: |
