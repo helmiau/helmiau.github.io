@@ -467,8 +467,8 @@ OpenWrt 21 Download Section for Amlogic STB
 - LuCI Username : root
 - LuCI Password : ??? (baca catatan dibawah/read notes below)
 
-- Note: Download and try these passwords first at [this link](https://sfile.mobi/9bQSnjpbkkZ). If it's still not work for LuCI login, get [new password here](https://sfile.mobi/6O6R3VmJVuK).
-- Catatan: Download lalu coba satu per satu terlebih dahulu password LuCI lama pada [link ini](https://sfile.mobi/9bQSnjpbkkZ). Jika masih belum bisa login, silahkan gunakan [password baru disini](https://sfile.mobi/6O6R3VmJVuK).
+- Note: Download and try these passwords first at [this link](https://sfile.mobi/6rX18PPpwkB). If it's still not work for LuCI login, get [new password here](https://sfile.mobi/7ZZ201LrQAq).
+- Catatan: Download lalu coba satu per satu terlebih dahulu password LuCI lama pada [link ini](https://sfile.mobi/6rX18PPpwkB). Jika masih belum bisa login, silahkan gunakan [password baru disini](https://sfile.mobi/7ZZ201LrQAq).
 
 
 <br>
