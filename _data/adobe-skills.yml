@@ -1,9 +1,9 @@
 - name: Photoshop
-  percentage: 60
-  color: info
+  percentage: 50
+  color: success
 
 - name: Lightroom
-  percentage: 68
+  percentage: 78
   color: info
 
 - name: Illustrator
@@ -11,9 +11,9 @@
   color: success
 
 - name: After Effects
-  percentage: 70
+  percentage: 50
   color: info
 
 - name: Premiere Pro
-  percentage: 70
+  percentage: 60
   color: success
