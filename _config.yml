@@ -5,7 +5,7 @@ description         : |
                       Lihat proyek, portfolio, tulisan dan profilku di menu pojok kanan atas.
 baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : helmiau/helmiau.github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
-remote_theme        : helmiau/portfolYOU
+# Theme: portfolYOU by Youssef Raafat (MIT, see LICENSE) -- vendored in-tree, no remote_theme.
 open_new_tab        : true                             # Opens external URLs in new tab (works for posts, projects and navbar only)
 
 
@@ -115,3 +115,4 @@ exclude:
   - CONTRIBUTING.md
   - LICENSE
   - "*.log"
+  - scripts

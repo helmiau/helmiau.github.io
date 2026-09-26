@@ -19,6 +19,11 @@ open link http://helmiau.github.io or http://www.helmiau.com or http://www.helmi
 
 <p align="center">
 <small class="text-muted mb-2">
-  I use <a href="https://github.com/YoussefRaafatNasry/portfolYOU">portfolYOU</a> theme for GitHub Pages.
+  Built on <a href="https://github.com/yousinix/portfolYOU">portfolYOU</a> by Youssef Raafat (MIT, see <code>LICENSE</code>).
+</small>
+<br>
+<small class="text-muted mb-2">
+  The theme is vendored in-tree from <code>helmiau/portfolYOU@97382e0</code> &mdash; no <code>remote_theme</code>,
+  so the site builds standalone. Check with <code>node scripts/check-deps.mjs</code>.
 </small>
 </p>
