@@ -11,10 +11,14 @@ github             : [repository]             # Only fetch basic repo info; skip
 open_new_tab        : true                             # Opens external URLs in new tab (works for posts, projects and navbar only)
 
 
-### Plugins ###
 plugins:
   - jemoji
+  - jekyll-paginate
 
+
+### Pagination ###
+paginate: 8
+paginate_path: "/blog/page:num/"
 
 ### Navbar Settings ###
 nav_exclude:                                            # The following paths are excluded from navbar
