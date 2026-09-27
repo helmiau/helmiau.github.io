@@ -5,6 +5,8 @@ description         : |
                       Lihat proyek, portfolio, tulisan dan profilku di menu pojok kanan atas.
 baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : helmiau/helmiau.github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
+timezone           : Asia/Jakarta             # Fix posts dated 00:00-06:59 WIB not appearing (Jekyll defaults to UTC)
+github             : [repository]             # Only fetch basic repo info; skip public_repositories (crashes on huge repos)
 # Theme: portfolYOU by Youssef Raafat (MIT, see LICENSE) -- vendored in-tree, no remote_theme.
 open_new_tab        : true                             # Opens external URLs in new tab (works for posts, projects and navbar only)
 
