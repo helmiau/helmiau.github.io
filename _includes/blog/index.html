@@ -1,7 +1,6 @@
+{% assign posts = paginator.posts | default: site.posts %}
 <div class="card-group mt-2">
-
-  {% for post in paginator.posts %}
+  {% for post in posts %}
     {% include blog/post-card.html %}
   {% endfor %}
-  
 </div>

@@ -49,6 +49,15 @@
         {%- endfor -%}
 
         {%- unless exclude -%}
+          {%- if site.paginate -%}
+            {%- assign paginate_base = site.paginate_path | split: '/page' | first | remove_first: '/' -%}
+            {%- if html_page.path contains paginate_base and html_page.path != 'blog/index.html' -%}
+              {%- assign exclude = true -%}
+            {%- endif -%}
+          {%- endif -%}
+        {%- endunless -%}
+
+        {%- unless exclude -%}
           {%- assign filtered_pages = filtered_pages | push: html_page -%}
         {%- endunless -%}
 
