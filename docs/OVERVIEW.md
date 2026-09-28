@@ -74,3 +74,4 @@ Whitelist safelinku saat ini (`_includes/scripts.html`): `github.com`, `t.me`, `
 | `/jasa/`, `/pay/` | HTML statis | Di luar layout Jekyll |
 | `/{yt,tg,tgg,fb,ig,wa}.html` | redirect sosial | HTML statis |
 | `/spartan25.html`, `/bypassjb.html` | halaman khusus | HTML statis |
+Jalur income tambahan & kustomisasi pay: `docs/PRD-INCOME-DIVERSIFICATION.md` (R8 di `ROADMAP.md`).

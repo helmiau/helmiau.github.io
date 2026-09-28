@@ -63,6 +63,32 @@ Bila domain itu mati/lambat/disusupi, seluruh halaman ikut terdampak (riwayat: b
 - [ ] TODO — Checklist pre-push: `node scripts/check-deps.mjs` harus exit 0; build lokal exit 0; cek 5 halaman paginasi + 1 post + 1 project.
 - [ ] DONE — Skill `brief-ku` dipakai sebagai acuan penyusunan dokumen ini (`docs/OVERVIEW.md`, `docs/ROADMAP.md` ini).
 
+## R8 — Diversifikasi income (pay page kustomizable)
+
+PRD lengkap: `docs/PRD-INCOME-DIVERSIFICATION.md`.
+
+**Masalah**: hanya 3 income (safelinku, AdSense, Trakteer). Semua data pembayaran hardcoded di `pay/index.html` — ganti nomor/QR/deeplink butuh edit HTML. `jasa/` & `pay/` juga di luar layout Jekyll (lihat R2).
+
+### Tahap 1 — Pay page jadi data-driven
+- [ ] TODO — `_data/payments.yml`: `id`, `label`, `active`, `qr_image`, `copy_value`, `app_url`, `note`, `fee_note`.
+- [ ] TODO — Partial `_includes/payment-methods.html` render grid + modal dari data.
+- [ ] TODO — Konversi `pay/index.html` + `pay/index_en.html` ke layout `page` (koordinasi dengan R2).
+- [ ] TODO — Fallback aman: data kosong → tampil "belum dikonfigurasi", bukan crash.
+- [ ] TODO — Uji faktual: 7 metode render, tombol Salin jalan per metode, modal buka/tutup.
+
+### Tahap 2 — Saluran income baru (tanpa backend)
+- [ ] TODO — Ko-fi widget di footer + `/about` (script async, tidak memblokir).
+- [ ] TODO — `site.sponsor_link` + partial `_includes/sponsor.html` di bawah post.
+- [ ] TODO — Halaman produk digital `/guide-openwrt` + embed Gumroad (P1, butuh naskah PDF dulu).
+- [ ] TODO — Affiliate link hardware via field `affiliate_url` di `_data/payments.yml` (P2, butuh akun afiliasi dulu).
+- [ ] TODO — Web monetization meta tag opsional via `site.web_monetization` (P2).
+
+### Tahap 3 — Dokumentasi & operasional
+- [ ] TODO — `docs/PAY-PAGE.md`: cara tambah/hapus/ganti metode tanpa edit HTML.
+- [ ] TODO — `docs/INCOME.md`: rekap per kanal per kuartal (isi manual dari dashboard masing-masing).
+
+**Non-goal**: menghapus safelinku / AdSense / Trakteer. R8 menambah jalur, bukan mengganti.
+
 ## Riwayat implementasi (DONE, untuk memori)
 
 | Tanggal | Item | Bukti |
