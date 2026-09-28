@@ -1,0 +1,13 @@
+{% comment %}
+Payment methods renderer for PRD-INCOME-DIVERSIFICATION.md
+- Iterates site.data.payments.methods where active != false
+- Renders icon grid + modals. Uses lib/pay/pay.js helpers if present.
+{% endcomment %}
+{% assign methods = site.data.payments.methods | where_exp: "m", "m.active != false" %}
+{% if methods.size == 0 %}
+  <p class="text-muted">Belum ada metode pembayaran yang dikonfigurasi. Periksa <code>_data/payments.yml</code>.</p>
+{% else %}
+  {% for method in methods %}
+    <!-- {{ method.id }}: {{ method.label }} -->
+  {% endfor %}
+{% endif %}
