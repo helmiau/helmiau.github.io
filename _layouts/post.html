@@ -38,94 +38,41 @@ layout: page
 </center>
 <br>
 
-{%- if site.adsense.enabled == true -%}
-<div align="center" id="HelmiSupport">
-  <script>
-  if (localStorage.getItem('helmi-consent') === 'granted') {
-    var s = document.createElement('script');
-    s.async = true;
-    s.src = "//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js";
-    s.onload = function() {
-      var ins = document.createElement('ins');
-      ins.className = 'adsbygoogle';
-      ins.style.display = 'block';
-      ins.setAttribute('data-ad-client', '{{ site.adsense.google.publisher_id }}');
-      ins.setAttribute('data-ad-slot', '{{ site.adsense.google.data_ad_slot }}');
-      ins.setAttribute('data-ad-format', 'autorelaxed');
-      document.getElementById('HelmiSupport').appendChild(ins);
-      (adsbygoogle = window.adsbygoogle || []).push({});
-    };
-    document.head.appendChild(s);
-  }
-  </script>
-</div>
-{%- endif -%}
-
-<div id="patsongpat" style="display: block;">
-
-{% include 404.html %}
-
-</div>
-
-<div id="kongteng" style="display: none;">
-
 {{ content }}
 
-</div>
-
-<!-- HelmXKlan Detect -->
-<!-- https://stackoverflow.com/questions/4869154/how-to-detect-adblock-on-my-website?page=1&tab=scoredesc#tab-top -->
-<script src="https://safelinku.com/js/web-script.js"></script>
+<!-- HelmXKlan Detect — non-blocking; never hides post -->
 <script type="text/javascript">
-FuncHelmiAmirudinRunAds();
-FuncHelmiAmirudinRunPrebid();
-FuncHelmiAmirudinRunPrebidAds();
-FuncHelmiGTM_GPT();
-FuncHelmiGTM();
-FuncHelmiGSABG();
-FuncHelmiGALI();
-FuncHelmiGAGA();
-FuncHelmiGACA();
-FuncHelmiGAA();
-FuncHelmiPA();
-FuncHelmiPAD();
-FuncHelmiSCL();
-FuncHelmiWOD();
-if( window.VarHelmiAmirudinRunAds === "undefined" && window.VarHelmiAmirudinRunPrebid === "undefined" && window.VarHelmiAmirudinRunPrebidAds === "undefined" && window.VarHelmiGTM_GPT === "undefined" && window.VarHelmiGTM === "undefined" && window.VarHelmiGSABG === "undefined" && window.VarHelmiGALI === "undefined" && window.VarHelmiGAGA === "undefined" && window.VarHelmiGACA === "undefined" && window.VarHelmiGAA === "undefined" && window.VarHelmiPA === "undefined" && window.VarHelmiPAD === "undefined" && window.VarHelmiSCL === "undefined" && window.VarHelmiWOD === "undefined" && typeof app_get_url !== "function" ){
-	console.log('helmilog: Scripts unloaded');
-	document.getElementById("patsongpat").style.display="block";
-	document.getElementById("kongteng").style.display="none";
-	window.open("/404.html", "_self");
-}
-else
-{
-	console.log('helmilog: All scripts loaded');
-	document.getElementById("patsongpat").style.display="none";
-	document.getElementById("kongteng").style.display="block";
-}
-
-</script>
-
-{%- if site.adsense.enabled == true -%}
-<script type="text/javascript">
-if (localStorage.getItem('helmi-consent') === 'granted') {
 function CekAdxLoad() {
     var tmpObj = document.getElementById("HelmiSupport");
     if(tmpObj != null) {
-        if(tmpObj.innerHTML.length > 455) {
-        } else {
+        if(tmpObj.innerHTML.length <= 455) {
             console.log('helmilog: Support scripts unloaded');
-			document.getElementById("patsongpat").style.display="block";
-			document.getElementById("kongteng").style.display="none";
-			window.open("/404.html", "_self");
         }
-    } else {
     }
 }
-setTimeout(CekAdxLoad, 5000);
+</script>
+<script src="https://safelinku.com/js/web-script.js"></script>
+<script type="text/javascript">
+try {
+  if (typeof FuncHelmiAmirudinRunAds === 'function') FuncHelmiAmirudinRunAds();
+  if (typeof FuncHelmiAmirudinRunPrebid === 'function') FuncHelmiAmirudinRunPrebid();
+  if (typeof FuncHelmiAmirudinRunPrebidAds === 'function') FuncHelmiAmirudinRunPrebidAds();
+  if (typeof FuncHelmiGTM_GPT === 'function') FuncHelmiGTM_GPT();
+  if (typeof FuncHelmiGTM === 'function') FuncHelmiGTM();
+  if (typeof FuncHelmiGSABG === 'function') FuncHelmiGSABG();
+  if (typeof FuncHelmiGALI === 'function') FuncHelmiGALI();
+  if (typeof FuncHelmiGAGA === 'function') FuncHelmiGAGA();
+  if (typeof FuncHelmiGACA === 'function') FuncHelmiGACA();
+  if (typeof FuncHelmiGAA === 'function') FuncHelmiGAA();
+  if (typeof FuncHelmiPA === 'function') FuncHelmiPA();
+  if (typeof FuncHelmiPAD === 'function') FuncHelmiPAD();
+  if (typeof FuncHelmiSCL === 'function') FuncHelmiSCL();
+  if (typeof FuncHelmiWOD === 'function') FuncHelmiWOD();
+} catch (e) { console.log('helmilog: detect scripts skipped', e); }
+if (typeof CekAdxLoad === 'function' && localStorage.getItem('helmi-consent') === 'granted') {
+  setTimeout(function(){ try { CekAdxLoad(); } catch(e){} }, 5000);
 }
 </script>
-{%- endif -%}
 
 <!-- trakteer widget -->
 <br>
