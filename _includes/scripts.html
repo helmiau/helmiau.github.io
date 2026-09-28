@@ -14,11 +14,18 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
 <script> new WOW().init(); </script>
 
-<!-- Google Ads -->
-{%- if site.adsense.enabled == true -%}
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={{ site.adsense.google.publisher_id }}"
-     crossorigin="anonymous"></script>
-{%- endif -%}
+<!-- Google Ads (gated by consent) -->
+  {%- if site.adsense.enabled == true -%}
+  <script>
+  if (localStorage.getItem('helmi-consent') === 'granted') {
+    var s = document.createElement('script');
+    s.async = true;
+    s.crossOrigin = 'anonymous';
+    s.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={{ site.adsense.google.publisher_id }}';
+    document.head.appendChild(s);
+  }
+  </script>
+  {%- endif -%}
 
 <!-- Initialize all tooltips -->
 <script>

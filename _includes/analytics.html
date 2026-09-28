@@ -1,11 +1,14 @@
 {%- if jekyll.environment == 'production' and site.analytics.enabled == true -%}
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.analytics.google.tracking_id }}"></script>
   <script>
+  if (localStorage.getItem('helmi-consent') === 'granted') {
+    var s = document.createElement('script');
+    s.async = true;
+    s.src = 'https://www.googletagmanager.com/gtag/js?id={{ site.analytics.google.tracking_id }}';
+    document.head.appendChild(s);
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-
     gtag('config', '{{ site.analytics.google.tracking_id }}');
+  }
   </script>
 {%- endif -%}

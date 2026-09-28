@@ -40,41 +40,15 @@
   <!-- Custom CSS -->
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
   
-  <!-- Google Tag Manager -->
-  {%- if site.tagmanager.enabled == true -%}
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','{{ site.tagmanager.google.tag_id }}');</script>
-  {%- endif -%}
-
-  <!-- Google Ads -->
-  {%- if site.adsense.enabled == true -%}
-	  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={{ site.adsense.google.publisher_id }}"
-		   crossorigin="anonymous"></script>
-  {%- endif -%}
-
-  <!-- HelmXKlan Detect -->
-  <!-- https://stackoverflow.com/questions/4869154/how-to-detect-adblock-on-my-website?page=1&tab=scoredesc#tab-top -->
-  <!-- Adblock Detector 2 -->
-  {%- if site.adblock_detect.enabled == true -%}
-	  <script src="/assets/js/ads.js"></script>
-	  <script src="/assets/js/prebid.js"></script>
-	  <script src="/assets/js/prebid-ads.js"></script>
-	  
-	  <script src="/assets/js/google-analytics_analytics.js"></script>
-	  <script src="/assets/js/google-analytics_cx_api.js"></script>
-	  <script src="/assets/js/google-analytics_ga.js"></script>
-	  <script src="/assets/js/google-analytics_inpage_linkid.js"></script>
-	  <script src="/assets/js/googlesyndication_adsbygoogle.js"></script>
-	  <script src="/assets/js/googletagmanager_gtm.js"></script>
-	  <script src="/assets/js/googletagservices_gpt.js"></script>
-
-	  <script src="/assets/js/popads.js"></script>
-	  <script src="/assets/js/popads-dummy.js"></script>
-	  <script src="/assets/js/scriptlets.js"></script>
-	  <script src="/assets/js/window.open-defuser.js"></script>
-  {%- endif -%}
-
+  <!-- Tracking gated by cookie consent (#109) -->
+  <script>
+  if (localStorage.getItem('helmi-consent') === 'granted') {
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','{{ site.tagmanager.google.tag_id }}');
+    document.write('<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={{ site.adsense.google.publisher_id }}" crossorigin="anonymous"><\/script>');
+  }
+  </script>
 </head>

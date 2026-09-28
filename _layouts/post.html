@@ -40,16 +40,24 @@ layout: page
 
 {%- if site.adsense.enabled == true -%}
 <div align="center" id="HelmiSupport">
-	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-	<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="{{ site.adsense.google.publisher_id }}"
-     data-ad-slot="{{ site.adsense.google.data_ad_slot }}"
-     data-ad-format="autorelaxed"></ins>
-
-	<script>
-	(adsbygoogle = window.adsbygoogle || []).push({});
-	</script>
+  <script>
+  if (localStorage.getItem('helmi-consent') === 'granted') {
+    var s = document.createElement('script');
+    s.async = true;
+    s.src = "//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js";
+    s.onload = function() {
+      var ins = document.createElement('ins');
+      ins.className = 'adsbygoogle';
+      ins.style.display = 'block';
+      ins.setAttribute('data-ad-client', '{{ site.adsense.google.publisher_id }}');
+      ins.setAttribute('data-ad-slot', '{{ site.adsense.google.data_ad_slot }}');
+      ins.setAttribute('data-ad-format', 'autorelaxed');
+      document.getElementById('HelmiSupport').appendChild(ins);
+      (adsbygoogle = window.adsbygoogle || []).push({});
+    };
+    document.head.appendChild(s);
+  }
+  </script>
 </div>
 {%- endif -%}
 
@@ -100,6 +108,7 @@ else
 
 {%- if site.adsense.enabled == true -%}
 <script type="text/javascript">
+if (localStorage.getItem('helmi-consent') === 'granted') {
 function CekAdxLoad() {
     var tmpObj = document.getElementById("HelmiSupport");
     if(tmpObj != null) {
@@ -114,6 +123,7 @@ function CekAdxLoad() {
     }
 }
 setTimeout(CekAdxLoad, 5000);
+}
 </script>
 {%- endif -%}
 
