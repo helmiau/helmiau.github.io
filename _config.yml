@@ -21,10 +21,11 @@ paginate: 8
 paginate_path: "/blog/page:num/"
 
 ### Navbar Settings ###
-nav_exclude:                                            # The following paths are excluded from navbar
+nav_exclude:
   - pages/tags.html
   - pages/404.html
   - pages/index.md**
+  - docs/**
 
 
 ### Author Info ###
