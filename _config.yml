@@ -26,6 +26,7 @@ nav_exclude:
   - pages/404.html
   - pages/index.md**
   - docs/**
+  - pay/index_en.html
 
 
 ### Author Info ###
