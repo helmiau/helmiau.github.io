@@ -1,13 +1,81 @@
 {% comment %}
 Payment methods renderer for PRD-INCOME-DIVERSIFICATION.md
 - Iterates site.data.payments.methods where active != false
-- Renders icon grid + modals. Uses lib/pay/pay.js helpers if present.
+- Renders icon grid + modals with copy + app deeplink
+- Supports lang (id/en) via page.lang
 {% endcomment %}
 {% assign methods = site.data.payments.methods | where_exp: "m", "m.active != false" %}
 {% if methods.size == 0 %}
-  <p class="text-muted">Belum ada metode pembayaran yang dikonfigurasi. Periksa <code>_data/payments.yml</code>.</p>
+  <p class="text-muted text-center">Belum ada metode pembayaran yang dikonfigurasi. Periksa <code>_data/payments.yml</code>.</p>
 {% else %}
+  <div class="form-row mx-auto" style="max-width: 300px;">
+    {% for method in methods %}
+      <div class="col">
+        <a id="btn-{{ method.id }}" data-toggle="modal" data-target="#qr-{{ method.id }}">
+          <div><img src="{{ method.icon | relative_url }}" alt="{{ method.id }}"></div>
+          <p class="tcolor">{{ method.label }}</p>
+        </a>
+      </div>
+    {% endfor %}
+  </div>
+
+  <!-- Modals -->
   {% for method in methods %}
-    <!-- {{ method.id }}: {{ method.label }} -->
+    <div class="modal fade" role="dialog" tabindex="-1" id="qr-{{ method.id }}">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" style="font-size: 1.2em;">
+              <strong>{{ method.modal_title_id | default: "Pembayaran Via " | append: method.label }}</strong>
+            </h4>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+          </div>
+          <div class="modal-body">
+            <div class="d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex justify-content-center justify-content-sm-center justify-content-xl-center">
+              <img class="w-75 h-75" src="{{ method.qr_image | relative_url }}" alt="{{ method.label }} QR">
+            </div>
+            <div class="text-center mx-auto mt-3">
+              {% if method.copy_value %}
+                <div><input type="text" id="text-{{ method.id }}" value="{{ method.copy_value }}" style="text-align:center;" readonly/></div>
+              {% elsif method.copy_fields %}
+                {% for field in method.copy_fields %}
+                  <div><input type="text" id="text-{{ field.id }}" value="{{ field.value }}" style="text-align:center;" readonly/></div>
+                  <br>
+                {% endfor %}
+              {% endif %}
+              <br>
+              <strong>a.n {{ method.holder | default: "Helmi Amirudin" }}</strong>
+              {% if method.lines %}
+                <br><br>
+                {% for line in method.lines %}
+                  <strong>{{ line }}</strong><br>
+                {% endfor %}
+              {% endif %}
+              {% if method.fee_note_id or method.fee_note_en %}
+                <br><br>
+                <strong>{{ page.lang == 'en' ? method.fee_note_en : method.fee_note_id }}</strong>
+              {% endif %}
+            </div>
+          </div>
+          <div class="modal-footer">
+            {% if method.copy_value or method.copy_fields %}
+              {% if method.copy_fields %}
+                {% for field in method.copy_fields %}
+                  <button class="btn btn-primary" type="button" onclick="copy('text-{{ field.id }}')">{{ page.lang == 'en' ? field.label_en : field.label_id }}</button>
+                {% endfor %}
+              {% else %}
+                <button class="btn btn-primary" type="button" onclick="copy('text-{{ method.id }}')">{{ page.lang == 'en' ? method.copy_label_en : method.copy_label_id }}</button>
+              {% endif %}
+            {% endif %}
+            {% if method.app_url %}
+              <button class="btn btn-primary" type="button" onclick="window.open('{{ method.app_url }}','_blank')">
+                {% if page.lang == 'en' %}Open App{% else %}Buka App{% endif %}
+              </button>
+            {% endif %}
+            <button class="btn btn-danger" type="button" data-dismiss="modal">{{ page.lang == 'en' ? 'Close' : 'Tutup' }}</button>
+          </div>
+        </div>
+      </div>
+    </div>
   {% endfor %}
 {% endif %}
